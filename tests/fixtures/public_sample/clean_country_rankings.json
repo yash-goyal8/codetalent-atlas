@@ -1,0 +1,28 @@
+{
+  "domain": "cloud_devops",
+  "geoLevel": "country",
+  "rows": [
+    {
+      "geoId": "US",
+      "countryCode": "US",
+      "opportunityScore": 82.4,
+      "confidenceScore": 74.1,
+      "observableExpertCount": 1240,
+      "qualifiedRepoCount": 310,
+      "organizationCount": 85,
+      "topSubdomains": ["containers_orchestration", "observability_monitoring"],
+      "recommendationTier": "priority"
+    },
+    {
+      "geoId": "DE",
+      "countryCode": "DE",
+      "opportunityScore": 68.9,
+      "confidenceScore": 66.2,
+      "observableExpertCount": 480,
+      "qualifiedRepoCount": 140,
+      "organizationCount": 42,
+      "topSubdomains": ["infrastructure_as_code"],
+      "recommendationTier": "promising"
+    }
+  ]
+}

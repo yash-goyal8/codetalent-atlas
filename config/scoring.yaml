@@ -1,0 +1,90 @@
+# All scoring weights, caps, thresholds, and minimum-sample rules
+# (spec sections 13, 16, 17). No scoring number may exist only in source code.
+
+# Spec section 13: event weights for meaningful-activity scoring.
+event_weights:
+  merged_pull_request: 5
+  pull_request_review: 4
+  pull_request_opened: 3
+  release: 3
+  push_event: 2
+  issue_opened: 1
+  issue_comment: 1
+
+# Spec 16.1: repository quality score components (must sum to 1.0).
+repository_quality:
+  weights:
+    recent_activity: 0.30
+    contributor_diversity: 0.25
+    collaboration_quality: 0.20
+    technical_relevance: 0.15
+    repository_maturity: 0.10
+  winsorization_percentile: 0.99
+
+# Spec 16.2: contributor expert score components (must sum to 1.0) and bias safeguards.
+contributor_expert:
+  weights:
+    domain_activity: 0.35
+    contribution_quality: 0.25
+    repository_quality_exposure: 0.20
+    continuity: 0.10
+    collaboration: 0.10
+  caps:
+    single_repository_share: 0.40
+  minimums:
+    meaningful_active_days: 2
+
+# Spec section 17: geographic opportunity score components (must sum to 1.0).
+opportunity:
+  weights:
+    expert_supply: 0.35
+    expert_quality: 0.30
+    collaboration_depth: 0.15
+    momentum: 0.10
+    ecosystem_breadth: 0.10
+
+# Spec section 17: confidence score components (must sum to 1.0), kept separate
+# from opportunity.
+confidence:
+  weights:
+    located_profile_coverage: 0.35
+    location_certainty: 0.25
+    sample_size_adequacy: 0.20
+    repository_diversity: 0.10
+    organization_diversity: 0.10
+
+# Spec section 17: minimum sample rules. Below these, a geography is
+# insufficient_data and gets no normal rank.
+minimum_samples:
+  country:
+    located_contributors: 30
+    qualified_repositories: 10
+    organizations: 5
+  city:
+    high_confidence_located_contributors: 25
+    qualified_repositories: 8
+    organizations: 4
+
+# Spec section 17 recommendation tiers:
+#   priority:          opportunity >= 75 and confidence >= 70
+#   promising:         opportunity >= 60 and confidence >= 60
+#   monitor:           opportunity >= 45 or confidence in [45, 59]
+#   insufficient_data: sample rule failed or confidence < 45
+tiers:
+  priority:
+    min_opportunity: 75
+    min_confidence: 70
+  promising:
+    min_opportunity: 60
+    min_confidence: 60
+  monitor:
+    min_opportunity: 45
+    confidence_band_min: 45
+    confidence_band_max: 59
+  insufficient_data:
+    max_confidence: 45
+
+# Spec sections 8.2 and 17: concentration safeguards.
+concentration:
+  organization_share_flag: 0.20
+  single_actor_event_share_max: 0.90

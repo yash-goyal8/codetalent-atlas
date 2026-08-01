@@ -1,0 +1,396 @@
+# Cloud and DevOps classification taxonomy (spec section 8.1, expanded per the
+# spec requirement to grow each list substantially). Deterministic rule inputs:
+# GitHub topics, description/name terms, and file-path signals per subdomain.
+domain_id: cloud_devops
+display_name: Cloud and DevOps
+subdomains:
+  infrastructure_as_code:
+    display_name: Infrastructure as Code
+    positive_topics:
+      - terraform
+      - terraform-provider
+      - terraform-module
+      - terragrunt
+      - opentofu
+      - pulumi
+      - infrastructure-as-code
+      - iac
+      - cloudformation
+      - aws-cdk
+      - cdktf
+      - bicep
+      - crossplane
+      - arm-templates
+      - provisioning
+    positive_terms:
+      - terraform
+      - terragrunt
+      - opentofu
+      - pulumi
+      - cloudformation
+      - crossplane
+      - bicep
+      - infrastructure as code
+      - provisioning
+      - terraform provider
+      - terraform module
+      - cdk construct
+      - state backend
+      - drift detection
+    positive_files:
+      - "*.tf"
+      - "*.tfvars"
+      - "terragrunt.hcl"
+      - "Pulumi.yaml"
+      - "template.yaml"
+      - "cdk.json"
+      - "*.bicep"
+    negative_terms:
+      - tutorial
+      - interview questions
+      - awesome list
+      - study notes
+      - certification exam
+
+  containers_orchestration:
+    display_name: Containers and Orchestration
+    positive_topics:
+      - kubernetes
+      - k8s
+      - docker
+      - containers
+      - containerd
+      - podman
+      - cri-o
+      - helm
+      - helm-chart
+      - kustomize
+      - operator
+      - kubernetes-operator
+      - kubebuilder
+      - k3s
+      - kind
+      - oci
+      - container-runtime
+      - buildah
+    positive_terms:
+      - kubernetes
+      - container runtime
+      - containerd
+      - podman
+      - helm chart
+      - kustomize
+      - kubernetes operator
+      - custom resource definition
+      - admission controller
+      - pod scheduling
+      - kubelet
+      - container image
+      - oci image
+      - k3s
+    positive_files:
+      - Dockerfile
+      - Containerfile
+      - "Chart.yaml"
+      - "values.yaml"
+      - "kustomization.yaml"
+      - "docker-compose.yml"
+      - "compose.yaml"
+    negative_terms:
+      - tutorial
+      - docker for beginners
+      - awesome list
+      - example app
+      - interview prep
+
+  cicd_developer_tooling:
+    display_name: CI/CD and Developer Tooling
+    positive_topics:
+      - ci-cd
+      - cicd
+      - continuous-integration
+      - continuous-delivery
+      - continuous-deployment
+      - github-actions
+      - gitops
+      - argo-cd
+      - argocd
+      - flux
+      - tekton
+      - jenkins
+      - gitlab-ci
+      - build-system
+      - bazel
+      - earthly
+      - drone
+      - developer-tools
+    positive_terms:
+      - continuous integration
+      - continuous delivery
+      - continuous deployment
+      - build pipeline
+      - release automation
+      - deployment pipeline
+      - gitops
+      - argo cd
+      - flux
+      - tekton pipeline
+      - github action
+      - build cache
+      - artifact registry
+      - progressive delivery
+      - canary deployment
+    positive_files:
+      - ".github/workflows/*.yml"
+      - ".github/workflows/*.yaml"
+      - Jenkinsfile
+      - ".gitlab-ci.yml"
+      - ".drone.yml"
+      - ".circleci/config.yml"
+      - "azure-pipelines.yml"
+      - "Earthfile"
+      - "WORKSPACE"
+      - ".tekton/*.yaml"
+    negative_terms:
+      - tutorial
+      - awesome list
+      - sample workflow
+      - interview questions
+      - demo repository
+
+  observability_monitoring:
+    display_name: Observability and Monitoring
+    positive_topics:
+      - observability
+      - monitoring
+      - tracing
+      - distributed-tracing
+      - metrics
+      - logging
+      - opentelemetry
+      - prometheus
+      - grafana
+      - jaeger
+      - loki
+      - victoria-metrics
+      - thanos
+      - alerting
+      - apm
+      - elastic-apm
+      - fluentd
+    positive_terms:
+      - observability
+      - distributed tracing
+      - monitoring
+      - metrics collection
+      - log aggregation
+      - opentelemetry
+      - prometheus exporter
+      - grafana dashboard
+      - alerting rules
+      - time series database
+      - trace sampling
+      - service level objective
+      - instrumentation
+      - telemetry pipeline
+    positive_files:
+      - "prometheus.yml"
+      - "alertmanager.yml"
+      - "otel-collector-config.yaml"
+      - "grafana/dashboards/*.json"
+    negative_terms:
+      - tutorial
+      - awesome list
+      - monitoring 101
+      - interview prep
+      - sample dashboards
+
+  configuration_management:
+    display_name: Configuration Management
+    positive_topics:
+      - ansible
+      - ansible-role
+      - ansible-collection
+      - chef
+      - chef-cookbook
+      - puppet
+      - saltstack
+      - salt
+      - cfengine
+      - nix
+      - nixos
+      - configuration-management
+      - idempotency
+      - inventory-management
+    positive_terms:
+      - configuration management
+      - ansible playbook
+      - ansible role
+      - ansible collection
+      - chef cookbook
+      - puppet module
+      - saltstack state
+      - cfengine policy
+      - nix expression
+      - declarative configuration
+      - idempotent provisioning
+      - host inventory
+      - desired state
+    positive_files:
+      - "playbook.yml"
+      - "site.yml"
+      - "ansible.cfg"
+      - "roles/*/tasks/main.yml"
+      - "metadata.rb"
+      - "manifests/init.pp"
+      - "flake.nix"
+      - "default.nix"
+      - "Berksfile"
+    negative_terms:
+      - dotfiles
+      - tutorial
+      - awesome list
+      - my personal setup
+      - interview questions
+
+  service_mesh_networking:
+    display_name: Service Mesh and Networking
+    positive_topics:
+      - service-mesh
+      - istio
+      - linkerd
+      - envoy
+      - envoy-proxy
+      - cilium
+      - ebpf
+      - traefik
+      - haproxy
+      - nginx
+      - networking
+      - load-balancer
+      - ingress
+      - ingress-controller
+      - api-gateway
+      - proxy
+      - cni
+      - dns
+    positive_terms:
+      - service mesh
+      - sidecar proxy
+      - envoy filter
+      - istio
+      - linkerd
+      - cilium
+      - ebpf
+      - load balancing
+      - ingress controller
+      - api gateway
+      - mutual tls
+      - traffic shaping
+      - network policy
+      - packet processing
+      - reverse proxy
+    positive_files:
+      - "envoy.yaml"
+      - "haproxy.cfg"
+      - "nginx.conf"
+      - "Corefile"
+    negative_terms:
+      - tutorial
+      - awesome list
+      - networking basics
+      - interview prep
+      - course materials
+
+  cloud_platforms_sdks:
+    display_name: Cloud Platforms and SDKs
+    positive_topics:
+      - aws
+      - aws-sdk
+      - aws-lambda
+      - azure
+      - azure-sdk
+      - google-cloud
+      - gcp
+      - cloud-sdk
+      - serverless
+      - faas
+      - boto3
+      - openstack
+      - localstack
+      - cloud-native
+      - cloud-storage
+      - multi-cloud
+    positive_terms:
+      - cloud sdk
+      - aws
+      - azure
+      - google cloud
+      - serverless
+      - lambda function
+      - cloud functions
+      - boto3
+      - openstack
+      - localstack
+      - cloud api client
+      - object storage
+      - managed service
+      - cloud resource
+      - multi-cloud
+    positive_files:
+      - "serverless.yml"
+      - "sam-template.yaml"
+      - "app.yaml"
+      - "function.json"
+    negative_terms:
+      - tutorial
+      - certification
+      - exam preparation
+      - awesome list
+      - free tier guide
+      - interview questions
+
+  sre_reliability:
+    display_name: SRE and Reliability Engineering
+    positive_topics:
+      - sre
+      - site-reliability-engineering
+      - reliability
+      - incident-response
+      - incident-management
+      - on-call
+      - chaos-engineering
+      - chaos-mesh
+      - litmus
+      - fault-injection
+      - error-budget
+      - postmortem
+      - runbook
+      - slo
+      - resilience
+      - self-healing
+    positive_terms:
+      - site reliability
+      - incident response
+      - incident management
+      - chaos engineering
+      - fault injection
+      - error budget
+      - service level objective
+      - service level indicator
+      - postmortem
+      - runbook
+      - on-call rotation
+      - toil reduction
+      - graceful degradation
+      - resilience testing
+    positive_files:
+      - "runbooks/*.md"
+      - "chaos/*.yaml"
+      - "slo.yaml"
+    negative_terms:
+      - tutorial
+      - awesome list
+      - interview questions
+      - book notes
+      - study guide

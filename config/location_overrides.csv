@@ -1,0 +1,2 @@
+raw_location,normalized_country_code,normalized_city,location_level,evidence_note
+"Cambridge, UK",GB,Cambridge,city,Explicit UK suffix distinguishes it from Cambridge MA; verified against GB gazetteer entry

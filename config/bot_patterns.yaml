@@ -1,0 +1,51 @@
+# Bot and automation account detection (spec section 13). Detection stays
+# config-driven; the discovery SQL records excluded counts by pattern.
+login_suffixes:
+  - "[bot]"
+
+exact_logins:
+  - dependabot
+  - dependabot-preview
+  - renovate
+  - renovate-bot
+  - github-actions
+  - codecov
+  - codecov-io
+  - snyk-bot
+  - greenkeeper
+  - semantic-release-bot
+  - release-please
+  - mergify
+  - imgbot
+  - allcontributors
+  - pre-commit-ci
+  - sonarcloud
+  - netlify
+  - vercel-bot
+  - stale
+  - web-flow
+  - copilot
+
+# Case-insensitive substring matches for common CI/release automation accounts.
+substring_patterns:
+  - dependabot
+  - renovate
+  - "github-actions"
+  - "-automation"
+  - "automation-"
+  - "release-bot"
+  - "ci-bot"
+  - "build-bot"
+  - "deploy-bot"
+  - jenkins-x
+  - travis-ci
+  - circleci-
+  - azure-pipelines
+  - buildkite-agent
+
+# Anchored regular expressions for structural bot-login shapes.
+regex_patterns:
+  - '.*\[bot\]$'
+  - '^(?:.*[-_])?bot(?:[-_].*)?$'
+  - '^(?:svc|service)[-_].*$'
+  - '^.*[-_](?:releaser|publisher|deployer)$'

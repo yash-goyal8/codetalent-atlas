@@ -1,0 +1,31 @@
+# Repository activity window, inclusion minimums, requirements, and exclusions
+# (spec section 8.2, verbatim contract).
+activity_window:
+  pilot_start: "2026-05-01"
+  pilot_end: "2026-07-31"
+  expanded_months: 12
+
+minimums:
+  unique_human_contributors: 5
+  meaningful_events: 20
+  pull_requests_or_reviews: 3
+  active_months: 2
+
+requirements:
+  must_be_public: true
+  must_not_be_fork: true
+  must_not_be_archived: true
+  must_not_be_disabled: true
+  require_recognized_license: true
+  require_recent_activity: true
+
+exclusions:
+  tutorial_only: true
+  dotfiles: true
+  student_assignments: true
+  interview_prep: true
+  awesome_lists: true
+  documentation_only: true
+  mirrors: true
+  generated_copies: true
+  single_contributor_dominance_threshold: 0.90

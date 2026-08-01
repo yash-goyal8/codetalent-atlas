@@ -1,0 +1,65 @@
+@import "@fontsource-variable/inter";
+@import "tailwindcss";
+
+/*
+ * Design tokens from spec section 19 (visual system).
+ * Token values are preserved exactly; Tailwind namespace names are chosen so
+ * that utilities like `bg-surface-1`, `text-secondary`, and `border-border`
+ * exist. spec `text-primary` -> --color-primary, `text-secondary` -> --color-secondary.
+ */
+@theme {
+  --color-background: #070a12;
+  --color-surface-1: #0d1220;
+  --color-surface-2: #121a2b;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-primary: #f4f7fb;
+  --color-secondary: #9ba8bc;
+  --color-accent: #6d8bff;
+  --color-positive: #36c98f;
+  --color-warning: #f2b84b;
+  --color-risk: #f06b7a;
+
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+}
+
+/* Tabular numerals for scores and metric values. */
+@utility score-value {
+  font-variant-numeric: tabular-nums;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    background-color: var(--color-background);
+  }
+
+  body {
+    @apply bg-background font-sans text-primary antialiased;
+  }
+
+  /* Visible focus indicator on the dark palette (WCAG 2.4.7). */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-accent) 35%, transparent);
+  }
+}
+
+/* Respect prefers-reduced-motion: collapse all transitions and animations. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,18 @@
+alias,normalized_country_code,normalized_city,location_level,notes
+SF,US,San Francisco,city,Common abbreviation for San Francisco
+Bay Area,US,San Francisco,city,Metro shorthand mapped to its anchor city
+NYC,US,New York,city,Common abbreviation for New York City
+LA,US,Los Angeles,city,Common abbreviation for Los Angeles
+UK,GB,,country,United Kingdom informal ISO usage
+Deutschland,DE,,country,German endonym for Germany
+Bengaluru,IN,Bengaluru,city,Official name; also seen as Bangalore
+Bangalore,IN,Bengaluru,city,Legacy spelling of Bengaluru
+Blr,IN,Bengaluru,city,Common abbreviation for Bengaluru
+NL,NL,,country,ISO code commonly used for the Netherlands
+The Netherlands,NL,,country,Article-prefixed country name
+Sao Paulo,BR,São Paulo,city,ASCII spelling without diacritics
+Warszawa,PL,Warsaw,city,Polish endonym for Warsaw
+Köln,DE,Cologne,city,German endonym for Cologne
+PRC,CN,,country,Abbreviation for the People's Republic of China
+Seoul,KR,Seoul,city,Unambiguous capital city
+TLV,IL,Tel Aviv,city,Common abbreviation for Tel Aviv

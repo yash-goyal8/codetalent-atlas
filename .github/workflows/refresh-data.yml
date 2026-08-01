@@ -1,0 +1,84 @@
+# Manual data-refresh pipeline (spec section 22).
+#
+# Pilot policy: workflow_dispatch ONLY. A monthly schedule may be added after
+# the pipeline is stable — never before.
+#
+# Every pipeline stage below is an echo-only placeholder labeled with the
+# milestone that implements it. Nothing here touches BigQuery or the GitHub
+# API today, so dispatching this workflow is always safe and free.
+#
+# Secret naming: GitHub does not allow repository secrets whose names start
+# with GITHUB_, so the enrichment PAT lives in the secret GH_ENRICHMENT_TOKEN
+# and will be exported as the GITHUB_TOKEN env var once enrichment lands
+# (Milestone C). BigQuery discovery (Milestone B) reads GOOGLE_CLOUD_PROJECT.
+#
+# Note per spec section 22: the Actions-provided GITHUB_TOKEN has a lower API
+# allowance than a user PAT. Large enrichment runs should happen locally with
+# a personal token; this workflow handles refreshes and aggregate publishing.
+
+name: Refresh data
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_bigquery:
+        description: Run BigQuery discovery (Milestone B+; needs GOOGLE_CLOUD_PROJECT secret)
+        type: boolean
+        default: false
+
+jobs:
+  refresh:
+    name: Refresh pipeline (placeholders)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Stage 1 (spec 22): validate required secrets before any stage runs.
+      # While all stages are placeholders this only reports and warns; from
+      # Milestone B onward a missing secret required by a requested stage
+      # must fail the run here, before any external call.
+      - name: Validate required secrets
+        env:
+          HAS_GH_TOKEN: ${{ secrets.GH_ENRICHMENT_TOKEN != '' }}
+          HAS_GCP_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT != '' }}
+          RUN_BIGQUERY: ${{ inputs.run_bigquery }}
+        run: |
+          echo "GH_ENRICHMENT_TOKEN configured: ${HAS_GH_TOKEN}"
+          echo "GOOGLE_CLOUD_PROJECT configured: ${HAS_GCP_PROJECT}"
+          if [ "${RUN_BIGQUERY}" = "true" ] && [ "${HAS_GCP_PROJECT}" != "true" ]; then
+            echo "::warning::run_bigquery requested but GOOGLE_CLOUD_PROJECT is not set. This becomes a hard failure in Milestone B."
+          fi
+          if [ "${HAS_GH_TOKEN}" != "true" ]; then
+            echo "::warning::GH_ENRICHMENT_TOKEN is not set. Required for enrichment from Milestone C."
+          fi
+
+      # Stage 2 (spec 22): BigQuery discovery, only when explicitly enabled.
+      # Implemented in Milestone B (codetalent bq dry-run / bq discover).
+      - name: BigQuery discovery (placeholder — Milestone B)
+        if: ${{ inputs.run_bigquery }}
+        run: echo "Placeholder — Milestone B implements bytes-capped GH Archive discovery via BigQuery Sandbox. No query is executed today."
+
+      # Stage 3 (spec 22): resume GitHub enrichment from cache/checkpoint.
+      # Repositories in Milestone C, user profiles in Milestone D.
+      - name: GitHub enrichment resume (placeholder — Milestones C and D)
+        run: echo "Placeholder — Milestones C and D implement checkpointed GraphQL enrichment. No API call is made today."
+
+      # Stage 4 (spec 22): offline location normalization and scoring.
+      # Normalization in Milestone D, scoring in Milestone E.
+      - name: Normalize and score (placeholder — Milestones D and E)
+        run: echo "Placeholder — Milestones D and E implement offline normalization and transparent scoring."
+
+      # Stage 5 (spec 22): validate public outputs. Implemented in Milestone E
+      # (codetalent validate all); the privacy scanner already runs in ci.yml.
+      - name: Validate public outputs (placeholder — Milestone E)
+        run: echo "Placeholder — Milestone E implements dataset validation and bias checks."
+
+      # Stage 6 (spec 22): build public aggregate data for the site.
+      # Implemented in Milestone F (codetalent publish web-data).
+      - name: Build public aggregate data (placeholder — Milestone F)
+        run: echo "Placeholder — Milestone F implements the static aggregate-only data builder."
+
+      # Stage 7 (spec 22): open a pull request containing only aggregate
+      # updates and reports. Implemented in Milestone G.
+      - name: Open aggregate-update pull request (placeholder — Milestone G)
+        run: echo "Placeholder — Milestone G opens a PR with aggregate updates and reports only."

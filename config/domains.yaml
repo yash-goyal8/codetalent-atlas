@@ -1,0 +1,23 @@
+# Domain registry (spec sections 3, 8). Exactly one pilot domain; expansion
+# domains stay "planned" until the Cloud/DevOps pilot passes its acceptance gates.
+domains:
+  cloud_devops:
+    display_name: Cloud and DevOps
+    status: pilot
+    taxonomy_file: cloud_devops_taxonomy.yaml
+
+  backend_distributed_systems:
+    display_name: Backend and Distributed Systems
+    status: planned
+
+  systems_engineering_c_cpp:
+    display_name: C/C++ and Systems Engineering
+    status: planned
+
+  gpu_performance_computing:
+    display_name: CUDA, GPU, and Performance Computing
+    status: planned
+
+  cybersecurity:
+    display_name: Cybersecurity
+    status: planned

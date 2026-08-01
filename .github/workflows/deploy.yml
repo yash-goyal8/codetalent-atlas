@@ -1,0 +1,37 @@
+# Deployment documentation placeholder (spec sections 22 and 25).
+#
+# Chosen deployment path: Cloudflare Pages NATIVE GIT INTEGRATION.
+#
+#   Build command:     pnpm --dir web build
+#   Output directory:  web/dist
+#   Hosting:           free pages.dev subdomain (no custom domain purchase)
+#
+# Because Cloudflare builds and deploys directly from the Git repository, no
+# Cloudflare API token is required anywhere in this repository (spec section
+# 25: "Never require a Cloudflare API token if native Git deployment is
+# used"). Deployment protection comes from CI: the privacy scan in ci.yml
+# must pass before aggregate data reaches main, and Cloudflare only deploys
+# what is on the connected branch.
+#
+# This workflow therefore deploys NOTHING from GitHub Actions. It is
+# workflow_dispatch-only and echoes the deployment contract so the chosen
+# path is documented and discoverable next to the other workflows.
+
+name: Deploy (documentation placeholder)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  document-deployment-path:
+    name: Document deployment path
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain deployment contract
+        run: |
+          echo "Deployment is handled by Cloudflare Pages native Git integration."
+          echo "Build command:    pnpm --dir web build"
+          echo "Output directory: web/dist"
+          echo "Hosting:          free pages.dev subdomain"
+          echo "No Cloudflare API token is used or stored (spec section 25)."
+          echo "This workflow intentionally deploys nothing."
