@@ -46,7 +46,9 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          # Node 20 is the supported runtime this project is engineered around
+          # (Vite is pinned to ^6 because local Node 20.18 < Vite 7's 20.19 floor).
+          node-version: 20
           cache: pnpm
 
       - name: Install dependencies

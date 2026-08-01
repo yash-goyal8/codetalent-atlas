@@ -1,4 +1,5 @@
 {
+  "_note": "Synthetic test fixture for the privacy scanner — invented values, not real pipeline results.",
   "domain": "cloud_devops",
   "geoLevel": "country",
   "rows": [
