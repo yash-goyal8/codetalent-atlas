@@ -14,6 +14,7 @@ dependencies = [
     "duckdb>=1.1",
     "pyarrow>=18.0",
     "httpx>=0.27",
+    "google-cloud-bigquery>=3.42.3",
 ]
 
 [project.scripts]
@@ -66,6 +67,12 @@ warn_unused_ignores = true
 warn_return_any = true
 strict_equality = true
 
+[[tool.mypy.overrides]]
+# google-cloud-bigquery and pyarrow ship without complete type stubs; scoped
+# ignores only — the rest of the codebase stays strictly typed.
+module = ["google.cloud.*", "google.api_core.*", "google.auth.*", "pyarrow.*"]
+ignore_missing_imports = true
+
 [tool.pydantic-mypy]
 init_forbid_extra = true
 init_typed = true
@@ -74,3 +81,6 @@ warn_required_dynamic_aliases = true
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+# Resolve the package from src/ directly so tests never depend on the
+# editable-install .pth being processed (macOS site.py skips hidden .pth files).
+pythonpath = ["src"]

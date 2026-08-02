@@ -8,14 +8,22 @@ milestone that implements them and exit with code 2. ``validate all`` and
 
 from __future__ import annotations
 
+from datetime import date
 from pathlib import Path
 from typing import Annotated, NoReturn
 
 import typer
+from google.api_core.exceptions import Forbidden, NotFound, Unauthorized
+from google.cloud import bigquery
 
 from codetalent import __version__
+from codetalent.bigquery import dry_run as bq_plan
+from codetalent.bigquery import export as bq_export
+from codetalent.bigquery import runner as bq_runner
+from codetalent.bigquery import sqlgen
 from codetalent.config import DEFAULT_CONFIG_DIR, AtlasConfig, ConfigError, load_all
 from codetalent.runlog import RunLogger
+from codetalent.settings import Settings, load_settings
 from codetalent.validation.privacy import DEFAULT_PUBLIC_DIRS, scan_public_data
 
 app = typer.Typer(
@@ -79,10 +87,130 @@ def version() -> None:
     typer.echo(__version__)
 
 
+def _format_bytes(num: int) -> str:
+    for unit, factor in (("GiB", 2**30), ("MiB", 2**20), ("KiB", 2**10)):
+        if num >= factor:
+            return f"{num / factor:.2f} {unit}"
+    return f"{num} B"
+
+
+def _parse_window(start: str, end: str) -> tuple[date, date]:
+    try:
+        return date.fromisoformat(start), date.fromisoformat(end)
+    except ValueError as exc:
+        typer.echo(f"[fail] invalid --start/--end date: {exc}")
+        raise typer.Exit(2) from exc
+
+
+def _load_config_or_exit(config_dir: Path) -> AtlasConfig:
+    try:
+        return load_all(config_dir)
+    except ConfigError as exc:
+        typer.echo(f"[fail] configuration invalid:\n{exc}")
+        raise typer.Exit(1) from exc
+
+
+def _pilot_domain(config: AtlasConfig) -> str:
+    return next(
+        domain_id
+        for domain_id, entry in config.domains.domains.items()
+        if entry.status.value == "pilot"
+    )
+
+
+def _build_plan_or_exit(
+    config: AtlasConfig, settings: Settings, domain: str, window: tuple[date, date]
+) -> list[bq_plan.QuerySpec]:
+    try:
+        return bq_plan.build_discovery_plan(
+            config=config, settings=settings, domain_id=domain, start=window[0], end=window[1]
+        )
+    except (ConfigError, sqlgen.SqlRenderError) as exc:
+        typer.echo(f"[fail] cannot build the discovery plan: {exc}")
+        raise typer.Exit(1) from exc
+
+
+def _build_client_or_exit(settings: Settings) -> bigquery.Client:
+    try:
+        return bq_runner.build_client(settings)
+    except RuntimeError as exc:
+        typer.echo(f"[fail] {exc}")
+        raise typer.Exit(1) from exc
+
+
 @bq_app.command("dry-run")
-def bq_dry_run(start: StartOpt = "2026-05-01", end: EndOpt = "2026-07-31") -> None:
-    """Estimate BigQuery bytes for the discovery window without executing."""
-    _not_implemented("bq dry-run", "B")
+def bq_dry_run(
+    start: StartOpt = "2026-05-01",
+    end: EndOpt = "2026-07-31",
+    config_dir: ConfigDirOpt = DEFAULT_CONFIG_DIR,
+) -> None:
+    """Price the full discovery plan with free dry runs; execute nothing."""
+    config = _load_config_or_exit(config_dir)
+    settings = load_settings()
+    window = _parse_window(start, end)
+    domain = _pilot_domain(config)
+    plan = _build_plan_or_exit(config, settings, domain, window)
+    client = _build_client_or_exit(settings)
+    runner = bq_runner.BigQueryRunner(client, settings, logger=RunLogger("phase3-dry-run"))
+
+    months = bq_plan.months_in_window(*window)
+    typer.echo("BigQuery discovery dry-run plan (nothing executes; dry runs are free)")
+    typer.echo(
+        f"  window: {start} → {end} (months: {', '.join(months)})  domain: {domain}\n"
+        f"  project: {settings.google_cloud_project}  dataset: {settings.dataset_id}"
+    )
+    try:
+        pricing = bq_plan.price_plan(
+            plan,
+            estimate_bytes=lambda spec: runner.estimate_query_bytes(spec.name, spec.sql),
+            destination_has_rows=runner.destination_has_rows,
+        )
+    except (Unauthorized, Forbidden) as exc:
+        typer.echo(f"[fail] BigQuery rejected the request: {exc}")
+        typer.echo(bq_runner.CREDENTIALS_INSTRUCTIONS)
+        raise typer.Exit(1) from exc
+
+    cumulative = 0
+    for estimate in pricing.estimates:
+        if estimate.estimated_bytes is None:
+            detail = estimate.note or "unpriced"
+            typer.echo(f"  {estimate.name:<42} unpriced — {detail}")
+            continue
+        if estimate.will_skip:
+            typer.echo(
+                f"  {estimate.name:<42} {_format_bytes(estimate.estimated_bytes):>12}"
+                "  (destination exists — will be skipped)"
+            )
+            continue
+        cumulative += estimate.estimated_bytes
+        typer.echo(
+            f"  {estimate.name:<42} {_format_bytes(estimate.estimated_bytes):>12}"
+            f"  cumulative {_format_bytes(cumulative)}"
+        )
+
+    budget = settings.bigquery_max_bytes_phase3
+    consumed = runner.ledger.consumed_bytes(runner.phase)
+    remaining_after = budget - consumed - pricing.planned_bytes
+    priced = len(plan) - len(pricing.unpriced)
+    typer.echo(
+        f"Priced estimate for this run: {_format_bytes(pricing.planned_bytes)} "
+        f"({priced} of {len(plan)} queries priced)"
+    )
+    if pricing.unpriced:
+        typer.echo(
+            f"  unpriced: {', '.join(pricing.unpriced)} — these read tables created earlier "
+            "in the run; each is re-priced and byte-capped at execution time"
+        )
+    typer.echo(
+        f"Phase 3 budget: {_format_bytes(budget)}; already consumed by executed queries: "
+        f"{_format_bytes(consumed)}"
+    )
+    typer.echo(f"Remaining after this plan: {_format_bytes(remaining_after)}")
+    if remaining_after >= 0:
+        typer.echo("RESULT: PASS — plan fits within BIGQUERY_MAX_BYTES_PHASE3")
+        return
+    typer.echo("RESULT: FAIL — plan would exceed BIGQUERY_MAX_BYTES_PHASE3; do not execute")
+    raise typer.Exit(1)
 
 
 @bq_app.command("discover")
@@ -90,9 +218,71 @@ def bq_discover(
     domain: DomainOpt = "cloud_devops",
     start: StartOpt = "2026-05-01",
     end: EndOpt = "2026-07-31",
+    config_dir: ConfigDirOpt = DEFAULT_CONFIG_DIR,
 ) -> None:
-    """Run guarded GH Archive discovery queries and export candidates locally."""
-    _not_implemented("bq discover", "B")
+    """Run the guarded GH Archive discovery pipeline and export Parquet locally."""
+    config = _load_config_or_exit(config_dir)
+    settings = load_settings()
+    window = _parse_window(start, end)
+    plan = _build_plan_or_exit(config, settings, domain, window)
+    client = _build_client_or_exit(settings)
+    logger = RunLogger("phase3-discovery")
+    runner = bq_runner.BigQueryRunner(client, settings, logger=logger)
+
+    quality_rows: list[dict[str, object]] | None = None
+    try:
+        runner.ensure_dataset()
+        for spec in plan:
+            outcome = runner.execute(spec)
+            if outcome.status == bq_runner.STATUS_SKIPPED:
+                typer.echo(f"[skip] {spec.name}: destination already materialized")
+            else:
+                typer.echo(
+                    f"[ok] {spec.name}: {_format_bytes(outcome.actual_bytes)} processed "
+                    f"(estimated {_format_bytes(outcome.estimated_bytes)})"
+                )
+            if spec.fetch_rows:
+                quality_rows = outcome.rows
+    except bq_runner.BudgetExceededError as exc:
+        typer.echo(f"[fail] {exc}")
+        raise typer.Exit(1) from exc
+    except (Unauthorized, Forbidden) as exc:
+        typer.echo(f"[fail] BigQuery rejected the request: {exc}")
+        typer.echo(bq_runner.CREDENTIALS_INSTRUCTIONS)
+        raise typer.Exit(1) from exc
+    except NotFound as exc:
+        typer.echo(f"[fail] BigQuery object not found: {exc}")
+        raise typer.Exit(1) from exc
+
+    failures = [row for row in quality_rows or [] if row.get("status") != "pass"]
+    for row in quality_rows or []:
+        marker = "ok" if row.get("status") == "pass" else "fail"
+        typer.echo(
+            f"[{marker}] quality check {row.get('check_name')}: "
+            f"{row.get('failing_rows')} failing rows ({row.get('requirement')})"
+        )
+    if failures:
+        typer.echo(f"[fail] {len(failures)} quality check(s) failed; not exporting.")
+        raise typer.Exit(1)
+
+    project = settings.google_cloud_project
+    dataset = settings.dataset_id
+    discovery_table = sqlgen.REPO_DISCOVERY_TABLE_FORMAT.format(domain_id=domain)
+    contributor_table = sqlgen.CONTRIBUTOR_TABLE_FORMAT.format(domain_id=domain)
+    export = bq_export.export_discovery_outputs(
+        client,
+        repo_discovery_table=f"{project}.{dataset}.{discovery_table}",
+        contributor_table=f"{project}.{dataset}.{contributor_table}",
+        domain_id=domain,
+    )
+    typer.echo(
+        f"Funnel: {export.discovered_candidates} discovered candidates "
+        "(spec 3.3 pilot target: 10,000+); "
+        f"{export.activity_passed} activity-passed (target: 5,000+)."
+    )
+    typer.echo(f"Wrote {export.summary_path} ({export.summary_rows} rows)")
+    typer.echo(f"Wrote {export.candidates_path} ({export.discovered_candidates} rows)")
+    typer.echo(f"Wrote {export.contributor_path} ({export.contributor_rows} rows)")
 
 
 @github_app.command("enrich-repos")
@@ -200,7 +390,7 @@ def validate_all(config_dir: ConfigDirOpt = DEFAULT_CONFIG_DIR) -> None:
 
 _PILOT_STAGES: tuple[tuple[str, str], ...] = (
     ("config-validation", "validate configuration contracts (available now)"),
-    ("bq-discover", "GH Archive discovery via BigQuery — Milestone B, needs GCP credentials"),
+    ("bq-discover", "GH Archive discovery via BigQuery — live execution, needs GCP credentials"),
     ("github-enrich-repos", "repository enrichment — Milestone C, needs GITHUB_TOKEN"),
     ("classify-repos", "taxonomy classification — Milestone C"),
     ("github-enrich-users", "user profile enrichment — Milestone D, needs GITHUB_TOKEN"),
@@ -230,9 +420,10 @@ def pipeline_pilot(config_dir: ConfigDirOpt = DEFAULT_CONFIG_DIR) -> None:
             raise typer.Exit(1) from exc
 
     typer.echo(
-        "pipeline pilot stopped before stage 'bq-discover': it requires Google Cloud "
-        "credentials and Milestone B (BigQuery discovery), which is not implemented yet. "
-        "Completed 1 of "
+        "pipeline pilot stopped before stage 'bq-discover': it executes live BigQuery "
+        "queries and requires Google Cloud credentials. Run it explicitly with "
+        "`codetalent bq dry-run` (free cost preview) and then "
+        "`codetalent bq discover --domain cloud_devops`. Completed 1 of "
         f"{len(_PILOT_STAGES)} stages."
     )
     raise typer.Exit(2)

@@ -14,8 +14,6 @@ runner = CliRunner()
 GROUPS = ["bq", "github", "classify", "locations", "score", "validate", "publish", "pipeline"]
 
 STUB_COMMANDS: list[tuple[list[str], str]] = [
-    (["bq", "dry-run"], "Milestone B"),
-    (["bq", "discover"], "Milestone B"),
     (["github", "enrich-repos"], "Milestone C"),
     (["classify", "repos"], "Milestone C"),
     (["github", "enrich-users"], "Milestone D"),
@@ -84,7 +82,7 @@ class TestPipelinePilot:
         assert "config-validation" in result.output
         assert "[ok] configuration valid" in result.output
         assert "stopped before stage 'bq-discover'" in result.output
-        assert "Milestone B" in result.output
+        assert "codetalent bq dry-run" in result.output
 
     def test_invalid_config_stops_pipeline(self, tmp_path: Path) -> None:
         result = runner.invoke(app, ["pipeline", "pilot", "--config-dir", str(tmp_path)])
