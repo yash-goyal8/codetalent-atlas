@@ -55,3 +55,45 @@ The structured JSON-lines logging module (spec section 26) is named `runlog.py` 
 ### A-12: Public GitHub repository and BigQuery Sandbox project created (2026-08-01)
 
 The repository was published to https://github.com/yash-goyal8/codetalent-atlas (public, per spec sections 5.6 and 30) with `origin/main` tracking. The Google Cloud project `codetalent-atlas` was created with **no billing account attached**, which is what constitutes BigQuery Sandbox mode; the BigQuery API is enabled and access to the public `githubarchive` dataset was verified with a dry-run query (0 bytes processed, $0 cost). Application Default Credentials already existed locally and their quota project was set to `codetalent-atlas`. The local gitignored `.env` sets `GOOGLE_CLOUD_PROJECT=codetalent-atlas`. Standing rule: no billing account may ever be attached to this project (spec hard constraint).
+
+## 2026-08-01 — Milestone B (BigQuery discovery)
+
+### B-01: Single-pass per-month grid materialization strategy
+
+Dry-run measurement (2026-08-01) priced the five required columns `[type, repo.name, actor.login, created_at, payload]` of the pilot months at 58.51 GiB (202605), 35.36 GiB (202606), and 30.15 GiB (202607) — the `payload` column is ~85% of the cost. Strategy: exactly one scan per month materializes a compact `(repo_name, actor_login)` grid (`events_grid_YYYYMM`) with all payload-derived counts extracted up front and bots flagged (never dropped); every downstream stage reads only the small grids (≈3–4 GiB per full downstream pass). Owner/organization is derived from the repo-name prefix, avoiding an extra source column.
+
+### B-02: Activity filters are domain-agnostic; relevance is Phase 2 classification
+
+`config/repo_filters.yaml` minimums (5 human contributors / 20 meaningful events / 3 PRs-or-reviews / 2 active months) contain no domain-relevance condition, and spec Phase 3's objective is discovering *active* repositories at scale before enrichment; relevance classification (Phase 2 rules over topics/description/files) requires Milestone C metadata. `discovery_status = accepted` therefore means "passed activity minimums", regardless of taxonomy name match; the name match survives as the `is_taxonomy_candidate` signal for Milestone C prioritization. An earlier draft required both, which collapsed the funnel to 933 repositories and conflated Phase 3 with Phase 2. Discovered candidates = name-signal pool plus everything activity-passed.
+
+### B-03: GH Archive 2026 payload schema drift — PR merge semantics
+
+Probing `githubarchive.day.20260501` (2026-08-01) showed the 2026-era payload no longer carries `$.pull_request.merged`; merged PRs now emit a dedicated `action='merged'` (35,835 that day) and `action='closed'` covers only unmerged closures (4,666). The first grid materialization used the classic closed+merged-flag extraction and therefore recorded zero merged PRs; the grids were re-materialized (WRITE_TRUNCATE, the pipeline's standard refresh path) with era-robust counting: `prs_merged = action='merged' OR (action='closed' AND merged='true')`, `prs_closed = action IN ('closed','merged')`. This keeps `merged <= closed` in both payload eras, so the expanded twelve-month run can span the schema change safely.
+
+### B-04: push_commit_count is structurally unavailable in the pilot window
+
+2026-era PushEvent payloads contain only `{repository_id, push_id, ref, head, before}` — no `distinct_size`, `size`, or commits array (verified by direct payload sampling). Per operating rule 4 the field is recorded as a gap, not fabricated: `push_commit_count` is 0 for the pilot window, `push_events` is the push-volume signal, and the extraction retains the classic fields for older-era months in the expanded run. Milestone E scoring must treat commit volume as unavailable for the pilot (the spec already caps push influence).
+
+### B-05: Pilot query budget raised from 250 GiB to 400 GiB
+
+The schema drift in B-03 was only discoverable after the first materialization had consumed its bytes; the corrective re-materialization (+124 GiB) plus diagnostic probes (~6.4 GiB) cannot fit under the original 250 GiB pilot budget (spec 5.1). `BIGQUERY_MAX_BYTES_PHASE3` was raised to 429496729600 (400 GiB) in the local `.env` for this one-time rework. The $0 constraint is untouched: the project is a billing-free BigQuery Sandbox (nothing *can* bill), and the final phase total (~347 GiB) is ~34% of the 1 TiB monthly free tier, preserving the quota-safety intent of the original number. `.env.example` keeps the 250 GiB default for fresh runs.
+
+### B-06: REST-only result fetching; no Storage Read API, no GCS
+
+Results are fetched with `google-cloud-bigquery`'s REST row iterator (`to_arrow(create_bqstorage_client=False)`) and written to local Parquet. The BigQuery Storage Read API, `bq extract`, and Cloud Storage are never used — they are the paths that could require billing enablement. The working dataset sets a 55-day default table expiration (sandbox tables expire at 60 days regardless; results are exported locally because of exactly that).
+
+### B-07: Export bounding rules
+
+`repository_activity_summary.parquet` contains repositories with ≥2 unique human contributors or a taxonomy name match (1.04M rows) — repositories below that floor cannot reach any later stage, and the bound keeps the REST fetch tractable. `cloud_devops_repository_candidates.parquet` holds the discovered-candidate pool (accepted + name-matched exclusions with reasons). Contributor extraction covers activity-passed repositories only; `subdomains` is exported empty until Milestone C classification assigns real labels.
+
+### B-08: Downstream stages re-run on every discover invocation
+
+Only the month materializations are skip-if-exists; the cheap downstream stages (bot audit, rollup, filters, contributor extraction, quality checks — ~12.4 GiB per pass) rerun on every `bq discover`. An interrupted orchestration retried `bq discover` six times on 2026-08-01, so repeats cost ~62 GiB that idempotence would have saved. Future improvement noted for the refresh pipeline: content-hash-based skip for downstream stages.
+
+### B-09: Local environment pins and the hidden-.pth workaround
+
+The project now pins uv-managed CPython 3.12 (`.python-version` committed) after the Anaconda-based interpreter surfaced a subtle failure: this sandboxed environment marks written files with the macOS `UF_HIDDEN` flag and CPython ≥3.11 silently skips hidden `.pth` files, which broke the editable install. Durable fixes: `pythonpath = ["src"]` in pytest configuration (committed, cross-platform) and a `sitecustomize.py` inside the local venv (regular imports are unaffected by the hidden-file check). CI on Linux is unaffected.
+
+### B-10: Ledger accounting corrections are evidence-based only
+
+`reports/query_usage.csv` is append-only in normal operation. Two manual adjustments were made, both anchored to verifiable job statistics: (1) four diagnostic probe queries run via the `bq` CLI were appended with their exact `totalBytesProcessed` from job metadata; (2) one runner error row for a 409 "Already Exists" rejection was corrected from its conservative estimate to the verified 0 bytes (the job has no byte statistics — it was rejected before scanning). All other rows are written by the runner at execution time.
