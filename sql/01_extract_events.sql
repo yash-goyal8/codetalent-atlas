@@ -52,13 +52,25 @@ grid AS (
     repo_name,
     actor_login,
     COUNTIF(type = 'PushEvent') AS push_events,
-    -- Commits per push: payload $.distinct_size, falling back to $.size.
+    -- Commits per push: payload $.distinct_size falling back to $.size.
+    -- KNOWN GAP (decisions.md): the 2026 GH Archive PushEvent payload carries
+    -- neither field (verified 2026-08-01: {repository_id, push_id, ref, head,
+    -- before} only), so this is 0 for the pilot window. The extraction stays
+    -- for older-era months in the expanded run; push_events is the push signal.
     SUM(IF(type = 'PushEvent', COALESCE(push_distinct_size, push_size, 0), 0))
       AS push_commit_count,
     COUNTIF(type = 'PullRequestEvent' AND action = 'opened') AS prs_opened,
-    COUNTIF(type = 'PullRequestEvent' AND action = 'closed') AS prs_closed,
-    COUNTIF(type = 'PullRequestEvent' AND action = 'closed' AND pr_merged = 'true')
-      AS prs_merged,
+    -- Era-robust PR terminal-state counting (verified against 2026-05-01 data):
+    -- the 2026 GH Archive payload emits a dedicated action='merged' for merged
+    -- PRs and action='closed' only for unmerged closures, and no longer carries
+    -- $.pull_request.merged. Older archives emit action='closed' for both with
+    -- the merged flag distinguishing them. Counting both shapes keeps the spec
+    -- invariant merged_pull_requests <= pull_requests_closed in every era.
+    COUNTIF(type = 'PullRequestEvent' AND action IN ('closed', 'merged')) AS prs_closed,
+    COUNTIF(
+      type = 'PullRequestEvent'
+      AND (action = 'merged' OR (action = 'closed' AND pr_merged = 'true'))
+    ) AS prs_merged,
     COUNTIF(type = 'PullRequestReviewEvent') AS reviews_submitted,
     COUNTIF(type = 'IssuesEvent' AND action = 'opened') AS issues_opened,
     COUNTIF(type = 'IssueCommentEvent') AS issue_comments,

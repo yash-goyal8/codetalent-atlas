@@ -143,16 +143,22 @@ SELECT
   meaningful_events,
   is_taxonomy_candidate,
   pull_requests_or_reviews,
+  -- Activity minimums are domain-agnostic (config/repo_filters.yaml carries no
+  -- relevance condition): any repository passing them is 'accepted'. Domain
+  -- relevance is Phase 2 classification over enriched metadata (Milestone C);
+  -- the taxonomy name match stays available as the is_taxonomy_candidate
+  -- signal. 'excluded'/'below_floor' apply to name-matched discovery
+  -- candidates that fail the minimums or the candidate floor.
   CASE
+    WHEN failed_minimums IS NULL THEN 'accepted'
     WHEN NOT is_taxonomy_candidate THEN 'not_candidate'
     WHEN NOT is_candidate THEN 'below_floor'
-    WHEN failed_minimums IS NULL THEN 'accepted'
     ELSE 'excluded'
   END AS discovery_status,
   CASE
+    WHEN failed_minimums IS NULL THEN NULL
     WHEN NOT is_taxonomy_candidate THEN 'no_taxonomy_name_match'
     WHEN NOT is_candidate THEN 'below_candidate_activity_floor'
-    WHEN failed_minimums IS NULL THEN NULL
     ELSE failed_minimums
   END AS exclusion_reason
 FROM

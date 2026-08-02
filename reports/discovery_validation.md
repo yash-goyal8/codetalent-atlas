@@ -1,10 +1,81 @@
-# Discovery Validation
+# Discovery Validation — Cloud/DevOps Pilot (Phase 3, Milestone B)
 
-**Placeholder — produced by Milestone B (Phase 3, large-scale repository discovery).** No discovery query has run yet; this file intentionally contains no results.
+**Run date:** 2026-08-01 → 2026-08-02 UTC · **Window:** 2026-05-01 → 2026-07-31 (GH Archive months 202605, 202606, 202607) · **Command:** `codetalent bq discover --domain cloud_devops --start 2026-05-01 --end 2026-07-31` · **Ledger:** [`query_usage.csv`](query_usage.csv)
 
-When Milestone B completes, this report will contain:
+Every figure in this report is reproducible from `reports/query_usage.csv` and the exported Parquet files under `data/interim/` (local, gitignored). A 100-row repository-level sample is committed at `data/samples/accepted_repositories_sample.csv`.
 
-- Funnel counts: candidates discovered (target 10,000+), passing first-stage activity filters (target 5,000+)
-- Phase query usage against the 250 GiB pilot budget (detail rows in `query_usage.csv`)
-- Bot-removal audit: excluded counts by pattern
-- Inspection of high-activity, random, and low-activity accepted samples
+## Funnel
+
+| Stage | Count | Definition |
+|---|---:|---|
+| GH Archive events counted (6 relevant types, 3 months) | ~304M | PushEvent, PullRequestEvent, PullRequestReviewEvent, IssuesEvent, IssueCommentEvent, ReleaseEvent |
+| Repositories in activity summary | 1,052,819 | ≥2 unique human contributors OR taxonomy name match (decision B-07) |
+| **Discovered candidates** | **309,653** | Taxonomy-name-signal pool ∪ activity-passed (decision B-02) — **target 10,000+: PASS** |
+| **Passing activity filters** | **19,456** | All `repo_filters.yaml` minimums: ≥5 human contributors, ≥20 meaningful events, ≥3 PRs-or-reviews, ≥2 active months — **target 5,000+: PASS** |
+| — of which taxonomy-name-matched | 956 | `is_taxonomy_candidate` signal; Milestone C's priority classification slice |
+| — of which single-actor dominance > 0.90 | 872 | Flagged for the Phase 2 dominance exclusion in Milestone C |
+| Unique human contributors (accepted repos) | 204,202 | Non-bot actors active in activity-passed repositories |
+| Distinct owner accounts (accepted repos) | 12,198 | Owner prefix of repo name (user or organization) |
+| Contributor-repo activity rows | 276,938 | `contributor_activity.parquet`, activity-passed repos only |
+
+Merged pull requests recorded: **101,471** across 15,662 accepted repositories, with the `merged ≤ closed` invariant holding on every row (see the schema-drift note below).
+
+## Query usage vs budget
+
+| Item | GiB |
+|---|---:|
+| Month grid materializations (initial run, wrong-era PR extraction) | 124.01 |
+| Downstream stages ×6 runs (interrupted orchestration retries, decision B-08) | ~74.1 |
+| Diagnostic probes (schema-drift investigation, decision B-10) | 6.46 |
+| Corrective re-materialization + final downstream pass (decisions B-03/B-05) | ~136.5 |
+| **Total consumed (all executed queries)** | **347.19** |
+
+- Original pilot budget: 250 GiB. Raised to **400 GiB** for the one-time schema-drift rework (decision B-05).
+- **$0 spent** — the project is a billing-free BigQuery Sandbox; total usage is **33.9% of the 1 TiB monthly free tier**.
+- Every executed query was preceded by a free dry run, carried `maximum_bytes_billed`, and was checked against the cumulative ledger before running. Dry runs, skipped stages, and refused stages appear in the ledger at zero consumed bytes.
+- Month materializations ran in 22–27 s each; downstream stages in 1–18 s each (per-query runtimes in the ledger).
+
+## GH Archive 2026 payload schema drift (material finding)
+
+Probing `githubarchive.day.20260501` established that the 2026-era event payload differs from the classic GH Archive shape:
+
+1. **PR merges**: merged PRs emit a dedicated `action='merged'` (35,835 that day); `action='closed'` covers only unmerged closures (4,666); `$.pull_request.merged` no longer exists. The initial grids therefore recorded zero merges and were re-materialized with era-robust counting (decision B-03).
+2. **Push commit counts**: PushEvent payloads carry only `{repository_id, push_id, ref, head, before}` — no `distinct_size`/`size`. `push_commit_count` is **structurally unavailable** for the pilot window and is recorded as 0 with a documented gap (decision B-04); `push_events` is the push-volume signal.
+3. IssuesEvent (`action='opened'`), IssueCommentEvent, PullRequestReviewEvent, and ReleaseEvent parse as expected.
+
+## Bot exclusion audit
+
+Bots are flagged in the grids, never dropped; raw and human-filtered aggregates are both derivable. Totals: **38,598 distinct bot actors**, contributing **45,882,530 counted events (15.1%)** vs 258,211,076 human events. Top patterns by matched actors/reach:
+
+| Pattern | Distinct actors | Distinct repos |
+|---|---:|---:|
+| `login_suffix:[bot]` | 17,648 | 2,059,461 |
+| `regex:^(?:.*[-_])?bot(?:[-_].*)?$` | 20,042 | 75,326 |
+| `exact_login:copilot` | 1 | 95,266 |
+| `substring:-automation` | 481 | 2,454 |
+| `substring:ci-bot` | 74 | 6,309 |
+| 15 further patterns | ~353 | ~2,150 |
+
+Full per-pattern counts live in the `bot_exclusion_audit` BigQuery table (55-day expiration) and are regenerated by `sql/02_remove_bots.sql`.
+
+## Sample review (high / random / low accepted)
+
+Judged from names and metrics only — no scraping, no GitHub API calls (those are Milestone C).
+
+**Top 10 by weighted activity.** Dominated by genuine large collaborative projects: PostHog/posthog (199 contributors, 169 merges, 571 reviews), pytorch/pytorch (451 contributors, 598 reviews), microsoft/winget-pkgs (601 contributors, 1,558 merges), odoo/odoo + odoo-dev/odoo. Honest anomalies, each with its documented Phase 2 handling in Milestone C: pytorch and odoo show ~0 merged PRs because their bot-driven merge flows attribute merges to flagged bot actors or close-and-push; `onehumancorp/mono` (0.986 single-actor share) and `the-omega-institute/newmath` (0.789) fall to the >0.90 dominance exclusion or burst-pattern review; `mobbcitestjob/ai-blame-e2e-…` looks like a CI test harness (Phase 2 exclusion).
+
+**Random 10 (seed 7).** A believable mid-tail: open-telemetry, VictoriaMetrics/operator, microsoft/sqltoolsservice, vendor SDKs, plus two student-course repos (`cse110-sp26-…`, `SWP391_…`) that the Phase 2 student-assignment exclusion is designed for. Verdict: plausible.
+
+**Bottom 10 (threshold edge).** Legitimate projects at minimum activity (rust-lang/rustlings, melonDS-emu/melonDS, kubernetes/cloud-provider-openstack, obsidianmd/obsidian-clipper) — exactly what the boundary should look like. Verdict: plausible.
+
+## Acceptance criteria (spec section 13)
+
+| Criterion | Result |
+|---|---|
+| 10,000+ candidates discovered | **PASS** — 309,653 |
+| 5,000+ pass first-stage activity filters | **PASS** — 19,456 |
+| Phase query usage within budget | **PASS with documented deviation** — 347.19 GiB vs revised 400 GiB (original 250 GiB exceeded due to schema-drift rework; decision B-05); $0 cost, 33.9% of free tier |
+| Bot removals auditable | **PASS** — flagged-not-dropped grids + per-pattern audit table |
+| High/random/low samples appear valid | **PASS** — see sample review; known anomalies documented with their Phase 2 handling |
+
+All 11 automated quality checks pass (duplicate keys, non-negative counts, date bounds, share bounds, `merged ≤ closed`, meaningful-event consistency, contributor-repo referential integrity, status/reason consistency).

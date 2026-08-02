@@ -81,4 +81,4 @@ docs/             Spec, product docs, methodology, decisions, privacy, bias
 
 **Milestone A is complete** — repository foundation: monorepo structure, Python and frontend tooling, Pydantic schemas, configuration loading, structured logging, Typer CLI skeleton, test setup, and CI. Pipeline stages are stubs that exit with a message naming the milestone that implements them.
 
-**Milestone B is next** — BigQuery discovery: SQL templates with a dry-run cost guard, extraction and aggregation over GH Archive via BigQuery Sandbox (bytes-capped, no billing), and sample Parquet outputs. Exit criterion: the pilot discovery report passes the Phase 3 acceptance criteria in the spec.
+**Milestone B complete** — BigQuery discovery ran end-to-end (see `reports/discovery_validation.md` and decisions B-01..B-10; note the 2026 GH Archive payload schema drift in B-03/B-04). **Milestone C is next** — GitHub GraphQL repository enrichment (batched, cached, checkpointed, rate-limit-aware), the deterministic taxonomy classifier, and the 150-repository manual validation gate (>=90% precision).

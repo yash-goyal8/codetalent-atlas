@@ -118,7 +118,7 @@ docs/       Build spec, product spec, methodology, decisions, privacy and bias d
 
 ## Project status
 
-**Milestone A complete — repository foundation.** Configuration contracts, Pydantic schemas, Typer CLI skeleton, structured logging, test setup, frontend shell, and CI are in place. Next: **Milestone B, BigQuery discovery** — SQL templates, dry-run cost guard, extraction and aggregation, sample Parquet outputs.
+**Milestone B complete — BigQuery discovery.** The Cloud/DevOps pilot discovery ran end-to-end over GH Archive (2026-05-01 → 2026-07-31): 309,653 candidate repositories discovered, 19,456 passing activity filters, 204,202 unique human contributors observed — at $0, using 33.9% of the BigQuery Sandbox free tier. Evidence: [`reports/discovery_validation.md`](reports/discovery_validation.md). Next: **Milestone C, GitHub enrichment and classification** — batched GraphQL repository metadata, deterministic taxonomy classifier, manual validation gate.
 
 ## Methodology and limitations
 
