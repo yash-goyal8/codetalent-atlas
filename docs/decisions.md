@@ -51,3 +51,7 @@ Spec section 8.1 requires tests proving known positive and negative classificati
 ### A-11: Structured logging module named `runlog.py`
 
 The structured JSON-lines logging module (spec section 26) is named `runlog.py` rather than `logging.py`. Rationale: a module named `logging` inside the package would shadow the stdlib `logging` module and invite subtle import bugs. The spec does not mandate a module name; the required log fields are unchanged.
+
+### A-12: Public GitHub repository and BigQuery Sandbox project created (2026-08-01)
+
+The repository was published to https://github.com/yash-goyal8/codetalent-atlas (public, per spec sections 5.6 and 30) with `origin/main` tracking. The Google Cloud project `codetalent-atlas` was created with **no billing account attached**, which is what constitutes BigQuery Sandbox mode; the BigQuery API is enabled and access to the public `githubarchive` dataset was verified with a dry-run query (0 bytes processed, $0 cost). Application Default Credentials already existed locally and their quota project was set to `codetalent-atlas`. The local gitignored `.env` sets `GOOGLE_CLOUD_PROJECT=codetalent-atlas`. Standing rule: no billing account may ever be attached to this project (spec hard constraint).
