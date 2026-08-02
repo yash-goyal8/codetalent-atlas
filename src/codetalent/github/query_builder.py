@@ -1,16 +1,116 @@
-"""Alias-based GraphQL query generation (spec section 14).
+"""Alias-based batched GraphQL query generation (spec sections 9.2 and 14).
 
-Builds batched repository and user queries starting at 10 items per request,
-adapting batch size only after measuring query cost. Target milestones:
-C (repositories), D (users).
+Each batch fetches, per repository, exactly the spec 9.2 metadata fields plus
+one-pass content-presence signals via ``object(expression:)`` lookups (these
+resolve README/CONTRIBUTING/CODE_OF_CONDUCT/CI/tests existence in the same
+request, so no per-repository REST call is needed):
+
+* ``has_readme`` — ``HEAD:README.md`` OR ``HEAD:README.rst`` OR
+  ``HEAD:readme.md`` (three aliases; ``object`` lookups are not connections, so
+  the extra variants do not change the query's rate-limit cost).
+* ``has_contributing`` — ``HEAD:CONTRIBUTING.md``
+* ``has_code_of_conduct`` — ``HEAD:CODE_OF_CONDUCT.md``
+* ``has_ci`` — ``HEAD:.github/workflows``
+* ``has_tests_signal`` — ``HEAD:tests`` OR ``HEAD:test``
+
+Repository names may contain dashes and dots, which are invalid in GraphQL
+alias identifiers, so aliases are positional (``r0``, ``r1``, ...) and each
+query carries an alias -> ``owner/name`` map for response parsing.
+
+Bump :data:`REPO_QUERY_VERSION` whenever the query shape changes — it is part
+of the response-cache request hash, so a bump invalidates stale cached shapes.
 """
 
 from __future__ import annotations
 
+import re
+from collections.abc import Sequence
+from dataclasses import dataclass
 
-def build_repository_batch_query(repo_names: list[str]) -> str:
-    """Build one aliased GraphQL query fetching spec 9.2 metadata for each repository."""
-    raise NotImplementedError("Milestone C implements repository query building.")
+#: Cache-busting version of the repository query shape (see module docstring).
+REPO_QUERY_VERSION = "repo-enrichment-v1"
+
+#: Conservative owner/name charset; also guards against GraphQL injection
+#: because quotes and backslashes can never appear in a valid repo name.
+_REPO_NAME_RE = re.compile(r"^[A-Za-z0-9_.\-]+/[A-Za-z0-9_.\-]+$")
+
+_REPO_FIELDS_FRAGMENT = """\
+fragment RepoEnrichmentFields on Repository {
+  nameWithOwner
+  isFork
+  isArchived
+  isDisabled
+  description
+  primaryLanguage { name }
+  repositoryTopics(first: 20) { nodes { topic { name } } }
+  stargazerCount
+  forkCount
+  licenseInfo { spdxId }
+  pushedAt
+  updatedAt
+  releases { totalCount }
+  issues { totalCount }
+  pullRequests { totalCount }
+  readmeMd: object(expression: "HEAD:README.md") { __typename }
+  readmeRst: object(expression: "HEAD:README.rst") { __typename }
+  readmeLower: object(expression: "HEAD:readme.md") { __typename }
+  contributing: object(expression: "HEAD:CONTRIBUTING.md") { __typename }
+  codeOfConduct: object(expression: "HEAD:CODE_OF_CONDUCT.md") { __typename }
+  ciWorkflows: object(expression: "HEAD:.github/workflows") { __typename }
+  testsDir: object(expression: "HEAD:tests") { __typename }
+  testDir: object(expression: "HEAD:test") { __typename }
+}"""
+
+
+@dataclass(frozen=True)
+class RepositoryBatchQuery:
+    """One rendered batch query plus its alias -> ``owner/name`` map."""
+
+    query: str
+    alias_to_repo: dict[str, str]
+
+
+def repo_alias(index: int) -> str:
+    """Positional alias for the repository at ``index`` within a batch."""
+    return f"r{index}"
+
+
+def build_repository_batch_query(repo_names: Sequence[str]) -> RepositoryBatchQuery:
+    """Build one aliased GraphQL query fetching spec 9.2 metadata for each repository.
+
+    The query always requests the ``rateLimit`` block so every response reports
+    its cost and remaining budget (API-safety rule 1).
+
+    Repositories are **sorted (and deduplicated) before alias assignment**, so
+    the alias map always corresponds to the sorted batch. This is a correctness
+    invariant, not a cosmetic choice: the response cache key
+    (:func:`codetalent.github.cache.repository_batch_hash`) is order-insensitive,
+    so two callers passing the same repositories in different orders share one
+    cached payload — aliases must therefore be attributed identically for both,
+    or a cache hit would silently attach every repository's metadata to the
+    wrong ``repo_name``. Callers must read alias attribution from the returned
+    ``alias_to_repo`` map, never from their own input order.
+    """
+    if not repo_names:
+        raise ValueError("repo_names must not be empty")
+
+    lines = [
+        "query RepositoryEnrichmentBatch {",
+        "  rateLimit { limit cost remaining resetAt }",
+    ]
+    alias_to_repo: dict[str, str] = {}
+    for index, full_name in enumerate(sorted(set(repo_names))):
+        if not _REPO_NAME_RE.match(full_name):
+            raise ValueError(f"invalid repository name: {full_name!r} (expected owner/name)")
+        owner, name = full_name.split("/", 1)
+        alias = repo_alias(index)
+        alias_to_repo[alias] = full_name
+        lines.append(
+            f'  {alias}: repository(owner: "{owner}", name: "{name}") {{ ...RepoEnrichmentFields }}'
+        )
+    lines.append("}")
+    query = "\n".join(lines) + "\n" + _REPO_FIELDS_FRAGMENT
+    return RepositoryBatchQuery(query=query, alias_to_repo=alias_to_repo)
 
 
 def build_user_batch_query(logins: list[str]) -> str:

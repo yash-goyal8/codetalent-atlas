@@ -48,6 +48,24 @@ class TestRealConfigFiles:
             assert len(subdomain.positive_terms) >= 8, name
             assert subdomain.negative_terms, name
 
+    def test_taxonomy_declares_classifier_signal_support(self, config_dir: Path) -> None:
+        # File evidence and language hints are configuration, not source code:
+        # the shipped taxonomy wires has_ci to CI/CD tooling and the
+        # domain-defining languages to their subdomains.
+        taxonomy = config.load_taxonomy(config_dir / "cloud_devops_taxonomy.yaml")
+        assert taxonomy.subdomains["cicd_developer_tooling"].content_signals == ["has_ci"]
+        assert taxonomy.subdomains["infrastructure_as_code"].language_hints == ["hcl", "bicep"]
+        assert taxonomy.subdomains["configuration_management"].language_hints == ["puppet", "nix"]
+
+    def test_unknown_content_signal_rejected(self) -> None:
+        with pytest.raises(Exception, match="unknown content_signals"):
+            config.SubdomainTaxonomy(
+                display_name="X",
+                positive_topics=["x"],
+                positive_terms=["x"],
+                content_signals=["has_dockerfile"],
+            )
+
     def test_repo_filters_match_spec_numbers(self, config_dir: Path) -> None:
         filters = config.load_repo_filters(config_dir / "repo_filters.yaml")
         assert filters.activity_window.pilot_start == "2026-05-01"

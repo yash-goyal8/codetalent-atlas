@@ -1,1 +1,2 @@
 timestamp,resource_type,batch_size,query_cost,remaining,reset_at,status,retries,cache_hit
+2026-08-02T15:10:48Z,graphql_repositories,2,1,4998,2026-08-02T15:50:29+00:00,smoke,0,false

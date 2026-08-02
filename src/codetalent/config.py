@@ -76,13 +76,45 @@ class DomainsConfig(StrictModel):
 
 # --- cloud_devops_taxonomy.yaml ---------------------------------------------
 
+#: Spec 9.2 boolean content-presence signals a subdomain may claim as file
+#: evidence. The enrichment schema carries only these booleans (never file
+#: listings), so this is the complete set of observable file signals.
+CONTENT_SIGNAL_FIELDS: frozenset[str] = frozenset(
+    {"has_readme", "has_contributing", "has_code_of_conduct", "has_ci", "has_tests_signal"}
+)
+
 
 class SubdomainTaxonomy(StrictModel):
+    """One subdomain's deterministic classification inputs (spec 8.1, 12).
+
+    ``positive_files`` documents the subdomain's characteristic file paths for
+    the spec 8.1 contract and the manual-review rubric, but is **not**
+    consulted by the classifier: spec 9.2 metadata carries only the boolean
+    content-presence signals in :data:`CONTENT_SIGNAL_FIELDS`, so file paths
+    are unobservable at classification time. File evidence instead comes from
+    ``content_signals`` (spec 9.2 booleans supporting this subdomain) and
+    weak language corroboration from ``language_hints`` (primary-language
+    names, matched after topic-style normalization).
+    """
+
     display_name: str
     positive_topics: Annotated[list[str], Field(min_length=1)]
     positive_terms: Annotated[list[str], Field(min_length=1)]
     positive_files: list[str] = []
     negative_terms: list[str] = []
+    content_signals: list[str] = []
+    language_hints: list[str] = []
+
+    @field_validator("content_signals")
+    @classmethod
+    def _signals_are_observable(cls, signals: list[str]) -> list[str]:
+        unknown = [signal for signal in signals if signal not in CONTENT_SIGNAL_FIELDS]
+        if unknown:
+            raise ValueError(
+                f"unknown content_signals {unknown}: spec 9.2 metadata only observes "
+                f"{sorted(CONTENT_SIGNAL_FIELDS)}"
+            )
+        return signals
 
 
 class TaxonomyConfig(StrictModel):
@@ -287,6 +319,30 @@ class ConcentrationConfig(StrictModel):
     single_actor_event_share_max: Share
 
 
+class ClassificationConfig(StrictModel):
+    """Spec 12 (Milestone C): deterministic classifier weights and thresholds.
+
+    All numbers live here, never in source code. Weights are per matched
+    signal; thresholds apply to the best subdomain score of a repository.
+    """
+
+    topic_weight: Annotated[float, Field(gt=0)]
+    term_weight: Annotated[float, Field(gt=0)]
+    name_weight: Annotated[float, Field(gt=0)]
+    file_weight: Annotated[float, Field(gt=0)]
+    language_weight: Annotated[float, Field(gt=0)]
+    negative_weight: Annotated[float, Field(gt=0)]
+    accept_threshold: Annotated[float, Field(gt=0)]
+    borderline_threshold: Annotated[float, Field(gt=0)]
+    min_evidence_kinds: Annotated[int, Field(ge=1)]
+
+    @model_validator(mode="after")
+    def _thresholds_ordered(self) -> ClassificationConfig:
+        if self.borderline_threshold >= self.accept_threshold:
+            raise ValueError("borderline_threshold must be below accept_threshold")
+        return self
+
+
 class ScoringConfig(StrictModel):
     event_weights: EventWeights
     repository_quality: RepositoryQualityConfig
@@ -296,6 +352,7 @@ class ScoringConfig(StrictModel):
     minimum_samples: MinimumSamples
     tiers: RecommendationTiers
     concentration: ConcentrationConfig
+    classification: ClassificationConfig
 
 
 # --- bot_patterns.yaml ------------------------------------------------------

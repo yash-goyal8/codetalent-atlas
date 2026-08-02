@@ -8,6 +8,7 @@ milestone that implements them and exit with code 2. ``validate all`` and
 
 from __future__ import annotations
 
+import importlib
 from datetime import date
 from pathlib import Path
 from typing import Annotated, NoReturn
@@ -288,11 +289,91 @@ def bq_discover(
 @github_app.command("enrich-repos")
 def github_enrich_repos(
     input_path: Annotated[
-        Path, typer.Option("--input", help="Candidate repositories Parquet file.")
-    ] = Path("data/interim/candidates.parquet"),
+        Path, typer.Option("--input", help="Repository activity summary Parquet worklist.")
+    ] = Path("data/interim/repository_activity_summary.parquet"),
+    limit: Annotated[
+        int | None,
+        typer.Option("--limit", min=1, help="Attempt at most N pending repositories (smoke runs)."),
+    ] = None,
+    rate_limit_floor: Annotated[
+        int,
+        typer.Option(
+            "--rate-limit-floor",
+            min=1,
+            help="Sleep until reset when remaining GraphQL points drop below this floor.",
+        ),
+    ] = 200,
+    max_failure_retries: Annotated[
+        int,
+        typer.Option(
+            "--max-failure-retries",
+            min=1,
+            help=(
+                "Retry transient per-repository failures up to this many times; "
+                "raise it to re-attempt repositories whose retry budget is exhausted."
+            ),
+        ),
+    ] = 3,
 ) -> None:
-    """Enrich candidate repositories through batched GraphQL."""
-    _not_implemented("github enrich-repos", "C")
+    """Enrich accepted repositories through batched, cached, resumable GraphQL."""
+    # Imported lazily so `codetalent --help` stays fast and dependency-light.
+    from codetalent.github import enrich_repos as enrich_mod
+    from codetalent.github.graphql_client import (
+        TOKEN_SETUP_INSTRUCTIONS,
+        GitHubAuthenticationError,
+        SecondaryRateLimitError,
+    )
+
+    settings = load_settings()
+    if settings.github_token is None:
+        typer.echo("[fail] GITHUB_TOKEN is not set.")
+        typer.echo(TOKEN_SETUP_INSTRUCTIONS)
+        raise typer.Exit(1)
+
+    try:
+        report = enrich_mod.enrich_repositories(
+            settings=settings,
+            input_path=input_path,
+            limit=limit,
+            rate_limit_floor=rate_limit_floor,
+            max_failure_retries=max_failure_retries,
+            logger=RunLogger("phase4-enrich-repos"),
+        )
+    except enrich_mod.WorklistError as exc:
+        typer.echo(f"[fail] {exc}")
+        raise typer.Exit(1) from exc
+    except GitHubAuthenticationError as exc:
+        typer.echo(f"[fail] {exc}")
+        raise typer.Exit(1) from exc
+    except SecondaryRateLimitError as exc:
+        typer.echo(f"[fail] {exc}")
+        typer.echo("Progress is checkpointed; re-run the same command later to resume.")
+        raise typer.Exit(1) from exc
+    except enrich_mod.ErrorRateExceededError as exc:
+        typer.echo(f"[fail] {exc}")
+        raise typer.Exit(1) from exc
+
+    typer.echo(
+        f"Worklist: {report.worklist_total} accepted repositories; "
+        f"{report.already_completed} already completed (skipped)."
+    )
+    typer.echo(
+        f"This run: {report.attempted} attempted, {report.succeeded} enriched, "
+        f"{report.failed} failed (quarantined), {report.cache_hits} cache-hit batches."
+    )
+    typer.echo(f"Batch size: {report.batch_size} (persisted in checkpoint).")
+    typer.echo(f"Wrote {report.output_path} ({report.total_rows} rows)")
+    if report.exhausted_failures:
+        shown = list(report.exhausted_failures.items())[:20]
+        typer.echo(
+            f"[warn] {len(report.exhausted_failures)} repositories exhausted their "
+            f"retry budget ({max_failure_retries}) and are excluded from future runs:"
+        )
+        for name, reason in shown:
+            typer.echo(f"  - {name}: {reason}")
+        if len(report.exhausted_failures) > len(shown):
+            typer.echo(f"  ... and {len(report.exhausted_failures) - len(shown)} more.")
+        typer.echo("Re-run with a higher --max-failure-retries to retry them.")
 
 
 @github_app.command("enrich-users")
@@ -306,9 +387,48 @@ def github_enrich_users(
 
 
 @classify_app.command("repos")
-def classify_repos(domain: DomainOpt = "cloud_devops") -> None:
+def classify_repos(
+    domain: DomainOpt = "cloud_devops",
+    input_path: Annotated[
+        Path, typer.Option("--input", help="Enriched repository metadata Parquet file.")
+    ] = Path("data/interim/repository_metadata.parquet"),
+    activity_path: Annotated[
+        Path, typer.Option("--activity", help="Repository activity summary Parquet file.")
+    ] = Path("data/interim/repository_activity_summary.parquet"),
+    output_path: Annotated[
+        Path, typer.Option("--output", help="Destination classification Parquet file.")
+    ] = Path("data/interim/repository_classification.parquet"),
+    config_dir: ConfigDirOpt = DEFAULT_CONFIG_DIR,
+) -> None:
     """Classify enriched repositories against the domain taxonomy."""
-    _not_implemented("classify repos", "C")
+    config = _load_config_or_exit(config_dir)
+    if domain not in config.taxonomies:
+        typer.echo(
+            f"[fail] no taxonomy configured for domain {domain!r} "
+            f"(available: {', '.join(sorted(config.taxonomies))})"
+        )
+        raise typer.Exit(1)
+
+    # Imported lazily and dynamically: the classifier runner lands in its own
+    # Milestone C work stream, and cli.py must import cleanly without it.
+    try:
+        runner_module = importlib.import_module("codetalent.classify.runner")
+    except ModuleNotFoundError as exc:
+        typer.echo(f"codetalent classify repos: classifier runner not available yet ({exc}).")
+        raise typer.Exit(2) from exc
+
+    result = runner_module.classify_repositories(
+        config=config,
+        domain_id=domain,
+        metadata_path=input_path,
+        activity_path=activity_path,
+        output_path=output_path,
+    )
+    typer.echo(
+        f"Classified {result.total} repositories: {result.accepted} accepted, "
+        f"{result.rejected} rejected, {result.borderline} borderline."
+    )
+    typer.echo(f"Wrote {result.output_path}")
 
 
 @locations_app.command("normalize")

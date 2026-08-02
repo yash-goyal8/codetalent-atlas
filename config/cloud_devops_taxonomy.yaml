@@ -1,6 +1,16 @@
 # Cloud and DevOps classification taxonomy (spec section 8.1, expanded per the
-# spec requirement to grow each list substantially). Deterministic rule inputs:
-# GitHub topics, description/name terms, and file-path signals per subdomain.
+# spec requirement to grow each list substantially). Deterministic rule inputs
+# per subdomain: GitHub topics, description/name terms, spec 9.2 boolean
+# content signals (content_signals), and primary-language hints
+# (language_hints).
+#
+# NOTE on positive_files: spec 9.2 enrichment metadata carries only boolean
+# content-presence signals (has_readme, has_contributing, has_code_of_conduct,
+# has_ci, has_tests_signal), never file listings, so these path lists document
+# each subdomain's characteristic files for the spec 8.1 contract and the
+# manual-review rubric — the classifier does NOT match them. File evidence
+# comes exclusively from content_signals; editing positive_files does not
+# change classification.
 domain_id: cloud_devops
 display_name: Cloud and DevOps
 subdomains:
@@ -22,6 +32,8 @@ subdomains:
       - crossplane
       - arm-templates
       - provisioning
+      - packer
+      - vagrant
     positive_terms:
       - terraform
       - terragrunt
@@ -37,6 +49,9 @@ subdomains:
       - cdk construct
       - state backend
       - drift detection
+      - iac
+      - packer
+      - terraform state
     positive_files:
       - "*.tf"
       - "*.tfvars"
@@ -45,6 +60,9 @@ subdomains:
       - "template.yaml"
       - "cdk.json"
       - "*.bicep"
+    language_hints:
+      - hcl
+      - bicep
     negative_terms:
       - tutorial
       - interview questions
@@ -73,6 +91,11 @@ subdomains:
       - oci
       - container-runtime
       - buildah
+      - openshift
+      - rancher
+      - nomad
+      - docker-compose
+      - docker-swarm
     positive_terms:
       - kubernetes
       - container runtime
@@ -88,6 +111,10 @@ subdomains:
       - container image
       - oci image
       - k3s
+      - container orchestration
+      - docker compose
+      - openshift
+      - rancher
     positive_files:
       - Dockerfile
       - Containerfile
@@ -96,6 +123,8 @@ subdomains:
       - "kustomization.yaml"
       - "docker-compose.yml"
       - "compose.yaml"
+    language_hints:
+      - dockerfile
     negative_terms:
       - tutorial
       - docker for beginners
@@ -124,6 +153,12 @@ subdomains:
       - earthly
       - drone
       - developer-tools
+      - circleci
+      - buildkite
+      - travis-ci
+      - spinnaker
+      - semantic-release
+      - woodpecker-ci
     positive_terms:
       - continuous integration
       - continuous delivery
@@ -140,6 +175,12 @@ subdomains:
       - artifact registry
       - progressive delivery
       - canary deployment
+      - jenkins
+      - ci/cd
+      - build system
+      - circleci
+      - buildkite
+      - spinnaker
     positive_files:
       - ".github/workflows/*.yml"
       - ".github/workflows/*.yaml"
@@ -151,6 +192,8 @@ subdomains:
       - "Earthfile"
       - "WORKSPACE"
       - ".tekton/*.yaml"
+    content_signals:
+      - has_ci
     negative_terms:
       - tutorial
       - awesome list
@@ -178,6 +221,12 @@ subdomains:
       - apm
       - elastic-apm
       - fluentd
+      - zabbix
+      - nagios
+      - telegraf
+      - influxdb
+      - datadog
+      - netdata
     positive_terms:
       - observability
       - distributed tracing
@@ -193,6 +242,11 @@ subdomains:
       - service level objective
       - instrumentation
       - telemetry pipeline
+      - prometheus
+      - grafana
+      - jaeger
+      - error tracking
+      - log shipping
     positive_files:
       - "prometheus.yml"
       - "alertmanager.yml"
@@ -222,6 +276,8 @@ subdomains:
       - configuration-management
       - idempotency
       - inventory-management
+      - ansible-playbook
+      - saltstack-formula
     positive_terms:
       - configuration management
       - ansible playbook
@@ -236,6 +292,11 @@ subdomains:
       - idempotent provisioning
       - host inventory
       - desired state
+      - ansible
+      - puppet
+      - nixos
+      - salt formula
+      - puppet manifest
     positive_files:
       - "playbook.yml"
       - "site.yml"
@@ -246,6 +307,9 @@ subdomains:
       - "flake.nix"
       - "default.nix"
       - "Berksfile"
+    language_hints:
+      - puppet
+      - nix
     negative_terms:
       - dotfiles
       - tutorial
@@ -274,6 +338,12 @@ subdomains:
       - proxy
       - cni
       - dns
+      - consul
+      - coredns
+      - metallb
+      - kong
+      - caddy
+      - wireguard
     positive_terms:
       - service mesh
       - sidecar proxy
@@ -290,6 +360,11 @@ subdomains:
       - network policy
       - packet processing
       - reverse proxy
+      - proxy
+      - envoy proxy
+      - service discovery
+      - coredns
+      - wireguard
     positive_files:
       - "envoy.yaml"
       - "haproxy.cfg"
@@ -321,6 +396,12 @@ subdomains:
       - cloud-native
       - cloud-storage
       - multi-cloud
+      - amazon-web-services
+      - azure-functions
+      - google-cloud-platform
+      - cloudflare-workers
+      - digitalocean
+      - knative
     positive_terms:
       - cloud sdk
       - aws
@@ -337,6 +418,10 @@ subdomains:
       - managed service
       - cloud resource
       - multi-cloud
+      - azure functions
+      - knative
+      - s3 bucket
+      - cloud provider
     positive_files:
       - "serverless.yml"
       - "sam-template.yaml"
@@ -369,6 +454,10 @@ subdomains:
       - slo
       - resilience
       - self-healing
+      - chaos-monkey
+      - chaostoolkit
+      - oncall
+      - reliability-engineering
     positive_terms:
       - site reliability
       - incident response
@@ -384,6 +473,9 @@ subdomains:
       - toil reduction
       - graceful degradation
       - resilience testing
+      - sre
+      - high availability
+      - disaster recovery
     positive_files:
       - "runbooks/*.md"
       - "chaos/*.yaml"
