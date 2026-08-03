@@ -136,8 +136,11 @@ def build_repository_batch_query(
 #: Cache-busting version of the user query shape.
 USER_QUERY_VERSION = "user-enrichment-v1"
 
-#: GitHub logins: alphanumeric and single hyphens, no leading/trailing hyphen.
-_LOGIN_RE = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9]|-(?=[A-Za-z0-9])){0,38}$")
+#: GitHub logins: alphanumeric and hyphens. Legacy accounts may carry
+#: trailing/double hyphens (e.g. "def-"), so this is deliberately looser than
+#: the modern signup rule; what matters here is GraphQL-injection safety
+#: (no quotes/backslashes can appear).
+_LOGIN_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9-]{0,38}$")
 
 
 @dataclass(frozen=True)

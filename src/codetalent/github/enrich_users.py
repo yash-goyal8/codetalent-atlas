@@ -165,6 +165,17 @@ def enrich_users(
     cache = ResponseCache(cache_dir)
 
     worklist = load_user_worklist(activity_path, qualified_path)
+    # Quarantine logins that would break query construction instead of
+    # crashing the run (defense in depth alongside the loose builder regex).
+    from codetalent.github.query_builder import _LOGIN_RE
+
+    invalid = [login for login in worklist if not _LOGIN_RE.match(login)]
+    if invalid:
+        checkpoint.record_batch(
+            [], dict.fromkeys(invalid, "INVALID_LOGIN"), batch_size=checkpoint.batch_size
+        )
+        log.step("worklist", "quarantined-invalid", records_in=len(invalid))
+        worklist = [login for login in worklist if _LOGIN_RE.match(login)]
     completed = checkpoint.completed_ids()
     pending = [login for login in worklist if login not in completed]
     already_completed = len(worklist) - len(pending)
