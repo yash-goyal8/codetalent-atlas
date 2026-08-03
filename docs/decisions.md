@@ -97,3 +97,37 @@ The project now pins uv-managed CPython 3.12 (`.python-version` committed) after
 ### B-10: Ledger accounting corrections are evidence-based only
 
 `reports/query_usage.csv` is append-only in normal operation. Two manual adjustments were made, both anchored to verifiable job statistics: (1) four diagnostic probe queries run via the `bq` CLI were appended with their exact `totalBytesProcessed` from job metadata; (2) one runner error row for a 409 "Already Exists" rejection was corrected from its conservative estimate to the verified 0 bytes (the job has no byte statistics — it was rejected before scanning). All other rows are written by the runner at execution time.
+
+## 2026-08-03 — Milestones C–E (enrichment, classification, locations, scoring)
+
+### C-01: Bulk enrichment omits content signals; qualified shortlist gets a second pass
+
+Live measurement showed 25-repo batches with eight git `object()` lookups each taking ~30s server-side (and 50-repo batches failing outright), while the spec reserves content checks for "a small shortlist only". The bulk pass fetches metadata-only (~5-9s per 25-repo batch, content fields null); a second full-query pass covers exactly the classified-qualified repositories. Query versions keep the two cache namespaces separate.
+
+### C-02: Whole-batch GraphQL failures bisect instead of quarantining
+
+A failing multi-repo request usually means one poison repository or a batch-shape limit, not 25 bad repositories. Failed batches are requeued at half size down to singletons; only failing singletons are quarantined and counted toward the 1% error-rate breaker. Batch growth is capped at 25 aliases.
+
+### C-03: Qualified = auto-accepted only (639); borderline is a review queue
+
+The 150-repo validation gate passed (92% precision, 4% false inclusion — rubric and labels committed). The 790 borderline repositories (13/50 sampled judged relevant) are documented review inventory for closing the gap to the 1,000+ aspiration, not silently promoted.
+
+### D-01: Legacy GitHub logins accepted loosely; invalid logins quarantined
+
+Trailing-hyphen logins (e.g. "def-") predate modern signup rules and crashed strict validation; the builder regex now admits any hyphen placement (injection safety only requires excluding quotes/backslashes) and the orchestrator quarantines rather than crashes on anything else.
+
+### D-02: GraphQL processes are serialized
+
+Running repository and user enrichment concurrently tripped GitHub's secondary rate limit despite low per-process rates. One GraphQL process at a time; the stop-and-preserve-checkpoint behavior worked as designed.
+
+### D-03: Location-review fixes landed before freezing
+
+The 500-string review caught three honest-ambiguity defects, fixed and re-run before the gate was recorded: bare region/state names now resolve before city dominance ("Virginia" ≠ the South African town), a US-state name before a US anchor is a region statement ("Maryland, USA" ≠ Maryland City), and the "Bay Area" alias claims a region, not San Francisco. Bare two-letter codes that are both ISO countries and US states (DE, CA, IN…) are low-confidence by design.
+
+### E-01: Recommendation ordering is tier-first
+
+The memo and the published recommendations list "promising"-tier locations (both scores ≥60) before any higher-opportunity/lower-confidence location, per the spec rule that high opportunity with low confidence must not lead recommendations. Consequence: DE/IN/CN lead; the US (opportunity #1, confidence 58.1) is a documented conditional.
+
+### E-02: No priority-tier location at pilot scale is reported as-is
+
+Maximum opportunity is 71.0 against the 75 threshold. Thresholds were not tuned to manufacture a priority location; the twelve-month expansion is the legitimate test.

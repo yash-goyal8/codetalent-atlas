@@ -373,8 +373,14 @@ def build_web_data(
         },
     )
 
+    # Recommendation order: tier first (priority > promising > monitor), then
+    # rank — a high-opportunity/low-confidence location must never outrank a
+    # balanced one in the memo (spec 17: confidence gates recommendations).
+    tier_order = {"priority": 0, "promising": 1, "monitor": 2}
+    rankable = [r for r in country_rows if r["recommendationTier"] in tier_order]
+    rankable.sort(key=lambda r: (tier_order[r["recommendationTier"]], r["rank"]))
     rec_items = []
-    for row in [r for r in country_rows if r["recommendationTier"] != "insufficient_data"][:3]:
+    for row in rankable[:3]:
         components = {
             "expert supply": row["expertSupplyScore"],
             "expert quality": row["expertQualityScore"],

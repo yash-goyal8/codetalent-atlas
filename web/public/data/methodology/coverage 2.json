@@ -1,0 +1,262 @@
+{
+ "confidenceDistribution": [
+  {
+   "count": 289,
+   "level": "low"
+  },
+  {
+   "count": 1703,
+   "level": "medium"
+  },
+  {
+   "count": 2901,
+   "level": "high"
+  },
+  {
+   "count": 5607,
+   "level": "unusable"
+  }
+ ],
+ "locatedShareByCountry": [
+  {
+   "countryCode": "US",
+   "expertCount": 1137,
+   "name": "United States",
+   "share": 0.247
+  },
+  {
+   "countryCode": "DE",
+   "expertCount": 498,
+   "name": "Germany",
+   "share": 0.1082
+  },
+  {
+   "countryCode": "IN",
+   "expertCount": 481,
+   "name": "India",
+   "share": 0.1045
+  },
+  {
+   "countryCode": "GB",
+   "expertCount": 249,
+   "name": "United Kingdom",
+   "share": 0.0541
+  },
+  {
+   "countryCode": "CN",
+   "expertCount": 241,
+   "name": "China",
+   "share": 0.0523
+  },
+  {
+   "countryCode": "CA",
+   "expertCount": 207,
+   "name": "Canada",
+   "share": 0.045
+  },
+  {
+   "countryCode": "FR",
+   "expertCount": 204,
+   "name": "France",
+   "share": 0.0443
+  },
+  {
+   "countryCode": "AU",
+   "expertCount": 133,
+   "name": "Australia",
+   "share": 0.0289
+  },
+  {
+   "countryCode": "JP",
+   "expertCount": 99,
+   "name": "Japan",
+   "share": 0.0215
+  },
+  {
+   "countryCode": "ES",
+   "expertCount": 89,
+   "name": "Spain",
+   "share": 0.0193
+  },
+  {
+   "countryCode": "PL",
+   "expertCount": 89,
+   "name": "Poland",
+   "share": 0.0193
+  },
+  {
+   "countryCode": "NL",
+   "expertCount": 85,
+   "name": "Netherlands",
+   "share": 0.0185
+  },
+  {
+   "countryCode": "IT",
+   "expertCount": 75,
+   "name": "Italy",
+   "share": 0.0163
+  },
+  {
+   "countryCode": "BR",
+   "expertCount": 72,
+   "name": "Brazil",
+   "share": 0.0156
+  },
+  {
+   "countryCode": "IE",
+   "expertCount": 59,
+   "name": "Ireland",
+   "share": 0.0128
+  },
+  {
+   "countryCode": "CH",
+   "expertCount": 58,
+   "name": "Switzerland",
+   "share": 0.0126
+  },
+  {
+   "countryCode": "CZ",
+   "expertCount": 55,
+   "name": "Czechia",
+   "share": 0.0119
+  },
+  {
+   "countryCode": "IL",
+   "expertCount": 53,
+   "name": "Israel",
+   "share": 0.0115
+  },
+  {
+   "countryCode": "AT",
+   "expertCount": 48,
+   "name": "Austria",
+   "share": 0.0104
+  },
+  {
+   "countryCode": "SE",
+   "expertCount": 48,
+   "name": "Sweden",
+   "share": 0.0104
+  },
+  {
+   "countryCode": "SG",
+   "expertCount": 36,
+   "name": "Singapore",
+   "share": 0.0078
+  },
+  {
+   "countryCode": "KR",
+   "expertCount": 34,
+   "name": "Korea, Republic of",
+   "share": 0.0074
+  },
+  {
+   "countryCode": "TW",
+   "expertCount": 34,
+   "name": "Taiwan, Province of China",
+   "share": 0.0074
+  },
+  {
+   "countryCode": "NZ",
+   "expertCount": 33,
+   "name": "New Zealand",
+   "share": 0.0072
+  },
+  {
+   "countryCode": "FI",
+   "expertCount": 29,
+   "name": "Finland",
+   "share": 0.0063
+  },
+  {
+   "countryCode": "DK",
+   "expertCount": 24,
+   "name": "Denmark",
+   "share": 0.0052
+  },
+  {
+   "countryCode": "PT",
+   "expertCount": 24,
+   "name": "Portugal",
+   "share": 0.0052
+  },
+  {
+   "countryCode": "RU",
+   "expertCount": 22,
+   "name": "Russian Federation",
+   "share": 0.0048
+  },
+  {
+   "countryCode": "UA",
+   "expertCount": 21,
+   "name": "Ukraine",
+   "share": 0.0046
+  },
+  {
+   "countryCode": "TR",
+   "expertCount": 20,
+   "name": "Türkiye",
+   "share": 0.0043
+  },
+  {
+   "countryCode": "BE",
+   "expertCount": 19,
+   "name": "Belgium",
+   "share": 0.0041
+  },
+  {
+   "countryCode": "NO",
+   "expertCount": 19,
+   "name": "Norway",
+   "share": 0.0041
+  },
+  {
+   "countryCode": "AR",
+   "expertCount": 17,
+   "name": "Argentina",
+   "share": 0.0037
+  },
+  {
+   "countryCode": "IR",
+   "expertCount": 17,
+   "name": "Iran, Islamic Republic of",
+   "share": 0.0037
+  },
+  {
+   "countryCode": "RO",
+   "expertCount": 17,
+   "name": "Romania",
+   "share": 0.0037
+  },
+  {
+   "countryCode": "BG",
+   "expertCount": 16,
+   "name": "Bulgaria",
+   "share": 0.0035
+  },
+  {
+   "countryCode": "HU",
+   "expertCount": 16,
+   "name": "Hungary",
+   "share": 0.0035
+  },
+  {
+   "countryCode": "GR",
+   "expertCount": 13,
+   "name": "Greece",
+   "share": 0.0028
+  },
+  {
+   "countryCode": "EG",
+   "expertCount": 12,
+   "name": "Egypt",
+   "share": 0.0026
+  },
+  {
+   "countryCode": "NG",
+   "expertCount": 12,
+   "name": "Nigeria",
+   "share": 0.0026
+  }
+ ]
+}

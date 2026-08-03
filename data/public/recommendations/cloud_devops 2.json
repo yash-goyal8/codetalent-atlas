@@ -1,6 +1,21 @@
 {
- "generatedAt": "2026-08-03T21:09:19Z",
+ "generatedAt": "2026-08-03T21:07:24Z",
  "items": [
+  {
+   "confidenceScore": 58.065,
+   "geoId": "US",
+   "name": "United States",
+   "observablePool": 684,
+   "opportunityScore": 67.1994,
+   "rank": 1,
+   "risk": "Weakest component: expert quality (41.6); located-profile coverage 46%. Momentum provisional (three-month pilot).",
+   "subdomains": [
+    "Cloud Platforms and SDKs",
+    "Containers and Orchestration"
+   ],
+   "suggestedPilot": "Run a small sourcing pilot targeting Cloud Platforms and SDKs and Containers and Orchestration contributors; validate response and qualification rates before scaling.",
+   "whyNow": "United States ranks #1 with opportunity 67.2 and confidence 58.1; strongest component: expert supply (100.0). 684 observable experts across 301 qualified repositories and 180 organizations."
+  },
   {
    "confidenceScore": 70.6383,
    "geoId": "DE",
@@ -30,21 +45,6 @@
    ],
    "suggestedPilot": "Run a small sourcing pilot targeting Containers and Orchestration and Observability and Monitoring contributors; validate response and qualification rates before scaling.",
    "whyNow": "India ranks #3 with opportunity 60.3 and confidence 76.8; strongest component: ecosystem breadth (96.1). 245 observable experts across 152 qualified repositories and 95 organizations."
-  },
-  {
-   "confidenceScore": 68.0636,
-   "geoId": "CN",
-   "name": "China",
-   "observablePool": 142,
-   "opportunityScore": 60.0371,
-   "rank": 4,
-   "risk": "Weakest component: expert quality (42.8); located-profile coverage 46%. Momentum provisional (three-month pilot).",
-   "subdomains": [
-    "Cloud Platforms and SDKs",
-    "Observability and Monitoring"
-   ],
-   "suggestedPilot": "Run a small sourcing pilot targeting Cloud Platforms and SDKs and Observability and Monitoring contributors; validate response and qualification rates before scaling.",
-   "whyNow": "China ranks #4 with opportunity 60.0 and confidence 68.1; strongest component: expert supply (82.8). 142 observable experts across 87 qualified repositories and 57 organizations."
   }
  ]
 }
