@@ -1226,3 +1226,6 @@ timestamp,resource_type,batch_size,query_cost,remaining,reset_at,status,retries,
 2026-08-03T21:08:38Z,graphql_repositories,12,1,4063,2026-08-03T21:53:04+00:00,success,0,false
 2026-08-03T21:10:08Z,graphql_repositories,25,0,,,error,5,false
 2026-08-03T21:10:16Z,graphql_repositories,12,1,3996,2026-08-03T21:53:04+00:00,success,0,false
+2026-08-03T21:11:20Z,graphql_repositories,25,1,3951,2026-08-03T21:53:04+00:00,success,4,false
+2026-08-03T21:12:44Z,graphql_repositories,25,0,,,error,5,false
+2026-08-03T21:12:52Z,graphql_repositories,12,1,3882,2026-08-03T21:53:04+00:00,success,0,false
