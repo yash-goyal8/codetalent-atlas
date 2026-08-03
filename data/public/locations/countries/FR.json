@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 47.7586,
   "ecosystemBreadthScore": 85.665,
-  "expertQualityScore": 40.3118,
-  "expertSupplyScore": 78.1754,
+  "expertQualityScore": 40.7318,
+  "expertSupplyScore": 78.2081,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 85.665,
-  "expertQualityScore": 40.3118,
-  "expertSupplyScore": 78.1754,
+  "expertQualityScore": 40.7318,
+  "expertSupplyScore": 78.2081,
   "geoId": "FR",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.681,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.1724,
   "name": "France",
   "observableExpertCount": 116,
-  "opportunityScore": 57.6852,
+  "opportunityScore": 57.8227,
   "organizationCount": 56,
   "qualifiedRepoCount": 66,
   "rank": 7,
@@ -66,7 +66,7 @@
    "cloud_platforms_sdks",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 48.928
+  "weightedExpertCount": 49.5843
  },
  "subdomainMix": [
   {

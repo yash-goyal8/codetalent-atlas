@@ -7,7 +7,7 @@
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 5.8496,
   "expertQualityScore": 18.7038,
-  "expertSupplyScore": 1.2645,
+  "expertSupplyScore": 1.1354,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -28,7 +28,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 5.8496,
   "expertQualityScore": 18.7038,
-  "expertSupplyScore": 1.2645,
+  "expertSupplyScore": 1.1354,
   "geoId": "JP-osaka",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,10 +38,10 @@
   "multiRepoExpertShare": 0.0,
   "name": "Osaka",
   "observableExpertCount": 1,
-  "opportunityScore": 11.6387,
+  "opportunityScore": 11.5935,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 241,
+  "rank": 242,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cloud_platforms_sdks",

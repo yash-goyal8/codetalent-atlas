@@ -13,8 +13,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 23.953,
-  "expertSupplyScore": 1.2319,
+  "expertQualityScore": 24.373,
+  "expertSupplyScore": 1.2263,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -34,8 +34,8 @@
   "countryCode": "DO",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 23.953,
-  "expertSupplyScore": 1.2319,
+  "expertQualityScore": 24.373,
+  "expertSupplyScore": 1.2263,
   "geoId": "DO",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -45,7 +45,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Dominican Republic",
   "observableExpertCount": 1,
-  "opportunityScore": 12.6171,
+  "opportunityScore": 12.7411,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 81,
@@ -53,7 +53,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.3422
+  "weightedExpertCount": 0.3482
  },
  "subdomainMix": [
   {

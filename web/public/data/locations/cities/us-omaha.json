@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 35.6962,
-  "expertSupplyScore": 4.4033,
+  "expertQualityScore": 36.1162,
+  "expertSupplyScore": 4.3379,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 35.6962,
-  "expertSupplyScore": 4.4033,
+  "expertQualityScore": 36.1162,
+  "expertSupplyScore": 4.3379,
   "geoId": "US-omaha",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Omaha",
   "observableExpertCount": 1,
-  "opportunityScore": 26.25,
+  "opportunityScore": 26.3531,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 126,
+  "rank": 127,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.5099
+  "weightedExpertCount": 0.5159
  },
  "subdomainMix": []
 }

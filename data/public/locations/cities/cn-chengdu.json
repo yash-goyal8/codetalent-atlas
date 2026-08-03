@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 14.5423,
-  "expertQualityScore": 56.2855,
-  "expertSupplyScore": 13.351,
+  "expertQualityScore": 56.7055,
+  "expertSupplyScore": 13.5448,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 14.5423,
-  "expertQualityScore": 56.2855,
-  "expertSupplyScore": 13.351,
+  "expertQualityScore": 56.7055,
+  "expertSupplyScore": 13.5448,
   "geoId": "CN-chengdu",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Chengdu",
   "observableExpertCount": 2,
-  "opportunityScore": 30.0127,
+  "opportunityScore": 30.2066,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 116,
+  "rank": 114,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.7999
+  "weightedExpertCount": 0.8149
  },
  "subdomainMix": []
 }

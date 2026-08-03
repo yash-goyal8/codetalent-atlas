@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 28.3767,
-  "expertQualityScore": 34.2468,
-  "expertSupplyScore": 17.7062,
+  "expertQualityScore": 41.9568,
+  "expertSupplyScore": 17.8317,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "HK",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 28.3767,
-  "expertQualityScore": 34.2468,
-  "expertSupplyScore": 17.7062,
+  "expertQualityScore": 41.9568,
+  "expertSupplyScore": 17.8317,
   "geoId": "HK",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,16 +55,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Hong Kong",
   "observableExpertCount": 4,
-  "opportunityScore": 26.3089,
+  "opportunityScore": 28.6658,
   "organizationCount": 4,
   "qualifiedRepoCount": 4,
-  "rank": 61,
+  "rank": 58,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 1.5551
+  "weightedExpertCount": 1.5821
  },
  "subdomainMix": [
   {

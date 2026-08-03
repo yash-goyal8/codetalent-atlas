@@ -151,6 +151,37 @@ describe("fetchJson", () => {
     expect(result.status).toBe("error");
   });
 
+  it("treats a 200 text/html response as missing (SPA-fallback hosts)", async () => {
+    // vite preview / Cloudflare Pages answer missing .json paths with
+    // 200 + index.html — that is the file being absent, not an error.
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue(
+        new Response("<!doctype html><html><body>app</body></html>", {
+          headers: { "Content-Type": "text/html; charset=utf-8" },
+        }),
+      ),
+    );
+
+    expect(await fetchJson("/data/x.json")).toEqual({ status: "missing" });
+  });
+
+  it("keeps genuine parse failures of JSON-typed responses as errors", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue(
+        new Response("{broken", {
+          headers: { "Content-Type": "application/json" },
+        }),
+      ),
+    );
+
+    expect(await fetchJson("/data/x.json")).toEqual({
+      status: "error",
+      message: "Invalid JSON in /data/x.json",
+    });
+  });
+
   it("shares one in-flight request for concurrent calls", async () => {
     const fetchMock = vi.fn().mockResolvedValue(jsonResponse({ n: 2 }));
     vi.stubGlobal("fetch", fetchMock);
@@ -172,7 +203,21 @@ describe("locationDetailPath", () => {
     expect(locationDetailPath("US")).toBe("/data/locations/countries/US.json");
   });
 
-  it("maps city geoIds to locations/cities/<slug>.json", () => {
+  it("maps pipeline city geoIds (CC-slug) to locations/cities/<slug>.json", () => {
+    // Real emitted id shape: "GB-london" -> gb-london.json.
+    expect(locationDetailPath("GB-london")).toBe(
+      "/data/locations/cities/gb-london.json",
+    );
+    expect(locationDetailPath("US-san-francisco")).toBe(
+      "/data/locations/cities/us-san-francisco.json",
+    );
+    // Slugs may carry non-ASCII characters ("BR-são-paulo").
+    expect(locationDetailPath("BR-são-paulo")).toBe(
+      "/data/locations/cities/br-são-paulo.json",
+    );
+  });
+
+  it("still accepts the draft-contract CC/slug city format", () => {
     expect(locationDetailPath("US/san-francisco")).toBe(
       "/data/locations/cities/us-san-francisco.json",
     );

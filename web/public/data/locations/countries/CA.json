@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 48.8525,
   "ecosystemBreadthScore": 86.9241,
-  "expertQualityScore": 43.3672,
-  "expertSupplyScore": 79.9436,
+  "expertQualityScore": 43.7872,
+  "expertSupplyScore": 79.9685,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "CA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 86.9241,
-  "expertQualityScore": 43.3672,
-  "expertSupplyScore": 79.9436,
+  "expertQualityScore": 43.7872,
+  "expertSupplyScore": 79.9685,
   "geoId": "CA",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.6639,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.1885,
   "name": "Canada",
   "observableExpertCount": 122,
-  "opportunityScore": 59.5107,
+  "opportunityScore": 59.6454,
   "organizationCount": 55,
   "qualifiedRepoCount": 92,
   "rank": 6,
@@ -66,7 +66,7 @@
    "service_mesh_networking",
    "sre_reliability"
   ],
-  "weightedExpertCount": 53.4619
+  "weightedExpertCount": 54.1679
  },
  "subdomainMix": [
   {

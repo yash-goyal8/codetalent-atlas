@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.2625,
-  "expertSupplyScore": 2.6934,
+  "expertQualityScore": 26.6825,
+  "expertSupplyScore": 2.6371,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.2625,
-  "expertSupplyScore": 2.6934,
+  "expertQualityScore": 26.6825,
+  "expertSupplyScore": 2.6371,
   "geoId": "IN-gwalior",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Gwalior",
   "observableExpertCount": 1,
-  "opportunityScore": 20.3214,
+  "opportunityScore": 20.4277,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 182,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3752
+  "weightedExpertCount": 0.3812
  },
  "subdomainMix": []
 }

@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 48.8235,
   "ecosystemBreadthScore": 58.2122,
-  "expertQualityScore": 35.602,
-  "expertSupplyScore": 40.3586,
+  "expertQualityScore": 36.022,
+  "expertSupplyScore": 40.4799,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "FI",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 58.2122,
-  "expertQualityScore": 35.602,
-  "expertSupplyScore": 40.3586,
+  "expertQualityScore": 36.022,
+  "expertSupplyScore": 40.4799,
   "geoId": "FI",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8235,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.1176,
   "name": "Finland",
   "observableExpertCount": 17,
-  "opportunityScore": 40.4509,
+  "opportunityScore": 40.6193,
   "organizationCount": 12,
   "qualifiedRepoCount": 14,
   "rank": 31,
@@ -67,7 +67,7 @@
    "service_mesh_networking",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 6.7806
+  "weightedExpertCount": 6.8821
  },
  "subdomainMix": [
   {

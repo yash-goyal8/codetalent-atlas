@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 24.3818,
-  "expertSupplyScore": 2.343,
+  "expertQualityScore": 24.8018,
+  "expertSupplyScore": 2.2885,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 24.3818,
-  "expertSupplyScore": 2.343,
+  "expertQualityScore": 24.8018,
+  "expertSupplyScore": 2.2885,
   "geoId": "DE-heilbronn",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Heilbronn",
   "observableExpertCount": 1,
-  "opportunityScore": 22.1346,
+  "opportunityScore": 22.2415,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 164,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3483
+  "weightedExpertCount": 0.3543
  },
  "subdomainMix": []
 }

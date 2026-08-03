@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 50.0,
   "ecosystemBreadthScore": 13.2946,
-  "expertQualityScore": 63.9333,
-  "expertSupplyScore": 8.4982,
+  "expertQualityScore": 64.3533,
+  "expertSupplyScore": 8.5723,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "NP",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 13.2946,
-  "expertQualityScore": 63.9333,
-  "expertSupplyScore": 8.4982,
+  "expertQualityScore": 64.3533,
+  "expertSupplyScore": 8.5723,
   "geoId": "NP",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.5,
   "name": "Nepal",
   "observableExpertCount": 2,
-  "opportunityScore": 33.4838,
+  "opportunityScore": 33.6357,
   "organizationCount": 2,
   "qualifiedRepoCount": 3,
   "rank": 47,
@@ -64,7 +64,7 @@
    "service_mesh_networking",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.9093
+  "weightedExpertCount": 0.9213
  },
  "subdomainMix": [
   {

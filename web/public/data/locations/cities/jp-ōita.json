@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 30.4295,
-  "expertSupplyScore": 3.4584,
+  "expertQualityScore": 30.8495,
+  "expertSupplyScore": 3.398,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "JP",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 30.4295,
-  "expertSupplyScore": 3.4584,
+  "expertQualityScore": 30.8495,
+  "expertSupplyScore": 3.398,
   "geoId": "JP-ōita",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Ōita",
   "observableExpertCount": 1,
-  "opportunityScore": 21.8393,
+  "opportunityScore": 21.9442,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 168,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.4347
+  "weightedExpertCount": 0.4407
  },
  "subdomainMix": []
 }

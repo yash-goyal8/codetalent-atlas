@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 72.7932,
-  "expertSupplyScore": 5.64,
+  "expertQualityScore": 73.4232,
+  "expertSupplyScore": 5.6038,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 72.7932,
-  "expertSupplyScore": 5.64,
+  "expertQualityScore": 73.4232,
+  "expertSupplyScore": 5.6038,
   "geoId": "IE-lucan",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Lucan",
   "observableExpertCount": 1,
-  "opportunityScore": 33.312,
+  "opportunityScore": 33.4883,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 103,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.6113
+  "weightedExpertCount": 0.6203
  },
  "subdomainMix": []
 }

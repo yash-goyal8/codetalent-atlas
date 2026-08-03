@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 31.3115,
-  "expertSupplyScore": 8.8927,
+  "expertQualityScore": 31.7315,
+  "expertSupplyScore": 8.8696,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "JP",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 31.3115,
-  "expertSupplyScore": 8.8927,
+  "expertQualityScore": 31.7315,
+  "expertSupplyScore": 8.8696,
   "geoId": "JP-kyoto",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Kyoto",
   "observableExpertCount": 1,
-  "opportunityScore": 30.4337,
+  "opportunityScore": 30.5516,
   "organizationCount": 1,
   "qualifiedRepoCount": 2,
   "rank": 113,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.4473
+  "weightedExpertCount": 0.4533
  },
  "subdomainMix": []
 }

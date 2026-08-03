@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 69.5921,
-  "expertSupplyScore": 11.4077,
+  "expertQualityScore": 70.0121,
+  "expertSupplyScore": 11.3677,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "ZA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 69.5921,
-  "expertSupplyScore": 11.4077,
+  "expertQualityScore": 70.0121,
+  "expertSupplyScore": 11.3677,
   "geoId": "ZA-cape-town",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Cape Town",
   "observableExpertCount": 1,
-  "opportunityScore": 45.2981,
+  "opportunityScore": 45.4101,
   "organizationCount": 1,
   "qualifiedRepoCount": 2,
   "rank": 40,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.5656
+  "weightedExpertCount": 0.5716
  },
  "subdomainMix": []
 }

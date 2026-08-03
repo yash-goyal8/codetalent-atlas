@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 20.7326,
-  "expertQualityScore": 20.0563,
-  "expertSupplyScore": 11.0378,
+  "expertQualityScore": 20.4763,
+  "expertSupplyScore": 11.0621,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DK",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 20.7326,
-  "expertQualityScore": 20.0563,
-  "expertSupplyScore": 11.0378,
+  "expertQualityScore": 20.4763,
+  "expertSupplyScore": 11.0621,
   "geoId": "DK-copenhagen",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Copenhagen",
   "observableExpertCount": 2,
-  "opportunityScore": 14.4534,
+  "opportunityScore": 14.5879,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 230,
@@ -47,7 +47,7 @@
    "infrastructure_as_code",
    "configuration_management"
   ],
-  "weightedExpertCount": 0.5477
+  "weightedExpertCount": 0.5567
  },
  "subdomainMix": []
 }

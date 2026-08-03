@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 57.4286,
   "ecosystemBreadthScore": 74.0926,
-  "expertQualityScore": 42.6138,
-  "expertSupplyScore": 55.6986,
+  "expertQualityScore": 42.9588,
+  "expertSupplyScore": 55.8202,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "IL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 74.0926,
-  "expertQualityScore": 42.6138,
-  "expertSupplyScore": 55.6986,
+  "expertQualityScore": 42.9588,
+  "expertSupplyScore": 55.8202,
   "geoId": "IL",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.9429,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.2571,
   "name": "Israel",
   "observableExpertCount": 35,
-  "opportunityScore": 50.8022,
+  "opportunityScore": 50.9482,
   "organizationCount": 27,
   "qualifiedRepoCount": 30,
   "rank": 12,
@@ -67,7 +67,7 @@
    "sre_reliability",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 15.5385
+  "weightedExpertCount": 15.785
  },
  "subdomainMix": [
   {

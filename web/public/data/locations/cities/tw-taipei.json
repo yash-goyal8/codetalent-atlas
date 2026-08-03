@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 42.8571,
   "ecosystemBreadthScore": 33.5184,
-  "expertQualityScore": 52.4597,
-  "expertSupplyScore": 45.5196,
+  "expertQualityScore": 52.8797,
+  "expertSupplyScore": 45.6181,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "TW",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 33.5184,
-  "expertQualityScore": 52.4597,
-  "expertSupplyScore": 45.5196,
+  "expertQualityScore": 52.8797,
+  "expertSupplyScore": 45.6181,
   "geoId": "TW-taipei",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Taipei",
   "observableExpertCount": 7,
-  "opportunityScore": 43.9502,
+  "opportunityScore": 44.1107,
   "organizationCount": 4,
   "qualifiedRepoCount": 4,
   "rank": 46,
@@ -47,7 +47,7 @@
    "cloud_platforms_sdks",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 2.9686
+  "weightedExpertCount": 3.0076
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 24.6057,
-  "expertSupplyScore": 2.3849,
+  "expertQualityScore": 24.8157,
+  "expertSupplyScore": 2.2911,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "RU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 24.6057,
-  "expertSupplyScore": 2.3849,
+  "expertQualityScore": 24.8157,
+  "expertSupplyScore": 2.2911,
   "geoId": "RU-saratov",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Saratov",
   "observableExpertCount": 1,
-  "opportunityScore": 22.2164,
+  "opportunityScore": 22.2466,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 161,
+  "rank": 163,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.3515
+  "weightedExpertCount": 0.3545
  },
  "subdomainMix": []
 }

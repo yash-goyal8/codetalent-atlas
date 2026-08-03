@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 23.4179,
-  "expertSupplyScore": 2.1621,
+  "expertQualityScore": 23.8379,
+  "expertSupplyScore": 2.1086,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 23.4179,
-  "expertSupplyScore": 2.1621,
+  "expertQualityScore": 23.8379,
+  "expertSupplyScore": 2.1086,
   "geoId": "DE-braunschweig",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Braunschweig",
   "observableExpertCount": 1,
-  "opportunityScore": 12.7821,
+  "opportunityScore": 12.8894,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 235,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.3345
+  "weightedExpertCount": 0.3405
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 36.4502,
-  "expertSupplyScore": 4.5367,
+  "expertQualityScore": 36.8702,
+  "expertSupplyScore": 4.4705,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 36.4502,
-  "expertSupplyScore": 4.5367,
+  "expertQualityScore": 36.8702,
+  "expertSupplyScore": 4.4705,
   "geoId": "FR-villeurbanne",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Villeurbanne",
   "observableExpertCount": 1,
-  "opportunityScore": 26.5229,
+  "opportunityScore": 26.6257,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 124,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.5207
+  "weightedExpertCount": 0.5267
  },
  "subdomainMix": []
 }

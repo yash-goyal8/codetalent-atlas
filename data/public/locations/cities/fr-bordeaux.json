@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 10.1275,
-  "expertQualityScore": 36.4979,
-  "expertSupplyScore": 10.0785,
+  "expertQualityScore": 36.9181,
+  "expertSupplyScore": 10.0427,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 10.1275,
-  "expertQualityScore": 36.4979,
-  "expertSupplyScore": 10.0785,
+  "expertQualityScore": 36.9181,
+  "expertSupplyScore": 10.0427,
   "geoId": "FR-bordeaux",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 1.0,
   "name": "Bordeaux",
   "observableExpertCount": 1,
-  "opportunityScore": 35.4896,
+  "opportunityScore": 35.6031,
   "organizationCount": 1,
   "qualifiedRepoCount": 2,
-  "rank": 87,
+  "rank": 88,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "service_mesh_networking",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.5214
+  "weightedExpertCount": 0.5274
  },
  "subdomainMix": []
 }

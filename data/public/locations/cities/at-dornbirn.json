@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 75.3479,
-  "expertSupplyScore": 6.0753,
+  "expertQualityScore": 75.7679,
+  "expertSupplyScore": 6.0011,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 75.3479,
-  "expertSupplyScore": 6.0753,
+  "expertQualityScore": 75.7679,
+  "expertSupplyScore": 6.0011,
   "geoId": "AT-dornbirn",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Dornbirn",
   "observableExpertCount": 1,
-  "opportunityScore": 38.7307,
+  "opportunityScore": 38.8307,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 65,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.6478
+  "weightedExpertCount": 0.6538
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 67.1799,
-  "expertSupplyScore": 4.6653,
+  "expertQualityScore": 67.3899,
+  "expertSupplyScore": 4.5617,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "ES",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 67.1799,
-  "expertSupplyScore": 4.6653,
+  "expertQualityScore": 67.3899,
+  "expertSupplyScore": 4.5617,
   "geoId": "ES-málaga",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Málaga",
   "observableExpertCount": 1,
-  "opportunityScore": 33.2868,
+  "opportunityScore": 33.3136,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 104,
+  "rank": 105,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.5311
+  "weightedExpertCount": 0.5341
  },
  "subdomainMix": []
 }

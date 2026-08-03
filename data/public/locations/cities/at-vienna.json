@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 43.3333,
   "ecosystemBreadthScore": 40.3487,
-  "expertQualityScore": 35.8232,
-  "expertSupplyScore": 23.5067,
+  "expertQualityScore": 36.2432,
+  "expertSupplyScore": 23.6359,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 40.3487,
-  "expertQualityScore": 35.8232,
-  "expertSupplyScore": 23.5067,
+  "expertQualityScore": 36.2432,
+  "expertSupplyScore": 23.6359,
   "geoId": "AT-vienna",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,17 +38,17 @@
   "multiRepoExpertShare": 0.3333,
   "name": "Vienna",
   "observableExpertCount": 3,
-  "opportunityScore": 32.0092,
+  "opportunityScore": 32.1804,
   "organizationCount": 3,
   "qualifiedRepoCount": 5,
-  "rank": 108,
+  "rank": 107,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring",
    "service_mesh_networking",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 1.0085
+  "weightedExpertCount": 1.0265
  },
  "subdomainMix": []
 }

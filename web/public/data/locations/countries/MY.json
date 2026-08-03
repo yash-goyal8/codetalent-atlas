@@ -19,7 +19,7 @@
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 27.2409,
-  "expertSupplyScore": 1.5654,
+  "expertSupplyScore": 1.5162,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -40,7 +40,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 27.2409,
-  "expertSupplyScore": 1.5654,
+  "expertSupplyScore": 1.5162,
   "geoId": "MY",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -50,7 +50,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Malaysia",
   "observableExpertCount": 1,
-  "opportunityScore": 15.7202,
+  "opportunityScore": 15.7029,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 76,

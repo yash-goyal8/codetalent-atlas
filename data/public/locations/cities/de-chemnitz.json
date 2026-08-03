@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 72.6782,
-  "expertSupplyScore": 5.6202,
+  "expertQualityScore": 73.3087,
+  "expertSupplyScore": 5.5843,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 72.6782,
-  "expertSupplyScore": 5.6202,
+  "expertQualityScore": 73.3087,
+  "expertSupplyScore": 5.5843,
   "geoId": "DE-chemnitz",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Chemnitz",
   "observableExpertCount": 1,
-  "opportunityScore": 37.7705,
+  "opportunityScore": 37.9471,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 66,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.6097
+  "weightedExpertCount": 0.6187
  },
  "subdomainMix": []
 }

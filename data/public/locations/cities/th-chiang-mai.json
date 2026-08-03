@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 23.544,
-  "expertQualityScore": 71.9302,
-  "expertSupplyScore": 12.6786,
+  "expertQualityScore": 72.4577,
+  "expertSupplyScore": 12.6679,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "TH",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 23.544,
-  "expertQualityScore": 71.9302,
-  "expertSupplyScore": 12.6786,
+  "expertQualityScore": 72.4577,
+  "expertSupplyScore": 12.6679,
   "geoId": "TH-chiang-mai",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Chiang Mai",
   "observableExpertCount": 1,
-  "opportunityScore": 48.371,
+  "opportunityScore": 48.5255,
   "organizationCount": 2,
   "qualifiedRepoCount": 3,
   "rank": 25,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.599
+  "weightedExpertCount": 0.6065
  },
  "subdomainMix": []
 }

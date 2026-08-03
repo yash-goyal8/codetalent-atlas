@@ -18,8 +18,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 23.1525,
-  "expertQualityScore": 12.252,
-  "expertSupplyScore": 3.5674,
+  "expertQualityScore": 12.882,
+  "expertSupplyScore": 3.7413,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -39,8 +39,8 @@
   "countryCode": "PK",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 23.1525,
-  "expertQualityScore": 12.252,
-  "expertSupplyScore": 3.5674,
+  "expertQualityScore": 12.882,
+  "expertSupplyScore": 3.7413,
   "geoId": "PK",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -50,7 +50,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Pakistan",
   "observableExpertCount": 2,
-  "opportunityScore": 12.2394,
+  "opportunityScore": 12.4893,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 83,
@@ -59,7 +59,7 @@
    "configuration_management",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.344
+  "weightedExpertCount": 0.362
  },
  "subdomainMix": [
   {

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 65.9993,
-  "expertQualityScore": 59.2442,
-  "expertSupplyScore": 57.8373,
+  "expertQualityScore": 59.6642,
+  "expertSupplyScore": 57.8648,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 65.9993,
-  "expertQualityScore": 59.2442,
-  "expertSupplyScore": 57.8373,
+  "expertQualityScore": 59.6642,
+  "expertSupplyScore": 57.8648,
   "geoId": "AU-sydney",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.375,
   "name": "Sydney",
   "observableExpertCount": 8,
-  "opportunityScore": 56.1162,
+  "opportunityScore": 56.2519,
   "organizationCount": 9,
   "qualifiedRepoCount": 10,
   "rank": 10,
@@ -50,7 +50,7 @@
    "observability_monitoring",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 4.0384
+  "weightedExpertCount": 4.0852
  },
  "subdomainMix": []
 }

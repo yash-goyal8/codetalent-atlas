@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 44.4444,
   "ecosystemBreadthScore": 48.3995,
-  "expertQualityScore": 37.7216,
-  "expertSupplyScore": 29.3465,
+  "expertQualityScore": 38.1416,
+  "expertSupplyScore": 29.551,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "BG",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 48.3995,
-  "expertQualityScore": 37.7216,
-  "expertSupplyScore": 29.3465,
+  "expertQualityScore": 38.1416,
+  "expertSupplyScore": 29.551,
   "geoId": "BG",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.1111,
   "name": "Bulgaria",
   "observableExpertCount": 9,
-  "opportunityScore": 35.5944,
+  "opportunityScore": 35.792,
   "organizationCount": 7,
   "qualifiedRepoCount": 8,
   "rank": 43,
@@ -67,7 +67,7 @@
    "service_mesh_networking",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 3.5281
+  "weightedExpertCount": 3.6001
  },
  "subdomainMix": [
   {

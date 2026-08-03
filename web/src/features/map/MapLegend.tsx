@@ -6,6 +6,8 @@ import { NO_DATA_FILL, SCORE_LAYER_LABELS, SEQUENTIAL_RAMP } from "./scale";
 export interface MapLegendProps {
   layer: ScoreLayer;
   level: GeoLevel;
+  /** True when polygon-less ranked territories render as point markers. */
+  hasMicrostates?: boolean;
   className?: string;
 }
 
@@ -15,12 +17,17 @@ export interface MapLegendProps {
  * confidence, near-transparent = no data). Real text, not color alone
  * (spec 19, accessibility).
  */
-export function MapLegend({ layer, level, className }: MapLegendProps) {
+export function MapLegend({
+  layer,
+  level,
+  hasMicrostates = false,
+  className,
+}: MapLegendProps) {
   const gradient = `linear-gradient(to right, ${SEQUENTIAL_RAMP.join(", ")})`;
   return (
     <div
       className={cn(
-        "max-w-56 rounded-md border border-border bg-surface-1/90 px-3 py-2 text-[11px] leading-4 text-secondary backdrop-blur",
+        "max-w-56 rounded-md border border-border bg-surface-1/90 px-3 py-2 text-xs leading-4 text-secondary backdrop-blur",
         className,
       )}
     >
@@ -59,6 +66,15 @@ export function MapLegend({ layer, level, className }: MapLegendProps) {
             <span className="inline-block size-3 rounded-full bg-accent/80" />
           </span>
           <span>City points sized by observable experts</span>
+        </div>
+      ) : null}
+      {hasMicrostates ? (
+        <div className="mt-1 flex items-center gap-1.5">
+          <span
+            aria-hidden="true"
+            className="inline-block size-2 shrink-0 rounded-full bg-accent/80"
+          />
+          <span>Points: territories too small for map polygons</span>
         </div>
       ) : null}
     </div>

@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 48.3333,
   "ecosystemBreadthScore": 63.4321,
-  "expertQualityScore": 35.4333,
-  "expertSupplyScore": 50.9491,
+  "expertQualityScore": 35.8533,
+  "expertSupplyScore": 51.0931,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "CZ",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 63.4321,
-  "expertQualityScore": 35.4333,
-  "expertSupplyScore": 50.9491,
+  "expertQualityScore": 35.8533,
+  "expertSupplyScore": 51.0931,
   "geoId": "CZ",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8667,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.2333,
   "name": "Czechia",
   "observableExpertCount": 30,
-  "opportunityScore": 44.5554,
+  "opportunityScore": 44.7318,
   "organizationCount": 18,
   "qualifiedRepoCount": 23,
   "rank": 17,
@@ -65,7 +65,7 @@
    "configuration_management",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 12.0949
+  "weightedExpertCount": 12.2973
  },
  "subdomainMix": [
   {

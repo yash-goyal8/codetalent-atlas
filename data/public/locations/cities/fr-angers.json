@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 18.5625,
-  "expertSupplyScore": 1.2373,
+  "expertQualityScore": 19.1925,
+  "expertSupplyScore": 1.2291,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 18.5625,
-  "expertSupplyScore": 1.2373,
+  "expertQualityScore": 19.1925,
+  "expertSupplyScore": 1.2291,
   "geoId": "FR-angers",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Angers",
   "observableExpertCount": 1,
-  "opportunityScore": 11.5868,
+  "opportunityScore": 11.7729,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 242,
+  "rank": 241,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.2652
+  "weightedExpertCount": 0.2742
  },
  "subdomainMix": []
 }

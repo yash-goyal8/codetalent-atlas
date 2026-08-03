@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.5793,
-  "expertSupplyScore": 2.7521,
+  "expertQualityScore": 27.2093,
+  "expertSupplyScore": 2.7342,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.5793,
-  "expertSupplyScore": 2.7521,
+  "expertQualityScore": 27.2093,
+  "expertSupplyScore": 2.7342,
   "geoId": "DE-paderborn",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Paderborn",
   "observableExpertCount": 1,
-  "opportunityScore": 18.437,
+  "opportunityScore": 18.6197,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 200,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3797
+  "weightedExpertCount": 0.3887
  },
  "subdomainMix": []
 }

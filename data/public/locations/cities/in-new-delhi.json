@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 40.0,
   "ecosystemBreadthScore": 26.6537,
-  "expertQualityScore": 31.5889,
-  "expertSupplyScore": 8.9798,
+  "expertQualityScore": 32.0089,
+  "expertSupplyScore": 8.9561,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 26.6537,
-  "expertQualityScore": 31.5889,
-  "expertSupplyScore": 8.9798,
+  "expertQualityScore": 32.0089,
+  "expertSupplyScore": 8.9561,
   "geoId": "IN-new-delhi",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "New Delhi",
   "observableExpertCount": 1,
-  "opportunityScore": 23.7849,
+  "opportunityScore": 23.9027,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 151,
@@ -47,7 +47,7 @@
    "containers_orchestration",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.4513
+  "weightedExpertCount": 0.4573
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 32.3077,
   "ecosystemBreadthScore": 69.2994,
-  "expertQualityScore": 29.5449,
-  "expertSupplyScore": 60.5419,
+  "expertQualityScore": 29.8462,
+  "expertSupplyScore": 60.8047,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "KR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 69.2994,
-  "expertQualityScore": 29.5449,
-  "expertSupplyScore": 60.5419,
+  "expertQualityScore": 29.8462,
+  "expertSupplyScore": 60.8047,
   "geoId": "KR-seoul",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.2308,
   "name": "Seoul",
   "observableExpertCount": 13,
-  "opportunityScore": 44.3292,
+  "opportunityScore": 44.5116,
   "organizationCount": 13,
   "qualifiedRepoCount": 16,
   "rank": 42,
@@ -50,7 +50,7 @@
    "cicd_developer_tooling",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 4.417
+  "weightedExpertCount": 4.5033
  },
  "subdomainMix": []
 }

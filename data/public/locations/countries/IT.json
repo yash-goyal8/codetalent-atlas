@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 47.0175,
   "ecosystemBreadthScore": 74.2837,
-  "expertQualityScore": 37.7955,
-  "expertSupplyScore": 63.5744,
+  "expertQualityScore": 38.2155,
+  "expertSupplyScore": 63.6812,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "IT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 74.2837,
-  "expertQualityScore": 37.7955,
-  "expertSupplyScore": 63.5744,
+  "expertQualityScore": 38.2155,
+  "expertSupplyScore": 63.6812,
   "geoId": "IT",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.9298,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.1228,
   "name": "Italy",
   "observableExpertCount": 57,
-  "opportunityScore": 50.5707,
+  "opportunityScore": 50.7341,
   "organizationCount": 33,
   "qualifiedRepoCount": 44,
   "rank": 14,
@@ -67,7 +67,7 @@
    "service_mesh_networking",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 23.3576
+  "weightedExpertCount": 23.7255
  },
  "subdomainMix": [
   {

@@ -7,7 +7,7 @@
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 34.3546,
-  "expertSupplyScore": 4.1649,
+  "expertSupplyScore": 4.0261,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -28,7 +28,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 34.3546,
-  "expertSupplyScore": 4.1649,
+  "expertSupplyScore": 4.0261,
   "geoId": "IT-lucca",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,10 +38,10 @@
   "multiRepoExpertShare": 0.0,
   "name": "Lucca",
   "observableExpertCount": 1,
-  "opportunityScore": 25.7641,
+  "opportunityScore": 25.7155,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 129,
+  "rank": 136,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cicd_developer_tooling"

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 35.3846,
   "ecosystemBreadthScore": 67.0507,
-  "expertQualityScore": 27.2274,
-  "expertSupplyScore": 61.0262,
+  "expertQualityScore": 27.8574,
+  "expertSupplyScore": 61.2378,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 67.0507,
-  "expertQualityScore": 27.2274,
-  "expertSupplyScore": 61.0262,
+  "expertQualityScore": 27.8574,
+  "expertSupplyScore": 61.2378,
   "geoId": "US-new-york",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,10 +38,10 @@
   "multiRepoExpertShare": 0.0769,
   "name": "New York",
   "observableExpertCount": 13,
-  "opportunityScore": 44.0402,
+  "opportunityScore": 44.3032,
   "organizationCount": 10,
   "qualifiedRepoCount": 11,
-  "rank": 44,
+  "rank": 43,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cloud_platforms_sdks",
@@ -50,7 +50,7 @@
    "service_mesh_networking",
    "configuration_management"
   ],
-  "weightedExpertCount": 4.4878
+  "weightedExpertCount": 4.5678
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 16.5889,
-  "expertSupplyScore": 0.8547,
+  "expertQualityScore": 17.0089,
+  "expertSupplyScore": 0.8084,
   "momentumScore": 75.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 16.5889,
-  "expertSupplyScore": 0.8547,
+  "expertQualityScore": 17.0089,
+  "expertSupplyScore": 0.8084,
   "geoId": "AR-rosario",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Rosario",
   "observableExpertCount": 1,
-  "opportunityScore": 12.7758,
+  "opportunityScore": 12.8856,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 236,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.237
+  "weightedExpertCount": 0.243
  },
  "subdomainMix": []
 }

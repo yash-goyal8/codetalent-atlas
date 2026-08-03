@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 37.6471,
   "ecosystemBreadthScore": 62.4757,
-  "expertQualityScore": 32.5313,
-  "expertSupplyScore": 38.8987,
+  "expertQualityScore": 32.8326,
+  "expertSupplyScore": 39.0875,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "KR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 62.4757,
-  "expertQualityScore": 32.5313,
-  "expertSupplyScore": 38.8987,
+  "expertQualityScore": 32.8326,
+  "expertSupplyScore": 39.0875,
   "geoId": "KR",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.2353,
   "name": "Korea, Republic of",
   "observableExpertCount": 17,
-  "opportunityScore": 37.7686,
+  "opportunityScore": 37.9251,
   "organizationCount": 17,
   "qualifiedRepoCount": 20,
   "rank": 39,
@@ -67,7 +67,7 @@
    "observability_monitoring",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 6.2417
+  "weightedExpertCount": 6.3595
  },
  "subdomainMix": [
   {

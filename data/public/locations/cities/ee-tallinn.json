@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 40.0,
   "ecosystemBreadthScore": 40.7893,
-  "expertQualityScore": 57.1878,
-  "expertSupplyScore": 31.9693,
+  "expertQualityScore": 57.3978,
+  "expertSupplyScore": 31.977,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "EE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 40.7893,
-  "expertQualityScore": 57.1878,
-  "expertSupplyScore": 31.9693,
+  "expertQualityScore": 57.3978,
+  "expertSupplyScore": 31.977,
   "geoId": "EE-tallinn",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Tallinn",
   "observableExpertCount": 3,
-  "opportunityScore": 43.4245,
+  "opportunityScore": 43.4902,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
   "rank": 49,
@@ -50,7 +50,7 @@
    "containers_orchestration",
    "configuration_management"
   ],
-  "weightedExpertCount": 1.5315
+  "weightedExpertCount": 1.5495
  },
  "subdomainMix": []
 }

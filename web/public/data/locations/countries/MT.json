@@ -18,8 +18,8 @@
  "components": {
   "collaborationDepthScore": 50.0,
   "ecosystemBreadthScore": 24.0005,
-  "expertQualityScore": 26.3101,
-  "expertSupplyScore": 8.2686,
+  "expertQualityScore": 26.7301,
+  "expertSupplyScore": 8.2689,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -39,8 +39,8 @@
   "countryCode": "MT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 24.0005,
-  "expertQualityScore": 26.3101,
-  "expertSupplyScore": 8.2686,
+  "expertQualityScore": 26.7301,
+  "expertSupplyScore": 8.2689,
   "geoId": "MT",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -50,7 +50,7 @@
   "multiRepoExpertShare": 0.5,
   "name": "Malta",
   "observableExpertCount": 2,
-  "opportunityScore": 23.1871,
+  "opportunityScore": 23.3132,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
   "rank": 65,
@@ -59,7 +59,7 @@
    "configuration_management",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.7018
+  "weightedExpertCount": 0.7098
  },
  "subdomainMix": [
   {

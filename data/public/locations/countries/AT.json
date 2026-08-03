@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 50.8333,
   "ecosystemBreadthScore": 61.8912,
-  "expertQualityScore": 41.9948,
-  "expertSupplyScore": 48.4313,
+  "expertQualityScore": 42.4148,
+  "expertSupplyScore": 48.5816,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "AT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 61.8912,
-  "expertQualityScore": 41.9948,
-  "expertSupplyScore": 48.4313,
+  "expertQualityScore": 42.4148,
+  "expertSupplyScore": 48.5816,
   "geoId": "AT",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.75,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.2083,
   "name": "Austria",
   "observableExpertCount": 24,
-  "opportunityScore": 45.8635,
+  "opportunityScore": 46.0421,
   "organizationCount": 11,
   "qualifiedRepoCount": 19,
   "rank": 20,
@@ -67,7 +67,7 @@
    "configuration_management",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 10.5705
+  "weightedExpertCount": 10.7494
  },
  "subdomainMix": [
   {

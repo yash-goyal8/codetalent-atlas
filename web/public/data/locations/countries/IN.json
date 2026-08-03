@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 42.2857,
   "ecosystemBreadthScore": 96.1277,
-  "expertQualityScore": 33.1753,
-  "expertSupplyScore": 91.1876,
+  "expertQualityScore": 33.7223,
+  "expertSupplyScore": 91.2757,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "IN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 96.1277,
-  "expertQualityScore": 33.1753,
-  "expertSupplyScore": 91.1876,
+  "expertQualityScore": 33.7223,
+  "expertSupplyScore": 91.2757,
   "geoId": "IN",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8939,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.2857,
   "name": "India",
   "observableExpertCount": 245,
-  "opportunityScore": 60.3239,
+  "opportunityScore": 60.5188,
   "organizationCount": 95,
   "qualifiedRepoCount": 152,
   "rank": 3,
@@ -66,7 +66,7 @@
    "cloud_platforms_sdks",
    "configuration_management"
   ],
-  "weightedExpertCount": 93.653
+  "weightedExpertCount": 95.3072
  },
  "subdomainMix": [
   {

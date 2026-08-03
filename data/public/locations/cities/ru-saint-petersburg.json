@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.3092,
-  "expertSupplyScore": 1.1884,
+  "expertQualityScore": 18.5192,
+  "expertSupplyScore": 1.0999,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "RU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.3092,
-  "expertSupplyScore": 1.1884,
+  "expertQualityScore": 18.5192,
+  "expertSupplyScore": 1.0999,
   "geoId": "RU-saint-petersburg",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Saint Petersburg",
   "observableExpertCount": 1,
-  "opportunityScore": 15.4087,
+  "opportunityScore": 15.4407,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 228,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.2616
+  "weightedExpertCount": 0.2646
  },
  "subdomainMix": []
 }

@@ -13,7 +13,7 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 12.2625,
+  "expertQualityScore": 12.6825,
   "expertSupplyScore": 0.0,
   "momentumScore": 50.0
  },
@@ -34,7 +34,7 @@
   "countryCode": "DZ",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 12.2625,
+  "expertQualityScore": 12.6825,
   "expertSupplyScore": 0.0,
   "geoId": "DZ",
   "geoLevel": "country",
@@ -45,7 +45,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Algeria",
   "observableExpertCount": 1,
-  "opportunityScore": 8.6787,
+  "opportunityScore": 8.8047,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 87,
@@ -53,7 +53,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.1752
+  "weightedExpertCount": 0.1812
  },
  "subdomainMix": [
   {

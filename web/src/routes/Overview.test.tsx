@@ -179,8 +179,11 @@ describe("Overview with a failing data file", () => {
     expect(
       (await screen.findAllByText("Data file failed to load")).length,
     ).toBe(4);
-    expect(await screen.findByRole("alert")).toHaveTextContent(
-      LOAD_ERROR_MESSAGE,
-    );
+    // Top locations + subdomain hubs both gate on the failing summary file.
+    const alerts = await screen.findAllByRole("alert");
+    expect(alerts.length).toBeGreaterThanOrEqual(1);
+    for (const alert of alerts) {
+      expect(alert).toHaveTextContent(LOAD_ERROR_MESSAGE);
+    }
   });
 });

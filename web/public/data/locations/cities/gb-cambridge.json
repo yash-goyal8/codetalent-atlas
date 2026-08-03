@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 42.0,
   "ecosystemBreadthScore": 44.1803,
-  "expertQualityScore": 26.7845,
-  "expertSupplyScore": 35.9961,
+  "expertQualityScore": 26.9945,
+  "expertSupplyScore": 36.1792,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 44.1803,
-  "expertQualityScore": 26.7845,
-  "expertSupplyScore": 35.9961,
+  "expertQualityScore": 26.9945,
+  "expertSupplyScore": 36.1792,
   "geoId": "GB-cambridge",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Cambridge",
   "observableExpertCount": 5,
-  "opportunityScore": 33.852,
+  "opportunityScore": 33.9791,
   "organizationCount": 4,
   "qualifiedRepoCount": 4,
   "rank": 99,
@@ -49,7 +49,7 @@
    "observability_monitoring",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 1.8208
+  "weightedExpertCount": 1.8568
  },
  "subdomainMix": []
 }

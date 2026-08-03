@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 55.8065,
   "ecosystemBreadthScore": 94.5336,
-  "expertQualityScore": 52.6607,
-  "expertSupplyScore": 99.5758,
+  "expertQualityScore": 53.1454,
+  "expertSupplyScore": 99.6006,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 94.5336,
-  "expertQualityScore": 52.6607,
-  "expertSupplyScore": 99.5758,
+  "expertQualityScore": 53.1454,
+  "expertSupplyScore": 99.6006,
   "geoId": "GB-london",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.3548,
   "name": "London",
   "observableExpertCount": 31,
-  "opportunityScore": 70.9741,
+  "opportunityScore": 71.1281,
   "organizationCount": 27,
   "qualifiedRepoCount": 38,
   "rank": 1,
@@ -50,7 +50,7 @@
    "configuration_management",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 14.4134
+  "weightedExpertCount": 14.6132
  },
  "subdomainMix": []
 }

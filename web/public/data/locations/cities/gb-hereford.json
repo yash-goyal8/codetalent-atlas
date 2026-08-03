@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.2464,
-  "expertSupplyScore": 2.6904,
+  "expertQualityScore": 26.8764,
+  "expertSupplyScore": 2.6729,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.2464,
-  "expertSupplyScore": 2.6904,
+  "expertQualityScore": 26.8764,
+  "expertSupplyScore": 2.6729,
   "geoId": "GB-hereford",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Hereford",
   "observableExpertCount": 1,
-  "opportunityScore": 22.8156,
+  "opportunityScore": 22.9984,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 158,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3749
+  "weightedExpertCount": 0.3839
  },
  "subdomainMix": []
 }

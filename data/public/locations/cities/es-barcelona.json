@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 36.0,
   "ecosystemBreadthScore": 41.2437,
-  "expertQualityScore": 52.7207,
-  "expertSupplyScore": 40.8225,
+  "expertQualityScore": 53.1407,
+  "expertSupplyScore": 40.9449,
   "momentumScore": 75.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "ES",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 41.2437,
-  "expertQualityScore": 52.7207,
-  "expertSupplyScore": 40.8225,
+  "expertQualityScore": 53.1407,
+  "expertSupplyScore": 40.9449,
   "geoId": "ES-barcelona",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Barcelona",
   "observableExpertCount": 5,
-  "opportunityScore": 47.1285,
+  "opportunityScore": 47.2973,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
   "rank": 34,
@@ -48,7 +48,7 @@
    "observability_monitoring",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 2.194
+  "weightedExpertCount": 2.227
  },
  "subdomainMix": []
 }

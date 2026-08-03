@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 50.0,
   "ecosystemBreadthScore": 18.7413,
-  "expertQualityScore": 24.5874,
-  "expertSupplyScore": 15.7395,
+  "expertQualityScore": 25.0074,
+  "expertSupplyScore": 15.7127,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 18.7413,
-  "expertQualityScore": 24.5874,
-  "expertSupplyScore": 15.7395,
+  "expertQualityScore": 25.0074,
+  "expertSupplyScore": 15.7127,
   "geoId": "IE-waterford",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.5,
   "name": "Waterford",
   "observableExpertCount": 2,
-  "opportunityScore": 24.7592,
+  "opportunityScore": 24.8758,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
-  "rank": 146,
+  "rank": 147,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.7018
+  "weightedExpertCount": 0.7108
  },
  "subdomainMix": []
 }

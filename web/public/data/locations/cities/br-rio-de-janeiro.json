@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 23.3333,
   "ecosystemBreadthScore": 36.7584,
-  "expertQualityScore": 27.9878,
-  "expertSupplyScore": 18.9373,
+  "expertQualityScore": 28.4078,
+  "expertSupplyScore": 19.2173,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "BR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 36.7584,
-  "expertQualityScore": 27.9878,
-  "expertSupplyScore": 18.9373,
+  "expertQualityScore": 28.4078,
+  "expertSupplyScore": 19.2173,
   "geoId": "BR-rio-de-janeiro",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.3333,
   "name": "Rio de Janeiro",
   "observableExpertCount": 3,
-  "opportunityScore": 24.7002,
+  "opportunityScore": 24.9242,
   "organizationCount": 4,
   "qualifiedRepoCount": 4,
-  "rank": 147,
+  "rank": 146,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration",
    "configuration_management"
   ],
-  "weightedExpertCount": 0.7786
+  "weightedExpertCount": 0.7996
  },
  "subdomainMix": []
 }

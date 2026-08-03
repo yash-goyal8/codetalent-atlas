@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 56.6667,
   "ecosystemBreadthScore": 38.8201,
-  "expertQualityScore": 29.007,
-  "expertSupplyScore": 22.9746,
+  "expertQualityScore": 29.6371,
+  "expertSupplyScore": 23.1845,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "NO",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 38.8201,
-  "expertQualityScore": 29.007,
-  "expertSupplyScore": 22.9746,
+  "expertQualityScore": 29.6371,
+  "expertSupplyScore": 23.1845,
   "geoId": "NO",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.6667,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.1667,
   "name": "Norway",
   "observableExpertCount": 6,
-  "opportunityScore": 31.6252,
+  "opportunityScore": 31.8877,
   "organizationCount": 6,
   "qualifiedRepoCount": 6,
   "rank": 50,
@@ -66,7 +66,7 @@
    "containers_orchestration",
    "configuration_management"
   ],
-  "weightedExpertCount": 2.3104
+  "weightedExpertCount": 2.3615
  },
  "subdomainMix": [
   {

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 34.1176,
   "ecosystemBreadthScore": 78.5427,
-  "expertQualityScore": 30.0752,
-  "expertSupplyScore": 70.208,
+  "expertQualityScore": 30.4952,
+  "expertSupplyScore": 70.4766,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 78.5427,
-  "expertQualityScore": 30.0752,
-  "expertSupplyScore": 70.208,
+  "expertQualityScore": 30.4952,
+  "expertSupplyScore": 70.4766,
   "geoId": "IN-pune",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,10 +38,10 @@
   "multiRepoExpertShare": 0.2353,
   "name": "Pune",
   "observableExpertCount": 17,
-  "opportunityScore": 49.0673,
+  "opportunityScore": 49.2873,
   "organizationCount": 15,
   "qualifiedRepoCount": 18,
-  "rank": 23,
+  "rank": 22,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "configuration_management",
@@ -50,7 +50,7 @@
    "infrastructure_as_code",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 6.0181
+  "weightedExpertCount": 6.1372
  },
  "subdomainMix": []
 }

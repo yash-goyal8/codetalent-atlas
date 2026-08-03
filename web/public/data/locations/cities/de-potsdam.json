@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.9932,
-  "expertSupplyScore": 3.013,
+  "expertQualityScore": 28.6232,
+  "expertSupplyScore": 2.9934,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.9932,
-  "expertSupplyScore": 3.013,
+  "expertQualityScore": 28.6232,
+  "expertSupplyScore": 2.9934,
   "geoId": "DE-potsdam",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Potsdam",
   "observableExpertCount": 1,
-  "opportunityScore": 20.9525,
+  "opportunityScore": 21.1347,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 175,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3999
+  "weightedExpertCount": 0.4089
  },
  "subdomainMix": []
 }

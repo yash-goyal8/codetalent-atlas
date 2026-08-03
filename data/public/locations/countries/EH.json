@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 35.6738,
-  "expertSupplyScore": 2.3964,
+  "expertQualityScore": 36.0938,
+  "expertSupplyScore": 2.3856,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "EH",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 35.6738,
-  "expertSupplyScore": 2.3964,
+  "expertQualityScore": 36.0938,
+  "expertSupplyScore": 2.3856,
   "geoId": "EH",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Western Sahara",
   "observableExpertCount": 1,
-  "opportunityScore": 25.5409,
+  "opportunityScore": 25.6631,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 62,
@@ -63,7 +63,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.5096
+  "weightedExpertCount": 0.5156
  },
  "subdomainMix": [
   {

@@ -13,8 +13,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.0888,
-  "expertSupplyScore": 0.6233,
+  "expertQualityScore": 18.7188,
+  "expertSupplyScore": 0.6424,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -34,8 +34,8 @@
   "countryCode": "PE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.0888,
-  "expertSupplyScore": 0.6233,
+  "expertQualityScore": 18.7188,
+  "expertSupplyScore": 0.6424,
   "geoId": "PE",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -45,7 +45,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Peru",
   "observableExpertCount": 1,
-  "opportunityScore": 10.6448,
+  "opportunityScore": 10.8405,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 85,
@@ -53,7 +53,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.2584
+  "weightedExpertCount": 0.2674
  },
  "subdomainMix": [
   {

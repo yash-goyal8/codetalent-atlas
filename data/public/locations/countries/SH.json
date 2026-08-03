@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 67.288,
-  "expertSupplyScore": 2.5517,
+  "expertQualityScore": 67.498,
+  "expertSupplyScore": 2.5202,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "SH",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 67.288,
-  "expertSupplyScore": 2.5517,
+  "expertQualityScore": 67.498,
+  "expertSupplyScore": 2.5202,
   "geoId": "SH",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Saint Helena, Ascension and Tristan da Cunha",
   "observableExpertCount": 1,
-  "opportunityScore": 35.0795,
+  "opportunityScore": 35.1315,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 45,
@@ -63,7 +63,7 @@
   "topSubdomains": [
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.5327
+  "weightedExpertCount": 0.5357
  },
  "subdomainMix": [
   {

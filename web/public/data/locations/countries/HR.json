@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 15.1594,
-  "expertQualityScore": 68.8169,
-  "expertSupplyScore": 11.2893,
+  "expertQualityScore": 69.2369,
+  "expertSupplyScore": 11.3211,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "HR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 15.1594,
-  "expertQualityScore": 68.8169,
-  "expertSupplyScore": 11.2893,
+  "expertQualityScore": 69.2369,
+  "expertSupplyScore": 11.3211,
   "geoId": "HR",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Croatia",
   "observableExpertCount": 2,
-  "opportunityScore": 40.1123,
+  "opportunityScore": 40.2494,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 32,
@@ -63,7 +63,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 1.0799
+  "weightedExpertCount": 1.0919
  },
  "subdomainMix": [
   {

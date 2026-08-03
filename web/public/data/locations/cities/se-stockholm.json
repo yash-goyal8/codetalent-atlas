@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 31.6667,
   "ecosystemBreadthScore": 24.5759,
-  "expertQualityScore": 29.526,
-  "expertSupplyScore": 37.0441,
+  "expertQualityScore": 29.946,
+  "expertSupplyScore": 37.1673,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "SE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 24.5759,
-  "expertQualityScore": 29.526,
-  "expertSupplyScore": 37.0441,
+  "expertQualityScore": 29.946,
+  "expertSupplyScore": 37.1673,
   "geoId": "SE-stockholm",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.1667,
   "name": "Stockholm",
   "observableExpertCount": 6,
-  "opportunityScore": 31.5308,
+  "opportunityScore": 31.6999,
   "organizationCount": 2,
   "qualifiedRepoCount": 4,
   "rank": 111,
@@ -48,7 +48,7 @@
    "configuration_management",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 2.3528
+  "weightedExpertCount": 2.3888
  },
  "subdomainMix": []
 }

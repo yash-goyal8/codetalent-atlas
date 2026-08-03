@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 15.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 20.7608,
-  "expertSupplyScore": 4.8073,
+  "expertQualityScore": 21.3908,
+  "expertSupplyScore": 4.8858,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 20.7608,
-  "expertSupplyScore": 4.8073,
+  "expertQualityScore": 21.3908,
+  "expertSupplyScore": 4.8858,
   "geoId": "GB-bristol",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Bristol",
   "observableExpertCount": 2,
-  "opportunityScore": 12.6608,
+  "opportunityScore": 12.8773,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 238,
+  "rank": 237,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.5427
+  "weightedExpertCount": 0.5607
  },
  "subdomainMix": []
 }

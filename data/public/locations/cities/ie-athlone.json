@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 25.6447,
-  "expertSupplyScore": 2.5787,
+  "expertQualityScore": 26.0647,
+  "expertSupplyScore": 2.523,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 25.6447,
-  "expertSupplyScore": 2.5787,
+  "expertQualityScore": 26.0647,
+  "expertSupplyScore": 2.523,
   "geoId": "IE-athlone",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Athlone",
   "observableExpertCount": 1,
-  "opportunityScore": 18.096,
+  "opportunityScore": 18.2025,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 206,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3664
+  "weightedExpertCount": 0.3724
  },
  "subdomainMix": []
 }

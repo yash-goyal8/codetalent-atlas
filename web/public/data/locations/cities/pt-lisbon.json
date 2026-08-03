@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 16.4264,
-  "expertQualityScore": 34.1038,
-  "expertSupplyScore": 12.0051,
+  "expertQualityScore": 34.5238,
+  "expertSupplyScore": 12.1118,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "PT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 16.4264,
-  "expertQualityScore": 34.1038,
-  "expertSupplyScore": 12.0051,
+  "expertQualityScore": 34.5238,
+  "expertSupplyScore": 12.1118,
   "geoId": "PT-lisbon",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Lisbon",
   "observableExpertCount": 2,
-  "opportunityScore": 25.5756,
+  "opportunityScore": 25.7389,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 136,
+  "rank": 134,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.6879
+  "weightedExpertCount": 0.6999
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 17.7251,
-  "expertQualityScore": 34.8663,
-  "expertSupplyScore": 16.0816,
+  "expertQualityScore": 35.2863,
+  "expertSupplyScore": 16.1467,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 17.7251,
-  "expertQualityScore": 34.8663,
-  "expertSupplyScore": 16.0816,
+  "expertQualityScore": 35.2863,
+  "expertSupplyScore": 16.1467,
   "geoId": "GB-norwich",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Norwich",
   "observableExpertCount": 2,
-  "opportunityScore": 24.861,
+  "opportunityScore": 25.0097,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 143,
@@ -47,7 +47,7 @@
    "observability_monitoring",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 0.8174
+  "weightedExpertCount": 0.8294
  },
  "subdomainMix": []
 }

@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 55.283,
   "ecosystemBreadthScore": 74.1388,
-  "expertQualityScore": 47.0217,
-  "expertSupplyScore": 64.1525,
+  "expertQualityScore": 47.4417,
+  "expertSupplyScore": 64.2495,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "PL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 74.1388,
-  "expertQualityScore": 47.0217,
-  "expertSupplyScore": 64.1525,
+  "expertQualityScore": 47.4417,
+  "expertSupplyScore": 64.2495,
   "geoId": "PL",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.6604,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.2075,
   "name": "Poland",
   "observableExpertCount": 53,
-  "opportunityScore": 54.7662,
+  "opportunityScore": 54.9262,
   "organizationCount": 25,
   "qualifiedRepoCount": 36,
   "rank": 9,
@@ -66,7 +66,7 @@
    "infrastructure_as_code",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 24.0597
+  "weightedExpertCount": 24.4276
  },
  "subdomainMix": [
   {

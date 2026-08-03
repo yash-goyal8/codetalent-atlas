@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.4179,
-  "expertSupplyScore": 6.6625,
+  "expertQualityScore": 26.6284,
+  "expertSupplyScore": 6.5854,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.4179,
-  "expertSupplyScore": 6.6625,
+  "expertQualityScore": 26.6284,
+  "expertSupplyScore": 6.5854,
   "geoId": "IT-padua",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Padua",
   "observableExpertCount": 2,
-  "opportunityScore": 17.2572,
+  "opportunityScore": 17.2934,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 211,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.6977
+  "weightedExpertCount": 0.7037
  },
  "subdomainMix": []
 }

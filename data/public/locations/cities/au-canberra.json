@@ -7,7 +7,7 @@
   "collaborationDepthScore": 40.0,
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 61.7014,
-  "expertSupplyScore": 16.1269,
+  "expertSupplyScore": 15.9486,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -28,7 +28,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 61.7014,
-  "expertSupplyScore": 16.1269,
+  "expertSupplyScore": 15.9486,
   "geoId": "AU-canberra",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,10 +38,10 @@
   "multiRepoExpertShare": 0.0,
   "name": "Canberra",
   "observableExpertCount": 3,
-  "opportunityScore": 35.1548,
+  "opportunityScore": 35.0924,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 90,
+  "rank": 91,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cicd_developer_tooling"

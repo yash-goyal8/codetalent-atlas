@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 16.2813,
-  "expertQualityScore": 54.8446,
-  "expertSupplyScore": 15.1582,
+  "expertQualityScore": 55.4748,
+  "expertSupplyScore": 15.2601,
   "momentumScore": 75.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 16.2813,
-  "expertQualityScore": 54.8446,
-  "expertSupplyScore": 15.1582,
+  "expertQualityScore": 55.4748,
+  "expertSupplyScore": 15.2601,
   "geoId": "US-san-jose",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "San Jose",
   "observableExpertCount": 2,
-  "opportunityScore": 35.3869,
+  "opportunityScore": 35.6116,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 88,
+  "rank": 87,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "service_mesh_networking",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.8394
+  "weightedExpertCount": 0.8544
  },
  "subdomainMix": []
 }

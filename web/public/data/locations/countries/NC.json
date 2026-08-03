@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 80.0,
   "ecosystemBreadthScore": 27.9268,
-  "expertQualityScore": 56.817,
-  "expertSupplyScore": 12.5798,
+  "expertQualityScore": 57.342,
+  "expertSupplyScore": 12.5807,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "NC",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 27.9268,
-  "expertQualityScore": 56.817,
-  "expertSupplyScore": 12.5798,
+  "expertQualityScore": 57.342,
+  "expertSupplyScore": 12.5807,
   "geoId": "NC",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.5,
   "name": "New Caledonia",
   "observableExpertCount": 2,
-  "opportunityScore": 38.7407,
+  "opportunityScore": 38.8985,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
   "rank": 37,
@@ -64,7 +64,7 @@
    "configuration_management",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.986
+  "weightedExpertCount": 0.9935
  },
  "subdomainMix": [
   {

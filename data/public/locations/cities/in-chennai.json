@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 24.0,
   "ecosystemBreadthScore": 47.0095,
-  "expertQualityScore": 21.562,
-  "expertSupplyScore": 33.0406,
+  "expertQualityScore": 22.192,
+  "expertSupplyScore": 33.3193,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 47.0095,
-  "expertQualityScore": 21.562,
-  "expertSupplyScore": 33.0406,
+  "expertQualityScore": 22.192,
+  "expertSupplyScore": 33.3193,
   "geoId": "IN-chennai",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Chennai",
   "observableExpertCount": 5,
-  "opportunityScore": 28.8337,
+  "opportunityScore": 29.1203,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
   "rank": 118,
@@ -49,7 +49,7 @@
    "infrastructure_as_code",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 1.593
+  "weightedExpertCount": 1.629
  },
  "subdomainMix": []
 }

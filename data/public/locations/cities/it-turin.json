@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 58.0,
   "ecosystemBreadthScore": 58.3133,
-  "expertQualityScore": 32.8433,
-  "expertSupplyScore": 38.3289,
+  "expertQualityScore": 33.4734,
+  "expertSupplyScore": 38.4166,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 58.3133,
-  "expertQualityScore": 32.8433,
-  "expertSupplyScore": 38.3289,
+  "expertQualityScore": 33.4734,
+  "expertSupplyScore": 38.4166,
   "geoId": "IT-turin",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.4,
   "name": "Turin",
   "observableExpertCount": 5,
-  "opportunityScore": 40.2994,
+  "opportunityScore": 40.5191,
   "organizationCount": 6,
   "qualifiedRepoCount": 6,
   "rank": 57,
@@ -50,7 +50,7 @@
    "observability_monitoring",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 1.9876
+  "weightedExpertCount": 2.015
  },
  "subdomainMix": []
 }

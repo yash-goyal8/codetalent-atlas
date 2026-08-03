@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.5987,
-  "expertSupplyScore": 1.4366,
+  "expertQualityScore": 20.0187,
+  "expertSupplyScore": 1.3871,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.5987,
-  "expertSupplyScore": 1.4366,
+  "expertQualityScore": 20.0187,
+  "expertSupplyScore": 1.3871,
   "geoId": "IL-ra'anana",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Ra'anana",
   "observableExpertCount": 1,
-  "opportunityScore": 11.3824,
+  "opportunityScore": 11.4911,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 243,
+  "rank": 244,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.28
+  "weightedExpertCount": 0.286
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 26.6537,
-  "expertQualityScore": 27.82,
-  "expertSupplyScore": 14.1578,
+  "expertQualityScore": 28.24,
+  "expertSupplyScore": 14.1,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "NL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 26.6537,
-  "expertQualityScore": 27.82,
-  "expertSupplyScore": 14.1578,
+  "expertQualityScore": 28.24,
+  "expertSupplyScore": 14.1,
   "geoId": "NL-utrecht",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Utrecht",
   "observableExpertCount": 2,
-  "opportunityScore": 25.4666,
+  "opportunityScore": 25.5724,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 137,
+  "rank": 138,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cicd_developer_tooling",
    "configuration_management"
   ],
-  "weightedExpertCount": 0.7044
+  "weightedExpertCount": 0.7104
  },
  "subdomainMix": []
 }

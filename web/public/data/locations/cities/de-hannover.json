@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 70.0,
   "ecosystemBreadthScore": 24.2121,
-  "expertQualityScore": 66.9538,
-  "expertSupplyScore": 7.2432,
+  "expertQualityScore": 67.3738,
+  "expertSupplyScore": 7.1915,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 24.2121,
-  "expertQualityScore": 66.9538,
-  "expertSupplyScore": 7.2432,
+  "expertQualityScore": 67.3738,
+  "expertSupplyScore": 7.1915,
   "geoId": "DE-hannover",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 1.0,
   "name": "Hannover",
   "observableExpertCount": 1,
-  "opportunityScore": 40.5425,
+  "opportunityScore": 40.6504,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
-  "rank": 54,
+  "rank": 55,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.5279
+  "weightedExpertCount": 0.5339
  },
  "subdomainMix": []
 }

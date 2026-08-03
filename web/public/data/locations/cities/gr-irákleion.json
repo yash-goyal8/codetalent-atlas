@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.76,
-  "expertSupplyScore": 3.6994,
+  "expertQualityScore": 32.18,
+  "expertSupplyScore": 3.6377,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.76,
-  "expertSupplyScore": 3.6994,
+  "expertQualityScore": 32.18,
+  "expertSupplyScore": 3.6377,
   "geoId": "GR-irákleion",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Irákleion",
   "observableExpertCount": 1,
-  "opportunityScore": 24.8228,
+  "opportunityScore": 24.9272,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 145,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.4537
+  "weightedExpertCount": 0.4597
  },
  "subdomainMix": []
 }

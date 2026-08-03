@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 45.0,
   "ecosystemBreadthScore": 10.8357,
-  "expertQualityScore": 51.7253,
-  "expertSupplyScore": 13.9454,
+  "expertQualityScore": 52.1453,
+  "expertSupplyScore": 14.0318,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "JP",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 10.8357,
-  "expertQualityScore": 51.7253,
-  "expertSupplyScore": 13.9454,
+  "expertQualityScore": 52.1453,
+  "expertSupplyScore": 14.0318,
   "geoId": "JP-saitama",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Saitama",
   "observableExpertCount": 2,
-  "opportunityScore": 33.232,
+  "opportunityScore": 33.3883,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 105,
+  "rank": 104,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.7709
+  "weightedExpertCount": 0.7829
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 72.6894,
-  "expertSupplyScore": 6.6653,
+  "expertQualityScore": 73.1094,
+  "expertSupplyScore": 6.5981,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "MX",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 72.6894,
-  "expertSupplyScore": 6.6653,
+  "expertQualityScore": 73.1094,
+  "expertSupplyScore": 6.5981,
   "geoId": "MX-mérida",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Mérida",
   "observableExpertCount": 1,
-  "opportunityScore": 44.5675,
+  "opportunityScore": 44.6699,
   "organizationCount": 1,
   "qualifiedRepoCount": 2,
   "rank": 41,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.6098
+  "weightedExpertCount": 0.6158
  },
  "subdomainMix": []
 }

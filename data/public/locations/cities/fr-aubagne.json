@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 21.846,
-  "expertQualityScore": 70.0044,
-  "expertSupplyScore": 10.1522,
+  "expertQualityScore": 70.2952,
+  "expertSupplyScore": 10.0714,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 21.846,
-  "expertQualityScore": 70.0044,
-  "expertSupplyScore": 10.1522,
+  "expertQualityScore": 70.2952,
+  "expertSupplyScore": 10.0714,
   "geoId": "FR-aubagne",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 1.0,
   "name": "Aubagne",
   "observableExpertCount": 1,
-  "opportunityScore": 44.2392,
+  "opportunityScore": 44.2981,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 43,
+  "rank": 44,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.5715
+  "weightedExpertCount": 0.5756
  },
  "subdomainMix": []
 }

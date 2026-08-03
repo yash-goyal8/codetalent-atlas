@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 19.4168,
-  "expertQualityScore": 23.1496,
-  "expertSupplyScore": 10.9565,
+  "expertQualityScore": 23.5696,
+  "expertSupplyScore": 10.966,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 19.4168,
-  "expertQualityScore": 23.1496,
-  "expertSupplyScore": 10.9565,
+  "expertQualityScore": 23.5696,
+  "expertSupplyScore": 10.966,
   "geoId": "GB-sheffield",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Sheffield",
   "observableExpertCount": 2,
-  "opportunityScore": 22.2213,
+  "opportunityScore": 22.3506,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 160,
@@ -47,7 +47,7 @@
    "containers_orchestration",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.547
+  "weightedExpertCount": 0.556
  },
  "subdomainMix": []
 }

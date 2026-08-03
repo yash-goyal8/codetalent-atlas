@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 47.8947,
   "ecosystemBreadthScore": 81.6296,
-  "expertQualityScore": 51.3282,
-  "expertSupplyScore": 80.9419,
+  "expertQualityScore": 50.1692,
+  "expertSupplyScore": 80.9849,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 81.6296,
-  "expertQualityScore": 51.3282,
-  "expertSupplyScore": 80.9419,
+  "expertQualityScore": 50.1692,
+  "expertSupplyScore": 80.9849,
   "geoId": "CA-vancouver",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.2105,
   "name": "Vancouver",
   "observableExpertCount": 19,
-  "opportunityScore": 61.5753,
+  "opportunityScore": 61.2427,
   "organizationCount": 15,
   "qualifiedRepoCount": 20,
   "rank": 7,
@@ -50,7 +50,7 @@
    "service_mesh_networking",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 8.3563
+  "weightedExpertCount": 8.4665
  },
  "subdomainMix": []
 }

@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 52.5,
   "ecosystemBreadthScore": 77.7249,
-  "expertQualityScore": 44.2623,
-  "expertSupplyScore": 70.9046,
+  "expertQualityScore": 44.7014,
+  "expertSupplyScore": 70.8991,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "AU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 77.7249,
-  "expertQualityScore": 44.2623,
-  "expertSupplyScore": 70.9046,
+  "expertQualityScore": 44.7014,
+  "expertSupplyScore": 70.8991,
   "geoId": "AU",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.6944,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.25,
   "name": "Australia",
   "observableExpertCount": 72,
-  "opportunityScore": 56.2428,
+  "opportunityScore": 56.3726,
   "organizationCount": 28,
   "qualifiedRepoCount": 49,
   "rank": 8,
@@ -66,7 +66,7 @@
    "cloud_platforms_sdks",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 33.9238
+  "weightedExpertCount": 34.2862
  },
  "subdomainMix": [
   {

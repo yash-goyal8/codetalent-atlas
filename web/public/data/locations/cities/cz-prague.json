@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 63.3333,
   "ecosystemBreadthScore": 34.7644,
-  "expertQualityScore": 40.7042,
-  "expertSupplyScore": 28.776,
+  "expertQualityScore": 41.1242,
+  "expertSupplyScore": 28.8825,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CZ",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 34.7644,
-  "expertQualityScore": 40.7042,
-  "expertSupplyScore": 28.776,
+  "expertQualityScore": 41.1242,
+  "expertSupplyScore": 28.8825,
   "geoId": "CZ-prague",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.3333,
   "name": "Prague",
   "observableExpertCount": 3,
-  "opportunityScore": 37.7593,
+  "opportunityScore": 37.9226,
   "organizationCount": 3,
   "qualifiedRepoCount": 4,
   "rank": 67,
@@ -48,7 +48,7 @@
    "observability_monitoring",
    "configuration_management"
   ],
-  "weightedExpertCount": 1.3374
+  "weightedExpertCount": 1.3584
  },
  "subdomainMix": []
 }

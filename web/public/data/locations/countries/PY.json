@@ -18,8 +18,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 25.9905,
-  "expertSupplyScore": 1.4392,
+  "expertQualityScore": 26.411,
+  "expertSupplyScore": 1.4327,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -39,8 +39,8 @@
   "countryCode": "PY",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 25.9905,
-  "expertSupplyScore": 1.4392,
+  "expertQualityScore": 26.411,
+  "expertSupplyScore": 1.4327,
   "geoId": "PY",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -50,7 +50,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Paraguay",
   "observableExpertCount": 1,
-  "opportunityScore": 17.8009,
+  "opportunityScore": 17.9247,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 73,
@@ -58,7 +58,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.3713
+  "weightedExpertCount": 0.3773
  },
  "subdomainMix": [
   {

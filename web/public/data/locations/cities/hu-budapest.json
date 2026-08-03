@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 66.6667,
   "ecosystemBreadthScore": 39.9176,
-  "expertQualityScore": 56.9787,
-  "expertSupplyScore": 33.1138,
+  "expertQualityScore": 57.3987,
+  "expertSupplyScore": 33.1788,
   "momentumScore": 75.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "HU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 39.9176,
-  "expertQualityScore": 56.9787,
-  "expertSupplyScore": 33.1138,
+  "expertQualityScore": 57.3987,
+  "expertSupplyScore": 33.1788,
   "geoId": "HU-budapest",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.6667,
   "name": "Budapest",
   "observableExpertCount": 3,
-  "opportunityScore": 50.1752,
+  "opportunityScore": 50.324,
   "organizationCount": 4,
   "qualifiedRepoCount": 6,
   "rank": 18,
@@ -47,7 +47,7 @@
    "observability_monitoring",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 1.5981
+  "weightedExpertCount": 1.6191
  },
  "subdomainMix": []
 }

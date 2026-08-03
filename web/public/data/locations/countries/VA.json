@@ -13,8 +13,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 5.3915,
-  "expertQualityScore": 25.4542,
-  "expertSupplyScore": 1.3848,
+  "expertQualityScore": 25.6642,
+  "expertSupplyScore": 1.3573,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -34,8 +34,8 @@
   "countryCode": "VA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 5.3915,
-  "expertQualityScore": 25.4542,
-  "expertSupplyScore": 1.3848,
+  "expertQualityScore": 25.6642,
+  "expertSupplyScore": 1.3573,
   "geoId": "VA",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -45,7 +45,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Holy See (Vatican City State)",
   "observableExpertCount": 1,
-  "opportunityScore": 11.1601,
+  "opportunityScore": 11.2135,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 84,
@@ -54,7 +54,7 @@
    "cloud_platforms_sdks",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3636
+  "weightedExpertCount": 0.3666
  },
  "subdomainMix": [
   {

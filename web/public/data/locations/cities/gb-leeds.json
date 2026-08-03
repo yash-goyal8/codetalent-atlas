@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 70.0,
   "ecosystemBreadthScore": 10.1275,
-  "expertQualityScore": 27.4031,
-  "expertSupplyScore": 6.4469,
+  "expertQualityScore": 27.8231,
+  "expertSupplyScore": 6.4222,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 10.1275,
-  "expertQualityScore": 27.4031,
-  "expertSupplyScore": 6.4469,
+  "expertQualityScore": 27.8231,
+  "expertSupplyScore": 6.4222,
   "geoId": "GB-leeds",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Leeds",
   "observableExpertCount": 1,
-  "opportunityScore": 24.4901,
+  "opportunityScore": 24.6075,
   "organizationCount": 1,
   "qualifiedRepoCount": 2,
   "rank": 149,
@@ -47,7 +47,7 @@
    "infrastructure_as_code",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.3915
+  "weightedExpertCount": 0.3975
  },
  "subdomainMix": []
 }

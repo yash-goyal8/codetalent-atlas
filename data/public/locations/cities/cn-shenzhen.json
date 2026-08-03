@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 50.0,
   "ecosystemBreadthScore": 49.5337,
-  "expertQualityScore": 54.3152,
-  "expertSupplyScore": 48.5184,
+  "expertQualityScore": 54.9452,
+  "expertSupplyScore": 48.6007,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 49.5337,
-  "expertQualityScore": 54.3152,
-  "expertSupplyScore": 48.5184,
+  "expertQualityScore": 54.9452,
+  "expertSupplyScore": 48.6007,
   "geoId": "CN-shenzhen",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Shenzhen",
   "observableExpertCount": 6,
-  "opportunityScore": 48.2294,
+  "opportunityScore": 48.4472,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
   "rank": 26,
@@ -50,7 +50,7 @@
    "containers_orchestration",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 2.9253
+  "weightedExpertCount": 2.9643
  },
  "subdomainMix": []
 }

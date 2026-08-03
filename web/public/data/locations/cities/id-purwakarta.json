@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.0604,
-  "expertSupplyScore": 1.1403,
+  "expertQualityScore": 18.2704,
+  "expertSupplyScore": 1.052,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "ID",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.0604,
-  "expertSupplyScore": 1.1403,
+  "expertQualityScore": 18.2704,
+  "expertSupplyScore": 1.052,
   "geoId": "ID-purwakarta",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Purwakarta",
   "observableExpertCount": 1,
-  "opportunityScore": 17.3172,
+  "opportunityScore": 17.3493,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 210,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.258
+  "weightedExpertCount": 0.261
  },
  "subdomainMix": []
 }

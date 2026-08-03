@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 28.3848,
-  "expertSupplyScore": 3.085,
+  "expertQualityScore": 29.0148,
+  "expertSupplyScore": 3.0649,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 28.3848,
-  "expertSupplyScore": 3.085,
+  "expertQualityScore": 29.0148,
+  "expertSupplyScore": 3.0649,
   "geoId": "US-charlotte",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Charlotte",
   "observableExpertCount": 1,
-  "opportunityScore": 19.0952,
+  "opportunityScore": 19.2771,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 193,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.4055
+  "weightedExpertCount": 0.4145
  },
  "subdomainMix": []
 }

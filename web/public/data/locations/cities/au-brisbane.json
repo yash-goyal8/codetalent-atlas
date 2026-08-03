@@ -7,7 +7,7 @@
   "collaborationDepthScore": 43.3333,
   "ecosystemBreadthScore": 37.0549,
   "expertQualityScore": 21.9689,
-  "expertSupplyScore": 23.5719,
+  "expertSupplyScore": 23.4244,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -28,7 +28,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 37.0549,
   "expertQualityScore": 21.9689,
-  "expertSupplyScore": 23.5719,
+  "expertSupplyScore": 23.4244,
   "geoId": "AU-brisbane",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.3333,
   "name": "Brisbane",
   "observableExpertCount": 3,
-  "opportunityScore": 30.0463,
+  "opportunityScore": 29.9947,
   "organizationCount": 3,
   "qualifiedRepoCount": 4,
-  "rank": 115,
+  "rank": 116,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cicd_developer_tooling",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 1.012
+  "weightedExpertCount": 1.015
  },
  "subdomainMix": []
 }

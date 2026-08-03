@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 20.6171,
-  "expertQualityScore": 72.4602,
-  "expertSupplyScore": 15.1715,
+  "expertQualityScore": 72.8907,
+  "expertSupplyScore": 15.1385,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "BR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 20.6171,
-  "expertQualityScore": 72.4602,
-  "expertSupplyScore": 15.1715,
+  "expertQualityScore": 72.8907,
+  "expertSupplyScore": 15.1385,
   "geoId": "BR-florianópolis",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 1.0,
   "name": "Florianópolis",
   "observableExpertCount": 1,
-  "opportunityScore": 49.1098,
+  "opportunityScore": 49.2274,
   "organizationCount": 2,
   "qualifiedRepoCount": 5,
-  "rank": 21,
+  "rank": 23,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.6066
+  "weightedExpertCount": 0.6127
  },
  "subdomainMix": []
 }

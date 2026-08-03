@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 80.0,
   "ecosystemBreadthScore": 25.6995,
-  "expertQualityScore": 54.0042,
-  "expertSupplyScore": 22.4967,
+  "expertQualityScore": 54.4242,
+  "expertSupplyScore": 22.4796,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "MX",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 25.6995,
-  "expertQualityScore": 54.0042,
-  "expertSupplyScore": 22.4967,
+  "expertQualityScore": 54.4242,
+  "expertSupplyScore": 22.4796,
   "geoId": "MX-mexico-city",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.5,
   "name": "Mexico City",
   "observableExpertCount": 2,
-  "opportunityScore": 41.1451,
+  "opportunityScore": 41.2651,
   "organizationCount": 2,
   "qualifiedRepoCount": 3,
   "rank": 51,
@@ -47,7 +47,7 @@
    "cloud_platforms_sdks",
    "configuration_management"
   ],
-  "weightedExpertCount": 0.9943
+  "weightedExpertCount": 1.0033
  },
  "subdomainMix": []
 }

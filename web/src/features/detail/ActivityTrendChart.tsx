@@ -1,7 +1,7 @@
 import { ChartContainer } from "../../components/ChartContainer";
 import { DataTable, type DataTableColumn } from "../../components/DataTable";
 import type { ECOption } from "../../lib/echarts";
-import { formatCount } from "../../lib/format";
+import { formatCount, formatMonth } from "../../lib/format";
 import type { ActivityTrendPoint } from "../../types/data";
 import {
   baseChartText,
@@ -11,7 +11,12 @@ import {
 } from "../shared/chartTheme";
 
 const TABLE_COLUMNS: DataTableColumn<ActivityTrendPoint>[] = [
-  { key: "month", header: "Month", cell: (p) => p.month, sortValue: (p) => p.month },
+  {
+    key: "month",
+    header: "Month",
+    cell: (p) => formatMonth(p.month),
+    sortValue: (p) => p.month,
+  },
   {
     key: "events",
     header: "Weighted events",
@@ -44,7 +49,7 @@ function buildOption(trend: ActivityTrendPoint[]): ECOption {
     xAxis: {
       type: "category",
       name: "Month",
-      data: trend.map((p) => p.month),
+      data: trend.map((p) => formatMonth(p.month)),
       ...darkCategoryAxis,
     },
     yAxis: [

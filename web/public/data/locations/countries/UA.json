@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 35.8333,
   "ecosystemBreadthScore": 53.4397,
-  "expertQualityScore": 42.6658,
-  "expertSupplyScore": 32.9395,
+  "expertQualityScore": 43.2958,
+  "expertSupplyScore": 33.1035,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "UA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 53.4397,
-  "expertQualityScore": 42.6658,
-  "expertSupplyScore": 32.9395,
+  "expertQualityScore": 43.2958,
+  "expertSupplyScore": 33.1035,
   "geoId": "UA",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8333,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0833,
   "name": "Ukraine",
   "observableExpertCount": 12,
-  "opportunityScore": 37.5476,
+  "opportunityScore": 37.794,
   "organizationCount": 10,
   "qualifiedRepoCount": 10,
   "rank": 40,
@@ -67,7 +67,7 @@
    "cloud_platforms_sdks",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 4.4029
+  "weightedExpertCount": 4.4801
  },
  "subdomainMix": [
   {

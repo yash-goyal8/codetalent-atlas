@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 35.7428,
-  "expertSupplyScore": 4.4116,
+  "expertQualityScore": 36.3728,
+  "expertSupplyScore": 4.3831,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 35.7428,
-  "expertSupplyScore": 4.4116,
+  "expertQualityScore": 36.3728,
+  "expertSupplyScore": 4.3831,
   "geoId": "DE-willich",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Willich",
   "observableExpertCount": 1,
-  "opportunityScore": 26.2669,
+  "opportunityScore": 26.4459,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 125,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.5106
+  "weightedExpertCount": 0.5196
  },
  "subdomainMix": []
 }

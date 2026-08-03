@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 15.0,
   "ecosystemBreadthScore": 19.5591,
-  "expertQualityScore": 32.1167,
-  "expertSupplyScore": 14.1324,
+  "expertQualityScore": 32.5367,
+  "expertSupplyScore": 14.1175,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 19.5591,
-  "expertQualityScore": 32.1167,
-  "expertSupplyScore": 14.1324,
+  "expertQualityScore": 32.5367,
+  "expertSupplyScore": 14.1175,
   "geoId": "CA-waterloo",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Waterloo",
   "observableExpertCount": 2,
-  "opportunityScore": 21.2873,
+  "opportunityScore": 21.408,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 171,
@@ -47,7 +47,7 @@
    "observability_monitoring",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.7295
+  "weightedExpertCount": 0.7385
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 50.0,
   "ecosystemBreadthScore": 26.7078,
-  "expertQualityScore": 38.1454,
-  "expertSupplyScore": 26.9639,
+  "expertQualityScore": 38.7754,
+  "expertSupplyScore": 27.1227,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 26.7078,
-  "expertQualityScore": 38.1454,
-  "expertSupplyScore": 26.9639,
+  "expertQualityScore": 38.7754,
+  "expertSupplyScore": 27.1227,
   "geoId": "US-san-francisco",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "San Francisco",
   "observableExpertCount": 3,
-  "opportunityScore": 36.0518,
+  "opportunityScore": 36.2963,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
   "rank": 83,
@@ -48,7 +48,7 @@
    "observability_monitoring",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 1.2961
+  "weightedExpertCount": 1.3141
  },
  "subdomainMix": []
 }

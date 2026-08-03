@@ -7,7 +7,7 @@
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 13.8261,
-  "expertSupplyScore": 0.3125,
+  "expertSupplyScore": 0.1865,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -28,7 +28,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 13.8261,
-  "expertSupplyScore": 0.3125,
+  "expertSupplyScore": 0.1865,
   "geoId": "US-reno",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Reno",
   "observableExpertCount": 1,
-  "opportunityScore": 9.2572,
+  "opportunityScore": 9.2131,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 252,

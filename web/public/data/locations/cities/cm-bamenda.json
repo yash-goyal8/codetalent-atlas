@@ -7,7 +7,7 @@
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 29.59,
-  "expertSupplyScore": 3.3055,
+  "expertSupplyScore": 3.1696,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -28,7 +28,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 29.59,
-  "expertSupplyScore": 3.3055,
+  "expertSupplyScore": 3.1696,
   "geoId": "CM-bamenda",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Bamenda",
   "observableExpertCount": 1,
-  "opportunityScore": 19.5339,
+  "opportunityScore": 19.4864,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 191,

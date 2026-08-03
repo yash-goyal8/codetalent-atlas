@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 53.3333,
   "ecosystemBreadthScore": 39.7974,
-  "expertQualityScore": 56.8744,
-  "expertSupplyScore": 27.1138,
+  "expertQualityScore": 57.2953,
+  "expertSupplyScore": 27.2008,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 39.7974,
-  "expertQualityScore": 56.8744,
-  "expertSupplyScore": 27.1138,
+  "expertQualityScore": 57.2953,
+  "expertSupplyScore": 27.2008,
   "geoId": "IT-rome",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.3333,
   "name": "Rome",
   "observableExpertCount": 3,
-  "opportunityScore": 43.5319,
+  "opportunityScore": 43.6886,
   "organizationCount": 3,
   "qualifiedRepoCount": 8,
   "rank": 48,
@@ -49,7 +49,7 @@
    "containers_orchestration",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 1.2123
+  "weightedExpertCount": 1.2303
  },
  "subdomainMix": []
 }

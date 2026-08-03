@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 17.679,
-  "expertQualityScore": 22.6752,
-  "expertSupplyScore": 12.1265,
+  "expertQualityScore": 23.0952,
+  "expertSupplyScore": 12.1419,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "RS",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 17.679,
-  "expertQualityScore": 22.6752,
-  "expertSupplyScore": 12.1265,
+  "expertQualityScore": 23.0952,
+  "expertSupplyScore": 12.1419,
   "geoId": "RS-belgrade",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Belgrade",
   "observableExpertCount": 2,
-  "opportunityScore": 22.3147,
+  "opportunityScore": 22.4461,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 159,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.6009
+  "weightedExpertCount": 0.6099
  },
  "subdomainMix": []
 }

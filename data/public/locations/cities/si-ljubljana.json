@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 15.3446,
-  "expertSupplyScore": 0.6115,
+  "expertQualityScore": 15.7646,
+  "expertSupplyScore": 0.5665,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "SI",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 15.3446,
-  "expertSupplyScore": 0.6115,
+  "expertQualityScore": 15.7646,
+  "expertSupplyScore": 0.5665,
   "geoId": "SI-ljubljana",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Ljubljana",
   "observableExpertCount": 1,
-  "opportunityScore": 9.8174,
+  "opportunityScore": 9.9276,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 250,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.2192
+  "weightedExpertCount": 0.2252
  },
  "subdomainMix": []
 }

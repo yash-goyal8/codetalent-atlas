@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 40.0,
   "ecosystemBreadthScore": 37.0939,
-  "expertQualityScore": 37.9723,
-  "expertSupplyScore": 38.0339,
+  "expertQualityScore": 38.6023,
+  "expertSupplyScore": 38.1726,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 37.0939,
-  "expertQualityScore": 37.9723,
-  "expertSupplyScore": 38.0339,
+  "expertQualityScore": 38.6023,
+  "expertSupplyScore": 38.1726,
   "geoId": "IT-milan",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,17 +38,17 @@
   "multiRepoExpertShare": 0.0,
   "name": "Milan",
   "observableExpertCount": 6,
-  "opportunityScore": 36.9129,
+  "opportunityScore": 37.1505,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
-  "rank": 76,
+  "rank": 75,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "infrastructure_as_code",
    "cloud_platforms_sdks",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 2.448
+  "weightedExpertCount": 2.496
  },
  "subdomainMix": []
 }

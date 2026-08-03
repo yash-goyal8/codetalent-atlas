@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 45.0,
   "ecosystemBreadthScore": 14.5998,
-  "expertQualityScore": 29.193,
-  "expertSupplyScore": 8.0424,
+  "expertQualityScore": 29.613,
+  "expertSupplyScore": 8.1304,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "NG",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 14.5998,
-  "expertQualityScore": 29.193,
-  "expertSupplyScore": 8.0424,
+  "expertQualityScore": 29.613,
+  "expertSupplyScore": 8.1304,
   "geoId": "NG",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.5,
@@ -55,16 +55,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Nigeria",
   "observableExpertCount": 2,
-  "opportunityScore": 22.2827,
+  "opportunityScore": 22.4395,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 70,
+  "rank": 69,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "infrastructure_as_code",
    "sre_reliability"
   ],
-  "weightedExpertCount": 0.7362
+  "weightedExpertCount": 0.7512
  },
  "subdomainMix": [
   {

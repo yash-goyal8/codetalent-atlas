@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 45.3587,
-  "expertQualityScore": 54.8923,
-  "expertSupplyScore": 45.7281,
+  "expertQualityScore": 55.5225,
+  "expertSupplyScore": 45.7874,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 45.3587,
-  "expertQualityScore": 54.8923,
-  "expertSupplyScore": 45.7281,
+  "expertQualityScore": 55.5225,
+  "expertSupplyScore": 45.7874,
   "geoId": "FR-rennes",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Rennes",
   "observableExpertCount": 6,
-  "opportunityScore": 44.0084,
+  "opportunityScore": 44.2182,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
   "rank": 45,
@@ -48,7 +48,7 @@
    "configuration_management",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 2.6426
+  "weightedExpertCount": 2.6756
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 22.3062,
-  "expertSupplyScore": 1.9523,
+  "expertQualityScore": 22.7262,
+  "expertSupplyScore": 1.9,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "ES",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 22.3062,
-  "expertSupplyScore": 1.9523,
+  "expertQualityScore": 22.7262,
+  "expertSupplyScore": 1.9,
   "geoId": "ES-las-palmas-de-gran-canaria",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Las Palmas de Gran Canaria",
   "observableExpertCount": 1,
-  "opportunityScore": 18.8752,
+  "opportunityScore": 18.9829,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 198,
+  "rank": 196,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.3187
+  "weightedExpertCount": 0.3247
  },
  "subdomainMix": []
 }

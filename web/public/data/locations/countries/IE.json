@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 51.8421,
   "ecosystemBreadthScore": 66.0045,
-  "expertQualityScore": 47.3098,
-  "expertSupplyScore": 57.9835,
+  "expertQualityScore": 47.7298,
+  "expertSupplyScore": 58.0664,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "IE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 66.0045,
-  "expertQualityScore": 47.3098,
-  "expertSupplyScore": 57.9835,
+  "expertQualityScore": 47.7298,
+  "expertSupplyScore": 58.0664,
   "geoId": "IE",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8158,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.2105,
   "name": "Ireland",
   "observableExpertCount": 38,
-  "opportunityScore": 51.3639,
+  "opportunityScore": 51.5189,
   "organizationCount": 21,
   "qualifiedRepoCount": 27,
   "rank": 11,
@@ -67,7 +67,7 @@
    "infrastructure_as_code",
    "configuration_management"
   ],
-  "weightedExpertCount": 17.5044
+  "weightedExpertCount": 17.7495
  },
  "subdomainMix": [
   {

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 35.0872,
-  "expertSupplyScore": 7.5384,
+  "expertQualityScore": 35.1785,
+  "expertSupplyScore": 7.4114,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 35.0872,
-  "expertSupplyScore": 7.5384,
+  "expertQualityScore": 35.1785,
+  "expertSupplyScore": 7.4114,
   "geoId": "US-redmond",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Redmond",
   "observableExpertCount": 1,
-  "opportunityScore": 33.5924,
+  "opportunityScore": 33.5753,
   "organizationCount": 1,
   "qualifiedRepoCount": 2,
   "rank": 102,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.5012
+  "weightedExpertCount": 0.5026
  },
  "subdomainMix": []
 }

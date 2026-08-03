@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 50.1408,
   "ecosystemBreadthScore": 82.1426,
-  "expertQualityScore": 42.7595,
-  "expertSupplyScore": 82.7824,
+  "expertQualityScore": 43.181,
+  "expertSupplyScore": 82.8301,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "CN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 82.1426,
-  "expertQualityScore": 42.7595,
-  "expertSupplyScore": 82.7824,
+  "expertQualityScore": 43.181,
+  "expertSupplyScore": 82.8301,
   "geoId": "CN",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.6761,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.1972,
   "name": "China",
   "observableExpertCount": 142,
-  "opportunityScore": 60.0371,
+  "opportunityScore": 60.1802,
   "organizationCount": 57,
   "qualifiedRepoCount": 87,
   "rank": 4,
@@ -67,7 +67,7 @@
    "service_mesh_networking",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 61.6177
+  "weightedExpertCount": 62.5221
  },
  "subdomainMix": [
   {

@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 49.3333,
   "ecosystemBreadthScore": 60.2521,
-  "expertQualityScore": 31.628,
-  "expertSupplyScore": 38.6163,
+  "expertQualityScore": 32.048,
+  "expertSupplyScore": 38.7664,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "PT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 60.2521,
-  "expertQualityScore": 31.628,
-  "expertSupplyScore": 38.6163,
+  "expertQualityScore": 32.048,
+  "expertSupplyScore": 38.7664,
   "geoId": "PT",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.9333,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.1333,
   "name": "Portugal",
   "observableExpertCount": 15,
-  "opportunityScore": 38.9293,
+  "opportunityScore": 39.1078,
   "organizationCount": 12,
   "qualifiedRepoCount": 14,
   "rank": 36,
@@ -66,7 +66,7 @@
    "configuration_management",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 6.1419
+  "weightedExpertCount": 6.2439
  },
  "subdomainMix": [
   {

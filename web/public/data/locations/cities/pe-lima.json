@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.0888,
-  "expertSupplyScore": 1.1458,
+  "expertQualityScore": 18.7188,
+  "expertSupplyScore": 1.1382,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "PE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.0888,
-  "expertSupplyScore": 1.1458,
+  "expertQualityScore": 18.7188,
+  "expertSupplyScore": 1.1382,
   "geoId": "PE-lima",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Lima",
   "observableExpertCount": 1,
-  "opportunityScore": 10.8277,
+  "opportunityScore": 11.014,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 246,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.2584
+  "weightedExpertCount": 0.2674
  },
  "subdomainMix": []
 }

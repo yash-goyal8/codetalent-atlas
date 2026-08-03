@@ -6,7 +6,7 @@
  "components": {
   "collaborationDepthScore": 44.8352,
   "ecosystemBreadthScore": 97.0192,
-  "expertQualityScore": 36.7519,
+  "expertQualityScore": 37.1719,
   "expertSupplyScore": 100.0,
   "momentumScore": 25.0
  },
@@ -27,7 +27,7 @@
   "countryCode": "IN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 97.0192,
-  "expertQualityScore": 36.7519,
+  "expertQualityScore": 37.1719,
   "expertSupplyScore": 100.0,
   "geoId": "IN-bengaluru",
   "geoLevel": "city",
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.2967,
   "name": "Bengaluru",
   "observableExpertCount": 91,
-  "opportunityScore": 64.9528,
+  "opportunityScore": 65.0788,
   "organizationCount": 58,
   "qualifiedRepoCount": 97,
   "rank": 4,
@@ -50,7 +50,7 @@
    "observability_monitoring",
    "configuration_management"
   ],
-  "weightedExpertCount": 36.7008
+  "weightedExpertCount": 37.3012
  },
  "subdomainMix": []
 }

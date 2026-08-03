@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 16.2847,
-  "expertSupplyScore": 0.7954,
+  "expertQualityScore": 16.9147,
+  "expertSupplyScore": 0.7901,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "NZ",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 16.2847,
-  "expertSupplyScore": 0.7954,
+  "expertQualityScore": 16.9147,
+  "expertSupplyScore": 0.7901,
   "geoId": "NZ-wellington",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Wellington",
   "observableExpertCount": 1,
-  "opportunityScore": 14.6638,
+  "opportunityScore": 14.8509,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 229,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.2326
+  "weightedExpertCount": 0.2416
  },
  "subdomainMix": []
 }

@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 56.25,
   "ecosystemBreadthScore": 37.7526,
-  "expertQualityScore": 53.2426,
-  "expertSupplyScore": 30.1992,
+  "expertQualityScore": 53.7818,
+  "expertSupplyScore": 30.294,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "AR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 37.7526,
-  "expertQualityScore": 53.2426,
-  "expertSupplyScore": 30.1992,
+  "expertQualityScore": 53.7818,
+  "expertSupplyScore": 30.294,
   "geoId": "AR",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.875,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.375,
   "name": "Argentina",
   "observableExpertCount": 8,
-  "opportunityScore": 41.2552,
+  "opportunityScore": 41.4502,
   "organizationCount": 5,
   "qualifiedRepoCount": 9,
   "rank": 28,
@@ -67,7 +67,7 @@
    "configuration_management",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 3.7219
+  "weightedExpertCount": 3.7716
  },
  "subdomainMix": [
   {

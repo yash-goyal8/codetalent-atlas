@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 70.0,
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 69.111,
-  "expertSupplyScore": 10.8081,
+  "expertQualityScore": 69.531,
+  "expertSupplyScore": 10.7672,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 69.111,
-  "expertSupplyScore": 10.8081,
+  "expertQualityScore": 69.531,
+  "expertSupplyScore": 10.7672,
   "geoId": "AU-perth",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Perth",
   "observableExpertCount": 1,
-  "opportunityScore": 40.4439,
+  "opportunityScore": 40.5556,
   "organizationCount": 1,
   "qualifiedRepoCount": 2,
   "rank": 56,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.5587
+  "weightedExpertCount": 0.5647
  },
  "subdomainMix": []
 }

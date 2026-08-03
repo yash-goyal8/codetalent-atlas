@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 35.0,
   "ecosystemBreadthScore": 47.1853,
-  "expertQualityScore": 27.4531,
-  "expertSupplyScore": 41.0339,
+  "expertQualityScore": 27.8731,
+  "expertSupplyScore": 41.2222,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "BR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 47.1853,
-  "expertQualityScore": 27.4531,
-  "expertSupplyScore": 41.0339,
+  "expertQualityScore": 27.8731,
+  "expertSupplyScore": 41.2222,
   "geoId": "BR-são-paulo",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,10 +38,10 @@
   "multiRepoExpertShare": 0.0,
   "name": "São Paulo",
   "observableExpertCount": 6,
-  "opportunityScore": 35.0663,
+  "opportunityScore": 35.2582,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
-  "rank": 91,
+  "rank": 90,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration",
@@ -49,7 +49,7 @@
    "cicd_developer_tooling",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 2.2121
+  "weightedExpertCount": 2.2511
  },
  "subdomainMix": []
 }

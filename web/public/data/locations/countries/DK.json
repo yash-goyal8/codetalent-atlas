@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 27.7778,
   "ecosystemBreadthScore": 36.9723,
-  "expertQualityScore": 28.845,
-  "expertSupplyScore": 26.8055,
+  "expertQualityScore": 29.055,
+  "expertSupplyScore": 26.9052,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "DK",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 36.9723,
-  "expertQualityScore": 28.845,
-  "expertSupplyScore": 26.8055,
+  "expertQualityScore": 29.055,
+  "expertSupplyScore": 26.9052,
   "geoId": "DK",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8889,
@@ -55,10 +55,10 @@
   "multiRepoExpertShare": 0.1111,
   "name": "Denmark",
   "observableExpertCount": 9,
-  "opportunityScore": 28.3993,
+  "opportunityScore": 28.4972,
   "organizationCount": 5,
   "qualifiedRepoCount": 6,
-  "rank": 58,
+  "rank": 59,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring",
@@ -67,7 +67,7 @@
    "infrastructure_as_code",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 3.2819
+  "weightedExpertCount": 3.3329
  },
  "subdomainMix": [
   {

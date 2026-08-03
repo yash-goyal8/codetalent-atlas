@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.6181,
-  "expertSupplyScore": 2.944,
+  "expertQualityScore": 28.2481,
+  "expertSupplyScore": 2.9248,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "RU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.6181,
-  "expertSupplyScore": 2.944,
+  "expertQualityScore": 28.2481,
+  "expertSupplyScore": 2.9248,
   "geoId": "RU-tomsk",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Tomsk",
   "observableExpertCount": 1,
-  "opportunityScore": 20.8158,
+  "opportunityScore": 20.9981,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 177,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3945
+  "weightedExpertCount": 0.4035
  },
  "subdomainMix": []
 }

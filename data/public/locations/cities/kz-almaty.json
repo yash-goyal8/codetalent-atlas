@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.6511,
-  "expertSupplyScore": 1.2544,
+  "expertQualityScore": 19.0711,
+  "expertSupplyScore": 1.2058,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "KZ",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.6511,
-  "expertSupplyScore": 1.2544,
+  "expertQualityScore": 19.0711,
+  "expertSupplyScore": 1.2058,
   "geoId": "KZ-almaty",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Almaty",
   "observableExpertCount": 1,
-  "opportunityScore": 13.0344,
+  "opportunityScore": 13.1434,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 234,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.2664
+  "weightedExpertCount": 0.2724
  },
  "subdomainMix": []
 }

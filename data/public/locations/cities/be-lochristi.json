@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 20.8357,
-  "expertSupplyScore": 1.6731,
+  "expertQualityScore": 21.4657,
+  "expertSupplyScore": 1.6621,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "BE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 20.8357,
-  "expertSupplyScore": 1.6731,
+  "expertQualityScore": 21.4657,
+  "expertSupplyScore": 1.6621,
   "geoId": "BE-lochristi",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Lochristi",
   "observableExpertCount": 1,
-  "opportunityScore": 18.3363,
+  "opportunityScore": 18.5215,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 203,
+  "rank": 201,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.2977
+  "weightedExpertCount": 0.3067
  },
  "subdomainMix": []
 }

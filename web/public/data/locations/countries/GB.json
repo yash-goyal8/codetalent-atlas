@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 46.3265,
   "ecosystemBreadthScore": 89.7742,
-  "expertQualityScore": 40.6274,
-  "expertSupplyScore": 83.0724,
+  "expertQualityScore": 41.2574,
+  "expertSupplyScore": 83.1292,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 89.7742,
-  "expertQualityScore": 40.6274,
-  "expertSupplyScore": 83.0724,
+  "expertQualityScore": 41.2574,
+  "expertSupplyScore": 83.1292,
   "geoId": "GB",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.7551,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.2041,
   "name": "United Kingdom",
   "observableExpertCount": 147,
-  "opportunityScore": 59.6899,
+  "opportunityScore": 59.8988,
   "organizationCount": 68,
   "qualifiedRepoCount": 98,
   "rank": 5,
@@ -66,7 +66,7 @@
    "cloud_platforms_sdks",
    "configuration_management"
   ],
-  "weightedExpertCount": 62.5165
+  "weightedExpertCount": 63.4652
  },
  "subdomainMix": [
   {

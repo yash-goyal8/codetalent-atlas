@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 70.0,
   "ecosystemBreadthScore": 28.8973,
-  "expertQualityScore": 67.6219,
-  "expertSupplyScore": 10.8245,
+  "expertQualityScore": 68.0741,
+  "expertSupplyScore": 10.7979,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 28.8973,
-  "expertQualityScore": 67.6219,
-  "expertSupplyScore": 10.8245,
+  "expertQualityScore": 68.0741,
+  "expertSupplyScore": 10.7979,
   "geoId": "AT-salzburg",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Salzburg",
   "observableExpertCount": 1,
-  "opportunityScore": 39.9649,
+  "opportunityScore": 40.0912,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 59,
@@ -48,7 +48,7 @@
    "infrastructure_as_code",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 0.5375
+  "weightedExpertCount": 0.5439
  },
  "subdomainMix": []
 }

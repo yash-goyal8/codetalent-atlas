@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 27.4796,
-  "expertQualityScore": 39.0154,
-  "expertSupplyScore": 33.3022,
+  "expertQualityScore": 39.4354,
+  "expertSupplyScore": 33.4328,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 27.4796,
-  "expertQualityScore": 39.0154,
-  "expertSupplyScore": 33.3022,
+  "expertQualityScore": 39.4354,
+  "expertSupplyScore": 33.4328,
   "geoId": "AT-graz",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,17 +38,17 @@
   "multiRepoExpertShare": 0.0,
   "name": "Graz",
   "observableExpertCount": 4,
-  "opportunityScore": 37.6083,
+  "opportunityScore": 37.7801,
   "organizationCount": 2,
   "qualifiedRepoCount": 3,
-  "rank": 70,
+  "rank": 68,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring",
    "containers_orchestration",
    "configuration_management"
   ],
-  "weightedExpertCount": 1.7266
+  "weightedExpertCount": 1.7536
  },
  "subdomainMix": []
 }

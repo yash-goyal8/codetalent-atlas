@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 70.0,
   "ecosystemBreadthScore": 13.0734,
-  "expertQualityScore": 31.8021,
-  "expertSupplyScore": 4.3271,
+  "expertQualityScore": 32.4321,
+  "expertSupplyScore": 4.3694,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "MN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 13.0734,
-  "expertQualityScore": 31.8021,
-  "expertSupplyScore": 4.3271,
+  "expertQualityScore": 32.4321,
+  "expertSupplyScore": 4.3694,
   "geoId": "MN",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,15 +55,15 @@
   "multiRepoExpertShare": 1.0,
   "name": "Mongolia",
   "observableExpertCount": 1,
-  "opportunityScore": 27.8625,
+  "opportunityScore": 28.0663,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 59,
+  "rank": 60,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.4543
+  "weightedExpertCount": 0.4633
  },
  "subdomainMix": [
   {

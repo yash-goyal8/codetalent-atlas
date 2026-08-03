@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 26.3511,
-  "expertSupplyScore": 2.7099,
+  "expertQualityScore": 26.5611,
+  "expertSupplyScore": 2.6147,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 26.3511,
-  "expertSupplyScore": 2.7099,
+  "expertQualityScore": 26.5611,
+  "expertSupplyScore": 2.6147,
   "geoId": "DE-marburg-an-der-lahn",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Marburg an der Lahn",
   "observableExpertCount": 1,
-  "opportunityScore": 18.9388,
+  "opportunityScore": 18.9684,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 196,
+  "rank": 197,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cloud_platforms_sdks",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3764
+  "weightedExpertCount": 0.3794
  },
  "subdomainMix": []
 }

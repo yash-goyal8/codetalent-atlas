@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 40.0,
   "ecosystemBreadthScore": 37.8313,
-  "expertQualityScore": 39.2949,
-  "expertSupplyScore": 42.9596,
+  "expertQualityScore": 39.7149,
+  "expertSupplyScore": 43.0864,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FI",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 37.8313,
-  "expertQualityScore": 39.2949,
-  "expertSupplyScore": 42.9596,
+  "expertQualityScore": 39.7149,
+  "expertSupplyScore": 43.0864,
   "geoId": "FI-helsinki",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Helsinki",
   "observableExpertCount": 6,
-  "opportunityScore": 39.1075,
+  "opportunityScore": 39.2778,
   "organizationCount": 4,
   "qualifiedRepoCount": 4,
   "rank": 64,
@@ -49,7 +49,7 @@
    "containers_orchestration",
    "configuration_management"
   ],
-  "weightedExpertCount": 2.3822
+  "weightedExpertCount": 2.4182
  },
  "subdomainMix": []
 }

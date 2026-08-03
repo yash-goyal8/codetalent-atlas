@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 62.0,
   "ecosystemBreadthScore": 42.7528,
-  "expertQualityScore": 41.7585,
-  "expertSupplyScore": 37.7797,
+  "expertQualityScore": 42.1785,
+  "expertSupplyScore": 37.8844,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 42.7528,
-  "expertQualityScore": 41.7585,
-  "expertSupplyScore": 37.7797,
+  "expertQualityScore": 42.1785,
+  "expertSupplyScore": 37.8844,
   "geoId": "DE-karlsruhe",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.2,
   "name": "Karlsruhe",
   "observableExpertCount": 5,
-  "opportunityScore": 41.8257,
+  "opportunityScore": 41.9884,
   "organizationCount": 3,
   "qualifiedRepoCount": 4,
   "rank": 50,
@@ -49,7 +49,7 @@
    "containers_orchestration",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 2.3568
+  "weightedExpertCount": 2.3898
  },
  "subdomainMix": []
 }

@@ -21,6 +21,7 @@ import {
   countryFillColor,
   countryFillOpacity,
   countryIdFilter,
+  countryPointFeatureCollection,
   EMPTY_CITY_COLLECTION,
   isLowConfidence,
   lowConfidenceCountryFilter,
@@ -46,6 +47,14 @@ export interface AtlasMapProps {
    * — wire this to the ranked DataTable that mirrors the map data.
    */
   describedBy?: string;
+  /**
+   * false renders a static preview: no pan/zoom/hover/click handlers,
+   * no navigation control, no interaction instructions (used by the
+   * Overview map teaser, which overlays its own link to the Explorer).
+   */
+  interactive?: boolean;
+  /** Override the default responsive height classes of the map frame. */
+  heightClass?: string;
   className?: string;
 }
 
@@ -96,6 +105,8 @@ export function AtlasMap({
   selectedGeoId,
   onSelect,
   describedBy,
+  interactive = true,
+  heightClass = "h-[420px] lg:h-[600px]",
   className,
 }: AtlasMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -111,6 +122,11 @@ export function AtlasMap({
   );
   const cityCollection = useMemo(
     () => cityFeatureCollection(rows, layer),
+    [rows, layer],
+  );
+  /* Ranked countries with no 110m polygon (SG, HK, MT, …) as points. */
+  const microstateCollection = useMemo(
+    () => countryPointFeatureCollection(rows, layer),
     [rows, layer],
   );
   const cityCoordsMissing =
@@ -145,13 +161,16 @@ export function AtlasMap({
           minZoom: 0.6,
           maxZoom: 10,
           attributionControl: false,
+          interactive,
           fadeDuration: reducedMotion ? 0 : 300,
         });
         mapRef.current = map;
-        map.addControl(
-          new maplibre.NavigationControl({ showCompass: false }),
-          "top-right",
-        );
+        if (interactive) {
+          map.addControl(
+            new maplibre.NavigationControl({ showCompass: false }),
+            "top-right",
+          );
+        }
         map.on("error", (event) => {
           if ((event as { sourceId?: string }).sourceId === "countries") {
             setFailed(true);
@@ -173,6 +192,13 @@ export function AtlasMap({
             cluster: true,
             clusterMaxZoom: 9,
             clusterRadius: 42,
+          });
+          /* Ranked countries with no 110m polygon, as point markers. */
+          m.addSource("country-points", {
+            type: "geojson",
+            data: EMPTY_CITY_COLLECTION as unknown as Parameters<
+              GeoJSONSource["setData"]
+            >[0],
           });
 
           m.addLayer({
@@ -216,6 +242,31 @@ export function AtlasMap({
             source: "countries",
             filter: NONE_FILTER,
             paint: { "line-color": "#b2c7ff", "line-width": 2 },
+          });
+
+          m.addLayer({
+            id: "country-points",
+            type: "circle",
+            source: "country-points",
+            paint: {
+              "circle-color": ["get", "color"],
+              "circle-radius": ["get", "radius"],
+              "circle-opacity": ["get", "fillOpacity"],
+              "circle-stroke-color": "rgba(244, 247, 251, 0.4)",
+              "circle-stroke-width": ["get", "strokeWidth"],
+            },
+          });
+          m.addLayer({
+            id: "country-points-selected",
+            type: "circle",
+            source: "country-points",
+            filter: cityIdFilter(null),
+            paint: {
+              "circle-color": "rgba(0, 0, 0, 0)",
+              "circle-radius": ["+", ["get", "radius"], 3],
+              "circle-stroke-color": "#b2c7ff",
+              "circle-stroke-width": 2,
+            },
           });
 
           m.addLayer({
@@ -265,6 +316,11 @@ export function AtlasMap({
             },
           });
 
+          if (!interactive) {
+            setReady(true);
+            return;
+          }
+
           const placeTooltip = (
             e: MapLayerMouseEvent,
             content: Pick<TooltipContent, "name" | "row" | "clusterCount">,
@@ -306,6 +362,35 @@ export function AtlasMap({
             const geoId = String(feature.id);
             if (byGeoRef.current.has(geoId)) {
               onSelectRef.current(geoId);
+            }
+          });
+
+          /* Polygon-less ranked countries (point markers). */
+          m.on("mousemove", "country-points", (e) => {
+            if (levelRef.current !== "country") return;
+            const properties = e.features?.[0]?.properties as
+              | { geoId?: string; name?: string }
+              | undefined;
+            if (!properties?.geoId) return;
+            const row = byGeoRef.current.get(properties.geoId) ?? null;
+            m.getCanvas().style.cursor = row ? "pointer" : "";
+            placeTooltip(e, {
+              name: properties.name ?? properties.geoId,
+              row,
+              clusterCount: null,
+            });
+          });
+          m.on("mouseleave", "country-points", () => {
+            m.getCanvas().style.cursor = "";
+            setTooltip(null);
+          });
+          m.on("click", "country-points", (e) => {
+            if (levelRef.current !== "country") return;
+            const properties = e.features?.[0]?.properties as
+              | { geoId?: string }
+              | undefined;
+            if (properties?.geoId && byGeoRef.current.has(properties.geoId)) {
+              onSelectRef.current(properties.geoId);
             }
           });
 
@@ -393,7 +478,7 @@ export function AtlasMap({
       setReady(false);
       map?.remove();
     };
-  }, []);
+  }, [interactive]);
 
   /* Accessible name + description on the MapLibre canvas. */
   useEffect(() => {
@@ -414,6 +499,9 @@ export function AtlasMap({
   useEffect(() => {
     const map = mapRef.current;
     if (!ready || !map) return;
+    const countryPointsSource = map.getSource("country-points") as
+      | GeoJSONSource
+      | undefined;
     if (level === "country") {
       map.setPaintProperty(
         "countries-fill",
@@ -427,14 +515,24 @@ export function AtlasMap({
       );
       map.setFilter("countries-lowconf", lowConfidenceCountryFilter(rows));
       setCitySource(map, EMPTY_CITY_COLLECTION);
+      countryPointsSource?.setData(
+        microstateCollection as unknown as Parameters<
+          GeoJSONSource["setData"]
+        >[0],
+      );
     } else {
       map.setPaintProperty("countries-fill", "fill-color", NO_DATA_FILL);
       map.setPaintProperty("countries-fill", "fill-opacity", 1);
       map.setFilter("countries-lowconf", NONE_FILTER);
       setCitySource(map, cityCollection);
+      countryPointsSource?.setData(
+        EMPTY_CITY_COLLECTION as unknown as Parameters<
+          GeoJSONSource["setData"]
+        >[0],
+      );
     }
     map.setFilter("countries-hover", NONE_FILTER);
-  }, [ready, rows, layer, level, cityCollection]);
+  }, [ready, rows, layer, level, cityCollection, microstateCollection]);
 
   /* Selection outline. */
   useEffect(() => {
@@ -445,6 +543,10 @@ export function AtlasMap({
       level === "country" ? countryIdFilter(selectedGeoId) : NONE_FILTER,
     );
     map.setFilter(
+      "country-points-selected",
+      cityIdFilter(level === "country" ? selectedGeoId : null),
+    );
+    map.setFilter(
       "cities-selected",
       cityIdFilter(level === "city" ? selectedGeoId : null),
     );
@@ -452,7 +554,12 @@ export function AtlasMap({
 
   return (
     <div className={cn("min-w-0", className)}>
-      <div className="relative h-[420px] w-full overflow-hidden rounded-lg border border-border bg-background lg:h-[600px]">
+      <div
+        className={cn(
+          "relative w-full overflow-hidden rounded-lg border border-border bg-background",
+          heightClass,
+        )}
+      >
         <div ref={containerRef} className="absolute inset-0" />
 
         {!ready && !failed ? (
@@ -498,6 +605,9 @@ export function AtlasMap({
         <MapLegend
           layer={layer}
           level={level}
+          hasMicrostates={
+            level === "country" && microstateCollection.features.length > 0
+          }
           className="absolute bottom-3 left-3 z-10"
         />
 
@@ -581,13 +691,20 @@ export function AtlasMap({
         ) : null}
       </div>
 
-      <p id={instructionsId} className="mt-2 text-xs leading-5 text-secondary">
-        Focus the map and use the arrow keys to pan, plus and minus to zoom.
-        Hover a location for details; click to select it, click again to open
-        its detail page. The ranked table alongside is the accessible text
-        alternative with the same data.
-      </p>
-      <p className="mt-1 text-[11px] leading-4 text-secondary/80">
+      {interactive ? (
+        <p id={instructionsId} className="mt-2 text-xs leading-5 text-secondary">
+          Focus the map and use the arrow keys to pan, plus and minus to zoom.
+          Hover a location for details; click to select it, click again to
+          open its detail page. The ranked table alongside is the accessible
+          text alternative with the same data.
+        </p>
+      ) : (
+        <p id={instructionsId} className="sr-only">
+          Static map preview — open the Explorer for the interactive version
+          with a full accessible table alternative.
+        </p>
+      )}
+      <p className="mt-1 text-xs leading-4 text-secondary/80">
         Basemap: Natural Earth country boundaries (public domain), rendered
         locally — no external tile services or API keys.
       </p>

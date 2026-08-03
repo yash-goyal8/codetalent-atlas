@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 55.0,
   "ecosystemBreadthScore": 35.8769,
-  "expertQualityScore": 60.0849,
-  "expertSupplyScore": 20.1713,
+  "expertQualityScore": 60.5049,
+  "expertSupplyScore": 20.2478,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "GE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 35.8769,
-  "expertQualityScore": 60.0849,
-  "expertSupplyScore": 20.1713,
+  "expertQualityScore": 60.5049,
+  "expertSupplyScore": 20.2478,
   "geoId": "GE",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.5,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.25,
   "name": "Georgia",
   "observableExpertCount": 4,
-  "opportunityScore": 41.9231,
+  "opportunityScore": 42.0759,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
   "rank": 27,
@@ -65,7 +65,7 @@
    "service_mesh_networking",
    "configuration_management"
   ],
-  "weightedExpertCount": 2.205
+  "weightedExpertCount": 2.235
  },
  "subdomainMix": [
   {

@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 37.5,
   "ecosystemBreadthScore": 48.1204,
-  "expertQualityScore": 32.9415,
-  "expertSupplyScore": 26.3399,
+  "expertQualityScore": 33.3615,
+  "expertSupplyScore": 26.4888,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "HU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 48.1204,
-  "expertQualityScore": 32.9415,
-  "expertSupplyScore": 26.3399,
+  "expertQualityScore": 33.3615,
+  "expertSupplyScore": 26.4888,
   "geoId": "HU",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.625,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.375,
   "name": "Hungary",
   "observableExpertCount": 8,
-  "opportunityScore": 32.0385,
+  "opportunityScore": 32.2166,
   "organizationCount": 9,
   "qualifiedRepoCount": 11,
   "rank": 49,
@@ -66,7 +66,7 @@
    "infrastructure_as_code",
    "configuration_management"
   ],
-  "weightedExpertCount": 2.906
+  "weightedExpertCount": 2.9558
  },
  "subdomainMix": [
   {

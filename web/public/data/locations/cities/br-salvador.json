@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 21.2765,
-  "expertSupplyScore": 1.757,
+  "expertQualityScore": 21.9065,
+  "expertSupplyScore": 1.7455,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "BR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 21.2765,
-  "expertSupplyScore": 1.757,
+  "expertQualityScore": 21.9065,
+  "expertSupplyScore": 1.7455,
   "geoId": "BR-salvador",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Salvador",
   "observableExpertCount": 1,
-  "opportunityScore": 11.9979,
+  "opportunityScore": 12.1829,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 239,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3039
+  "weightedExpertCount": 0.3129
  },
  "subdomainMix": []
 }

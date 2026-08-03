@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 40.8333,
   "ecosystemBreadthScore": 49.138,
-  "expertQualityScore": 36.3613,
-  "expertSupplyScore": 45.9925,
+  "expertQualityScore": 36.7813,
+  "expertSupplyScore": 46.1251,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "TW",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 49.138,
-  "expertQualityScore": 36.3613,
-  "expertSupplyScore": 45.9925,
+  "expertQualityScore": 36.7813,
+  "expertSupplyScore": 46.1251,
   "geoId": "TW",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,10 +55,10 @@
   "multiRepoExpertShare": 0.0833,
   "name": "Taiwan, Province of China",
   "observableExpertCount": 24,
-  "opportunityScore": 40.5445,
+  "opportunityScore": 40.717,
   "organizationCount": 12,
   "qualifiedRepoCount": 14,
-  "rank": 30,
+  "rank": 29,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cloud_platforms_sdks",
@@ -66,7 +66,7 @@
    "configuration_management",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 9.2633
+  "weightedExpertCount": 9.4099
  },
  "subdomainMix": [
   {

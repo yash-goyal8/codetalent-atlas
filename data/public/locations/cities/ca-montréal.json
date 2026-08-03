@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 35.0,
   "ecosystemBreadthScore": 50.0344,
-  "expertQualityScore": 30.3273,
-  "expertSupplyScore": 42.5411,
+  "expertQualityScore": 30.5373,
+  "expertSupplyScore": 42.6076,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 50.0344,
-  "expertQualityScore": 30.3273,
-  "expertSupplyScore": 42.5411,
+  "expertQualityScore": 30.5373,
+  "expertSupplyScore": 42.6076,
   "geoId": "CA-montréal",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,10 +38,10 @@
   "multiRepoExpertShare": 0.0,
   "name": "Montréal",
   "observableExpertCount": 6,
-  "opportunityScore": 39.241,
+  "opportunityScore": 39.3273,
   "organizationCount": 6,
   "qualifiedRepoCount": 6,
-  "rank": 61,
+  "rank": 62,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cloud_platforms_sdks",
@@ -49,7 +49,7 @@
    "observability_monitoring",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 2.3445
+  "weightedExpertCount": 2.3745
  },
  "subdomainMix": []
 }

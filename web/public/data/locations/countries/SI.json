@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 37.5,
   "ecosystemBreadthScore": 28.9248,
-  "expertQualityScore": 21.0111,
-  "expertSupplyScore": 14.8798,
+  "expertQualityScore": 21.4311,
+  "expertSupplyScore": 15.0167,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "SI",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 28.9248,
-  "expertQualityScore": 21.0111,
-  "expertSupplyScore": 14.8798,
+  "expertQualityScore": 21.4311,
+  "expertSupplyScore": 15.0167,
   "geoId": "SI",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Slovenia",
   "observableExpertCount": 4,
-  "opportunityScore": 22.5287,
+  "opportunityScore": 22.7026,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
   "rank": 67,
@@ -65,7 +65,7 @@
    "infrastructure_as_code",
    "configuration_management"
   ],
-  "weightedExpertCount": 1.2237
+  "weightedExpertCount": 1.2477
  },
  "subdomainMix": [
   {

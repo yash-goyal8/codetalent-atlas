@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 45.0,
   "ecosystemBreadthScore": 12.7609,
-  "expertQualityScore": 27.933,
-  "expertSupplyScore": 7.7727,
+  "expertQualityScore": 28.3536,
+  "expertSupplyScore": 7.8326,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "AE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 12.7609,
-  "expertQualityScore": 27.933,
-  "expertSupplyScore": 7.7727,
+  "expertQualityScore": 28.3536,
+  "expertSupplyScore": 7.8326,
   "geoId": "AE",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "United Arab Emirates",
   "observableExpertCount": 2,
-  "opportunityScore": 24.1264,
+  "opportunityScore": 24.2736,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 64,
@@ -63,7 +63,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.71
+  "weightedExpertCount": 0.722
  },
  "subdomainMix": [
   {

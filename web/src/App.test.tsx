@@ -1,8 +1,15 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import App, { AppRoutes } from "./App";
 import { AWAITING_DATASET_MESSAGE } from "./components/EmptyState";
+import { clearDataCache } from "./lib/data";
+import { stubDataFetch } from "./test/fixtures/stubFetch";
+
+afterEach(() => {
+  vi.unstubAllGlobals();
+  clearDataCache();
+});
 
 function renderAt(path: string) {
   return render(
@@ -48,6 +55,8 @@ describe("routes", () => {
   });
 
   it("renders the awaiting-dataset empty state on data routes", async () => {
+    // Simulate the pre-pipeline state: every data file 404s.
+    stubDataFetch();
     renderAt("/explore");
     expect(await screen.findByText(AWAITING_DATASET_MESSAGE)).toBeInTheDocument();
   });

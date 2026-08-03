@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 53.3333,
   "ecosystemBreadthScore": 25.0389,
-  "expertQualityScore": 59.5921,
-  "expertSupplyScore": 17.2286,
+  "expertQualityScore": 60.0121,
+  "expertSupplyScore": 17.3072,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "ZA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 25.0389,
-  "expertQualityScore": 59.5921,
-  "expertSupplyScore": 17.2286,
+  "expertQualityScore": 60.0121,
+  "expertSupplyScore": 17.3072,
   "geoId": "ZA",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.3333,
   "name": "South Africa",
   "observableExpertCount": 3,
-  "opportunityScore": 39.4116,
+  "opportunityScore": 39.5651,
   "organizationCount": 3,
   "qualifiedRepoCount": 4,
   "rank": 35,
@@ -65,7 +65,7 @@
    "containers_orchestration",
    "configuration_management"
   ],
-  "weightedExpertCount": 1.5326
+  "weightedExpertCount": 1.5536
  },
  "subdomainMix": [
   {

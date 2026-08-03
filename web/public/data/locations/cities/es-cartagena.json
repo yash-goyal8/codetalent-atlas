@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.0233,
-  "expertSupplyScore": 2.8343,
+  "expertQualityScore": 27.4433,
+  "expertSupplyScore": 2.7772,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "ES",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.0233,
-  "expertSupplyScore": 2.8343,
+  "expertQualityScore": 27.4433,
+  "expertSupplyScore": 2.7772,
   "geoId": "ES-cartagena",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Cartagena",
   "observableExpertCount": 1,
-  "opportunityScore": 23.099,
+  "opportunityScore": 23.205,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 155,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.386
+  "weightedExpertCount": 0.392
  },
  "subdomainMix": []
 }

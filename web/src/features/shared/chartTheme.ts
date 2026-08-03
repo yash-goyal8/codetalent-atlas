@@ -19,9 +19,13 @@ export const CHART_COLORS = {
   tooltipBorder: "rgba(255,255,255,0.12)",
 } as const;
 
-/** Base text/tooltip styling merged into every chart option. */
+/**
+ * Base text/tooltip styling merged into every chart option. The 12px
+ * fontSize enforces the spec 19 "no text below 12px" floor on every
+ * ECharts label that does not set its own size.
+ */
 export const baseChartText = {
-  textStyle: { color: CHART_COLORS.text, fontFamily: "inherit" },
+  textStyle: { color: CHART_COLORS.text, fontFamily: "inherit", fontSize: 12 },
   tooltip: {
     backgroundColor: CHART_COLORS.tooltipBg,
     borderColor: CHART_COLORS.tooltipBorder,

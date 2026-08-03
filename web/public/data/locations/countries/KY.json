@@ -13,8 +13,8 @@
  "components": {
   "collaborationDepthScore": 15.0,
   "ecosystemBreadthScore": 16.208,
-  "expertQualityScore": 17.9695,
-  "expertSupplyScore": 4.7881,
+  "expertQualityScore": 18.3895,
+  "expertSupplyScore": 4.8746,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -34,8 +34,8 @@
   "countryCode": "KY",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 16.208,
-  "expertQualityScore": 17.9695,
-  "expertSupplyScore": 4.7881,
+  "expertQualityScore": 18.3895,
+  "expertSupplyScore": 4.8746,
   "geoId": "KY",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -45,7 +45,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Cayman Islands",
   "observableExpertCount": 2,
-  "opportunityScore": 15.9375,
+  "opportunityScore": 16.0938,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 75,
@@ -54,7 +54,7 @@
    "observability_monitoring",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.4426
+  "weightedExpertCount": 0.4546
  },
  "subdomainMix": [
   {

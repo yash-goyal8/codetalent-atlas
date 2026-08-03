@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 72.5,
   "ecosystemBreadthScore": 39.589,
-  "expertQualityScore": 65.7463,
-  "expertSupplyScore": 37.7819,
+  "expertQualityScore": 66.1663,
+  "expertSupplyScore": 37.8435,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 39.589,
-  "expertQualityScore": 65.7463,
-  "expertSupplyScore": 37.7819,
+  "expertQualityScore": 66.1663,
+  "expertSupplyScore": 37.8435,
   "geoId": "AR-buenos-aires",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.5,
   "name": "Buenos Aires",
   "observableExpertCount": 4,
-  "opportunityScore": 50.2815,
+  "opportunityScore": 50.429,
   "organizationCount": 3,
   "qualifiedRepoCount": 5,
   "rank": 17,
@@ -50,7 +50,7 @@
    "containers_orchestration",
    "configuration_management"
   ],
-  "weightedExpertCount": 2.2454
+  "weightedExpertCount": 2.2711
  },
  "subdomainMix": []
 }

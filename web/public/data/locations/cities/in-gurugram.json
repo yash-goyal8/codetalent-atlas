@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.54,
-  "expertSupplyScore": 1.4253,
+  "expertQualityScore": 20.17,
+  "expertSupplyScore": 1.4159,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.54,
-  "expertSupplyScore": 1.4253,
+  "expertQualityScore": 20.17,
+  "expertSupplyScore": 1.4159,
   "geoId": "IN-gurugram",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Gurugram",
   "observableExpertCount": 1,
-  "opportunityScore": 11.3608,
+  "opportunityScore": 11.5466,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 244,
+  "rank": 243,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "sre_reliability"
   ],
-  "weightedExpertCount": 0.2791
+  "weightedExpertCount": 0.2881
  },
  "subdomainMix": []
 }

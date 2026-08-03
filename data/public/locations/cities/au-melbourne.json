@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 58.3333,
   "ecosystemBreadthScore": 80.2318,
-  "expertQualityScore": 48.9285,
-  "expertSupplyScore": 82.8266,
+  "expertQualityScore": 49.349,
+  "expertSupplyScore": 82.7964,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 80.2318,
-  "expertQualityScore": 48.9285,
-  "expertSupplyScore": 82.8266,
+  "expertQualityScore": 49.349,
+  "expertSupplyScore": 82.7964,
   "geoId": "AU-melbourne",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.3333,
   "name": "Melbourne",
   "observableExpertCount": 18,
-  "opportunityScore": 62.941,
+  "opportunityScore": 63.0566,
   "organizationCount": 11,
   "qualifiedRepoCount": 22,
   "rank": 6,
@@ -50,7 +50,7 @@
    "infrastructure_as_code",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 8.8408
+  "weightedExpertCount": 8.9388
  },
  "subdomainMix": []
 }

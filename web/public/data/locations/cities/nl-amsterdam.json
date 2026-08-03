@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 50.0,
   "ecosystemBreadthScore": 73.1922,
-  "expertQualityScore": 46.2116,
-  "expertSupplyScore": 63.1233,
+  "expertQualityScore": 46.6316,
+  "expertSupplyScore": 63.2604,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "NL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 73.1922,
-  "expertQualityScore": 46.2116,
-  "expertSupplyScore": 63.1233,
+  "expertQualityScore": 46.6316,
+  "expertSupplyScore": 63.2604,
   "geoId": "NL-amsterdam",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.3636,
   "name": "Amsterdam",
   "observableExpertCount": 11,
-  "opportunityScore": 53.2758,
+  "opportunityScore": 53.4498,
   "organizationCount": 8,
   "qualifiedRepoCount": 11,
   "rank": 14,
@@ -50,7 +50,7 @@
    "cicd_developer_tooling",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 4.8049
+  "weightedExpertCount": 4.8788
  },
  "subdomainMix": []
 }

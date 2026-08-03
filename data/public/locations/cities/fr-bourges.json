@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.09,
-  "expertSupplyScore": 1.3388,
+  "expertQualityScore": 19.51,
+  "expertSupplyScore": 1.2899,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.09,
-  "expertSupplyScore": 1.3388,
+  "expertQualityScore": 19.51,
+  "expertSupplyScore": 1.2899,
   "geoId": "FR-bourges",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Bourges",
   "observableExpertCount": 1,
-  "opportunityScore": 15.6956,
+  "opportunityScore": 15.8045,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 226,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.2727
+  "weightedExpertCount": 0.2787
  },
  "subdomainMix": []
 }

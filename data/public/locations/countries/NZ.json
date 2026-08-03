@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 49.2857,
   "ecosystemBreadthScore": 54.3394,
-  "expertQualityScore": 38.5378,
-  "expertSupplyScore": 37.2476,
+  "expertQualityScore": 39.1678,
+  "expertSupplyScore": 37.3612,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "NZ",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 54.3394,
-  "expertQualityScore": 38.5378,
-  "expertSupplyScore": 37.2476,
+  "expertQualityScore": 39.1678,
+  "expertSupplyScore": 37.3612,
   "geoId": "NZ",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.2143,
   "name": "New Zealand",
   "observableExpertCount": 14,
-  "opportunityScore": 39.9248,
+  "opportunityScore": 40.1536,
   "organizationCount": 11,
   "qualifiedRepoCount": 14,
   "rank": 33,
@@ -67,7 +67,7 @@
    "infrastructure_as_code",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 5.6772
+  "weightedExpertCount": 5.7593
  },
  "subdomainMix": [
   {

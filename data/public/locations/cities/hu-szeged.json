@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 25.4415,
-  "expertSupplyScore": 2.5408,
+  "expertQualityScore": 25.8615,
+  "expertSupplyScore": 2.4853,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "HU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 25.4415,
-  "expertSupplyScore": 2.5408,
+  "expertQualityScore": 25.8615,
+  "expertSupplyScore": 2.4853,
   "geoId": "HU-szeged",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Szeged",
   "observableExpertCount": 1,
-  "opportunityScore": 18.0218,
+  "opportunityScore": 18.1283,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 207,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.3635
+  "weightedExpertCount": 0.3695
  },
  "subdomainMix": []
 }

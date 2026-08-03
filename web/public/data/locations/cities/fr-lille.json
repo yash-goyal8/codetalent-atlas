@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 28.7166,
-  "expertSupplyScore": 3.1458,
+  "expertQualityScore": 28.9266,
+  "expertSupplyScore": 3.0488,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 28.7166,
-  "expertSupplyScore": 3.1458,
+  "expertQualityScore": 28.9266,
+  "expertSupplyScore": 3.0488,
   "geoId": "FR-lille",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Lille",
   "observableExpertCount": 1,
-  "opportunityScore": 23.716,
+  "opportunityScore": 23.7451,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 152,
+  "rank": 153,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.4102
+  "weightedExpertCount": 0.4132
  },
  "subdomainMix": []
 }

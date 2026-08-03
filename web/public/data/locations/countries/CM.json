@@ -24,7 +24,7 @@
   "collaborationDepthScore": 45.0,
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 53.6983,
-  "expertSupplyScore": 5.3245,
+  "expertSupplyScore": 5.2663,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -45,7 +45,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
   "expertQualityScore": 53.6983,
-  "expertSupplyScore": 5.3245,
+  "expertSupplyScore": 5.2663,
   "geoId": "CM",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,10 +55,10 @@
   "multiRepoExpertShare": 0.0,
   "name": "Cameroon",
   "observableExpertCount": 2,
-  "opportunityScore": 29.7231,
+  "opportunityScore": 29.7027,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 56,
+  "rank": 57,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cicd_developer_tooling"

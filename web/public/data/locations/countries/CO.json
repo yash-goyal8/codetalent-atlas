@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 14.1335,
-  "expertQualityScore": 53.6307,
-  "expertSupplyScore": 8.7101,
+  "expertQualityScore": 54.2609,
+  "expertSupplyScore": 8.7917,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "CO",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 14.1335,
-  "expertQualityScore": 53.6307,
-  "expertSupplyScore": 8.7101,
+  "expertQualityScore": 54.2609,
+  "expertSupplyScore": 8.7917,
   "geoId": "CO",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Colombia",
   "observableExpertCount": 2,
-  "opportunityScore": 30.0511,
+  "opportunityScore": 30.2687,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 54,
@@ -64,7 +64,7 @@
    "containers_orchestration",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.8527
+  "weightedExpertCount": 0.8677
  },
  "subdomainMix": [
   {

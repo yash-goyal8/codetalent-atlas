@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 45.0,
   "ecosystemBreadthScore": 49.0559,
-  "expertQualityScore": 55.1192,
-  "expertSupplyScore": 47.4322,
+  "expertQualityScore": 55.5392,
+  "expertSupplyScore": 47.5579,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "PL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 49.0559,
-  "expertQualityScore": 55.1192,
-  "expertSupplyScore": 47.4322,
+  "expertQualityScore": 55.5392,
+  "expertSupplyScore": 47.5579,
   "geoId": "PL-warsaw",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Warsaw",
   "observableExpertCount": 6,
-  "opportunityScore": 47.2926,
+  "opportunityScore": 47.4626,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
   "rank": 33,
@@ -48,7 +48,7 @@
    "infrastructure_as_code",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 2.8127
+  "weightedExpertCount": 2.8547
  },
  "subdomainMix": []
 }

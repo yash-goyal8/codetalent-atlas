@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 16.4264,
-  "expertQualityScore": 28.8926,
-  "expertSupplyScore": 13.7971,
+  "expertQualityScore": 29.3126,
+  "expertSupplyScore": 13.8752,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 16.4264,
-  "expertQualityScore": 28.8926,
-  "expertSupplyScore": 13.7971,
+  "expertQualityScore": 29.3126,
+  "expertSupplyScore": 13.8752,
   "geoId": "CN-nanjing",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Nanjing",
   "observableExpertCount": 2,
-  "opportunityScore": 22.1394,
+  "opportunityScore": 22.2927,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 163,
+  "rank": 162,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.6866
+  "weightedExpertCount": 0.6986
  },
  "subdomainMix": []
 }

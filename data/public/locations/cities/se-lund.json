@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.8072,
-  "expertSupplyScore": 2.7943,
+  "expertQualityScore": 27.2272,
+  "expertSupplyScore": 2.7374,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "SE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.8072,
-  "expertSupplyScore": 2.7943,
+  "expertQualityScore": 27.2272,
+  "expertSupplyScore": 2.7374,
   "geoId": "SE-lund",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Lund",
   "observableExpertCount": 1,
-  "opportunityScore": 23.0202,
+  "opportunityScore": 23.1263,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 157,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.383
+  "weightedExpertCount": 0.389
  },
  "subdomainMix": []
 }

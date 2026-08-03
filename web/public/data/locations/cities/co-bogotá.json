@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 68.6307,
-  "expertSupplyScore": 4.9196,
+  "expertQualityScore": 69.2609,
+  "expertSupplyScore": 4.888,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CO",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 68.6307,
-  "expertSupplyScore": 4.9196,
+  "expertQualityScore": 69.2609,
+  "expertSupplyScore": 4.888,
   "geoId": "CO-bogotá",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Bogotá",
   "observableExpertCount": 1,
-  "opportunityScore": 36.8961,
+  "opportunityScore": 37.074,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 77,
+  "rank": 78,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.5519
+  "weightedExpertCount": 0.5609
  },
  "subdomainMix": []
 }

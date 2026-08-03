@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.8522,
-  "expertSupplyScore": 3.716,
+  "expertQualityScore": 32.2722,
+  "expertSupplyScore": 3.6542,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "NL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.8522,
-  "expertSupplyScore": 3.716,
+  "expertQualityScore": 32.2722,
+  "expertSupplyScore": 3.6542,
   "geoId": "NL-leiden",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Leiden",
   "observableExpertCount": 1,
-  "opportunityScore": 24.8562,
+  "opportunityScore": 24.9606,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 144,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.455
+  "weightedExpertCount": 0.461
  },
  "subdomainMix": []
 }

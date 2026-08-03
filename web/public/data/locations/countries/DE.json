@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 47.2887,
   "ecosystemBreadthScore": 95.1539,
-  "expertQualityScore": 37.209,
-  "expertSupplyScore": 96.1147,
+  "expertQualityScore": 37.839,
+  "expertSupplyScore": 96.1292,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 95.1539,
-  "expertQualityScore": 37.209,
-  "expertSupplyScore": 96.1147,
+  "expertQualityScore": 37.839,
+  "expertSupplyScore": 96.1292,
   "geoId": "DE",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.6479,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.1655,
   "name": "Germany",
   "observableExpertCount": 284,
-  "opportunityScore": 63.9115,
+  "opportunityScore": 64.1056,
   "organizationCount": 96,
   "qualifiedRepoCount": 133,
   "rank": 2,
@@ -66,7 +66,7 @@
    "configuration_management",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 119.5926
+  "weightedExpertCount": 121.3265
  },
  "subdomainMix": [
   {

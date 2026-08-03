@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 12.2029,
-  "expertQualityScore": 54.8864,
-  "expertSupplyScore": 9.6253,
+  "expertQualityScore": 55.0964,
+  "expertSupplyScore": 9.7192,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "MO",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 12.2029,
-  "expertQualityScore": 54.8864,
-  "expertSupplyScore": 9.6253,
+  "expertQualityScore": 55.0964,
+  "expertSupplyScore": 9.7192,
   "geoId": "MO",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Macao",
   "observableExpertCount": 2,
-  "opportunityScore": 30.5551,
+  "opportunityScore": 30.6509,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 52,
@@ -64,7 +64,7 @@
    "cicd_developer_tooling",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.9195
+  "weightedExpertCount": 0.9315
  },
  "subdomainMix": [
   {

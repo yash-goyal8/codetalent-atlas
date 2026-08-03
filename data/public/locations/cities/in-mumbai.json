@@ -7,7 +7,7 @@
   "collaborationDepthScore": 41.6667,
   "ecosystemBreadthScore": 45.616,
   "expertQualityScore": 29.925,
-  "expertSupplyScore": 41.6111,
+  "expertSupplyScore": 41.7906,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -28,7 +28,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 45.616,
   "expertQualityScore": 29.925,
-  "expertSupplyScore": 41.6111,
+  "expertSupplyScore": 41.7906,
   "geoId": "IN-mumbai",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.1667,
   "name": "Mumbai",
   "observableExpertCount": 6,
-  "opportunityScore": 36.853,
+  "opportunityScore": 36.9158,
   "organizationCount": 7,
   "qualifiedRepoCount": 7,
   "rank": 79,
@@ -49,7 +49,7 @@
    "cloud_platforms_sdks",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 2.2622
+  "weightedExpertCount": 2.3012
  },
  "subdomainMix": []
 }

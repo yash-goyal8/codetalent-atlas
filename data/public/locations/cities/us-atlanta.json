@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 90.0,
   "ecosystemBreadthScore": 26.1564,
-  "expertQualityScore": 46.3534,
-  "expertSupplyScore": 33.0156,
+  "expertQualityScore": 46.5566,
+  "expertSupplyScore": 32.9948,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 26.1564,
-  "expertQualityScore": 46.3534,
-  "expertSupplyScore": 33.0156,
+  "expertQualityScore": 46.5566,
+  "expertSupplyScore": 32.9948,
   "geoId": "US-atlanta",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Atlanta",
   "observableExpertCount": 3,
-  "opportunityScore": 46.5771,
+  "opportunityScore": 46.6308,
   "organizationCount": 2,
   "qualifiedRepoCount": 6,
   "rank": 36,
@@ -47,7 +47,7 @@
    "cloud_platforms_sdks",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 1.5912
+  "weightedExpertCount": 1.6061
  },
  "subdomainMix": []
 }

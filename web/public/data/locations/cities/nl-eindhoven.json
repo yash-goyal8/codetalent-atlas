@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 10.0,
-  "expertQualityScore": 31.475,
-  "expertSupplyScore": 3.6479,
+  "expertQualityScore": 31.895,
+  "expertSupplyScore": 3.5865,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "NL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 10.0,
-  "expertQualityScore": 31.475,
-  "expertSupplyScore": 3.6479,
+  "expertQualityScore": 31.895,
+  "expertSupplyScore": 3.5865,
   "geoId": "NL-eindhoven",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Eindhoven",
   "observableExpertCount": 1,
-  "opportunityScore": 21.2193,
+  "opportunityScore": 21.3238,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 172,
@@ -48,7 +48,7 @@
    "cloud_platforms_sdks",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.4496
+  "weightedExpertCount": 0.4556
  },
  "subdomainMix": []
 }

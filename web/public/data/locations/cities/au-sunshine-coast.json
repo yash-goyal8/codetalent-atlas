@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 70.0,
   "ecosystemBreadthScore": 22.487,
-  "expertQualityScore": 30.6354,
-  "expertSupplyScore": 7.8642,
+  "expertQualityScore": 31.0554,
+  "expertSupplyScore": 7.8369,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 22.487,
-  "expertQualityScore": 30.6354,
-  "expertSupplyScore": 7.8642,
+  "expertQualityScore": 31.0554,
+  "expertSupplyScore": 7.8369,
   "geoId": "AU-sunshine-coast",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Sunshine Coast",
   "observableExpertCount": 1,
-  "opportunityScore": 27.1918,
+  "opportunityScore": 27.3082,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 122,
@@ -47,7 +47,7 @@
    "observability_monitoring",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.4376
+  "weightedExpertCount": 0.4436
  },
  "subdomainMix": []
 }

@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 67.809,
-  "expertSupplyScore": 2.6015,
+  "expertQualityScore": 68.439,
+  "expertSupplyScore": 2.6098,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "CY",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 67.809,
-  "expertSupplyScore": 2.6015,
+  "expertQualityScore": 68.439,
+  "expertSupplyScore": 2.6098,
   "geoId": "CY",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Cyprus",
   "observableExpertCount": 1,
-  "opportunityScore": 35.2532,
+  "opportunityScore": 35.4451,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 44,
@@ -63,7 +63,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.5401
+  "weightedExpertCount": 0.5491
  },
  "subdomainMix": [
   {

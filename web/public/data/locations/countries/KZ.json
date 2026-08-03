@@ -18,8 +18,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.6511,
-  "expertSupplyScore": 0.6824,
+  "expertQualityScore": 19.0711,
+  "expertSupplyScore": 0.6793,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -39,8 +39,8 @@
   "countryCode": "KZ",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 18.6511,
-  "expertSupplyScore": 0.6824,
+  "expertQualityScore": 19.0711,
+  "expertSupplyScore": 0.6793,
   "geoId": "KZ",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -50,7 +50,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Kazakhstan",
   "observableExpertCount": 1,
-  "opportunityScore": 12.8342,
+  "opportunityScore": 12.9591,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 80,
@@ -58,7 +58,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.2664
+  "weightedExpertCount": 0.2724
  },
  "subdomainMix": [
   {

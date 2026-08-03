@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 52.5,
   "ecosystemBreadthScore": 34.6352,
-  "expertQualityScore": 64.1906,
-  "expertSupplyScore": 21.7158,
+  "expertQualityScore": 64.6106,
+  "expertSupplyScore": 21.7938,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "SK",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 34.6352,
-  "expertQualityScore": 64.1906,
-  "expertSupplyScore": 21.7158,
+  "expertQualityScore": 64.6106,
+  "expertSupplyScore": 21.7938,
   "geoId": "SK",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Slovakia",
   "observableExpertCount": 4,
-  "opportunityScore": 43.1962,
+  "opportunityScore": 43.3495,
   "organizationCount": 4,
   "qualifiedRepoCount": 4,
   "rank": 24,
@@ -65,7 +65,7 @@
    "service_mesh_networking",
    "configuration_management"
   ],
-  "weightedExpertCount": 2.1118
+  "weightedExpertCount": 2.1388
  },
  "subdomainMix": [
   {

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 50.0,
   "ecosystemBreadthScore": 23.8028,
-  "expertQualityScore": 33.5772,
-  "expertSupplyScore": 23.8046,
+  "expertQualityScore": 33.9972,
+  "expertSupplyScore": 23.8427,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "NL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 23.8028,
-  "expertQualityScore": 33.5772,
-  "expertSupplyScore": 23.8046,
+  "expertQualityScore": 33.9972,
+  "expertSupplyScore": 23.8427,
   "geoId": "NL-the-hague",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "The Hague",
   "observableExpertCount": 3,
-  "opportunityScore": 30.785,
+  "opportunityScore": 30.9244,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 112,
@@ -47,7 +47,7 @@
    "containers_orchestration",
    "configuration_management"
   ],
-  "weightedExpertCount": 1.3122
+  "weightedExpertCount": 1.3302
  },
  "subdomainMix": []
 }

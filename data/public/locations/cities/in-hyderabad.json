@@ -7,7 +7,7 @@
   "collaborationDepthScore": 46.0,
   "ecosystemBreadthScore": 29.8587,
   "expertQualityScore": 32.3516,
-  "expertSupplyScore": 33.6297,
+  "expertSupplyScore": 33.7844,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -28,7 +28,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 29.8587,
   "expertQualityScore": 32.3516,
-  "expertSupplyScore": 33.6297,
+  "expertSupplyScore": 33.7844,
   "geoId": "IN-hyderabad",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.4,
   "name": "Hyderabad",
   "observableExpertCount": 5,
-  "opportunityScore": 33.8618,
+  "opportunityScore": 33.9159,
   "organizationCount": 4,
   "qualifiedRepoCount": 6,
-  "rank": 98,
+  "rank": 101,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cloud_platforms_sdks",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 1.7496
+  "weightedExpertCount": 1.7703
  },
  "subdomainMix": []
 }

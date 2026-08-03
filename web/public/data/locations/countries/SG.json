@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 44.0,
   "ecosystemBreadthScore": 64.9714,
-  "expertQualityScore": 36.913,
-  "expertSupplyScore": 43.9856,
+  "expertQualityScore": 37.333,
+  "expertSupplyScore": 44.1231,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "SG",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 64.9714,
-  "expertQualityScore": 36.913,
-  "expertSupplyScore": 43.9856,
+  "expertQualityScore": 37.333,
+  "expertSupplyScore": 44.1231,
   "geoId": "SG",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.2,
   "name": "Singapore",
   "observableExpertCount": 20,
-  "opportunityScore": 42.066,
+  "opportunityScore": 42.2401,
   "organizationCount": 18,
   "qualifiedRepoCount": 21,
   "rank": 26,
@@ -67,7 +67,7 @@
    "observability_monitoring",
    "configuration_management"
   ],
-  "weightedExpertCount": 8.2991
+  "weightedExpertCount": 8.432
  },
  "subdomainMix": [
   {

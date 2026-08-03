@@ -7,10 +7,13 @@
  */
 
 import { vi } from "vitest";
+import type { LocationDetail } from "../../types/data";
 import {
   syntheticCompare,
   syntheticCountryRankings,
+  syntheticCityRows,
   syntheticCityRankings,
+  syntheticCountryRows,
   syntheticCoverage,
   syntheticLocationDetail,
   syntheticManifest,
@@ -18,6 +21,34 @@ import {
   syntheticSummary,
   syntheticValidation,
 } from "./dataset";
+
+/**
+ * Synthetic detail file whose ranking row (IN) carries a provisional
+ * momentum flag, for testing the provisional labeling paths.
+ */
+export const syntheticProvisionalDetail: LocationDetail = {
+  ...syntheticLocationDetail,
+  ranking: syntheticCountryRows[2],
+};
+
+/**
+ * Synthetic city detail file (Testville), for the city-geoId path.
+ */
+export const syntheticCityDetail: LocationDetail = {
+  ...syntheticLocationDetail,
+  ranking: syntheticCityRows[0],
+};
+
+/** Synthetic optional sensitivity file (spec 19.6, render-only-if-present). */
+export const syntheticSensitivity = {
+  summary: "Synthetic sensitivity summary — fixture text only.",
+  scenarios: [
+    {
+      name: "Synthetic scenario A",
+      result: "Synthetic scenario result — fixture text only.",
+    },
+  ],
+};
 
 /** Sentinel: serve an HTTP 500 for this path (drives the error state). */
 export const SERVER_ERROR = Symbol("SERVER_ERROR");

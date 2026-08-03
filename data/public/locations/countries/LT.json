@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 72.8571,
   "ecosystemBreadthScore": 51.6753,
-  "expertQualityScore": 49.476,
-  "expertSupplyScore": 27.6044,
+  "expertQualityScore": 50.0947,
+  "expertSupplyScore": 27.7165,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "LT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 51.6753,
-  "expertQualityScore": 49.476,
-  "expertSupplyScore": 27.6044,
+  "expertQualityScore": 50.0947,
+  "expertSupplyScore": 27.7165,
   "geoId": "LT",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.7143,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.4286,
   "name": "Lithuania",
   "observableExpertCount": 7,
-  "opportunityScore": 43.1004,
+  "opportunityScore": 43.3253,
   "organizationCount": 8,
   "qualifiedRepoCount": 8,
   "rank": 25,
@@ -67,7 +67,7 @@
    "infrastructure_as_code",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 3.1565
+  "weightedExpertCount": 3.2025
  },
  "subdomainMix": [
   {

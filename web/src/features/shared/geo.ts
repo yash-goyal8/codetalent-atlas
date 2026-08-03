@@ -1,5 +1,7 @@
 /** Geography display helpers shared by the analytical pages. */
 
+import { subdomainDisplayName } from "../../lib/subdomains";
+
 /**
  * Flag emoji from an ISO alpha-2 country code ("DE" -> 🇩🇪).
  * Returns an empty string for anything that is not two ASCII letters,
@@ -16,10 +18,10 @@ export function countryFlag(countryCode: string): string {
 }
 
 /**
- * Human label for a subdomain id when no displayName is provided,
- * e.g. "ci_cd" -> "Ci cd". Purely mechanical — never invents wording.
+ * Human label for a subdomain id when no displayName travels with it.
+ * Delegates to the shared resolver (lib/subdomains):
+ * "containers_orchestration" -> "Containers and Orchestration".
  */
 export function subdomainIdLabel(subdomainId: string): string {
-  const text = subdomainId.replace(/_/g, " ").trim();
-  return text.length > 0 ? text[0].toUpperCase() + text.slice(1) : subdomainId;
+  return subdomainDisplayName(subdomainId);
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 35.333,
-  "expertSupplyScore": 4.3389,
+  "expertQualityScore": 35.753,
+  "expertSupplyScore": 4.2738,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "SE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 35.333,
-  "expertSupplyScore": 4.3389,
+  "expertQualityScore": 35.753,
+  "expertSupplyScore": 4.2738,
   "geoId": "SE-uppsala",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Uppsala",
   "observableExpertCount": 1,
-  "opportunityScore": 21.6185,
+  "opportunityScore": 21.7218,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 169,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.5048
+  "weightedExpertCount": 0.5108
  },
  "subdomainMix": []
 }

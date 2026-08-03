@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.7718,
-  "expertSupplyScore": 1.4697,
+  "expertQualityScore": 20.1918,
+  "expertSupplyScore": 1.4201,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "TR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.7718,
-  "expertSupplyScore": 1.4697,
+  "expertQualityScore": 20.1918,
+  "expertSupplyScore": 1.4201,
   "geoId": "TR-istanbul",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Istanbul",
   "observableExpertCount": 1,
-  "opportunityScore": 15.9459,
+  "opportunityScore": 16.0545,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 222,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.2825
+  "weightedExpertCount": 0.2885
  },
  "subdomainMix": []
 }

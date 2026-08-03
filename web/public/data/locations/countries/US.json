@@ -23,7 +23,7 @@
  "components": {
   "collaborationDepthScore": 51.7105,
   "ecosystemBreadthScore": 94.5307,
-  "expertQualityScore": 41.6325,
+  "expertQualityScore": 41.9088,
   "expertSupplyScore": 100.0,
   "momentumScore": 25.0
  },
@@ -44,7 +44,7 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 94.5307,
-  "expertQualityScore": 41.6325,
+  "expertQualityScore": 41.9088,
   "expertSupplyScore": 100.0,
   "geoId": "US",
   "geoLevel": "country",
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.2763,
   "name": "United States",
   "observableExpertCount": 684,
-  "opportunityScore": 67.1994,
+  "opportunityScore": 67.2823,
   "organizationCount": 180,
   "qualifiedRepoCount": 301,
   "rank": 1,
@@ -67,7 +67,7 @@
    "service_mesh_networking",
    "configuration_management"
   ],
-  "weightedExpertCount": 300.8678
+  "weightedExpertCount": 304.9363
  },
  "subdomainMix": [
   {

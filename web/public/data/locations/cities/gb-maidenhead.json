@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.3949,
-  "expertSupplyScore": 3.6334,
+  "expertQualityScore": 31.8149,
+  "expertSupplyScore": 3.572,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.3949,
-  "expertSupplyScore": 3.6334,
+  "expertQualityScore": 31.8149,
+  "expertSupplyScore": 3.572,
   "geoId": "GB-maidenhead",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Maidenhead",
   "observableExpertCount": 1,
-  "opportunityScore": 20.1902,
+  "opportunityScore": 20.2947,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 183,
+  "rank": 184,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 0.4485
+  "weightedExpertCount": 0.4545
  },
  "subdomainMix": []
 }

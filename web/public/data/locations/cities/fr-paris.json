@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 40.0,
   "ecosystemBreadthScore": 68.4526,
-  "expertQualityScore": 28.9329,
-  "expertSupplyScore": 67.9312,
+  "expertQualityScore": 29.5629,
+  "expertSupplyScore": 68.0358,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 68.4526,
-  "expertQualityScore": 28.9329,
-  "expertSupplyScore": 67.9312,
+  "expertQualityScore": 29.5629,
+  "expertSupplyScore": 68.0358,
   "geoId": "FR-paris",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.2,
   "name": "Paris",
   "observableExpertCount": 15,
-  "opportunityScore": 47.8011,
+  "opportunityScore": 48.0267,
   "organizationCount": 12,
   "qualifiedRepoCount": 14,
   "rank": 29,
@@ -50,7 +50,7 @@
    "containers_orchestration",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 5.6029
+  "weightedExpertCount": 5.684
  },
  "subdomainMix": []
 }

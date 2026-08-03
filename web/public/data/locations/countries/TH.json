@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 80.0,
   "ecosystemBreadthScore": 15.044,
-  "expertQualityScore": 71.9302,
-  "expertSupplyScore": 10.0901,
+  "expertQualityScore": 72.4577,
+  "expertSupplyScore": 10.1273,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "TH",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 15.044,
-  "expertQualityScore": 71.9302,
-  "expertSupplyScore": 10.0901,
+  "expertQualityScore": 72.4577,
+  "expertSupplyScore": 10.1273,
   "geoId": "TH",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.5,
   "name": "Thailand",
   "observableExpertCount": 2,
-  "opportunityScore": 43.615,
+  "opportunityScore": 43.7863,
   "organizationCount": 2,
   "qualifiedRepoCount": 3,
   "rank": 22,
@@ -63,7 +63,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 1.1266
+  "weightedExpertCount": 1.1401
  },
  "subdomainMix": [
   {

@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 46.0,
   "ecosystemBreadthScore": 48.6496,
-  "expertQualityScore": 22.6064,
-  "expertSupplyScore": 18.0978,
+  "expertQualityScore": 23.0264,
+  "expertSupplyScore": 18.2713,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "TR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 48.6496,
-  "expertQualityScore": 22.6064,
-  "expertSupplyScore": 18.0978,
+  "expertQualityScore": 23.0264,
+  "expertSupplyScore": 18.2713,
   "geoId": "TR",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,10 +55,10 @@
   "multiRepoExpertShare": 0.4,
   "name": "Türkiye",
   "observableExpertCount": 5,
-  "opportunityScore": 27.3811,
+  "opportunityScore": 27.5678,
   "organizationCount": 7,
   "qualifiedRepoCount": 7,
-  "rank": 60,
+  "rank": 61,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration",
@@ -66,7 +66,7 @@
    "service_mesh_networking",
    "configuration_management"
   ],
-  "weightedExpertCount": 1.6048
+  "weightedExpertCount": 1.6387
  },
  "subdomainMix": [
   {

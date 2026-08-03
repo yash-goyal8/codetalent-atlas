@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 24.0,
   "ecosystemBreadthScore": 43.5027,
-  "expertQualityScore": 49.1878,
-  "expertSupplyScore": 20.7408,
+  "expertQualityScore": 49.3978,
+  "expertSupplyScore": 20.8296,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "EE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 43.5027,
-  "expertQualityScore": 49.1878,
-  "expertSupplyScore": 20.7408,
+  "expertQualityScore": 49.3978,
+  "expertSupplyScore": 20.8296,
   "geoId": "EE",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Estonia",
   "observableExpertCount": 5,
-  "opportunityScore": 34.9659,
+  "opportunityScore": 35.06,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
   "rank": 46,
@@ -67,7 +67,7 @@
    "containers_orchestration",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 1.9662
+  "weightedExpertCount": 1.9932
  },
  "subdomainMix": [
   {

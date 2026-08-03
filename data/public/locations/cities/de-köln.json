@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 71.6667,
   "ecosystemBreadthScore": 59.8653,
-  "expertQualityScore": 44.7918,
-  "expertSupplyScore": 47.5392,
+  "expertQualityScore": 45.1565,
+  "expertSupplyScore": 47.5915,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 59.8653,
-  "expertQualityScore": 44.7918,
-  "expertSupplyScore": 47.5392,
+  "expertQualityScore": 45.1565,
+  "expertSupplyScore": 47.5915,
   "geoId": "DE-köln",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.6667,
   "name": "Köln",
   "observableExpertCount": 6,
-  "opportunityScore": 49.3128,
+  "opportunityScore": 49.4405,
   "organizationCount": 5,
   "qualifiedRepoCount": 9,
   "rank": 20,
@@ -50,7 +50,7 @@
    "cloud_platforms_sdks",
    "configuration_management"
   ],
-  "weightedExpertCount": 2.8237
+  "weightedExpertCount": 2.8582
  },
  "subdomainMix": []
 }

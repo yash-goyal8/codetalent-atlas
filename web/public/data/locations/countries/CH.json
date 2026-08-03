@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 53.3333,
   "ecosystemBreadthScore": 72.0972,
-  "expertQualityScore": 40.9375,
-  "expertSupplyScore": 56.0889,
+  "expertQualityScore": 41.2175,
+  "expertSupplyScore": 56.191,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "CH",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 72.0972,
-  "expertQualityScore": 40.9375,
-  "expertSupplyScore": 56.0889,
+  "expertQualityScore": 41.2175,
+  "expertSupplyScore": 56.191,
   "geoId": "CH",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8333,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.25,
   "name": "Switzerland",
   "observableExpertCount": 36,
-  "opportunityScore": 49.6221,
+  "opportunityScore": 49.7418,
   "organizationCount": 24,
   "qualifiedRepoCount": 31,
   "rank": 15,
@@ -67,7 +67,7 @@
    "cloud_platforms_sdks",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 15.8589
+  "weightedExpertCount": 16.0945
  },
  "subdomainMix": [
   {

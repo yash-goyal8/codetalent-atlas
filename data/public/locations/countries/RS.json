@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 36.0,
   "ecosystemBreadthScore": 26.2726,
-  "expertQualityScore": 32.9605,
-  "expertSupplyScore": 19.8636,
+  "expertQualityScore": 33.3807,
+  "expertSupplyScore": 19.9839,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "RS",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 26.2726,
-  "expertQualityScore": 32.9605,
-  "expertSupplyScore": 19.8636,
+  "expertQualityScore": 33.3807,
+  "expertSupplyScore": 19.9839,
   "geoId": "RS",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Serbia",
   "observableExpertCount": 5,
-  "opportunityScore": 29.8677,
+  "opportunityScore": 30.0358,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
   "rank": 55,
@@ -64,7 +64,7 @@
    "containers_orchestration",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 1.841
+  "weightedExpertCount": 1.871
  },
  "subdomainMix": [
   {

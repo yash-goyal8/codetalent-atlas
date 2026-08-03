@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 21.6537,
-  "expertQualityScore": 22.7366,
-  "expertSupplyScore": 11.7287,
+  "expertQualityScore": 23.1566,
+  "expertSupplyScore": 11.8685,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 21.6537,
-  "expertQualityScore": 22.7366,
-  "expertSupplyScore": 11.7287,
+  "expertQualityScore": 23.1566,
+  "expertSupplyScore": 11.8685,
   "geoId": "IE-galway",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Galway",
   "observableExpertCount": 2,
-  "opportunityScore": 20.0914,
+  "opportunityScore": 20.2663,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 187,
+  "rank": 186,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "infrastructure_as_code",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.5813
+  "weightedExpertCount": 0.5963
  },
  "subdomainMix": []
 }

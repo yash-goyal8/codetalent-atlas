@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 70.0,
   "ecosystemBreadthScore": 9.6674,
-  "expertQualityScore": 35.8081,
-  "expertSupplyScore": 12.7466,
+  "expertQualityScore": 36.2281,
+  "expertSupplyScore": 12.7257,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 9.6674,
-  "expertQualityScore": 35.8081,
-  "expertSupplyScore": 12.7466,
+  "expertQualityScore": 36.2281,
+  "expertSupplyScore": 12.7257,
   "geoId": "IN-patna",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Patna",
   "observableExpertCount": 1,
-  "opportunityScore": 31.6705,
+  "opportunityScore": 31.7892,
   "organizationCount": 1,
   "qualifiedRepoCount": 4,
   "rank": 110,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.5115
+  "weightedExpertCount": 0.5175
  },
  "subdomainMix": []
 }

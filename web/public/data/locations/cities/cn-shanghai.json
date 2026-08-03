@@ -6,7 +6,7 @@
  "components": {
   "collaborationDepthScore": 58.6842,
   "ecosystemBreadthScore": 79.3531,
-  "expertQualityScore": 47.7495,
+  "expertQualityScore": 48.3795,
   "expertSupplyScore": 100.0,
   "momentumScore": 25.0
  },
@@ -27,7 +27,7 @@
   "countryCode": "CN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 79.3531,
-  "expertQualityScore": 47.7495,
+  "expertQualityScore": 48.3795,
   "expertSupplyScore": 100.0,
   "geoId": "CN-shanghai",
   "geoLevel": "city",
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.3421,
   "name": "Shanghai",
   "observableExpertCount": 38,
-  "opportunityScore": 68.5628,
+  "opportunityScore": 68.7518,
   "organizationCount": 22,
   "qualifiedRepoCount": 35,
   "rank": 2,
@@ -50,7 +50,7 @@
    "service_mesh_networking",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 18.4401
+  "weightedExpertCount": 18.6434
  },
  "subdomainMix": []
 }

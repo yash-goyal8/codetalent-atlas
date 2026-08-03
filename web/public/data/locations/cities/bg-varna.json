@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.0549,
-  "expertSupplyScore": 3.5719,
+  "expertQualityScore": 31.4749,
+  "expertSupplyScore": 3.5108,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "BG",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.0549,
-  "expertSupplyScore": 3.5719,
+  "expertQualityScore": 31.4749,
+  "expertSupplyScore": 3.5108,
   "geoId": "BG-varna",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Varna",
   "observableExpertCount": 1,
-  "opportunityScore": 22.0666,
+  "opportunityScore": 22.1713,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 165,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.4436
+  "weightedExpertCount": 0.4496
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.5221,
-  "expertSupplyScore": 2.9263,
+  "expertQualityScore": 27.9421,
+  "expertSupplyScore": 2.8687,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.5221,
-  "expertSupplyScore": 2.9263,
+  "expertQualityScore": 27.9421,
+  "expertSupplyScore": 2.8687,
   "geoId": "CA-kitchener",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Kitchener",
   "observableExpertCount": 1,
-  "opportunityScore": 20.7808,
+  "opportunityScore": 20.8867,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 178,
+  "rank": 179,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.3932
+  "weightedExpertCount": 0.3992
  },
  "subdomainMix": []
 }

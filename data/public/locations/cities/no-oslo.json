@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 80.0,
   "ecosystemBreadthScore": 35.0455,
-  "expertQualityScore": 33.0831,
-  "expertSupplyScore": 18.1899,
+  "expertQualityScore": 33.7131,
+  "expertSupplyScore": 18.3873,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "NO",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 35.0455,
-  "expertQualityScore": 33.0831,
-  "expertSupplyScore": 18.1899,
+  "expertQualityScore": 33.7131,
+  "expertSupplyScore": 18.3873,
   "geoId": "NO-oslo",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.5,
   "name": "Oslo",
   "observableExpertCount": 2,
-  "opportunityScore": 34.2959,
+  "opportunityScore": 34.554,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
   "rank": 94,
@@ -47,7 +47,7 @@
    "service_mesh_networking",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.7419
+  "weightedExpertCount": 0.7599
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 29.1364,
-  "expertQualityScore": 37.7161,
-  "expertSupplyScore": 28.1135,
+  "expertQualityScore": 38.1361,
+  "expertSupplyScore": 28.1404,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "LT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 29.1364,
-  "expertQualityScore": 37.7161,
-  "expertSupplyScore": 28.1135,
+  "expertQualityScore": 38.1361,
+  "expertSupplyScore": 28.1404,
   "geoId": "LT-vilnius",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Vilnius",
   "observableExpertCount": 3,
-  "opportunityScore": 35.5682,
+  "opportunityScore": 35.7036,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
   "rank": 86,
@@ -47,7 +47,7 @@
    "configuration_management",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 1.3295
+  "weightedExpertCount": 1.3445
  },
  "subdomainMix": []
 }

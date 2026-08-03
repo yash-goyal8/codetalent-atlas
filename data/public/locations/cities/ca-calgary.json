@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 26.2552,
-  "expertSupplyScore": 2.6921,
+  "expertQualityScore": 26.6752,
+  "expertSupplyScore": 2.6358,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 26.2552,
-  "expertSupplyScore": 2.6921,
+  "expertQualityScore": 26.6752,
+  "expertSupplyScore": 2.6358,
   "geoId": "CA-calgary",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Calgary",
   "observableExpertCount": 1,
-  "opportunityScore": 11.9037,
+  "opportunityScore": 12.01,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 240,
@@ -47,7 +47,7 @@
    "infrastructure_as_code",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.3751
+  "weightedExpertCount": 0.3811
  },
  "subdomainMix": []
 }

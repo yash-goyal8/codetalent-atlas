@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.405,
-  "expertSupplyScore": 3.6352,
+  "expertQualityScore": 32.0356,
+  "expertSupplyScore": 3.6117,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.405,
-  "expertSupplyScore": 3.6352,
+  "expertQualityScore": 32.0356,
+  "expertSupplyScore": 3.6117,
   "geoId": "IN-alwar",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Alwar",
   "observableExpertCount": 1,
-  "opportunityScore": 24.6938,
+  "opportunityScore": 24.8748,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 148,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.4486
+  "weightedExpertCount": 0.4577
  },
  "subdomainMix": []
 }

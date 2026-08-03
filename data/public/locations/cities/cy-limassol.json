@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 67.809,
-  "expertSupplyScore": 4.7758,
+  "expertQualityScore": 68.439,
+  "expertSupplyScore": 4.745,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CY",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 67.809,
-  "expertSupplyScore": 4.7758,
+  "expertQualityScore": 68.439,
+  "expertSupplyScore": 4.745,
   "geoId": "CY-limassol",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Limassol",
   "observableExpertCount": 1,
-  "opportunityScore": 36.0142,
+  "opportunityScore": 36.1924,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 84,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.5401
+  "weightedExpertCount": 0.5491
  },
  "subdomainMix": []
 }

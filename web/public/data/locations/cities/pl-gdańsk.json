@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 32.9458,
-  "expertQualityScore": 23.2488,
-  "expertSupplyScore": 23.9471,
+  "expertQualityScore": 23.6688,
+  "expertSupplyScore": 24.0383,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "PL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 32.9458,
-  "expertQualityScore": 23.2488,
-  "expertSupplyScore": 23.9471,
+  "expertQualityScore": 23.6688,
+  "expertSupplyScore": 24.0383,
   "geoId": "PL-gdańsk",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,17 +38,17 @@
   "multiRepoExpertShare": 0.0,
   "name": "Gdańsk",
   "observableExpertCount": 3,
-  "opportunityScore": 25.6507,
+  "opportunityScore": 25.8086,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
-  "rank": 133,
+  "rank": 131,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration",
    "service_mesh_networking",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 1.0933
+  "weightedExpertCount": 1.1113
  },
  "subdomainMix": []
 }

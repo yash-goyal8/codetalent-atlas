@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 55.5556,
   "ecosystemBreadthScore": 67.7609,
-  "expertQualityScore": 39.5039,
-  "expertSupplyScore": 57.8026,
+  "expertQualityScore": 39.8639,
+  "expertSupplyScore": 57.8991,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 67.7609,
-  "expertQualityScore": 39.5039,
-  "expertSupplyScore": 57.8026,
+  "expertQualityScore": 39.8639,
+  "expertSupplyScore": 57.8991,
   "geoId": "IE-dublin",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.2222,
   "name": "Dublin",
   "observableExpertCount": 9,
-  "opportunityScore": 49.6915,
+  "opportunityScore": 49.8333,
   "organizationCount": 11,
   "qualifiedRepoCount": 12,
   "rank": 19,
@@ -50,7 +50,7 @@
    "cloud_platforms_sdks",
    "configuration_management"
   ],
-  "weightedExpertCount": 4.0337
+  "weightedExpertCount": 4.0899
  },
  "subdomainMix": []
 }

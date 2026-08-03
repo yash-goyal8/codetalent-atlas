@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 43.913,
   "ecosystemBreadthScore": 48.9366,
-  "expertQualityScore": 35.5258,
-  "expertSupplyScore": 46.5056,
+  "expertQualityScore": 34.6414,
+  "expertSupplyScore": 46.6177,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "SE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 48.9366,
-  "expertQualityScore": 35.5258,
-  "expertSupplyScore": 46.5056,
+  "expertQualityScore": 34.6414,
+  "expertSupplyScore": 46.6177,
   "geoId": "SE",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.6087,
@@ -55,10 +55,10 @@
   "multiRepoExpertShare": 0.2174,
   "name": "Sweden",
   "observableExpertCount": 23,
-  "opportunityScore": 40.9153,
+  "opportunityScore": 40.6892,
   "organizationCount": 10,
   "qualifiedRepoCount": 14,
-  "rank": 29,
+  "rank": 30,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring",
@@ -67,7 +67,7 @@
    "cicd_developer_tooling",
    "configuration_management"
   ],
-  "weightedExpertCount": 9.5254
+  "weightedExpertCount": 9.6657
  },
  "subdomainMix": [
   {

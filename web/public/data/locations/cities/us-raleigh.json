@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 66.6667,
   "ecosystemBreadthScore": 36.9623,
-  "expertQualityScore": 32.2872,
-  "expertSupplyScore": 25.479,
+  "expertQualityScore": 32.8422,
+  "expertSupplyScore": 25.5596,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 36.9623,
-  "expertQualityScore": 32.2872,
-  "expertSupplyScore": 25.479,
+  "expertQualityScore": 32.8422,
+  "expertSupplyScore": 25.5596,
   "geoId": "US-raleigh",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.6667,
   "name": "Raleigh",
   "observableExpertCount": 3,
-  "opportunityScore": 34.8,
+  "opportunityScore": 34.9947,
   "organizationCount": 4,
   "qualifiedRepoCount": 6,
   "rank": 92,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 1.1175
+  "weightedExpertCount": 1.1341
  },
  "subdomainMix": []
 }

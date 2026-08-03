@@ -17,8 +17,10 @@
 
 import type { ExpressionSpecification, FilterSpecification } from "maplibre-gl";
 import { confidenceLevel } from "../../lib/format";
+import { subdomainDisplayName } from "../../lib/subdomains";
 import type { ScoreLayer } from "../../lib/urlstate";
 import type { GeographicRankingRow } from "../../types/data";
+import { microstateCentroid } from "./microstates";
 
 // ---------------------------------------------------------------------------
 // Score layers
@@ -57,21 +59,13 @@ export function scoreForLayer(
 }
 
 /**
- * Presentation-only label for a subdomain id: "ci_cd" -> "CI CD",
- * "cloud_platforms" -> "Cloud Platforms". Display names published by the
- * pipeline (summary.subdomainHubs, subdomainMix) take precedence where
- * available; this is the generic fallback for bare ids in ranking rows.
+ * Presentation label for a subdomain id. Delegates to the shared
+ * resolver (lib/subdomains): pipeline-registered display names, then
+ * the static pilot taxonomy table, then a mechanical prettifier —
+ * "observability_monitoring" -> "Observability and Monitoring".
  */
 export function subdomainLabel(id: string): string {
-  return id
-    .split(/[_-]+/)
-    .filter((word) => word.length > 0)
-    .map((word) =>
-      word.length <= 3
-        ? word.toUpperCase()
-        : word[0].toUpperCase() + word.slice(1),
-    )
-    .join(" ");
+  return subdomainDisplayName(id);
 }
 
 // ---------------------------------------------------------------------------
@@ -317,6 +311,41 @@ export const EMPTY_CITY_COLLECTION: CityPointCollection = {
  * carries coordinates, sized by observable expert count on a square-root
  * scale relative to the largest visible pool.
  */
+/** Marker radius for ranked countries that have no 110m polygon. */
+export const MICROSTATE_RADIUS = 6;
+
+/**
+ * Point markers for ranked countries absent from the 110m polygon set
+ * (Singapore, Hong Kong, Malta, …): without these the choropleth would
+ * silently hide them. Same non-color confidence treatment as city
+ * points — low confidence renders as a faded, hollow ring.
+ */
+export function countryPointFeatureCollection(
+  rows: readonly GeographicRankingRow[],
+  layer: ScoreLayer,
+): CityPointCollection {
+  const features: CityPointFeature[] = [];
+  for (const row of uniqueCountryRows(rows)) {
+    const coordinates = microstateCentroid(row.geoId);
+    if (!coordinates) continue;
+    const lowConfidence = isLowConfidence(row);
+    features.push({
+      type: "Feature",
+      geometry: { type: "Point", coordinates },
+      properties: {
+        geoId: row.geoId,
+        name: row.name,
+        radius: MICROSTATE_RADIUS,
+        color: colorForScore(scoreForLayer(row, layer)),
+        fillOpacity: lowConfidence ? 0.25 : 0.85,
+        strokeWidth: lowConfidence ? 1.8 : 1,
+        lowConfidence,
+      },
+    });
+  }
+  return { type: "FeatureCollection", features };
+}
+
 export function cityFeatureCollection(
   rows: readonly GeographicRankingRow[],
   layer: ScoreLayer,

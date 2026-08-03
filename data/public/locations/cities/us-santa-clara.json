@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.9708,
-  "expertSupplyScore": 3.0089,
+  "expertQualityScore": 28.3908,
+  "expertSupplyScore": 2.9509,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.9708,
-  "expertSupplyScore": 3.0089,
+  "expertQualityScore": 28.3908,
+  "expertSupplyScore": 2.9509,
   "geoId": "US-santa-clara",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Santa Clara",
   "observableExpertCount": 1,
-  "opportunityScore": 23.4444,
+  "opportunityScore": 23.55,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 154,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3996
+  "weightedExpertCount": 0.4056
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 29.3363,
-  "expertSupplyScore": 3.2592,
+  "expertQualityScore": 29.9663,
+  "expertSupplyScore": 3.238,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 29.3363,
-  "expertSupplyScore": 3.2592,
+  "expertQualityScore": 29.9663,
+  "expertSupplyScore": 3.238,
   "geoId": "GE-tbilisi",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Tbilisi",
   "observableExpertCount": 1,
-  "opportunityScore": 23.9416,
+  "opportunityScore": 24.1232,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 150,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.4191
+  "weightedExpertCount": 0.4281
  },
  "subdomainMix": []
 }

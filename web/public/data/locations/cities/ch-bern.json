@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 68.5827,
-  "expertSupplyScore": 4.9113,
+  "expertQualityScore": 69.0027,
+  "expertSupplyScore": 4.8431,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CH",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 68.5827,
-  "expertSupplyScore": 4.9113,
+  "expertQualityScore": 69.0027,
+  "expertSupplyScore": 4.8431,
   "geoId": "CH-bern",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Bern",
   "observableExpertCount": 1,
-  "opportunityScore": 36.2938,
+  "opportunityScore": 36.3959,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 82,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.5512
+  "weightedExpertCount": 0.5572
  },
  "subdomainMix": []
 }

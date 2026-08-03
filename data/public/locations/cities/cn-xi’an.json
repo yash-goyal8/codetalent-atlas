@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.2502,
-  "expertSupplyScore": 2.8762,
+  "expertQualityScore": 27.6702,
+  "expertSupplyScore": 2.8189,
   "momentumScore": 75.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.2502,
-  "expertSupplyScore": 2.8762,
+  "expertQualityScore": 27.6702,
+  "expertSupplyScore": 2.8189,
   "geoId": "CN-xi’an",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Xi’an",
   "observableExpertCount": 1,
-  "opportunityScore": 16.6817,
+  "opportunityScore": 16.7877,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 217,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.3893
+  "weightedExpertCount": 0.3953
  },
  "subdomainMix": []
 }

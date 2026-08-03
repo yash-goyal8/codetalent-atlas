@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 35.9761,
-  "expertSupplyScore": 4.4529,
+  "expertQualityScore": 36.1861,
+  "expertSupplyScore": 4.3502,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "LV",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 35.9761,
-  "expertSupplyScore": 4.4529,
+  "expertQualityScore": 36.1861,
+  "expertSupplyScore": 4.3502,
   "geoId": "LV-daugavpils",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Daugavpils",
   "observableExpertCount": 1,
-  "opportunityScore": 26.9363,
+  "opportunityScore": 26.9634,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 123,
@@ -47,7 +47,7 @@
    "cloud_platforms_sdks",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.5139
+  "weightedExpertCount": 0.5169
  },
  "subdomainMix": []
 }

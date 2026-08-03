@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 36.6667,
   "ecosystemBreadthScore": 42.0829,
-  "expertQualityScore": 30.9514,
-  "expertSupplyScore": 27.5274,
+  "expertQualityScore": 31.5814,
+  "expertSupplyScore": 27.7168,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "RU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 42.0829,
-  "expertQualityScore": 30.9514,
-  "expertSupplyScore": 27.5274,
+  "expertQualityScore": 31.5814,
+  "expertSupplyScore": 27.7168,
   "geoId": "RU",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8889,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Russian Federation",
   "observableExpertCount": 9,
-  "opportunityScore": 31.1283,
+  "opportunityScore": 31.3836,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
   "rank": 51,
@@ -67,7 +67,7 @@
    "service_mesh_networking",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 3.1548
+  "weightedExpertCount": 3.2118
  },
  "subdomainMix": [
   {

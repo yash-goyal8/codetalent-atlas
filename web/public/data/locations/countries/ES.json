@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 53.0357,
   "ecosystemBreadthScore": 75.2608,
-  "expertQualityScore": 42.8412,
-  "expertSupplyScore": 64.918,
+  "expertQualityScore": 43.2612,
+  "expertSupplyScore": 65.0013,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "ES",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 75.2608,
-  "expertQualityScore": 42.8412,
-  "expertSupplyScore": 64.918,
+  "expertQualityScore": 43.2612,
+  "expertSupplyScore": 65.0013,
   "geoId": "ES",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.7321,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.1607,
   "name": "Spain",
   "observableExpertCount": 56,
-  "opportunityScore": 53.5551,
+  "opportunityScore": 53.7103,
   "organizationCount": 32,
   "qualifiedRepoCount": 47,
   "rank": 10,
@@ -67,7 +67,7 @@
    "service_mesh_networking",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 25.0205
+  "weightedExpertCount": 25.3873
  },
  "subdomainMix": [
   {

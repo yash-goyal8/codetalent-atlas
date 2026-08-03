@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 21.6054,
-  "expertSupplyScore": 1.8195,
+  "expertQualityScore": 22.0254,
+  "expertSupplyScore": 1.7679,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 21.6054,
-  "expertSupplyScore": 1.8195,
+  "expertQualityScore": 22.0254,
+  "expertSupplyScore": 1.7679,
   "geoId": "GB-birmingham",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Birmingham",
   "observableExpertCount": 1,
-  "opportunityScore": 18.6184,
+  "opportunityScore": 18.7264,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 199,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 0.3086
+  "weightedExpertCount": 0.3146
  },
  "subdomainMix": []
 }

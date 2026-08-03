@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 53.3333,
   "ecosystemBreadthScore": 31.0498,
-  "expertQualityScore": 44.9794,
-  "expertSupplyScore": 27.918,
+  "expertQualityScore": 45.4949,
+  "expertSupplyScore": 28.066,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "NZ",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 31.0498,
-  "expertQualityScore": 44.9794,
-  "expertSupplyScore": 27.918,
+  "expertQualityScore": 45.4949,
+  "expertSupplyScore": 28.066,
   "geoId": "NZ-auckland",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,17 +38,17 @@
   "multiRepoExpertShare": 0.3333,
   "name": "Auckland",
   "observableExpertCount": 3,
-  "opportunityScore": 36.8701,
+  "opportunityScore": 37.0766,
   "organizationCount": 4,
   "qualifiedRepoCount": 4,
-  "rank": 78,
+  "rank": 77,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "configuration_management",
    "containers_orchestration",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 1.3334
+  "weightedExpertCount": 1.3558
  },
  "subdomainMix": []
 }

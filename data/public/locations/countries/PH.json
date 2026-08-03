@@ -18,8 +18,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 25.9853,
-  "expertSupplyScore": 1.4387,
+  "expertQualityScore": 26.1956,
+  "expertSupplyScore": 1.411,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -39,8 +39,8 @@
   "countryCode": "PH",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 25.9853,
-  "expertSupplyScore": 1.4387,
+  "expertQualityScore": 26.1956,
+  "expertSupplyScore": 1.411,
   "geoId": "PH",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -50,15 +50,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Philippines",
   "observableExpertCount": 1,
-  "opportunityScore": 22.2991,
+  "opportunityScore": 22.3525,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 69,
+  "rank": 70,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.3712
+  "weightedExpertCount": 0.3742
  },
  "subdomainMix": [
   {

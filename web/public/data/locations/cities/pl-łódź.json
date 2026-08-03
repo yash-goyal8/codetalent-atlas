@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 80.0,
   "ecosystemBreadthScore": 29.6889,
-  "expertQualityScore": 32.1862,
-  "expertSupplyScore": 19.0445,
+  "expertQualityScore": 32.6062,
+  "expertSupplyScore": 19.0813,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "PL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 29.6889,
-  "expertQualityScore": 32.1862,
-  "expertSupplyScore": 19.0445,
+  "expertQualityScore": 32.6062,
+  "expertSupplyScore": 19.0813,
   "geoId": "PL-łódź",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.5,
   "name": "Łódź",
   "observableExpertCount": 2,
-  "opportunityScore": 33.7903,
+  "opportunityScore": 33.9292,
   "organizationCount": 2,
   "qualifiedRepoCount": 3,
-  "rank": 101,
+  "rank": 100,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.806
+  "weightedExpertCount": 0.818
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 40.0,
   "ecosystemBreadthScore": 20.804,
-  "expertQualityScore": 17.7117,
-  "expertSupplyScore": 4.355,
+  "expertQualityScore": 18.1317,
+  "expertSupplyScore": 4.3638,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 20.804,
-  "expertQualityScore": 17.7117,
-  "expertSupplyScore": 4.355,
+  "expertQualityScore": 18.1317,
+  "expertSupplyScore": 4.3638,
   "geoId": "US-bellevue",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Bellevue",
   "observableExpertCount": 1,
-  "opportunityScore": 19.9182,
+  "opportunityScore": 20.0473,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 188,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.253
+  "weightedExpertCount": 0.259
  },
  "subdomainMix": []
 }

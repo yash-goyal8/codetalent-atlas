@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.5898,
-  "expertSupplyScore": 1.4349,
+  "expertQualityScore": 20.0098,
+  "expertSupplyScore": 1.3854,
   "momentumScore": 75.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "JP",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.5898,
-  "expertSupplyScore": 1.4349,
+  "expertQualityScore": 20.0098,
+  "expertSupplyScore": 1.3854,
   "geoId": "JP-fukui-shi",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Fukui-shi",
   "observableExpertCount": 1,
-  "opportunityScore": 13.8791,
+  "opportunityScore": 13.9878,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 232,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.2799
+  "weightedExpertCount": 0.2859
  },
  "subdomainMix": []
 }

@@ -7,7 +7,7 @@
   "collaborationDepthScore": 43.3333,
   "ecosystemBreadthScore": 43.3342,
   "expertQualityScore": 29.5438,
-  "expertSupplyScore": 27.3789,
+  "expertSupplyScore": 27.3876,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -28,7 +28,7 @@
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 43.3342,
   "expertQualityScore": 29.5438,
-  "expertSupplyScore": 27.3789,
+  "expertSupplyScore": 27.3876,
   "geoId": "IT-naples",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,17 +38,17 @@
   "multiRepoExpertShare": 0.3333,
   "name": "Naples",
   "observableExpertCount": 3,
-  "opportunityScore": 34.2792,
+  "opportunityScore": 34.2822,
   "organizationCount": 4,
   "qualifiedRepoCount": 4,
-  "rank": 95,
+  "rank": 96,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cicd_developer_tooling",
    "containers_orchestration",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 1.2281
+  "weightedExpertCount": 1.2415
  },
  "subdomainMix": []
 }

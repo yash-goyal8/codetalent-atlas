@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 22.0754,
-  "expertSupplyScore": 1.9086,
+  "expertQualityScore": 22.4954,
+  "expertSupplyScore": 1.8566,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CH",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 22.0754,
-  "expertSupplyScore": 1.9086,
+  "expertQualityScore": 22.4954,
+  "expertSupplyScore": 1.8566,
   "geoId": "CH-thun",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Thun",
   "observableExpertCount": 1,
-  "opportunityScore": 14.2906,
+  "opportunityScore": 14.3984,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 231,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.3154
+  "weightedExpertCount": 0.3214
  },
  "subdomainMix": []
 }

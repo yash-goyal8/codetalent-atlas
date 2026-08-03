@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 46.6667,
   "ecosystemBreadthScore": 51.3894,
-  "expertQualityScore": 44.0126,
-  "expertSupplyScore": 45.6297,
+  "expertQualityScore": 44.6426,
+  "expertSupplyScore": 45.8421,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "BG",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 51.3894,
-  "expertQualityScore": 44.0126,
-  "expertSupplyScore": 45.6297,
+  "expertQualityScore": 44.6426,
+  "expertSupplyScore": 45.8421,
   "geoId": "BG-sofia",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.1667,
   "name": "Sofia",
   "observableExpertCount": 6,
-  "opportunityScore": 43.8131,
+  "opportunityScore": 44.0765,
   "organizationCount": 5,
   "qualifiedRepoCount": 6,
   "rank": 47,
@@ -49,7 +49,7 @@
    "infrastructure_as_code",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 2.633
+  "weightedExpertCount": 2.681
  },
  "subdomainMix": []
 }

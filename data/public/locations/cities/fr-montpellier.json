@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 40.0,
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 20.9192,
-  "expertSupplyScore": 5.476,
+  "expertQualityScore": 21.4442,
+  "expertSupplyScore": 5.5126,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 4.2779,
-  "expertQualityScore": 20.9192,
-  "expertSupplyScore": 5.476,
+  "expertQualityScore": 21.4442,
+  "expertSupplyScore": 5.5126,
   "geoId": "FR-montpellier",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Montpellier",
   "observableExpertCount": 1,
-  "opportunityScore": 17.1202,
+  "opportunityScore": 17.2905,
   "organizationCount": 1,
   "qualifiedRepoCount": 2,
   "rank": 212,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.2988
+  "weightedExpertCount": 0.3063
  },
  "subdomainMix": []
 }

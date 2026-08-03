@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 44.2857,
   "ecosystemBreadthScore": 32.8465,
-  "expertQualityScore": 49.5948,
-  "expertSupplyScore": 26.0905,
+  "expertQualityScore": 50.0148,
+  "expertSupplyScore": 26.1961,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "RO",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 32.8465,
-  "expertQualityScore": 49.5948,
-  "expertSupplyScore": 26.0905,
+  "expertQualityScore": 50.0148,
+  "expertSupplyScore": 26.1961,
   "geoId": "RO",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.7143,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.1429,
   "name": "Romania",
   "observableExpertCount": 7,
-  "opportunityScore": 36.4376,
+  "opportunityScore": 36.6006,
   "organizationCount": 4,
   "qualifiedRepoCount": 6,
   "rank": 42,
@@ -65,7 +65,7 @@
    "infrastructure_as_code",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 3.2301
+  "weightedExpertCount": 3.2721
  },
  "subdomainMix": [
   {

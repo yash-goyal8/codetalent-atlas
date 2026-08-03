@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.4117,
-  "expertSupplyScore": 3.6364,
+  "expertQualityScore": 31.8317,
+  "expertSupplyScore": 3.5751,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 31.4117,
-  "expertSupplyScore": 3.6364,
+  "expertQualityScore": 31.8317,
+  "expertSupplyScore": 3.5751,
   "geoId": "CA-chicoutimi",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Chicoutimi",
   "observableExpertCount": 1,
-  "opportunityScore": 22.1963,
+  "opportunityScore": 22.3008,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 162,
+  "rank": 161,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.4487
+  "weightedExpertCount": 0.4547
  },
  "subdomainMix": []
 }

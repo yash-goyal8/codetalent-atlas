@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 68.1759,
-  "expertSupplyScore": 4.8401,
+  "expertQualityScore": 68.806,
+  "expertSupplyScore": 4.8089,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "SK",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 68.1759,
-  "expertSupplyScore": 4.8401,
+  "expertQualityScore": 68.806,
+  "expertSupplyScore": 4.8089,
   "geoId": "SK-banská-bystrica",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Banská Bystrica",
   "observableExpertCount": 1,
-  "opportunityScore": 36.7317,
+  "opportunityScore": 36.9099,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 80,
@@ -47,7 +47,7 @@
    "observability_monitoring",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.5454
+  "weightedExpertCount": 0.5544
  },
  "subdomainMix": []
 }

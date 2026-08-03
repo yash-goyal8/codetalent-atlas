@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 55.0,
   "ecosystemBreadthScore": 42.7031,
-  "expertQualityScore": 38.0939,
-  "expertSupplyScore": 28.9633,
+  "expertQualityScore": 38.3039,
+  "expertSupplyScore": 29.0802,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "MX",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 42.7031,
-  "expertQualityScore": 38.0939,
-  "expertSupplyScore": 28.9633,
+  "expertQualityScore": 38.3039,
+  "expertSupplyScore": 29.0802,
   "geoId": "MX",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.25,
   "name": "Mexico",
   "observableExpertCount": 8,
-  "opportunityScore": 36.5856,
+  "opportunityScore": 36.6895,
   "organizationCount": 7,
   "qualifiedRepoCount": 8,
   "rank": 41,
@@ -67,7 +67,7 @@
    "infrastructure_as_code",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 3.4436
+  "weightedExpertCount": 3.4946
  },
  "subdomainMix": [
   {

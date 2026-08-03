@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 54.0,
   "ecosystemBreadthScore": 81.0952,
-  "expertQualityScore": 51.1115,
-  "expertSupplyScore": 74.733,
+  "expertQualityScore": 51.6365,
+  "expertSupplyScore": 74.7601,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 81.0952,
-  "expertQualityScore": 51.1115,
-  "expertSupplyScore": 74.733,
+  "expertQualityScore": 51.6365,
+  "expertSupplyScore": 74.7601,
   "geoId": "CA-toronto",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.2,
   "name": "Toronto",
   "observableExpertCount": 15,
-  "opportunityScore": 60.1995,
+  "opportunityScore": 60.3665,
   "organizationCount": 11,
   "qualifiedRepoCount": 20,
   "rank": 8,
@@ -50,7 +50,7 @@
    "cloud_platforms_sdks",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 6.9226
+  "weightedExpertCount": 7.0081
  },
  "subdomainMix": []
 }

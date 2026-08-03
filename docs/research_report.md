@@ -8,7 +8,7 @@
 
 CodeTalent Atlas answers a sourcing question with public, reproducible data: **where should Scale investigate building sourcing pipelines for expert Cloud/DevOps contributors?** From three months of public GitHub activity (GH Archive via BigQuery Sandbox), the pipeline discovered 309,653 candidate repositories, qualified 639 as genuinely collaborative Cloud/DevOps projects, scored 5,636 observable expert contributors, and ranked 23 countries (and 5 cities) on separate **opportunity** and **confidence** scales.
 
-**Recommended sourcing pilots: Germany (opportunity 63.9 / confidence 70.6), India (60.3 / 76.8), and China (60.0 / 68.1)** — the three "promising"-tier locations where both evidence strength and data trustworthiness clear the configured bars. The United States tops raw opportunity (67.2) but carries the weakest located-profile confidence (58.1) among the leaders and is deliberately not a top recommendation until coverage improves. No location reaches the "priority" tier (opportunity ≥75 AND confidence ≥70) in a three-month window — reported as-is rather than tuned away.
+**Recommended sourcing pilots: Germany (opportunity 64.1 / confidence 70.6), India (60.5 / 76.8), and China (60.2 / 68.1)** — the three "promising"-tier locations where both evidence strength and data trustworthiness clear the configured bars. The United States tops raw opportunity (67.3) but carries the weakest located-profile confidence (58.1) among the leaders and is deliberately not a top recommendation until coverage improves. No location reaches the "priority" tier (opportunity ≥75 AND confidence ≥70) in a three-month window — reported as-is rather than tuned away.
 
 Most important limitation: only 46.6% of observable contributors expose a usable country; every ranking therefore carries an explicit confidence score, and momentum is provisional at pilot length.
 
@@ -63,7 +63,7 @@ Four layers, all weights in `config/scoring.yaml`, none in code: repository qual
 ## 9. Findings
 
 1. **The observable Cloud/DevOps expert pool is globally distributed but US/EU/Asia-anchored.** Top rankable countries: US, DE, IN, CN, GB, CA, FR, AU, PL, ES, IE, IL.
-2. **Opportunity and confidence genuinely diverge.** The US leads opportunity (67.2) with the weakest leader confidence (58.1 — US contributors disproportionately omit locations); India shows the *highest* confidence (76.8) on solid opportunity (60.3).
+2. **Opportunity and confidence genuinely diverge.** The US leads opportunity (67.3) with the weakest leader confidence (58.1 — US contributors disproportionately omit locations); India shows the *highest* confidence (76.8) on solid opportunity (60.5).
 3. **Subdomain textures differ by country:** US strength concentrates in cloud platforms/SDKs; Germany and India lead with containers/orchestration; Britain's top subdomain is observability; India shows unusual IaC depth.
 4. **Collaboration breadth is meaningful at the top:** 28–29% of US and India experts contribute to multiple qualified repositories (multi-repo share), vs 17% for Germany — different sourcing textures (broad ecosystem participants vs project-anchored specialists).
 5. **No priority-tier location exists at pilot scale** — three months of data cannot clear opportunity ≥75 with confidence ≥70. The twelve-month expansion is the test of whether that tier is reachable.

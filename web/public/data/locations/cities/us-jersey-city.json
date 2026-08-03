@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 25.2718,
-  "expertQualityScore": 63.3238,
-  "expertSupplyScore": 24.5532,
+  "expertQualityScore": 63.7956,
+  "expertSupplyScore": 24.6187,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "US",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 25.2718,
-  "expertQualityScore": 63.3238,
-  "expertSupplyScore": 24.5532,
+  "expertQualityScore": 63.7956,
+  "expertSupplyScore": 24.6187,
   "geoId": "US-jersey-city",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Jersey City",
   "observableExpertCount": 2,
-  "opportunityScore": 47.6179,
+  "opportunityScore": 47.7824,
   "organizationCount": 3,
   "qualifiedRepoCount": 8,
   "rank": 30,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 1.0656
+  "weightedExpertCount": 1.0808
  },
  "subdomainMix": []
 }

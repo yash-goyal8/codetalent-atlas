@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 24.9955,
-  "expertQualityScore": 79.6768,
-  "expertSupplyScore": 14.258,
+  "expertQualityScore": 80.0968,
+  "expertSupplyScore": 14.1996,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "ES",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 24.9955,
-  "expertQualityScore": 79.6768,
-  "expertSupplyScore": 14.258,
+  "expertQualityScore": 80.0968,
+  "expertSupplyScore": 14.1996,
   "geoId": "ES-granollers",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Granollers",
   "observableExpertCount": 1,
-  "opportunityScore": 51.3929,
+  "opportunityScore": 51.4985,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 16,
@@ -47,7 +47,7 @@
    "service_mesh_networking",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.7097
+  "weightedExpertCount": 0.7157
  },
  "subdomainMix": []
 }

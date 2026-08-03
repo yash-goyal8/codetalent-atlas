@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 8.5714,
   "ecosystemBreadthScore": 11.182,
-  "expertQualityScore": 12.8222,
-  "expertSupplyScore": 14.3921,
+  "expertQualityScore": 13.2422,
+  "expertSupplyScore": 14.5354,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "IR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 11.182,
-  "expertQualityScore": 12.8222,
-  "expertSupplyScore": 14.3921,
+  "expertQualityScore": 13.2422,
+  "expertSupplyScore": 14.5354,
   "geoId": "IR",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.4286,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Iran, Islamic Republic of",
   "observableExpertCount": 7,
-  "opportunityScore": 13.7878,
+  "opportunityScore": 13.9639,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 78,
@@ -63,7 +63,7 @@
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 1.4749
+  "weightedExpertCount": 1.5049
  },
  "subdomainMix": [
   {

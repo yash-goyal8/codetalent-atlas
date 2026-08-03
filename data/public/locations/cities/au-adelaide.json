@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 65.0,
   "ecosystemBreadthScore": 23.5218,
-  "expertQualityScore": 58.9853,
-  "expertSupplyScore": 22.1454,
+  "expertQualityScore": 59.1953,
+  "expertSupplyScore": 22.1384,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "AU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 23.5218,
-  "expertQualityScore": 58.9853,
-  "expertSupplyScore": 22.1454,
+  "expertQualityScore": 59.1953,
+  "expertSupplyScore": 22.1384,
   "geoId": "AU-adelaide",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.5,
   "name": "Adelaide",
   "observableExpertCount": 2,
-  "opportunityScore": 40.0487,
+  "opportunityScore": 40.1092,
   "organizationCount": 2,
   "qualifiedRepoCount": 3,
   "rank": 58,
@@ -48,7 +48,7 @@
    "cicd_developer_tooling",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 1.1178
+  "weightedExpertCount": 1.1271
  },
  "subdomainMix": []
 }

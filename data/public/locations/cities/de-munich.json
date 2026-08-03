@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 24.0,
   "ecosystemBreadthScore": 59.4836,
-  "expertQualityScore": 28.4717,
-  "expertSupplyScore": 53.6682,
+  "expertQualityScore": 29.1017,
+  "expertSupplyScore": 53.8333,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 59.4836,
-  "expertQualityScore": 28.4717,
-  "expertSupplyScore": 53.6682,
+  "expertQualityScore": 29.1017,
+  "expertSupplyScore": 53.8333,
   "geoId": "DE-munich",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Munich",
   "observableExpertCount": 10,
-  "opportunityScore": 39.3737,
+  "opportunityScore": 39.6205,
   "organizationCount": 7,
   "qualifiedRepoCount": 7,
   "rank": 60,
@@ -50,7 +50,7 @@
    "observability_monitoring",
    "configuration_management"
   ],
-  "weightedExpertCount": 3.506
+  "weightedExpertCount": 3.563
  },
  "subdomainMix": []
 }

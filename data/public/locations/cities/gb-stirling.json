@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 72.2569,
-  "expertSupplyScore": 5.5479,
+  "expertQualityScore": 72.4669,
+  "expertSupplyScore": 5.4406,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 72.2569,
-  "expertSupplyScore": 5.5479,
+  "expertQualityScore": 72.4669,
+  "expertSupplyScore": 5.4406,
   "geoId": "GB-stirling",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Stirling",
   "observableExpertCount": 1,
-  "opportunityScore": 37.6188,
+  "opportunityScore": 37.6443,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 69,
+  "rank": 71,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.6037
+  "weightedExpertCount": 0.6067
  },
  "subdomainMix": []
 }

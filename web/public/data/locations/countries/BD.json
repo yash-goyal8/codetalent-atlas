@@ -13,8 +13,8 @@
  "components": {
   "collaborationDepthScore": 23.3333,
   "ecosystemBreadthScore": 24.6334,
-  "expertQualityScore": 23.1432,
-  "expertSupplyScore": 9.342,
+  "expertQualityScore": 23.4932,
+  "expertSupplyScore": 9.4151,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -34,8 +34,8 @@
   "countryCode": "BD",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 24.6334,
-  "expertQualityScore": 23.1432,
-  "expertSupplyScore": 9.342,
+  "expertQualityScore": 23.4932,
+  "expertSupplyScore": 9.4151,
   "geoId": "BD",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.6667,
@@ -45,7 +45,7 @@
   "multiRepoExpertShare": 0.3333,
   "name": "Bangladesh",
   "observableExpertCount": 3,
-  "opportunityScore": 21.176,
+  "opportunityScore": 21.3066,
   "organizationCount": 4,
   "qualifiedRepoCount": 4,
   "rank": 72,
@@ -54,7 +54,7 @@
    "configuration_management",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.9078
+  "weightedExpertCount": 0.9248
  },
  "subdomainMix": [
   {

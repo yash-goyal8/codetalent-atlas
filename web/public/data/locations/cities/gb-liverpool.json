@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 33.9222,
-  "expertSupplyScore": 4.0877,
+  "expertQualityScore": 34.5522,
+  "expertSupplyScore": 4.0612,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 33.9222,
-  "expertSupplyScore": 4.0877,
+  "expertQualityScore": 34.5522,
+  "expertSupplyScore": 4.0612,
   "geoId": "GB-liverpool",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Liverpool",
   "observableExpertCount": 1,
-  "opportunityScore": 25.6074,
+  "opportunityScore": 25.7871,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 135,
+  "rank": 133,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.4846
+  "weightedExpertCount": 0.4936
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 51.6667,
   "ecosystemBreadthScore": 50.3655,
-  "expertQualityScore": 64.7422,
-  "expertSupplyScore": 48.4879,
+  "expertQualityScore": 65.3722,
+  "expertSupplyScore": 48.6097,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "PL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 50.3655,
-  "expertQualityScore": 64.7422,
-  "expertSupplyScore": 48.4879,
+  "expertQualityScore": 65.3722,
+  "expertSupplyScore": 48.6097,
   "geoId": "PL-kraków",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.1667,
   "name": "Kraków",
   "observableExpertCount": 6,
-  "opportunityScore": 54.18,
+  "opportunityScore": 54.4116,
   "organizationCount": 5,
   "qualifiedRepoCount": 8,
   "rank": 11,
@@ -49,7 +49,7 @@
    "service_mesh_networking",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 2.9221
+  "weightedExpertCount": 2.9653
  },
  "subdomainMix": []
 }

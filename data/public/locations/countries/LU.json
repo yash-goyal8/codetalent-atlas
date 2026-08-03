@@ -18,8 +18,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 2.7242,
-  "expertQualityScore": 26.5251,
-  "expertSupplyScore": 4.0087,
+  "expertQualityScore": 26.9451,
+  "expertSupplyScore": 4.0283,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -39,8 +39,8 @@
   "countryCode": "LU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 2.7242,
-  "expertQualityScore": 26.5251,
-  "expertSupplyScore": 4.0087,
+  "expertQualityScore": 26.9451,
+  "expertSupplyScore": 4.0283,
   "geoId": "LU",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -50,15 +50,15 @@
   "multiRepoExpertShare": 1.0,
   "name": "Luxembourg",
   "observableExpertCount": 1,
-  "opportunityScore": 29.633,
+  "opportunityScore": 29.7659,
   "organizationCount": 1,
   "qualifiedRepoCount": 2,
-  "rank": 57,
+  "rank": 56,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.3789
+  "weightedExpertCount": 0.3849
  },
  "subdomainMix": [
   {

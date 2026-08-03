@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 44.6154,
   "ecosystemBreadthScore": 75.4521,
-  "expertQualityScore": 28.6573,
-  "expertSupplyScore": 54.278,
+  "expertQualityScore": 29.1729,
+  "expertSupplyScore": 54.4466,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "BR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 75.4521,
-  "expertQualityScore": 28.6573,
-  "expertSupplyScore": 54.278,
+  "expertQualityScore": 29.1729,
+  "expertSupplyScore": 54.4466,
   "geoId": "BR",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8718,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.1538,
   "name": "Brazil",
   "observableExpertCount": 39,
-  "opportunityScore": 44.332,
+  "opportunityScore": 44.5457,
   "organizationCount": 26,
   "qualifiedRepoCount": 33,
   "rank": 18,
@@ -66,7 +66,7 @@
    "configuration_management",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 14.423
+  "weightedExpertCount": 14.6865
  },
  "subdomainMix": [
   {

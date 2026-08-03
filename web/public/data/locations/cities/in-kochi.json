@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 24.8024,
-  "expertSupplyScore": 2.4216,
+  "expertQualityScore": 25.2224,
+  "expertSupplyScore": 2.3668,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 24.8024,
-  "expertSupplyScore": 2.4216,
+  "expertQualityScore": 25.2224,
+  "expertSupplyScore": 2.3668,
   "geoId": "IN-kochi",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Kochi",
   "observableExpertCount": 1,
-  "opportunityScore": 19.7883,
+  "opportunityScore": 19.8951,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 189,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.3543
+  "weightedExpertCount": 0.3603
  },
  "subdomainMix": []
 }

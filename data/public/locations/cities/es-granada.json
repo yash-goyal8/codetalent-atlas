@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 36.6667,
   "ecosystemBreadthScore": 53.5426,
-  "expertQualityScore": 32.1441,
-  "expertSupplyScore": 41.1693,
+  "expertQualityScore": 32.7741,
+  "expertSupplyScore": 41.3726,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "ES",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 53.5426,
-  "expertQualityScore": 32.1441,
-  "expertSupplyScore": 41.1693,
+  "expertQualityScore": 32.7741,
+  "expertSupplyScore": 41.3726,
   "geoId": "ES-granada",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,10 +38,10 @@
   "multiRepoExpertShare": 0.1667,
   "name": "Granada",
   "observableExpertCount": 6,
-  "opportunityScore": 37.4067,
+  "opportunityScore": 37.6669,
   "organizationCount": 6,
   "qualifiedRepoCount": 7,
-  "rank": 71,
+  "rank": 70,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "observability_monitoring",
@@ -49,7 +49,7 @@
    "infrastructure_as_code",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 2.2238
+  "weightedExpertCount": 2.2643
  },
  "subdomainMix": []
 }

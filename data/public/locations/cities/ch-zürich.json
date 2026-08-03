@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 51.1111,
   "ecosystemBreadthScore": 60.8982,
-  "expertQualityScore": 35.3073,
-  "expertSupplyScore": 55.682,
+  "expertQualityScore": 35.7273,
+  "expertSupplyScore": 55.8537,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CH",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 60.8982,
-  "expertQualityScore": 35.3073,
-  "expertSupplyScore": 55.682,
+  "expertQualityScore": 35.7273,
+  "expertSupplyScore": 55.8537,
   "geoId": "CH-zürich",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.1111,
   "name": "Zürich",
   "observableExpertCount": 9,
-  "opportunityScore": 46.3374,
+  "opportunityScore": 46.5235,
   "organizationCount": 8,
   "qualifiedRepoCount": 8,
   "rank": 37,
@@ -49,7 +49,7 @@
    "configuration_management",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 3.7557
+  "weightedExpertCount": 3.8176
  },
  "subdomainMix": []
 }

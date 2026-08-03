@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 46.875,
   "ecosystemBreadthScore": 74.7936,
-  "expertQualityScore": 37.725,
-  "expertSupplyScore": 60.6955,
+  "expertQualityScore": 38.145,
+  "expertSupplyScore": 60.7879,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "NL",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 74.7936,
-  "expertQualityScore": 37.725,
-  "expertSupplyScore": 60.6955,
+  "expertQualityScore": 38.145,
+  "expertSupplyScore": 60.7879,
   "geoId": "NL",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.75,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.1875,
   "name": "Netherlands",
   "observableExpertCount": 48,
-  "opportunityScore": 49.5715,
+  "opportunityScore": 49.7299,
   "organizationCount": 30,
   "qualifiedRepoCount": 36,
   "rank": 16,
@@ -67,7 +67,7 @@
    "configuration_management",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 20.1433
+  "weightedExpertCount": 20.4401
  },
  "subdomainMix": [
   {

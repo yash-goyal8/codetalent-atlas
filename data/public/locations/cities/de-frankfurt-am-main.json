@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 30.8993,
-  "expertSupplyScore": 3.5436,
+  "expertQualityScore": 31.3193,
+  "expertSupplyScore": 3.4828,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 30.8993,
-  "expertSupplyScore": 3.5436,
+  "expertQualityScore": 31.3193,
+  "expertSupplyScore": 3.4828,
   "geoId": "DE-frankfurt-am-main",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Frankfurt am Main",
   "observableExpertCount": 1,
-  "opportunityScore": 22.0101,
+  "opportunityScore": 22.1148,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 166,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.4414
+  "weightedExpertCount": 0.4474
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.0561,
-  "expertSupplyScore": 2.6551,
+  "expertQualityScore": 26.6861,
+  "expertSupplyScore": 2.6378,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.0561,
-  "expertSupplyScore": 2.6551,
+  "expertQualityScore": 26.6861,
+  "expertSupplyScore": 2.6378,
   "geoId": "DE-ludwigshafen-am-rhein",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Ludwigshafen am Rhein",
   "observableExpertCount": 1,
-  "opportunityScore": 18.2461,
+  "opportunityScore": 18.4291,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 204,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.3722
+  "weightedExpertCount": 0.3812
  },
  "subdomainMix": []
 }

@@ -62,7 +62,7 @@
    "countryCode": "US",
    "geoId": "US",
    "name": "United States",
-   "opportunityScore": 67.1994,
+   "opportunityScore": 67.2823,
    "tier": "monitor"
   },
   {
@@ -70,7 +70,7 @@
    "countryCode": "DE",
    "geoId": "DE",
    "name": "Germany",
-   "opportunityScore": 63.9115,
+   "opportunityScore": 64.1056,
    "tier": "promising"
   },
   {
@@ -78,7 +78,7 @@
    "countryCode": "IN",
    "geoId": "IN",
    "name": "India",
-   "opportunityScore": 60.3239,
+   "opportunityScore": 60.5188,
    "tier": "promising"
   },
   {
@@ -86,7 +86,7 @@
    "countryCode": "CN",
    "geoId": "CN",
    "name": "China",
-   "opportunityScore": 60.0371,
+   "opportunityScore": 60.1802,
    "tier": "promising"
   },
   {
@@ -94,7 +94,7 @@
    "countryCode": "GB",
    "geoId": "GB",
    "name": "United Kingdom",
-   "opportunityScore": 59.6899,
+   "opportunityScore": 59.8988,
    "tier": "monitor"
   }
  ],

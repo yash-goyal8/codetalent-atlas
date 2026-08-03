@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 17.5627,
-  "expertQualityScore": 30.6063,
-  "expertSupplyScore": 15.3157,
+  "expertQualityScore": 31.0263,
+  "expertSupplyScore": 15.3609,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 17.5627,
-  "expertQualityScore": 30.6063,
-  "expertSupplyScore": 15.3157,
+  "expertQualityScore": 31.0263,
+  "expertSupplyScore": 15.3609,
   "geoId": "CA-québec",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Québec",
   "observableExpertCount": 2,
-  "opportunityScore": 27.7987,
+  "opportunityScore": 27.9405,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 121,
@@ -47,7 +47,7 @@
    "cicd_developer_tooling",
    "configuration_management"
   ],
-  "weightedExpertCount": 0.766
+  "weightedExpertCount": 0.778
  },
  "subdomainMix": []
 }

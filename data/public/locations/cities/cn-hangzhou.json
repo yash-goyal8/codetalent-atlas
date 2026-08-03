@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 58.75,
   "ecosystemBreadthScore": 60.095,
-  "expertQualityScore": 52.6067,
-  "expertSupplyScore": 57.2295,
+  "expertQualityScore": 53.2367,
+  "expertSupplyScore": 57.3072,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CN",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 60.095,
-  "expertQualityScore": 52.6067,
-  "expertSupplyScore": 57.2295,
+  "expertQualityScore": 53.2367,
+  "expertSupplyScore": 57.3072,
   "geoId": "CN-hangzhou",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.25,
   "name": "Hangzhou",
   "observableExpertCount": 8,
-  "opportunityScore": 53.1343,
+  "opportunityScore": 53.3506,
   "organizationCount": 6,
   "qualifiedRepoCount": 10,
   "rank": 15,
@@ -49,7 +49,7 @@
    "observability_monitoring",
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 3.957
+  "weightedExpertCount": 4.0096
  },
  "subdomainMix": []
 }

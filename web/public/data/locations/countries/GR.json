@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 54.5455,
   "ecosystemBreadthScore": 49.2347,
-  "expertQualityScore": 53.5132,
-  "expertSupplyScore": 37.3314,
+  "expertQualityScore": 53.9332,
+  "expertSupplyScore": 37.4404,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "GR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 49.2347,
-  "expertQualityScore": 53.5132,
-  "expertSupplyScore": 37.3314,
+  "expertQualityScore": 53.9332,
+  "expertSupplyScore": 37.4404,
   "geoId": "GR",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.8182,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Greece",
   "observableExpertCount": 11,
-  "opportunityScore": 47.2253,
+  "opportunityScore": 47.3894,
   "organizationCount": 8,
   "qualifiedRepoCount": 9,
   "rank": 19,
@@ -67,7 +67,7 @@
    "containers_orchestration",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 5.7048
+  "weightedExpertCount": 5.7858
  },
  "subdomainMix": [
   {

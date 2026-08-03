@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 85.0,
   "ecosystemBreadthScore": 32.367,
-  "expertQualityScore": 54.5899,
-  "expertSupplyScore": 23.9571,
+  "expertQualityScore": 55.1542,
+  "expertSupplyScore": 24.0094,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 32.367,
-  "expertQualityScore": 54.5899,
-  "expertSupplyScore": 23.9571,
+  "expertQualityScore": 55.1542,
+  "expertSupplyScore": 24.0094,
   "geoId": "GB-glasgow",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Glasgow",
   "observableExpertCount": 2,
-  "opportunityScore": 45.7487,
+  "opportunityScore": 45.9363,
   "organizationCount": 2,
   "qualifiedRepoCount": 4,
   "rank": 39,
@@ -48,7 +48,7 @@
    "observability_monitoring",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 1.0329
+  "weightedExpertCount": 1.047
  },
  "subdomainMix": []
 }

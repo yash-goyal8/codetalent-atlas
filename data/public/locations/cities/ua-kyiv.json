@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.0319,
-  "expertSupplyScore": 2.6506,
+  "expertQualityScore": 26.4519,
+  "expertSupplyScore": 2.5945,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "UA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 26.0319,
-  "expertSupplyScore": 2.6506,
+  "expertQualityScore": 26.4519,
+  "expertSupplyScore": 2.5945,
   "geoId": "UA-kyiv",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Kyiv",
   "observableExpertCount": 1,
-  "opportunityScore": 15.7373,
+  "opportunityScore": 15.8437,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 225,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.3719
+  "weightedExpertCount": 0.3779
  },
  "subdomainMix": []
 }

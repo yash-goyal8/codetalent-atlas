@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.0185,
-  "expertSupplyScore": 2.8334,
+  "expertQualityScore": 27.2286,
+  "expertSupplyScore": 2.7377,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 27.0185,
-  "expertSupplyScore": 2.8334,
+  "expertQualityScore": 27.2286,
+  "expertSupplyScore": 2.7377,
   "geoId": "IT-empoli",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Empoli",
   "observableExpertCount": 1,
-  "opportunityScore": 23.0972,
+  "opportunityScore": 23.1268,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 156,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.386
+  "weightedExpertCount": 0.389
  },
  "subdomainMix": []
 }

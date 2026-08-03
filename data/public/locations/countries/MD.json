@@ -18,8 +18,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 33.977,
-  "expertSupplyScore": 2.2319,
+  "expertQualityScore": 34.397,
+  "expertSupplyScore": 2.2218,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -39,8 +39,8 @@
   "countryCode": "MD",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 33.977,
-  "expertSupplyScore": 2.2319,
+  "expertQualityScore": 34.397,
+  "expertSupplyScore": 2.2218,
   "geoId": "MD",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -50,7 +50,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Moldova, Republic of",
   "observableExpertCount": 1,
-  "opportunityScore": 22.4743,
+  "opportunityScore": 22.5968,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 68,
@@ -58,7 +58,7 @@
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.4854
+  "weightedExpertCount": 0.4914
  },
  "subdomainMix": [
   {

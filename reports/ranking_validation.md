@@ -4,9 +4,9 @@
 
 ## Headline rankings (countries, rankable only)
 
-US (opp 67.2 / conf 58.1, monitor) · DE (63.9/70.6, promising) · IN (60.3/76.8, promising) · CN (60.0/68.1, promising) · GB · CA · FR · AU · PL · ES · IE · IL. 23 countries are rankable; 320 of 343 geographies fall below the spec minimum samples and are labeled `insufficient_data` with no normal rank. 5 cities rank (min samples 25/8/4 are strict at pilot scale — honest scarcity, not a defect).
+US (opp 67.3 / conf 58.1, monitor) · DE (64.1/70.6, promising) · IN (60.5/76.8, promising) · CN (60.2/68.1, promising) · GB · CA · FR · AU · PL · ES · IE · IL. 23 countries are rankable; 320 of 343 geographies fall below the spec minimum samples and are labeled `insufficient_data` with no normal rank. 5 cities rank (min samples 25/8/4 are strict at pilot scale — honest scarcity, not a defect).
 
-**No location reaches the "priority" tier** (requires opportunity ≥75 AND confidence ≥70; pilot max opportunity is 71.0). The top of the board is "promising" — reported exactly as the configured thresholds dictate. Notably, the US tops opportunity but sits at "monitor" because its located-profile confidence (58.1) fails the ≥60 promising gate — the opportunity/confidence separation working as designed.
+**No location reaches the "priority" tier** (requires opportunity ≥75 AND confidence ≥70; pilot max opportunity is 71.1). The top of the board is "promising" — reported exactly as the configured thresholds dictate. Notably, the US tops opportunity but sits at "monitor" because its located-profile confidence (58.1) fails the ≥60 promising gate — the opportunity/confidence separation working as designed.
 
 ## Stability (spec 18 sensitivity tests)
 

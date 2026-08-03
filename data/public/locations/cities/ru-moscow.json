@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 45.0,
   "ecosystemBreadthScore": 20.711,
-  "expertQualityScore": 38.7248,
-  "expertSupplyScore": 25.2762,
+  "expertQualityScore": 39.1448,
+  "expertSupplyScore": 25.4158,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "RU",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 20.711,
-  "expertQualityScore": 38.7248,
-  "expertSupplyScore": 25.2762,
+  "expertQualityScore": 39.1448,
+  "expertSupplyScore": 25.4158,
   "geoId": "RU-moscow",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Moscow",
   "observableExpertCount": 4,
-  "opportunityScore": 31.7852,
+  "opportunityScore": 31.9601,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 109,
@@ -47,7 +47,7 @@
    "configuration_management",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 1.7014
+  "weightedExpertCount": 1.7284
  },
  "subdomainMix": []
 }

@@ -111,7 +111,7 @@ export const syntheticCountryRows: GeographicRankingRow[] = [
 export const syntheticCityRows: GeographicRankingRow[] = [
   countryRow({
     geoLevel: "city",
-    geoId: "US/testville",
+    geoId: "US-testville",
     countryCode: "US",
     city: "Testville",
     name: "Testville",
@@ -121,7 +121,7 @@ export const syntheticCityRows: GeographicRankingRow[] = [
   }),
   countryRow({
     geoLevel: "city",
-    geoId: "DE/examplestadt",
+    geoId: "DE-examplestadt",
     countryCode: "DE",
     city: "Examplestadt",
     name: "Examplestadt",

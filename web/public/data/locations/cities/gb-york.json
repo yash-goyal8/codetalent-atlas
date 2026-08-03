@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 13.0424,
-  "expertSupplyScore": 0.1572,
+  "expertQualityScore": 13.6724,
+  "expertSupplyScore": 0.1562,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 13.0424,
-  "expertSupplyScore": 0.1572,
+  "expertQualityScore": 13.6724,
+  "expertSupplyScore": 0.1562,
   "geoId": "GB-york",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "York",
   "observableExpertCount": 1,
-  "opportunityScore": 8.9677,
+  "opportunityScore": 9.1564,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 254,
+  "rank": 253,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.1863
+  "weightedExpertCount": 0.1953
  },
  "subdomainMix": []
 }

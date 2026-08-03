@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 80.0,
   "ecosystemBreadthScore": 31.0893,
-  "expertQualityScore": 35.9761,
-  "expertSupplyScore": 11.2797,
+  "expertQualityScore": 36.1861,
+  "expertSupplyScore": 11.2888,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "LV",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 31.0893,
-  "expertQualityScore": 35.9761,
-  "expertSupplyScore": 11.2797,
+  "expertQualityScore": 36.1861,
+  "expertSupplyScore": 11.2888,
   "geoId": "LV",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.5,
   "name": "Latvia",
   "observableExpertCount": 2,
-  "opportunityScore": 32.3497,
+  "opportunityScore": 32.4158,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
   "rank": 48,
@@ -65,7 +65,7 @@
    "cloud_platforms_sdks",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.9835
+  "weightedExpertCount": 0.991
  },
  "subdomainMix": [
   {

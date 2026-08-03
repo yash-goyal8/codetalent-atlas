@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 23.3255,
-  "expertQualityScore": 36.046,
-  "expertSupplyScore": 11.4176,
+  "expertQualityScore": 36.4171,
+  "expertSupplyScore": 11.3741,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 23.3255,
-  "expertQualityScore": 36.046,
-  "expertSupplyScore": 11.4176,
+  "expertQualityScore": 36.4171,
+  "expertSupplyScore": 11.3741,
   "geoId": "DE-emsdetten",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Emsdetten",
   "observableExpertCount": 1,
-  "opportunityScore": 34.6425,
+  "opportunityScore": 34.7386,
   "organizationCount": 2,
   "qualifiedRepoCount": 3,
   "rank": 93,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.5149
+  "weightedExpertCount": 0.5202
  },
  "subdomainMix": []
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 40.0,
   "ecosystemBreadthScore": 37.8322,
-  "expertQualityScore": 20.3521,
-  "expertSupplyScore": 21.3263,
+  "expertQualityScore": 20.9821,
+  "expertSupplyScore": 21.4826,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 37.8322,
-  "expertQualityScore": 20.3521,
-  "expertSupplyScore": 21.3263,
+  "expertQualityScore": 20.9821,
+  "expertSupplyScore": 21.4826,
   "geoId": "FR-toulouse",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Toulouse",
   "observableExpertCount": 3,
-  "opportunityScore": 25.8531,
+  "opportunityScore": 26.0968,
   "organizationCount": 3,
   "qualifiedRepoCount": 3,
   "rank": 128,
@@ -48,7 +48,7 @@
    "configuration_management",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.8946
+  "weightedExpertCount": 0.9126
  },
  "subdomainMix": []
 }

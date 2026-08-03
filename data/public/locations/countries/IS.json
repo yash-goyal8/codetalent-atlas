@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 4.6571,
-  "expertQualityScore": 68.6847,
-  "expertSupplyScore": 6.9641,
+  "expertQualityScore": 68.902,
+  "expertSupplyScore": 6.9403,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "IS",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 4.6571,
-  "expertQualityScore": 68.6847,
-  "expertSupplyScore": 6.9641,
+  "expertQualityScore": 68.902,
+  "expertSupplyScore": 6.9403,
   "geoId": "IS",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Iceland",
   "observableExpertCount": 1,
-  "opportunityScore": 43.5086,
+  "opportunityScore": 43.5654,
   "organizationCount": 1,
   "qualifiedRepoCount": 3,
   "rank": 23,
@@ -63,7 +63,7 @@
   "topSubdomains": [
    "cloud_platforms_sdks"
   ],
-  "weightedExpertCount": 0.5526
+  "weightedExpertCount": 0.5557
  },
  "subdomainMix": [
   {

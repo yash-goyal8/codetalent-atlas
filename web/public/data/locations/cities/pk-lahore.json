@@ -6,7 +6,7 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 12.252,
+  "expertQualityScore": 12.882,
   "expertSupplyScore": 0.0,
   "momentumScore": 50.0
  },
@@ -27,7 +27,7 @@
   "countryCode": "PK",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 12.252,
+  "expertQualityScore": 12.882,
   "expertSupplyScore": 0.0,
   "geoId": "PK-lahore",
   "geoLevel": "city",
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Lahore",
   "observableExpertCount": 1,
-  "opportunityScore": 8.6756,
+  "opportunityScore": 8.8646,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 255,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.175
+  "weightedExpertCount": 0.184
  },
  "subdomainMix": []
 }

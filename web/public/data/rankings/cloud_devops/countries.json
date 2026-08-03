@@ -1,6 +1,6 @@
 {
  "domainId": "cloud_devops",
- "generatedAt": "2026-08-03T21:09:19Z",
+ "generatedAt": "2026-08-03T21:48:33Z",
  "geoLevel": "country",
  "rows": [
   {
@@ -10,7 +10,7 @@
    "countryCode": "US",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 94.5307,
-   "expertQualityScore": 41.6325,
+   "expertQualityScore": 41.9088,
    "expertSupplyScore": 100.0,
    "geoId": "US",
    "geoLevel": "country",
@@ -21,7 +21,7 @@
    "multiRepoExpertShare": 0.2763,
    "name": "United States",
    "observableExpertCount": 684,
-   "opportunityScore": 67.1994,
+   "opportunityScore": 67.2823,
    "organizationCount": 180,
    "qualifiedRepoCount": 301,
    "rank": 1,
@@ -33,7 +33,7 @@
     "service_mesh_networking",
     "configuration_management"
    ],
-   "weightedExpertCount": 300.8678
+   "weightedExpertCount": 304.9363
   },
   {
    "city": null,
@@ -42,8 +42,8 @@
    "countryCode": "DE",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 95.1539,
-   "expertQualityScore": 37.209,
-   "expertSupplyScore": 96.1147,
+   "expertQualityScore": 37.839,
+   "expertSupplyScore": 96.1292,
    "geoId": "DE",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.6479,
@@ -53,7 +53,7 @@
    "multiRepoExpertShare": 0.1655,
    "name": "Germany",
    "observableExpertCount": 284,
-   "opportunityScore": 63.9115,
+   "opportunityScore": 64.1056,
    "organizationCount": 96,
    "qualifiedRepoCount": 133,
    "rank": 2,
@@ -65,7 +65,7 @@
     "configuration_management",
     "infrastructure_as_code"
    ],
-   "weightedExpertCount": 119.5926
+   "weightedExpertCount": 121.3265
   },
   {
    "city": null,
@@ -74,8 +74,8 @@
    "countryCode": "IN",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 96.1277,
-   "expertQualityScore": 33.1753,
-   "expertSupplyScore": 91.1876,
+   "expertQualityScore": 33.7223,
+   "expertSupplyScore": 91.2757,
    "geoId": "IN",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.8939,
@@ -85,7 +85,7 @@
    "multiRepoExpertShare": 0.2857,
    "name": "India",
    "observableExpertCount": 245,
-   "opportunityScore": 60.3239,
+   "opportunityScore": 60.5188,
    "organizationCount": 95,
    "qualifiedRepoCount": 152,
    "rank": 3,
@@ -97,7 +97,7 @@
     "cloud_platforms_sdks",
     "configuration_management"
    ],
-   "weightedExpertCount": 93.653
+   "weightedExpertCount": 95.3072
   },
   {
    "city": null,
@@ -106,8 +106,8 @@
    "countryCode": "CN",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 82.1426,
-   "expertQualityScore": 42.7595,
-   "expertSupplyScore": 82.7824,
+   "expertQualityScore": 43.181,
+   "expertSupplyScore": 82.8301,
    "geoId": "CN",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.6761,
@@ -117,7 +117,7 @@
    "multiRepoExpertShare": 0.1972,
    "name": "China",
    "observableExpertCount": 142,
-   "opportunityScore": 60.0371,
+   "opportunityScore": 60.1802,
    "organizationCount": 57,
    "qualifiedRepoCount": 87,
    "rank": 4,
@@ -129,7 +129,7 @@
     "service_mesh_networking",
     "cicd_developer_tooling"
    ],
-   "weightedExpertCount": 61.6177
+   "weightedExpertCount": 62.5221
   },
   {
    "city": null,
@@ -138,8 +138,8 @@
    "countryCode": "GB",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 89.7742,
-   "expertQualityScore": 40.6274,
-   "expertSupplyScore": 83.0724,
+   "expertQualityScore": 41.2574,
+   "expertSupplyScore": 83.1292,
    "geoId": "GB",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.7551,
@@ -149,7 +149,7 @@
    "multiRepoExpertShare": 0.2041,
    "name": "United Kingdom",
    "observableExpertCount": 147,
-   "opportunityScore": 59.6899,
+   "opportunityScore": 59.8988,
    "organizationCount": 68,
    "qualifiedRepoCount": 98,
    "rank": 5,
@@ -161,7 +161,7 @@
     "cloud_platforms_sdks",
     "configuration_management"
    ],
-   "weightedExpertCount": 62.5165
+   "weightedExpertCount": 63.4652
   },
   {
    "city": null,
@@ -170,8 +170,8 @@
    "countryCode": "CA",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 86.9241,
-   "expertQualityScore": 43.3672,
-   "expertSupplyScore": 79.9436,
+   "expertQualityScore": 43.7872,
+   "expertSupplyScore": 79.9685,
    "geoId": "CA",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.6639,
@@ -181,7 +181,7 @@
    "multiRepoExpertShare": 0.1885,
    "name": "Canada",
    "observableExpertCount": 122,
-   "opportunityScore": 59.5107,
+   "opportunityScore": 59.6454,
    "organizationCount": 55,
    "qualifiedRepoCount": 92,
    "rank": 6,
@@ -193,7 +193,7 @@
     "service_mesh_networking",
     "sre_reliability"
    ],
-   "weightedExpertCount": 53.4619
+   "weightedExpertCount": 54.1679
   },
   {
    "city": null,
@@ -202,8 +202,8 @@
    "countryCode": "FR",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 85.665,
-   "expertQualityScore": 40.3118,
-   "expertSupplyScore": 78.1754,
+   "expertQualityScore": 40.7318,
+   "expertSupplyScore": 78.2081,
    "geoId": "FR",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.681,
@@ -213,7 +213,7 @@
    "multiRepoExpertShare": 0.1724,
    "name": "France",
    "observableExpertCount": 116,
-   "opportunityScore": 57.6852,
+   "opportunityScore": 57.8227,
    "organizationCount": 56,
    "qualifiedRepoCount": 66,
    "rank": 7,
@@ -225,7 +225,7 @@
     "cloud_platforms_sdks",
     "cicd_developer_tooling"
    ],
-   "weightedExpertCount": 48.928
+   "weightedExpertCount": 49.5843
   },
   {
    "city": null,
@@ -234,8 +234,8 @@
    "countryCode": "AU",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 77.7249,
-   "expertQualityScore": 44.2623,
-   "expertSupplyScore": 70.9046,
+   "expertQualityScore": 44.7014,
+   "expertSupplyScore": 70.8991,
    "geoId": "AU",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.6944,
@@ -245,7 +245,7 @@
    "multiRepoExpertShare": 0.25,
    "name": "Australia",
    "observableExpertCount": 72,
-   "opportunityScore": 56.2428,
+   "opportunityScore": 56.3726,
    "organizationCount": 28,
    "qualifiedRepoCount": 49,
    "rank": 8,
@@ -257,7 +257,7 @@
     "cloud_platforms_sdks",
     "infrastructure_as_code"
    ],
-   "weightedExpertCount": 33.9238
+   "weightedExpertCount": 34.2862
   },
   {
    "city": null,
@@ -266,8 +266,8 @@
    "countryCode": "PL",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 74.1388,
-   "expertQualityScore": 47.0217,
-   "expertSupplyScore": 64.1525,
+   "expertQualityScore": 47.4417,
+   "expertSupplyScore": 64.2495,
    "geoId": "PL",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.6604,
@@ -277,7 +277,7 @@
    "multiRepoExpertShare": 0.2075,
    "name": "Poland",
    "observableExpertCount": 53,
-   "opportunityScore": 54.7662,
+   "opportunityScore": 54.9262,
    "organizationCount": 25,
    "qualifiedRepoCount": 36,
    "rank": 9,
@@ -289,7 +289,7 @@
     "infrastructure_as_code",
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 24.0597
+   "weightedExpertCount": 24.4276
   },
   {
    "city": null,
@@ -298,8 +298,8 @@
    "countryCode": "ES",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 75.2608,
-   "expertQualityScore": 42.8412,
-   "expertSupplyScore": 64.918,
+   "expertQualityScore": 43.2612,
+   "expertSupplyScore": 65.0013,
    "geoId": "ES",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.7321,
@@ -309,7 +309,7 @@
    "multiRepoExpertShare": 0.1607,
    "name": "Spain",
    "observableExpertCount": 56,
-   "opportunityScore": 53.5551,
+   "opportunityScore": 53.7103,
    "organizationCount": 32,
    "qualifiedRepoCount": 47,
    "rank": 10,
@@ -321,7 +321,7 @@
     "service_mesh_networking",
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 25.0205
+   "weightedExpertCount": 25.3873
   },
   {
    "city": null,
@@ -330,8 +330,8 @@
    "countryCode": "IE",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 66.0045,
-   "expertQualityScore": 47.3098,
-   "expertSupplyScore": 57.9835,
+   "expertQualityScore": 47.7298,
+   "expertSupplyScore": 58.0664,
    "geoId": "IE",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.8158,
@@ -341,7 +341,7 @@
    "multiRepoExpertShare": 0.2105,
    "name": "Ireland",
    "observableExpertCount": 38,
-   "opportunityScore": 51.3639,
+   "opportunityScore": 51.5189,
    "organizationCount": 21,
    "qualifiedRepoCount": 27,
    "rank": 11,
@@ -353,7 +353,7 @@
     "infrastructure_as_code",
     "configuration_management"
    ],
-   "weightedExpertCount": 17.5044
+   "weightedExpertCount": 17.7495
   },
   {
    "city": null,
@@ -362,8 +362,8 @@
    "countryCode": "IL",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 74.0926,
-   "expertQualityScore": 42.6138,
-   "expertSupplyScore": 55.6986,
+   "expertQualityScore": 42.9588,
+   "expertSupplyScore": 55.8202,
    "geoId": "IL",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.9429,
@@ -373,7 +373,7 @@
    "multiRepoExpertShare": 0.2571,
    "name": "Israel",
    "observableExpertCount": 35,
-   "opportunityScore": 50.8022,
+   "opportunityScore": 50.9482,
    "organizationCount": 27,
    "qualifiedRepoCount": 30,
    "rank": 12,
@@ -385,7 +385,7 @@
     "sre_reliability",
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 15.5385
+   "weightedExpertCount": 15.785
   },
   {
    "city": null,
@@ -394,8 +394,8 @@
    "countryCode": "JP",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 81.0317,
-   "expertQualityScore": 38.4024,
-   "expertSupplyScore": 61.7507,
+   "expertQualityScore": 38.8224,
+   "expertSupplyScore": 61.856,
    "geoId": "JP",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.9455,
@@ -405,7 +405,7 @@
    "multiRepoExpertShare": 0.2364,
    "name": "Japan",
    "observableExpertCount": 55,
-   "opportunityScore": 50.7184,
+   "opportunityScore": 50.8813,
    "organizationCount": 40,
    "qualifiedRepoCount": 52,
    "rank": 13,
@@ -417,7 +417,7 @@
     "infrastructure_as_code",
     "observability_monitoring"
    ],
-   "weightedExpertCount": 21.2689
+   "weightedExpertCount": 21.5988
   },
   {
    "city": null,
@@ -426,8 +426,8 @@
    "countryCode": "IT",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 74.2837,
-   "expertQualityScore": 37.7955,
-   "expertSupplyScore": 63.5744,
+   "expertQualityScore": 38.2155,
+   "expertSupplyScore": 63.6812,
    "geoId": "IT",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.9298,
@@ -437,7 +437,7 @@
    "multiRepoExpertShare": 0.1228,
    "name": "Italy",
    "observableExpertCount": 57,
-   "opportunityScore": 50.5707,
+   "opportunityScore": 50.7341,
    "organizationCount": 33,
    "qualifiedRepoCount": 44,
    "rank": 14,
@@ -449,7 +449,7 @@
     "service_mesh_networking",
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 23.3576
+   "weightedExpertCount": 23.7255
   },
   {
    "city": null,
@@ -458,8 +458,8 @@
    "countryCode": "CH",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 72.0972,
-   "expertQualityScore": 40.9375,
-   "expertSupplyScore": 56.0889,
+   "expertQualityScore": 41.2175,
+   "expertSupplyScore": 56.191,
    "geoId": "CH",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.8333,
@@ -469,7 +469,7 @@
    "multiRepoExpertShare": 0.25,
    "name": "Switzerland",
    "observableExpertCount": 36,
-   "opportunityScore": 49.6221,
+   "opportunityScore": 49.7418,
    "organizationCount": 24,
    "qualifiedRepoCount": 31,
    "rank": 15,
@@ -481,7 +481,7 @@
     "cloud_platforms_sdks",
     "infrastructure_as_code"
    ],
-   "weightedExpertCount": 15.8589
+   "weightedExpertCount": 16.0945
   },
   {
    "city": null,
@@ -490,8 +490,8 @@
    "countryCode": "NL",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 74.7936,
-   "expertQualityScore": 37.725,
-   "expertSupplyScore": 60.6955,
+   "expertQualityScore": 38.145,
+   "expertSupplyScore": 60.7879,
    "geoId": "NL",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.75,
@@ -501,7 +501,7 @@
    "multiRepoExpertShare": 0.1875,
    "name": "Netherlands",
    "observableExpertCount": 48,
-   "opportunityScore": 49.5715,
+   "opportunityScore": 49.7299,
    "organizationCount": 30,
    "qualifiedRepoCount": 36,
    "rank": 16,
@@ -513,7 +513,7 @@
     "configuration_management",
     "observability_monitoring"
    ],
-   "weightedExpertCount": 20.1433
+   "weightedExpertCount": 20.4401
   },
   {
    "city": null,
@@ -522,8 +522,8 @@
    "countryCode": "CZ",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 63.4321,
-   "expertQualityScore": 35.4333,
-   "expertSupplyScore": 50.9491,
+   "expertQualityScore": 35.8533,
+   "expertSupplyScore": 51.0931,
    "geoId": "CZ",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.8667,
@@ -533,7 +533,7 @@
    "multiRepoExpertShare": 0.2333,
    "name": "Czechia",
    "observableExpertCount": 30,
-   "opportunityScore": 44.5554,
+   "opportunityScore": 44.7318,
    "organizationCount": 18,
    "qualifiedRepoCount": 23,
    "rank": 17,
@@ -544,7 +544,7 @@
     "configuration_management",
     "service_mesh_networking"
    ],
-   "weightedExpertCount": 12.0949
+   "weightedExpertCount": 12.2973
   },
   {
    "city": null,
@@ -553,8 +553,8 @@
    "countryCode": "BR",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 75.4521,
-   "expertQualityScore": 28.6573,
-   "expertSupplyScore": 54.278,
+   "expertQualityScore": 29.1729,
+   "expertSupplyScore": 54.4466,
    "geoId": "BR",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.8718,
@@ -564,7 +564,7 @@
    "multiRepoExpertShare": 0.1538,
    "name": "Brazil",
    "observableExpertCount": 39,
-   "opportunityScore": 44.332,
+   "opportunityScore": 44.5457,
    "organizationCount": 26,
    "qualifiedRepoCount": 33,
    "rank": 18,
@@ -576,7 +576,7 @@
     "configuration_management",
     "service_mesh_networking"
    ],
-   "weightedExpertCount": 14.423
+   "weightedExpertCount": 14.6865
   },
   {
    "city": null,
@@ -585,8 +585,8 @@
    "countryCode": "GR",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 49.2347,
-   "expertQualityScore": 53.5132,
-   "expertSupplyScore": 37.3314,
+   "expertQualityScore": 53.9332,
+   "expertSupplyScore": 37.4404,
    "geoId": "GR",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.8182,
@@ -596,7 +596,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Greece",
    "observableExpertCount": 11,
-   "opportunityScore": 47.2253,
+   "opportunityScore": 47.3894,
    "organizationCount": 8,
    "qualifiedRepoCount": 9,
    "rank": 19,
@@ -608,7 +608,7 @@
     "containers_orchestration",
     "service_mesh_networking"
    ],
-   "weightedExpertCount": 5.7048
+   "weightedExpertCount": 5.7858
   },
   {
    "city": null,
@@ -617,8 +617,8 @@
    "countryCode": "AT",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 61.8912,
-   "expertQualityScore": 41.9948,
-   "expertSupplyScore": 48.4313,
+   "expertQualityScore": 42.4148,
+   "expertSupplyScore": 48.5816,
    "geoId": "AT",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.75,
@@ -628,7 +628,7 @@
    "multiRepoExpertShare": 0.2083,
    "name": "Austria",
    "observableExpertCount": 24,
-   "opportunityScore": 45.8635,
+   "opportunityScore": 46.0421,
    "organizationCount": 11,
    "qualifiedRepoCount": 19,
    "rank": 20,
@@ -640,7 +640,7 @@
     "configuration_management",
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 10.5705
+   "weightedExpertCount": 10.7494
   },
   {
    "city": null,
@@ -649,8 +649,8 @@
    "countryCode": "CR",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 11.081,
-   "expertQualityScore": 60.2728,
-   "expertSupplyScore": 13.7316,
+   "expertQualityScore": 60.6928,
+   "expertSupplyScore": 13.7947,
    "geoId": "CR",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.5,
@@ -660,7 +660,7 @@
    "multiRepoExpertShare": 1.0,
    "name": "Costa Rica",
    "observableExpertCount": 2,
-   "opportunityScore": 43.996,
+   "opportunityScore": 44.1441,
    "organizationCount": 2,
    "qualifiedRepoCount": 4,
    "rank": 21,
@@ -668,7 +668,7 @@
    "topSubdomains": [
     "observability_monitoring"
    ],
-   "weightedExpertCount": 1.1017
+   "weightedExpertCount": 1.1163
   },
   {
    "city": null,
@@ -677,8 +677,8 @@
    "countryCode": "TH",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 15.044,
-   "expertQualityScore": 71.9302,
-   "expertSupplyScore": 10.0901,
+   "expertQualityScore": 72.4577,
+   "expertSupplyScore": 10.1273,
    "geoId": "TH",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -688,7 +688,7 @@
    "multiRepoExpertShare": 0.5,
    "name": "Thailand",
    "observableExpertCount": 2,
-   "opportunityScore": 43.615,
+   "opportunityScore": 43.7863,
    "organizationCount": 2,
    "qualifiedRepoCount": 3,
    "rank": 22,
@@ -696,7 +696,7 @@
    "topSubdomains": [
     "configuration_management"
    ],
-   "weightedExpertCount": 1.1266
+   "weightedExpertCount": 1.1401
   },
   {
    "city": null,
@@ -705,8 +705,8 @@
    "countryCode": "IS",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 4.6571,
-   "expertQualityScore": 68.6847,
-   "expertSupplyScore": 6.9641,
+   "expertQualityScore": 68.902,
+   "expertSupplyScore": 6.9403,
    "geoId": "IS",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -716,7 +716,7 @@
    "multiRepoExpertShare": 1.0,
    "name": "Iceland",
    "observableExpertCount": 1,
-   "opportunityScore": 43.5086,
+   "opportunityScore": 43.5654,
    "organizationCount": 1,
    "qualifiedRepoCount": 3,
    "rank": 23,
@@ -724,7 +724,7 @@
    "topSubdomains": [
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 0.5526
+   "weightedExpertCount": 0.5557
   },
   {
    "city": null,
@@ -733,8 +733,8 @@
    "countryCode": "SK",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 34.6352,
-   "expertQualityScore": 64.1906,
-   "expertSupplyScore": 21.7158,
+   "expertQualityScore": 64.6106,
+   "expertSupplyScore": 21.7938,
    "geoId": "SK",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -744,7 +744,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Slovakia",
    "observableExpertCount": 4,
-   "opportunityScore": 43.1962,
+   "opportunityScore": 43.3495,
    "organizationCount": 4,
    "qualifiedRepoCount": 4,
    "rank": 24,
@@ -754,7 +754,7 @@
     "service_mesh_networking",
     "configuration_management"
    ],
-   "weightedExpertCount": 2.1118
+   "weightedExpertCount": 2.1388
   },
   {
    "city": null,
@@ -763,8 +763,8 @@
    "countryCode": "LT",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 51.6753,
-   "expertQualityScore": 49.476,
-   "expertSupplyScore": 27.6044,
+   "expertQualityScore": 50.0947,
+   "expertSupplyScore": 27.7165,
    "geoId": "LT",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.7143,
@@ -774,7 +774,7 @@
    "multiRepoExpertShare": 0.4286,
    "name": "Lithuania",
    "observableExpertCount": 7,
-   "opportunityScore": 43.1004,
+   "opportunityScore": 43.3253,
    "organizationCount": 8,
    "qualifiedRepoCount": 8,
    "rank": 25,
@@ -786,7 +786,7 @@
     "infrastructure_as_code",
     "service_mesh_networking"
    ],
-   "weightedExpertCount": 3.1565
+   "weightedExpertCount": 3.2025
   },
   {
    "city": null,
@@ -795,8 +795,8 @@
    "countryCode": "SG",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 64.9714,
-   "expertQualityScore": 36.913,
-   "expertSupplyScore": 43.9856,
+   "expertQualityScore": 37.333,
+   "expertSupplyScore": 44.1231,
    "geoId": "SG",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -806,7 +806,7 @@
    "multiRepoExpertShare": 0.2,
    "name": "Singapore",
    "observableExpertCount": 20,
-   "opportunityScore": 42.066,
+   "opportunityScore": 42.2401,
    "organizationCount": 18,
    "qualifiedRepoCount": 21,
    "rank": 26,
@@ -818,7 +818,7 @@
     "observability_monitoring",
     "configuration_management"
    ],
-   "weightedExpertCount": 8.2991
+   "weightedExpertCount": 8.432
   },
   {
    "city": null,
@@ -827,8 +827,8 @@
    "countryCode": "GE",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 35.8769,
-   "expertQualityScore": 60.0849,
-   "expertSupplyScore": 20.1713,
+   "expertQualityScore": 60.5049,
+   "expertSupplyScore": 20.2478,
    "geoId": "GE",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.5,
@@ -838,7 +838,7 @@
    "multiRepoExpertShare": 0.25,
    "name": "Georgia",
    "observableExpertCount": 4,
-   "opportunityScore": 41.9231,
+   "opportunityScore": 42.0759,
    "organizationCount": 5,
    "qualifiedRepoCount": 5,
    "rank": 27,
@@ -848,7 +848,7 @@
     "service_mesh_networking",
     "configuration_management"
    ],
-   "weightedExpertCount": 2.205
+   "weightedExpertCount": 2.235
   },
   {
    "city": null,
@@ -857,8 +857,8 @@
    "countryCode": "AR",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 37.7526,
-   "expertQualityScore": 53.2426,
-   "expertSupplyScore": 30.1992,
+   "expertQualityScore": 53.7818,
+   "expertSupplyScore": 30.294,
    "geoId": "AR",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.875,
@@ -868,7 +868,7 @@
    "multiRepoExpertShare": 0.375,
    "name": "Argentina",
    "observableExpertCount": 8,
-   "opportunityScore": 41.2552,
+   "opportunityScore": 41.4502,
    "organizationCount": 5,
    "qualifiedRepoCount": 9,
    "rank": 28,
@@ -880,39 +880,7 @@
     "configuration_management",
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 3.7219
-  },
-  {
-   "city": null,
-   "collaborationDepthScore": 43.913,
-   "confidenceScore": 53.8635,
-   "countryCode": "SE",
-   "domainId": "cloud_devops",
-   "ecosystemBreadthScore": 48.9366,
-   "expertQualityScore": 35.5258,
-   "expertSupplyScore": 46.5056,
-   "geoId": "SE",
-   "geoLevel": "country",
-   "highConfidenceLocationShare": 0.6087,
-   "locatedProfileCoverage": 0.465,
-   "momentumProvisional": true,
-   "momentumScore": 25.0,
-   "multiRepoExpertShare": 0.2174,
-   "name": "Sweden",
-   "observableExpertCount": 23,
-   "opportunityScore": 40.9153,
-   "organizationCount": 10,
-   "qualifiedRepoCount": 14,
-   "rank": 29,
-   "recommendationTier": "insufficient_data",
-   "topSubdomains": [
-    "observability_monitoring",
-    "service_mesh_networking",
-    "containers_orchestration",
-    "cicd_developer_tooling",
-    "configuration_management"
-   ],
-   "weightedExpertCount": 9.5254
+   "weightedExpertCount": 3.7716
   },
   {
    "city": null,
@@ -921,8 +889,8 @@
    "countryCode": "TW",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 49.138,
-   "expertQualityScore": 36.3613,
-   "expertSupplyScore": 45.9925,
+   "expertQualityScore": 36.7813,
+   "expertSupplyScore": 46.1251,
    "geoId": "TW",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -932,10 +900,10 @@
    "multiRepoExpertShare": 0.0833,
    "name": "Taiwan, Province of China",
    "observableExpertCount": 24,
-   "opportunityScore": 40.5445,
+   "opportunityScore": 40.717,
    "organizationCount": 12,
    "qualifiedRepoCount": 14,
-   "rank": 30,
+   "rank": 29,
    "recommendationTier": "insufficient_data",
    "topSubdomains": [
     "cloud_platforms_sdks",
@@ -943,7 +911,39 @@
     "configuration_management",
     "observability_monitoring"
    ],
-   "weightedExpertCount": 9.2633
+   "weightedExpertCount": 9.4099
+  },
+  {
+   "city": null,
+   "collaborationDepthScore": 43.913,
+   "confidenceScore": 53.8635,
+   "countryCode": "SE",
+   "domainId": "cloud_devops",
+   "ecosystemBreadthScore": 48.9366,
+   "expertQualityScore": 34.6414,
+   "expertSupplyScore": 46.6177,
+   "geoId": "SE",
+   "geoLevel": "country",
+   "highConfidenceLocationShare": 0.6087,
+   "locatedProfileCoverage": 0.465,
+   "momentumProvisional": true,
+   "momentumScore": 25.0,
+   "multiRepoExpertShare": 0.2174,
+   "name": "Sweden",
+   "observableExpertCount": 23,
+   "opportunityScore": 40.6892,
+   "organizationCount": 10,
+   "qualifiedRepoCount": 14,
+   "rank": 30,
+   "recommendationTier": "insufficient_data",
+   "topSubdomains": [
+    "observability_monitoring",
+    "service_mesh_networking",
+    "containers_orchestration",
+    "cicd_developer_tooling",
+    "configuration_management"
+   ],
+   "weightedExpertCount": 9.6657
   },
   {
    "city": null,
@@ -952,8 +952,8 @@
    "countryCode": "FI",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 58.2122,
-   "expertQualityScore": 35.602,
-   "expertSupplyScore": 40.3586,
+   "expertQualityScore": 36.022,
+   "expertSupplyScore": 40.4799,
    "geoId": "FI",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.8235,
@@ -963,7 +963,7 @@
    "multiRepoExpertShare": 0.1176,
    "name": "Finland",
    "observableExpertCount": 17,
-   "opportunityScore": 40.4509,
+   "opportunityScore": 40.6193,
    "organizationCount": 12,
    "qualifiedRepoCount": 14,
    "rank": 31,
@@ -975,7 +975,7 @@
     "service_mesh_networking",
     "infrastructure_as_code"
    ],
-   "weightedExpertCount": 6.7806
+   "weightedExpertCount": 6.8821
   },
   {
    "city": null,
@@ -984,8 +984,8 @@
    "countryCode": "HR",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 15.1594,
-   "expertQualityScore": 68.8169,
-   "expertSupplyScore": 11.2893,
+   "expertQualityScore": 69.2369,
+   "expertSupplyScore": 11.3211,
    "geoId": "HR",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -995,7 +995,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Croatia",
    "observableExpertCount": 2,
-   "opportunityScore": 40.1123,
+   "opportunityScore": 40.2494,
    "organizationCount": 2,
    "qualifiedRepoCount": 2,
    "rank": 32,
@@ -1003,7 +1003,7 @@
    "topSubdomains": [
     "observability_monitoring"
    ],
-   "weightedExpertCount": 1.0799
+   "weightedExpertCount": 1.0919
   },
   {
    "city": null,
@@ -1012,8 +1012,8 @@
    "countryCode": "NZ",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 54.3394,
-   "expertQualityScore": 38.5378,
-   "expertSupplyScore": 37.2476,
+   "expertQualityScore": 39.1678,
+   "expertSupplyScore": 37.3612,
    "geoId": "NZ",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1023,7 +1023,7 @@
    "multiRepoExpertShare": 0.2143,
    "name": "New Zealand",
    "observableExpertCount": 14,
-   "opportunityScore": 39.9248,
+   "opportunityScore": 40.1536,
    "organizationCount": 11,
    "qualifiedRepoCount": 14,
    "rank": 33,
@@ -1035,7 +1035,7 @@
     "infrastructure_as_code",
     "containers_orchestration"
    ],
-   "weightedExpertCount": 5.6772
+   "weightedExpertCount": 5.7593
   },
   {
    "city": null,
@@ -1044,8 +1044,8 @@
    "countryCode": "KE",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 80.4634,
-   "expertSupplyScore": 3.7766,
+   "expertQualityScore": 80.8834,
+   "expertSupplyScore": 3.7599,
    "geoId": "KE",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1055,7 +1055,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Kenya",
    "observableExpertCount": 1,
-   "opportunityScore": 39.4608,
+   "opportunityScore": 39.581,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 34,
@@ -1063,7 +1063,7 @@
    "topSubdomains": [
     "observability_monitoring"
    ],
-   "weightedExpertCount": 0.7209
+   "weightedExpertCount": 0.7269
   },
   {
    "city": null,
@@ -1072,8 +1072,8 @@
    "countryCode": "ZA",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 25.0389,
-   "expertQualityScore": 59.5921,
-   "expertSupplyScore": 17.2286,
+   "expertQualityScore": 60.0121,
+   "expertSupplyScore": 17.3072,
    "geoId": "ZA",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1083,7 +1083,7 @@
    "multiRepoExpertShare": 0.3333,
    "name": "South Africa",
    "observableExpertCount": 3,
-   "opportunityScore": 39.4116,
+   "opportunityScore": 39.5651,
    "organizationCount": 3,
    "qualifiedRepoCount": 4,
    "rank": 35,
@@ -1093,7 +1093,7 @@
     "containers_orchestration",
     "configuration_management"
    ],
-   "weightedExpertCount": 1.5326
+   "weightedExpertCount": 1.5536
   },
   {
    "city": null,
@@ -1102,8 +1102,8 @@
    "countryCode": "PT",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 60.2521,
-   "expertQualityScore": 31.628,
-   "expertSupplyScore": 38.6163,
+   "expertQualityScore": 32.048,
+   "expertSupplyScore": 38.7664,
    "geoId": "PT",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.9333,
@@ -1113,7 +1113,7 @@
    "multiRepoExpertShare": 0.1333,
    "name": "Portugal",
    "observableExpertCount": 15,
-   "opportunityScore": 38.9293,
+   "opportunityScore": 39.1078,
    "organizationCount": 12,
    "qualifiedRepoCount": 14,
    "rank": 36,
@@ -1125,7 +1125,7 @@
     "configuration_management",
     "infrastructure_as_code"
    ],
-   "weightedExpertCount": 6.1419
+   "weightedExpertCount": 6.2439
   },
   {
    "city": null,
@@ -1134,8 +1134,8 @@
    "countryCode": "NC",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 27.9268,
-   "expertQualityScore": 56.817,
-   "expertSupplyScore": 12.5798,
+   "expertQualityScore": 57.342,
+   "expertSupplyScore": 12.5807,
    "geoId": "NC",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1145,7 +1145,7 @@
    "multiRepoExpertShare": 0.5,
    "name": "New Caledonia",
    "observableExpertCount": 2,
-   "opportunityScore": 38.7407,
+   "opportunityScore": 38.8985,
    "organizationCount": 3,
    "qualifiedRepoCount": 3,
    "rank": 37,
@@ -1154,7 +1154,7 @@
     "configuration_management",
     "containers_orchestration"
    ],
-   "weightedExpertCount": 0.986
+   "weightedExpertCount": 0.9935
   },
   {
    "city": null,
@@ -1163,8 +1163,8 @@
    "countryCode": "BE",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 46.8458,
-   "expertQualityScore": 39.5035,
-   "expertSupplyScore": 33.7781,
+   "expertQualityScore": 40.1335,
+   "expertSupplyScore": 33.922,
    "geoId": "BE",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.9091,
@@ -1174,7 +1174,7 @@
    "multiRepoExpertShare": 0.1818,
    "name": "Belgium",
    "observableExpertCount": 11,
-   "opportunityScore": 38.4943,
+   "opportunityScore": 38.7337,
    "organizationCount": 7,
    "qualifiedRepoCount": 9,
    "rank": 38,
@@ -1186,7 +1186,7 @@
     "containers_orchestration",
     "service_mesh_networking"
    ],
-   "weightedExpertCount": 4.6302
+   "weightedExpertCount": 4.7057
   },
   {
    "city": null,
@@ -1195,8 +1195,8 @@
    "countryCode": "KR",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 62.4757,
-   "expertQualityScore": 32.5313,
-   "expertSupplyScore": 38.8987,
+   "expertQualityScore": 32.8326,
+   "expertSupplyScore": 39.0875,
    "geoId": "KR",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1206,7 +1206,7 @@
    "multiRepoExpertShare": 0.2353,
    "name": "Korea, Republic of",
    "observableExpertCount": 17,
-   "opportunityScore": 37.7686,
+   "opportunityScore": 37.9251,
    "organizationCount": 17,
    "qualifiedRepoCount": 20,
    "rank": 39,
@@ -1218,7 +1218,7 @@
     "observability_monitoring",
     "cicd_developer_tooling"
    ],
-   "weightedExpertCount": 6.2417
+   "weightedExpertCount": 6.3595
   },
   {
    "city": null,
@@ -1227,8 +1227,8 @@
    "countryCode": "UA",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 53.4397,
-   "expertQualityScore": 42.6658,
-   "expertSupplyScore": 32.9395,
+   "expertQualityScore": 43.2958,
+   "expertSupplyScore": 33.1035,
    "geoId": "UA",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.8333,
@@ -1238,7 +1238,7 @@
    "multiRepoExpertShare": 0.0833,
    "name": "Ukraine",
    "observableExpertCount": 12,
-   "opportunityScore": 37.5476,
+   "opportunityScore": 37.794,
    "organizationCount": 10,
    "qualifiedRepoCount": 10,
    "rank": 40,
@@ -1250,7 +1250,7 @@
     "cloud_platforms_sdks",
     "infrastructure_as_code"
    ],
-   "weightedExpertCount": 4.4029
+   "weightedExpertCount": 4.4801
   },
   {
    "city": null,
@@ -1259,8 +1259,8 @@
    "countryCode": "MX",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 42.7031,
-   "expertQualityScore": 38.0939,
-   "expertSupplyScore": 28.9633,
+   "expertQualityScore": 38.3039,
+   "expertSupplyScore": 29.0802,
    "geoId": "MX",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1270,7 +1270,7 @@
    "multiRepoExpertShare": 0.25,
    "name": "Mexico",
    "observableExpertCount": 8,
-   "opportunityScore": 36.5856,
+   "opportunityScore": 36.6895,
    "organizationCount": 7,
    "qualifiedRepoCount": 8,
    "rank": 41,
@@ -1282,7 +1282,7 @@
     "infrastructure_as_code",
     "observability_monitoring"
    ],
-   "weightedExpertCount": 3.4436
+   "weightedExpertCount": 3.4946
   },
   {
    "city": null,
@@ -1291,8 +1291,8 @@
    "countryCode": "RO",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 32.8465,
-   "expertQualityScore": 49.5948,
-   "expertSupplyScore": 26.0905,
+   "expertQualityScore": 50.0148,
+   "expertSupplyScore": 26.1961,
    "geoId": "RO",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.7143,
@@ -1302,7 +1302,7 @@
    "multiRepoExpertShare": 0.1429,
    "name": "Romania",
    "observableExpertCount": 7,
-   "opportunityScore": 36.4376,
+   "opportunityScore": 36.6006,
    "organizationCount": 4,
    "qualifiedRepoCount": 6,
    "rank": 42,
@@ -1312,7 +1312,7 @@
     "infrastructure_as_code",
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 3.2301
+   "weightedExpertCount": 3.2721
   },
   {
    "city": null,
@@ -1321,8 +1321,8 @@
    "countryCode": "BG",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 48.3995,
-   "expertQualityScore": 37.7216,
-   "expertSupplyScore": 29.3465,
+   "expertQualityScore": 38.1416,
+   "expertSupplyScore": 29.551,
    "geoId": "BG",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1332,7 +1332,7 @@
    "multiRepoExpertShare": 0.1111,
    "name": "Bulgaria",
    "observableExpertCount": 9,
-   "opportunityScore": 35.5944,
+   "opportunityScore": 35.792,
    "organizationCount": 7,
    "qualifiedRepoCount": 8,
    "rank": 43,
@@ -1344,7 +1344,7 @@
     "service_mesh_networking",
     "observability_monitoring"
    ],
-   "weightedExpertCount": 3.5281
+   "weightedExpertCount": 3.6001
   },
   {
    "city": null,
@@ -1353,8 +1353,8 @@
    "countryCode": "CY",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 67.809,
-   "expertSupplyScore": 2.6015,
+   "expertQualityScore": 68.439,
+   "expertSupplyScore": 2.6098,
    "geoId": "CY",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1364,7 +1364,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Cyprus",
    "observableExpertCount": 1,
-   "opportunityScore": 35.2532,
+   "opportunityScore": 35.4451,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 44,
@@ -1372,7 +1372,7 @@
    "topSubdomains": [
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 0.5401
+   "weightedExpertCount": 0.5491
   },
   {
    "city": null,
@@ -1381,8 +1381,8 @@
    "countryCode": "SH",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 67.288,
-   "expertSupplyScore": 2.5517,
+   "expertQualityScore": 67.498,
+   "expertSupplyScore": 2.5202,
    "geoId": "SH",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1392,7 +1392,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Saint Helena, Ascension and Tristan da Cunha",
    "observableExpertCount": 1,
-   "opportunityScore": 35.0795,
+   "opportunityScore": 35.1315,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 45,
@@ -1400,7 +1400,7 @@
    "topSubdomains": [
     "infrastructure_as_code"
    ],
-   "weightedExpertCount": 0.5327
+   "weightedExpertCount": 0.5357
   },
   {
    "city": null,
@@ -1409,8 +1409,8 @@
    "countryCode": "EE",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 43.5027,
-   "expertQualityScore": 49.1878,
-   "expertSupplyScore": 20.7408,
+   "expertQualityScore": 49.3978,
+   "expertSupplyScore": 20.8296,
    "geoId": "EE",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1420,7 +1420,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Estonia",
    "observableExpertCount": 5,
-   "opportunityScore": 34.9659,
+   "opportunityScore": 35.06,
    "organizationCount": 5,
    "qualifiedRepoCount": 5,
    "rank": 46,
@@ -1432,7 +1432,7 @@
     "containers_orchestration",
     "cicd_developer_tooling"
    ],
-   "weightedExpertCount": 1.9662
+   "weightedExpertCount": 1.9932
   },
   {
    "city": null,
@@ -1441,8 +1441,8 @@
    "countryCode": "NP",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 13.2946,
-   "expertQualityScore": 63.9333,
-   "expertSupplyScore": 8.4982,
+   "expertQualityScore": 64.3533,
+   "expertSupplyScore": 8.5723,
    "geoId": "NP",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1452,7 +1452,7 @@
    "multiRepoExpertShare": 0.5,
    "name": "Nepal",
    "observableExpertCount": 2,
-   "opportunityScore": 33.4838,
+   "opportunityScore": 33.6357,
    "organizationCount": 2,
    "qualifiedRepoCount": 3,
    "rank": 47,
@@ -1461,7 +1461,7 @@
     "service_mesh_networking",
     "containers_orchestration"
    ],
-   "weightedExpertCount": 0.9093
+   "weightedExpertCount": 0.9213
   },
   {
    "city": null,
@@ -1470,8 +1470,8 @@
    "countryCode": "LV",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 31.0893,
-   "expertQualityScore": 35.9761,
-   "expertSupplyScore": 11.2797,
+   "expertQualityScore": 36.1861,
+   "expertSupplyScore": 11.2888,
    "geoId": "LV",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1481,7 +1481,7 @@
    "multiRepoExpertShare": 0.5,
    "name": "Latvia",
    "observableExpertCount": 2,
-   "opportunityScore": 32.3497,
+   "opportunityScore": 32.4158,
    "organizationCount": 3,
    "qualifiedRepoCount": 3,
    "rank": 48,
@@ -1491,7 +1491,7 @@
     "cloud_platforms_sdks",
     "containers_orchestration"
    ],
-   "weightedExpertCount": 0.9835
+   "weightedExpertCount": 0.991
   },
   {
    "city": null,
@@ -1500,8 +1500,8 @@
    "countryCode": "HU",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 48.1204,
-   "expertQualityScore": 32.9415,
-   "expertSupplyScore": 26.3399,
+   "expertQualityScore": 33.3615,
+   "expertSupplyScore": 26.4888,
    "geoId": "HU",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.625,
@@ -1511,7 +1511,7 @@
    "multiRepoExpertShare": 0.375,
    "name": "Hungary",
    "observableExpertCount": 8,
-   "opportunityScore": 32.0385,
+   "opportunityScore": 32.2166,
    "organizationCount": 9,
    "qualifiedRepoCount": 11,
    "rank": 49,
@@ -1522,7 +1522,7 @@
     "infrastructure_as_code",
     "configuration_management"
    ],
-   "weightedExpertCount": 2.906
+   "weightedExpertCount": 2.9558
   },
   {
    "city": null,
@@ -1531,8 +1531,8 @@
    "countryCode": "NO",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 38.8201,
-   "expertQualityScore": 29.007,
-   "expertSupplyScore": 22.9746,
+   "expertQualityScore": 29.6371,
+   "expertSupplyScore": 23.1845,
    "geoId": "NO",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.6667,
@@ -1542,7 +1542,7 @@
    "multiRepoExpertShare": 0.1667,
    "name": "Norway",
    "observableExpertCount": 6,
-   "opportunityScore": 31.6252,
+   "opportunityScore": 31.8877,
    "organizationCount": 6,
    "qualifiedRepoCount": 6,
    "rank": 50,
@@ -1553,7 +1553,7 @@
     "containers_orchestration",
     "configuration_management"
    ],
-   "weightedExpertCount": 2.3104
+   "weightedExpertCount": 2.3615
   },
   {
    "city": null,
@@ -1562,8 +1562,8 @@
    "countryCode": "RU",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 42.0829,
-   "expertQualityScore": 30.9514,
-   "expertSupplyScore": 27.5274,
+   "expertQualityScore": 31.5814,
+   "expertSupplyScore": 27.7168,
    "geoId": "RU",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.8889,
@@ -1573,7 +1573,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Russian Federation",
    "observableExpertCount": 9,
-   "opportunityScore": 31.1283,
+   "opportunityScore": 31.3836,
    "organizationCount": 5,
    "qualifiedRepoCount": 5,
    "rank": 51,
@@ -1585,7 +1585,7 @@
     "service_mesh_networking",
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 3.1548
+   "weightedExpertCount": 3.2118
   },
   {
    "city": null,
@@ -1594,8 +1594,8 @@
    "countryCode": "MO",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 12.2029,
-   "expertQualityScore": 54.8864,
-   "expertSupplyScore": 9.6253,
+   "expertQualityScore": 55.0964,
+   "expertSupplyScore": 9.7192,
    "geoId": "MO",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1605,7 +1605,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Macao",
    "observableExpertCount": 2,
-   "opportunityScore": 30.5551,
+   "opportunityScore": 30.6509,
    "organizationCount": 2,
    "qualifiedRepoCount": 2,
    "rank": 52,
@@ -1614,7 +1614,7 @@
     "cicd_developer_tooling",
     "containers_orchestration"
    ],
-   "weightedExpertCount": 0.9195
+   "weightedExpertCount": 0.9315
   },
   {
    "city": null,
@@ -1623,8 +1623,8 @@
    "countryCode": "SV",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 66.8854,
-   "expertSupplyScore": 2.5131,
+   "expertQualityScore": 67.3056,
+   "expertSupplyScore": 2.5018,
    "geoId": "SV",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1634,7 +1634,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "El Salvador",
    "observableExpertCount": 1,
-   "opportunityScore": 30.4452,
+   "opportunityScore": 30.5673,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 53,
@@ -1642,7 +1642,7 @@
    "topSubdomains": [
     "infrastructure_as_code"
    ],
-   "weightedExpertCount": 0.5269
+   "weightedExpertCount": 0.5329
   },
   {
    "city": null,
@@ -1651,8 +1651,8 @@
    "countryCode": "CO",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 14.1335,
-   "expertQualityScore": 53.6307,
-   "expertSupplyScore": 8.7101,
+   "expertQualityScore": 54.2609,
+   "expertSupplyScore": 8.7917,
    "geoId": "CO",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1662,7 +1662,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Colombia",
    "observableExpertCount": 2,
-   "opportunityScore": 30.0511,
+   "opportunityScore": 30.2687,
    "organizationCount": 2,
    "qualifiedRepoCount": 2,
    "rank": 54,
@@ -1671,7 +1671,7 @@
     "containers_orchestration",
     "service_mesh_networking"
    ],
-   "weightedExpertCount": 0.8527
+   "weightedExpertCount": 0.8677
   },
   {
    "city": null,
@@ -1680,8 +1680,8 @@
    "countryCode": "RS",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 26.2726,
-   "expertQualityScore": 32.9605,
-   "expertSupplyScore": 19.8636,
+   "expertQualityScore": 33.3807,
+   "expertSupplyScore": 19.9839,
    "geoId": "RS",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.8,
@@ -1691,7 +1691,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Serbia",
    "observableExpertCount": 5,
-   "opportunityScore": 29.8677,
+   "opportunityScore": 30.0358,
    "organizationCount": 5,
    "qualifiedRepoCount": 5,
    "rank": 55,
@@ -1700,35 +1700,7 @@
     "containers_orchestration",
     "cicd_developer_tooling"
    ],
-   "weightedExpertCount": 1.841
-  },
-  {
-   "city": null,
-   "collaborationDepthScore": 45.0,
-   "confidenceScore": 42.4988,
-   "countryCode": "CM",
-   "domainId": "cloud_devops",
-   "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 53.6983,
-   "expertSupplyScore": 5.3245,
-   "geoId": "CM",
-   "geoLevel": "country",
-   "highConfidenceLocationShare": 1.0,
-   "locatedProfileCoverage": 0.465,
-   "momentumProvisional": true,
-   "momentumScore": 50.0,
-   "multiRepoExpertShare": 0.0,
-   "name": "Cameroon",
-   "observableExpertCount": 2,
-   "opportunityScore": 29.7231,
-   "organizationCount": 1,
-   "qualifiedRepoCount": 1,
-   "rank": 56,
-   "recommendationTier": "insufficient_data",
-   "topSubdomains": [
-    "cicd_developer_tooling"
-   ],
-   "weightedExpertCount": 0.9755
+   "weightedExpertCount": 1.871
   },
   {
    "city": null,
@@ -1737,8 +1709,8 @@
    "countryCode": "LU",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 2.7242,
-   "expertQualityScore": 26.5251,
-   "expertSupplyScore": 4.0087,
+   "expertQualityScore": 26.9451,
+   "expertSupplyScore": 4.0283,
    "geoId": "LU",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1748,106 +1720,43 @@
    "multiRepoExpertShare": 1.0,
    "name": "Luxembourg",
    "observableExpertCount": 1,
-   "opportunityScore": 29.633,
+   "opportunityScore": 29.7659,
    "organizationCount": 1,
    "qualifiedRepoCount": 2,
-   "rank": 57,
+   "rank": 56,
    "recommendationTier": "insufficient_data",
    "topSubdomains": [
     "observability_monitoring"
    ],
-   "weightedExpertCount": 0.3789
+   "weightedExpertCount": 0.3849
   },
   {
    "city": null,
-   "collaborationDepthScore": 27.7778,
-   "confidenceScore": 50.6849,
-   "countryCode": "DK",
+   "collaborationDepthScore": 45.0,
+   "confidenceScore": 42.4988,
+   "countryCode": "CM",
    "domainId": "cloud_devops",
-   "ecosystemBreadthScore": 36.9723,
-   "expertQualityScore": 28.845,
-   "expertSupplyScore": 26.8055,
-   "geoId": "DK",
-   "geoLevel": "country",
-   "highConfidenceLocationShare": 0.8889,
-   "locatedProfileCoverage": 0.465,
-   "momentumProvisional": true,
-   "momentumScore": 25.0,
-   "multiRepoExpertShare": 0.1111,
-   "name": "Denmark",
-   "observableExpertCount": 9,
-   "opportunityScore": 28.3993,
-   "organizationCount": 5,
-   "qualifiedRepoCount": 6,
-   "rank": 58,
-   "recommendationTier": "insufficient_data",
-   "topSubdomains": [
-    "observability_monitoring",
-    "configuration_management",
-    "containers_orchestration",
-    "infrastructure_as_code",
-    "service_mesh_networking"
-   ],
-   "weightedExpertCount": 3.2819
-  },
-  {
-   "city": null,
-   "collaborationDepthScore": 70.0,
-   "confidenceScore": 49.6377,
-   "countryCode": "MN",
-   "domainId": "cloud_devops",
-   "ecosystemBreadthScore": 13.0734,
-   "expertQualityScore": 31.8021,
-   "expertSupplyScore": 4.3271,
-   "geoId": "MN",
+   "ecosystemBreadthScore": 0.0,
+   "expertQualityScore": 53.6983,
+   "expertSupplyScore": 5.2663,
+   "geoId": "CM",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
    "locatedProfileCoverage": 0.465,
    "momentumProvisional": true,
    "momentumScore": 50.0,
-   "multiRepoExpertShare": 1.0,
-   "name": "Mongolia",
-   "observableExpertCount": 1,
-   "opportunityScore": 27.8625,
-   "organizationCount": 2,
-   "qualifiedRepoCount": 2,
-   "rank": 59,
+   "multiRepoExpertShare": 0.0,
+   "name": "Cameroon",
+   "observableExpertCount": 2,
+   "opportunityScore": 29.7027,
+   "organizationCount": 1,
+   "qualifiedRepoCount": 1,
+   "rank": 57,
    "recommendationTier": "insufficient_data",
    "topSubdomains": [
-    "containers_orchestration"
+    "cicd_developer_tooling"
    ],
-   "weightedExpertCount": 0.4543
-  },
-  {
-   "city": null,
-   "collaborationDepthScore": 46.0,
-   "confidenceScore": 63.6148,
-   "countryCode": "TR",
-   "domainId": "cloud_devops",
-   "ecosystemBreadthScore": 48.6496,
-   "expertQualityScore": 22.6064,
-   "expertSupplyScore": 18.0978,
-   "geoId": "TR",
-   "geoLevel": "country",
-   "highConfidenceLocationShare": 1.0,
-   "locatedProfileCoverage": 0.465,
-   "momentumProvisional": true,
-   "momentumScore": 25.0,
-   "multiRepoExpertShare": 0.4,
-   "name": "Türkiye",
-   "observableExpertCount": 5,
-   "opportunityScore": 27.3811,
-   "organizationCount": 7,
-   "qualifiedRepoCount": 7,
-   "rank": 60,
-   "recommendationTier": "insufficient_data",
-   "topSubdomains": [
-    "containers_orchestration",
-    "observability_monitoring",
-    "service_mesh_networking",
-    "configuration_management"
-   ],
-   "weightedExpertCount": 1.6048
+   "weightedExpertCount": 0.9755
   },
   {
    "city": null,
@@ -1856,8 +1765,8 @@
    "countryCode": "HK",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 28.3767,
-   "expertQualityScore": 34.2468,
-   "expertSupplyScore": 17.7062,
+   "expertQualityScore": 41.9568,
+   "expertSupplyScore": 17.8317,
    "geoId": "HK",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1867,16 +1776,107 @@
    "multiRepoExpertShare": 0.0,
    "name": "Hong Kong",
    "observableExpertCount": 4,
-   "opportunityScore": 26.3089,
+   "opportunityScore": 28.6658,
    "organizationCount": 4,
    "qualifiedRepoCount": 4,
-   "rank": 61,
+   "rank": 58,
    "recommendationTier": "insufficient_data",
    "topSubdomains": [
     "observability_monitoring",
     "service_mesh_networking"
    ],
-   "weightedExpertCount": 1.5551
+   "weightedExpertCount": 1.5821
+  },
+  {
+   "city": null,
+   "collaborationDepthScore": 27.7778,
+   "confidenceScore": 50.6849,
+   "countryCode": "DK",
+   "domainId": "cloud_devops",
+   "ecosystemBreadthScore": 36.9723,
+   "expertQualityScore": 29.055,
+   "expertSupplyScore": 26.9052,
+   "geoId": "DK",
+   "geoLevel": "country",
+   "highConfidenceLocationShare": 0.8889,
+   "locatedProfileCoverage": 0.465,
+   "momentumProvisional": true,
+   "momentumScore": 25.0,
+   "multiRepoExpertShare": 0.1111,
+   "name": "Denmark",
+   "observableExpertCount": 9,
+   "opportunityScore": 28.4972,
+   "organizationCount": 5,
+   "qualifiedRepoCount": 6,
+   "rank": 59,
+   "recommendationTier": "insufficient_data",
+   "topSubdomains": [
+    "observability_monitoring",
+    "configuration_management",
+    "containers_orchestration",
+    "infrastructure_as_code",
+    "service_mesh_networking"
+   ],
+   "weightedExpertCount": 3.3329
+  },
+  {
+   "city": null,
+   "collaborationDepthScore": 70.0,
+   "confidenceScore": 49.6377,
+   "countryCode": "MN",
+   "domainId": "cloud_devops",
+   "ecosystemBreadthScore": 13.0734,
+   "expertQualityScore": 32.4321,
+   "expertSupplyScore": 4.3694,
+   "geoId": "MN",
+   "geoLevel": "country",
+   "highConfidenceLocationShare": 1.0,
+   "locatedProfileCoverage": 0.465,
+   "momentumProvisional": true,
+   "momentumScore": 50.0,
+   "multiRepoExpertShare": 1.0,
+   "name": "Mongolia",
+   "observableExpertCount": 1,
+   "opportunityScore": 28.0663,
+   "organizationCount": 2,
+   "qualifiedRepoCount": 2,
+   "rank": 60,
+   "recommendationTier": "insufficient_data",
+   "topSubdomains": [
+    "containers_orchestration"
+   ],
+   "weightedExpertCount": 0.4633
+  },
+  {
+   "city": null,
+   "collaborationDepthScore": 46.0,
+   "confidenceScore": 63.6148,
+   "countryCode": "TR",
+   "domainId": "cloud_devops",
+   "ecosystemBreadthScore": 48.6496,
+   "expertQualityScore": 23.0264,
+   "expertSupplyScore": 18.2713,
+   "geoId": "TR",
+   "geoLevel": "country",
+   "highConfidenceLocationShare": 1.0,
+   "locatedProfileCoverage": 0.465,
+   "momentumProvisional": true,
+   "momentumScore": 25.0,
+   "multiRepoExpertShare": 0.4,
+   "name": "Türkiye",
+   "observableExpertCount": 5,
+   "opportunityScore": 27.5678,
+   "organizationCount": 7,
+   "qualifiedRepoCount": 7,
+   "rank": 61,
+   "recommendationTier": "insufficient_data",
+   "topSubdomains": [
+    "containers_orchestration",
+    "observability_monitoring",
+    "service_mesh_networking",
+    "configuration_management"
+   ],
+   "weightedExpertCount": 1.6387
   },
   {
    "city": null,
@@ -1885,8 +1885,8 @@
    "countryCode": "EH",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 35.6738,
-   "expertSupplyScore": 2.3964,
+   "expertQualityScore": 36.0938,
+   "expertSupplyScore": 2.3856,
    "geoId": "EH",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1896,7 +1896,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Western Sahara",
    "observableExpertCount": 1,
-   "opportunityScore": 25.5409,
+   "opportunityScore": 25.6631,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 62,
@@ -1904,7 +1904,7 @@
    "topSubdomains": [
     "observability_monitoring"
    ],
-   "weightedExpertCount": 0.5096
+   "weightedExpertCount": 0.5156
   },
   {
    "city": null,
@@ -1913,8 +1913,8 @@
    "countryCode": "EG",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 27.7572,
-   "expertQualityScore": 34.3006,
-   "expertSupplyScore": 16.4813,
+   "expertQualityScore": 34.7206,
+   "expertSupplyScore": 16.7178,
    "geoId": "EG",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1924,7 +1924,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Egypt",
    "observableExpertCount": 5,
-   "opportunityScore": 24.9344,
+   "opportunityScore": 25.1431,
    "organizationCount": 4,
    "qualifiedRepoCount": 4,
    "rank": 63,
@@ -1935,7 +1935,7 @@
     "containers_orchestration",
     "sre_reliability"
    ],
-   "weightedExpertCount": 1.6675
+   "weightedExpertCount": 1.7035
   },
   {
    "city": null,
@@ -1944,8 +1944,8 @@
    "countryCode": "AE",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 12.7609,
-   "expertQualityScore": 27.933,
-   "expertSupplyScore": 7.7727,
+   "expertQualityScore": 28.3536,
+   "expertSupplyScore": 7.8326,
    "geoId": "AE",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.0,
@@ -1955,7 +1955,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "United Arab Emirates",
    "observableExpertCount": 2,
-   "opportunityScore": 24.1264,
+   "opportunityScore": 24.2736,
    "organizationCount": 2,
    "qualifiedRepoCount": 2,
    "rank": 64,
@@ -1963,7 +1963,7 @@
    "topSubdomains": [
     "containers_orchestration"
    ],
-   "weightedExpertCount": 0.71
+   "weightedExpertCount": 0.722
   },
   {
    "city": null,
@@ -1972,8 +1972,8 @@
    "countryCode": "MT",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 24.0005,
-   "expertQualityScore": 26.3101,
-   "expertSupplyScore": 8.2686,
+   "expertQualityScore": 26.7301,
+   "expertSupplyScore": 8.2689,
    "geoId": "MT",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -1983,7 +1983,7 @@
    "multiRepoExpertShare": 0.5,
    "name": "Malta",
    "observableExpertCount": 2,
-   "opportunityScore": 23.1871,
+   "opportunityScore": 23.3132,
    "organizationCount": 3,
    "qualifiedRepoCount": 3,
    "rank": 65,
@@ -1992,7 +1992,7 @@
     "configuration_management",
     "containers_orchestration"
    ],
-   "weightedExpertCount": 0.7018
+   "weightedExpertCount": 0.7098
   },
   {
    "city": null,
@@ -2001,8 +2001,8 @@
    "countryCode": "BM",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 34.9365,
-   "expertSupplyScore": 2.3251,
+   "expertQualityScore": 35.3565,
+   "expertSupplyScore": 2.3146,
    "geoId": "BM",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2012,7 +2012,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Bermuda",
    "observableExpertCount": 1,
-   "opportunityScore": 22.7947,
+   "opportunityScore": 22.9171,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 66,
@@ -2020,7 +2020,7 @@
    "topSubdomains": [
     "service_mesh_networking"
    ],
-   "weightedExpertCount": 0.4991
+   "weightedExpertCount": 0.5051
   },
   {
    "city": null,
@@ -2029,8 +2029,8 @@
    "countryCode": "SI",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 28.9248,
-   "expertQualityScore": 21.0111,
-   "expertSupplyScore": 14.8798,
+   "expertQualityScore": 21.4311,
+   "expertSupplyScore": 15.0167,
    "geoId": "SI",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2040,7 +2040,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Slovenia",
    "observableExpertCount": 4,
-   "opportunityScore": 22.5287,
+   "opportunityScore": 22.7026,
    "organizationCount": 3,
    "qualifiedRepoCount": 3,
    "rank": 67,
@@ -2050,7 +2050,7 @@
     "infrastructure_as_code",
     "configuration_management"
    ],
-   "weightedExpertCount": 1.2237
+   "weightedExpertCount": 1.2477
   },
   {
    "city": null,
@@ -2059,8 +2059,8 @@
    "countryCode": "MD",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 33.977,
-   "expertSupplyScore": 2.2319,
+   "expertQualityScore": 34.397,
+   "expertSupplyScore": 2.2218,
    "geoId": "MD",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2070,7 +2070,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Moldova, Republic of",
    "observableExpertCount": 1,
-   "opportunityScore": 22.4743,
+   "opportunityScore": 22.5968,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 68,
@@ -2078,35 +2078,7 @@
    "topSubdomains": [
     "configuration_management"
    ],
-   "weightedExpertCount": 0.4854
-  },
-  {
-   "city": null,
-   "collaborationDepthScore": 60.0,
-   "confidenceScore": 42.3877,
-   "countryCode": "PH",
-   "domainId": "cloud_devops",
-   "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 25.9853,
-   "expertSupplyScore": 1.4387,
-   "geoId": "PH",
-   "geoLevel": "country",
-   "highConfidenceLocationShare": 1.0,
-   "locatedProfileCoverage": 0.465,
-   "momentumProvisional": true,
-   "momentumScore": 50.0,
-   "multiRepoExpertShare": 0.0,
-   "name": "Philippines",
-   "observableExpertCount": 1,
-   "opportunityScore": 22.2991,
-   "organizationCount": 1,
-   "qualifiedRepoCount": 1,
-   "rank": 69,
-   "recommendationTier": "insufficient_data",
-   "topSubdomains": [
-    "infrastructure_as_code"
-   ],
-   "weightedExpertCount": 0.3712
+   "weightedExpertCount": 0.4914
   },
   {
    "city": null,
@@ -2115,8 +2087,8 @@
    "countryCode": "NG",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 14.5998,
-   "expertQualityScore": 29.193,
-   "expertSupplyScore": 8.0424,
+   "expertQualityScore": 29.613,
+   "expertSupplyScore": 8.1304,
    "geoId": "NG",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.5,
@@ -2126,16 +2098,44 @@
    "multiRepoExpertShare": 0.0,
    "name": "Nigeria",
    "observableExpertCount": 2,
-   "opportunityScore": 22.2827,
+   "opportunityScore": 22.4395,
    "organizationCount": 2,
    "qualifiedRepoCount": 2,
-   "rank": 70,
+   "rank": 69,
    "recommendationTier": "insufficient_data",
    "topSubdomains": [
     "infrastructure_as_code",
     "sre_reliability"
    ],
-   "weightedExpertCount": 0.7362
+   "weightedExpertCount": 0.7512
+  },
+  {
+   "city": null,
+   "collaborationDepthScore": 60.0,
+   "confidenceScore": 42.3877,
+   "countryCode": "PH",
+   "domainId": "cloud_devops",
+   "ecosystemBreadthScore": 0.0,
+   "expertQualityScore": 26.1956,
+   "expertSupplyScore": 1.411,
+   "geoId": "PH",
+   "geoLevel": "country",
+   "highConfidenceLocationShare": 1.0,
+   "locatedProfileCoverage": 0.465,
+   "momentumProvisional": true,
+   "momentumScore": 50.0,
+   "multiRepoExpertShare": 0.0,
+   "name": "Philippines",
+   "observableExpertCount": 1,
+   "opportunityScore": 22.3525,
+   "organizationCount": 1,
+   "qualifiedRepoCount": 1,
+   "rank": 70,
+   "recommendationTier": "insufficient_data",
+   "topSubdomains": [
+    "infrastructure_as_code"
+   ],
+   "weightedExpertCount": 0.3742
   },
   {
    "city": null,
@@ -2144,8 +2144,8 @@
    "countryCode": "ID",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 37.5344,
-   "expertQualityScore": 18.0604,
-   "expertSupplyScore": 11.4903,
+   "expertQualityScore": 18.2704,
+   "expertSupplyScore": 11.5879,
    "geoId": "ID",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2155,7 +2155,7 @@
    "multiRepoExpertShare": 0.3333,
    "name": "Indonesia",
    "observableExpertCount": 3,
-   "opportunityScore": 22.1932,
+   "opportunityScore": 22.2903,
    "organizationCount": 4,
    "qualifiedRepoCount": 4,
    "rank": 71,
@@ -2165,7 +2165,7 @@
     "cloud_platforms_sdks",
     "infrastructure_as_code"
    ],
-   "weightedExpertCount": 0.8824
+   "weightedExpertCount": 0.8983
   },
   {
    "city": null,
@@ -2174,8 +2174,8 @@
    "countryCode": "BD",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 24.6334,
-   "expertQualityScore": 23.1432,
-   "expertSupplyScore": 9.342,
+   "expertQualityScore": 23.4932,
+   "expertSupplyScore": 9.4151,
    "geoId": "BD",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.6667,
@@ -2185,7 +2185,7 @@
    "multiRepoExpertShare": 0.3333,
    "name": "Bangladesh",
    "observableExpertCount": 3,
-   "opportunityScore": 21.176,
+   "opportunityScore": 21.3066,
    "organizationCount": 4,
    "qualifiedRepoCount": 4,
    "rank": 72,
@@ -2194,7 +2194,7 @@
     "configuration_management",
     "containers_orchestration"
    ],
-   "weightedExpertCount": 0.9078
+   "weightedExpertCount": 0.9248
   },
   {
    "city": null,
@@ -2203,8 +2203,8 @@
    "countryCode": "PY",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 25.9905,
-   "expertSupplyScore": 1.4392,
+   "expertQualityScore": 26.411,
+   "expertSupplyScore": 1.4327,
    "geoId": "PY",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2214,7 +2214,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Paraguay",
    "observableExpertCount": 1,
-   "opportunityScore": 17.8009,
+   "opportunityScore": 17.9247,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 73,
@@ -2222,7 +2222,7 @@
    "topSubdomains": [
     "observability_monitoring"
    ],
-   "weightedExpertCount": 0.3713
+   "weightedExpertCount": 0.3773
   },
   {
    "city": null,
@@ -2231,8 +2231,8 @@
    "countryCode": "VN",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 24.8549,
-   "expertSupplyScore": 1.3239,
+   "expertQualityScore": 25.2749,
+   "expertSupplyScore": 1.3179,
    "geoId": "VN",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2242,7 +2242,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Viet Nam",
    "observableExpertCount": 1,
-   "opportunityScore": 17.4198,
+   "opportunityScore": 17.5437,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 74,
@@ -2250,7 +2250,7 @@
    "topSubdomains": [
     "observability_monitoring"
    ],
-   "weightedExpertCount": 0.3551
+   "weightedExpertCount": 0.3611
   },
   {
    "city": null,
@@ -2259,8 +2259,8 @@
    "countryCode": "KY",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 16.208,
-   "expertQualityScore": 17.9695,
-   "expertSupplyScore": 4.7881,
+   "expertQualityScore": 18.3895,
+   "expertSupplyScore": 4.8746,
    "geoId": "KY",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2270,7 +2270,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Cayman Islands",
    "observableExpertCount": 2,
-   "opportunityScore": 15.9375,
+   "opportunityScore": 16.0938,
    "organizationCount": 2,
    "qualifiedRepoCount": 2,
    "rank": 75,
@@ -2279,7 +2279,7 @@
     "observability_monitoring",
     "service_mesh_networking"
    ],
-   "weightedExpertCount": 0.4426
+   "weightedExpertCount": 0.4546
   },
   {
    "city": null,
@@ -2289,7 +2289,7 @@
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
    "expertQualityScore": 27.2409,
-   "expertSupplyScore": 1.5654,
+   "expertSupplyScore": 1.5162,
    "geoId": "MY",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2299,7 +2299,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Malaysia",
    "observableExpertCount": 1,
-   "opportunityScore": 15.7202,
+   "opportunityScore": 15.7029,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 76,
@@ -2316,8 +2316,8 @@
    "countryCode": "UZ",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 18.351,
-   "expertSupplyScore": 0.6509,
+   "expertQualityScore": 18.771,
+   "expertSupplyScore": 0.6479,
    "geoId": "UZ",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2327,7 +2327,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Uzbekistan",
    "observableExpertCount": 1,
-   "opportunityScore": 15.2331,
+   "opportunityScore": 15.3581,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 77,
@@ -2335,7 +2335,7 @@
    "topSubdomains": [
     "configuration_management"
    ],
-   "weightedExpertCount": 0.2622
+   "weightedExpertCount": 0.2682
   },
   {
    "city": null,
@@ -2344,8 +2344,8 @@
    "countryCode": "IR",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 11.182,
-   "expertQualityScore": 12.8222,
-   "expertSupplyScore": 14.3921,
+   "expertQualityScore": 13.2422,
+   "expertSupplyScore": 14.5354,
    "geoId": "IR",
    "geoLevel": "country",
    "highConfidenceLocationShare": 0.4286,
@@ -2355,7 +2355,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Iran, Islamic Republic of",
    "observableExpertCount": 7,
-   "opportunityScore": 13.7878,
+   "opportunityScore": 13.9639,
    "organizationCount": 2,
    "qualifiedRepoCount": 2,
    "rank": 78,
@@ -2363,7 +2363,7 @@
    "topSubdomains": [
     "service_mesh_networking"
    ],
-   "weightedExpertCount": 1.4749
+   "weightedExpertCount": 1.5049
   },
   {
    "city": null,
@@ -2372,8 +2372,8 @@
    "countryCode": "UY",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 19.4703,
-   "expertSupplyScore": 0.7683,
+   "expertQualityScore": 20.1003,
+   "expertSupplyScore": 0.7867,
    "geoId": "UY",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2383,7 +2383,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Uruguay",
    "observableExpertCount": 1,
-   "opportunityScore": 13.11,
+   "opportunityScore": 13.3054,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 79,
@@ -2391,7 +2391,7 @@
    "topSubdomains": [
     "observability_monitoring"
    ],
-   "weightedExpertCount": 0.2781
+   "weightedExpertCount": 0.2871
   },
   {
    "city": null,
@@ -2400,8 +2400,8 @@
    "countryCode": "KZ",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 18.6511,
-   "expertSupplyScore": 0.6824,
+   "expertQualityScore": 19.0711,
+   "expertSupplyScore": 0.6793,
    "geoId": "KZ",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2411,7 +2411,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Kazakhstan",
    "observableExpertCount": 1,
-   "opportunityScore": 12.8342,
+   "opportunityScore": 12.9591,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 80,
@@ -2419,7 +2419,7 @@
    "topSubdomains": [
     "configuration_management"
    ],
-   "weightedExpertCount": 0.2664
+   "weightedExpertCount": 0.2724
   },
   {
    "city": null,
@@ -2428,8 +2428,8 @@
    "countryCode": "DO",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 23.953,
-   "expertSupplyScore": 1.2319,
+   "expertQualityScore": 24.373,
+   "expertSupplyScore": 1.2263,
    "geoId": "DO",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2439,7 +2439,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Dominican Republic",
    "observableExpertCount": 1,
-   "opportunityScore": 12.6171,
+   "opportunityScore": 12.7411,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 81,
@@ -2447,7 +2447,7 @@
    "topSubdomains": [
     "cloud_platforms_sdks"
    ],
-   "weightedExpertCount": 0.3422
+   "weightedExpertCount": 0.3482
   },
   {
    "city": null,
@@ -2456,8 +2456,8 @@
    "countryCode": "VI",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 17.7121,
-   "expertSupplyScore": 0.5836,
+   "expertQualityScore": 18.1321,
+   "expertSupplyScore": 0.5809,
    "geoId": "VI",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2467,7 +2467,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Virgin Islands, U.S.",
    "observableExpertCount": 1,
-   "opportunityScore": 12.5179,
+   "opportunityScore": 12.6429,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 82,
@@ -2475,7 +2475,7 @@
    "topSubdomains": [
     "observability_monitoring"
    ],
-   "weightedExpertCount": 0.253
+   "weightedExpertCount": 0.259
   },
   {
    "city": null,
@@ -2484,8 +2484,8 @@
    "countryCode": "PK",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 23.1525,
-   "expertQualityScore": 12.252,
-   "expertSupplyScore": 3.5674,
+   "expertQualityScore": 12.882,
+   "expertSupplyScore": 3.7413,
    "geoId": "PK",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2495,7 +2495,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Pakistan",
    "observableExpertCount": 2,
-   "opportunityScore": 12.2394,
+   "opportunityScore": 12.4893,
    "organizationCount": 2,
    "qualifiedRepoCount": 2,
    "rank": 83,
@@ -2504,7 +2504,7 @@
     "configuration_management",
     "observability_monitoring"
    ],
-   "weightedExpertCount": 0.344
+   "weightedExpertCount": 0.362
   },
   {
    "city": null,
@@ -2513,8 +2513,8 @@
    "countryCode": "VA",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 5.3915,
-   "expertQualityScore": 25.4542,
-   "expertSupplyScore": 1.3848,
+   "expertQualityScore": 25.6642,
+   "expertSupplyScore": 1.3573,
    "geoId": "VA",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2524,7 +2524,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Holy See (Vatican City State)",
    "observableExpertCount": 1,
-   "opportunityScore": 11.1601,
+   "opportunityScore": 11.2135,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 84,
@@ -2533,7 +2533,7 @@
     "cloud_platforms_sdks",
     "containers_orchestration"
    ],
-   "weightedExpertCount": 0.3636
+   "weightedExpertCount": 0.3666
   },
   {
    "city": null,
@@ -2542,8 +2542,8 @@
    "countryCode": "PE",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 18.0888,
-   "expertSupplyScore": 0.6233,
+   "expertQualityScore": 18.7188,
+   "expertSupplyScore": 0.6424,
    "geoId": "PE",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2553,7 +2553,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Peru",
    "observableExpertCount": 1,
-   "opportunityScore": 10.6448,
+   "opportunityScore": 10.8405,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 85,
@@ -2561,7 +2561,7 @@
    "topSubdomains": [
     "configuration_management"
    ],
-   "weightedExpertCount": 0.2584
+   "weightedExpertCount": 0.2674
   },
   {
    "city": null,
@@ -2570,8 +2570,8 @@
    "countryCode": "AQ",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 12.6252,
-   "expertSupplyScore": 0.0394,
+   "expertQualityScore": 13.2552,
+   "expertSupplyScore": 0.0618,
    "geoId": "AQ",
    "geoLevel": "country",
    "highConfidenceLocationShare": 1.0,
@@ -2581,7 +2581,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Antarctica",
    "observableExpertCount": 1,
-   "opportunityScore": 8.8013,
+   "opportunityScore": 8.9982,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 86,
@@ -2589,7 +2589,7 @@
    "topSubdomains": [
     "containers_orchestration"
    ],
-   "weightedExpertCount": 0.1804
+   "weightedExpertCount": 0.1894
   },
   {
    "city": null,
@@ -2598,7 +2598,7 @@
    "countryCode": "DZ",
    "domainId": "cloud_devops",
    "ecosystemBreadthScore": 0.0,
-   "expertQualityScore": 12.2625,
+   "expertQualityScore": 12.6825,
    "expertSupplyScore": 0.0,
    "geoId": "DZ",
    "geoLevel": "country",
@@ -2609,7 +2609,7 @@
    "multiRepoExpertShare": 0.0,
    "name": "Algeria",
    "observableExpertCount": 1,
-   "opportunityScore": 8.6787,
+   "opportunityScore": 8.8047,
    "organizationCount": 1,
    "qualifiedRepoCount": 1,
    "rank": 87,
@@ -2617,7 +2617,7 @@
    "topSubdomains": [
     "configuration_management"
    ],
-   "weightedExpertCount": 0.1752
+   "weightedExpertCount": 0.1812
   }
  ]
 }

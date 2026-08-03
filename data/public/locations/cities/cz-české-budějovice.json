@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 70.0,
   "ecosystemBreadthScore": 26.6537,
-  "expertQualityScore": 30.0846,
-  "expertSupplyScore": 8.5052,
+  "expertQualityScore": 30.2946,
+  "expertSupplyScore": 8.4185,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CZ",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 26.6537,
-  "expertQualityScore": 30.0846,
-  "expertSupplyScore": 8.5052,
+  "expertQualityScore": 30.2946,
+  "expertSupplyScore": 8.4185,
   "geoId": "CZ-české-budějovice",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 1.0,
   "name": "České Budějovice",
   "observableExpertCount": 1,
-  "opportunityScore": 30.1676,
+  "opportunityScore": 30.2002,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 114,
+  "rank": 115,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "containers_orchestration",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.4298
+  "weightedExpertCount": 0.4328
  },
  "subdomainMix": []
 }

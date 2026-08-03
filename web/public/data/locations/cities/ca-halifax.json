@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.989,
-  "expertSupplyScore": 1.5114,
+  "expertQualityScore": 20.409,
+  "expertSupplyScore": 1.4614,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "CA",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 19.989,
-  "expertSupplyScore": 1.5114,
+  "expertQualityScore": 20.409,
+  "expertSupplyScore": 1.4614,
   "geoId": "CA-halifax",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Halifax",
   "observableExpertCount": 1,
-  "opportunityScore": 16.0257,
+  "opportunityScore": 16.1342,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 219,
+  "rank": 220,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "configuration_management"
   ],
-  "weightedExpertCount": 0.2856
+  "weightedExpertCount": 0.2916
  },
  "subdomainMix": []
 }

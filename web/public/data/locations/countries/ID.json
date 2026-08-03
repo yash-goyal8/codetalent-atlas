@@ -18,8 +18,8 @@
  "components": {
   "collaborationDepthScore": 43.3333,
   "ecosystemBreadthScore": 37.5344,
-  "expertQualityScore": 18.0604,
-  "expertSupplyScore": 11.4903,
+  "expertQualityScore": 18.2704,
+  "expertSupplyScore": 11.5879,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -39,8 +39,8 @@
   "countryCode": "ID",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 37.5344,
-  "expertQualityScore": 18.0604,
-  "expertSupplyScore": 11.4903,
+  "expertQualityScore": 18.2704,
+  "expertSupplyScore": 11.5879,
   "geoId": "ID",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -50,7 +50,7 @@
   "multiRepoExpertShare": 0.3333,
   "name": "Indonesia",
   "observableExpertCount": 3,
-  "opportunityScore": 22.1932,
+  "opportunityScore": 22.2903,
   "organizationCount": 4,
   "qualifiedRepoCount": 4,
   "rank": 71,
@@ -60,7 +60,7 @@
    "cloud_platforms_sdks",
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.8824
+  "weightedExpertCount": 0.8983
  },
  "subdomainMix": [
   {

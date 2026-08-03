@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 50.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 58.38,
-  "expertSupplyScore": 15.2549,
+  "expertQualityScore": 59.01,
+  "expertSupplyScore": 15.3282,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "IT",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 58.38,
-  "expertSupplyScore": 15.2549,
+  "expertQualityScore": 59.01,
+  "expertSupplyScore": 15.3282,
   "geoId": "IT-prato",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Prato",
   "observableExpertCount": 3,
-  "opportunityScore": 35.3532,
+  "opportunityScore": 35.5678,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 89,
@@ -46,7 +46,7 @@
   "topSubdomains": [
    "containers_orchestration"
   ],
-  "weightedExpertCount": 1.5254
+  "weightedExpertCount": 1.5524
  },
  "subdomainMix": []
 }

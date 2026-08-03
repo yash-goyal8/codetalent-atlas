@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 47.5049,
-  "expertQualityScore": 49.4856,
-  "expertSupplyScore": 42.1092,
+  "expertQualityScore": 49.9056,
+  "expertSupplyScore": 42.181,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "FR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 47.5049,
-  "expertQualityScore": 49.4856,
-  "expertSupplyScore": 42.1092,
+  "expertQualityScore": 49.9056,
+  "expertSupplyScore": 42.181,
   "geoId": "FR-lyon",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Lyon",
   "observableExpertCount": 5,
-  "opportunityScore": 45.8344,
+  "opportunityScore": 45.9855,
   "organizationCount": 5,
   "qualifiedRepoCount": 5,
   "rank": 38,
@@ -49,7 +49,7 @@
    "configuration_management",
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 2.306
+  "weightedExpertCount": 2.336
  },
  "subdomainMix": []
 }

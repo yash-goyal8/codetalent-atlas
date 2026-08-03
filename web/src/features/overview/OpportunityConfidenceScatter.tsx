@@ -61,7 +61,7 @@ function buildOption(rows: GeographicRankingRow[]): ECOption {
         position: "top" as const,
         formatter: "{b}",
         color: CHART_COLORS.text,
-        fontSize: 11,
+        fontSize: 12,
       },
       data,
     };
@@ -74,7 +74,7 @@ function buildOption(rows: GeographicRankingRow[]): ECOption {
         silent: true,
         symbol: "none",
         lineStyle: { color: CHART_COLORS.axisLine, type: "dashed" as const },
-        label: { color: CHART_COLORS.text, fontSize: 11 },
+        label: { color: CHART_COLORS.text, fontSize: 12 },
         data: [
           {
             xAxis: CONFIDENCE_THRESHOLD,

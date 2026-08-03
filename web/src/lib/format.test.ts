@@ -3,12 +3,30 @@ import {
   confidenceLabel,
   confidenceLevel,
   formatCount,
+  formatMonth,
   formatScore,
   formatShare,
   NO_VALUE,
   tierColorClass,
   tierLabel,
 } from "./format";
+
+describe("formatMonth", () => {
+  it("formats the pipeline's compact YYYYMM keys", () => {
+    expect(formatMonth("202605")).toBe("May 2026");
+    expect(formatMonth("202612")).toBe("Dec 2026");
+  });
+
+  it("formats dashed YYYY-MM keys", () => {
+    expect(formatMonth("2000-01")).toBe("Jan 2000");
+  });
+
+  it("renders unrecognized keys verbatim", () => {
+    expect(formatMonth("202613")).toBe("202613");
+    expect(formatMonth("May 2026")).toBe("May 2026");
+    expect(formatMonth("")).toBe("");
+  });
+});
 
 describe("formatScore", () => {
   it("always shows one decimal", () => {

@@ -1,50 +1,50 @@
 {
- "generatedAt": "2026-08-03T21:09:19Z",
+ "generatedAt": "2026-08-03T21:48:33Z",
  "items": [
   {
    "confidenceScore": 70.6383,
    "geoId": "DE",
    "name": "Germany",
    "observablePool": 284,
-   "opportunityScore": 63.9115,
+   "opportunityScore": 64.1056,
    "rank": 2,
-   "risk": "Weakest component: expert quality (37.2); located-profile coverage 46%. Momentum provisional (three-month pilot).",
+   "risk": "Weakest component: expert quality (37.8); located-profile coverage 46%. Momentum provisional (three-month pilot).",
    "subdomains": [
     "Containers and Orchestration",
     "Cloud Platforms and SDKs"
    ],
    "suggestedPilot": "Run a small sourcing pilot targeting Containers and Orchestration and Cloud Platforms and SDKs contributors; validate response and qualification rates before scaling.",
-   "whyNow": "Germany ranks #2 with opportunity 63.9 and confidence 70.6; strongest component: expert supply (96.1). 284 observable experts across 133 qualified repositories and 96 organizations."
+   "whyNow": "Germany ranks #2 with opportunity 64.1 and confidence 70.6; strongest component: expert supply (96.1). 284 observable experts across 133 qualified repositories and 96 organizations."
   },
   {
    "confidenceScore": 76.8373,
    "geoId": "IN",
    "name": "India",
    "observablePool": 245,
-   "opportunityScore": 60.3239,
+   "opportunityScore": 60.5188,
    "rank": 3,
-   "risk": "Weakest component: expert quality (33.2); located-profile coverage 46%. Momentum provisional (three-month pilot).",
+   "risk": "Weakest component: expert quality (33.7); located-profile coverage 46%. Momentum provisional (three-month pilot).",
    "subdomains": [
     "Containers and Orchestration",
     "Observability and Monitoring"
    ],
    "suggestedPilot": "Run a small sourcing pilot targeting Containers and Orchestration and Observability and Monitoring contributors; validate response and qualification rates before scaling.",
-   "whyNow": "India ranks #3 with opportunity 60.3 and confidence 76.8; strongest component: ecosystem breadth (96.1). 245 observable experts across 152 qualified repositories and 95 organizations."
+   "whyNow": "India ranks #3 with opportunity 60.5 and confidence 76.8; strongest component: ecosystem breadth (96.1). 245 observable experts across 152 qualified repositories and 95 organizations."
   },
   {
    "confidenceScore": 68.0636,
    "geoId": "CN",
    "name": "China",
    "observablePool": 142,
-   "opportunityScore": 60.0371,
+   "opportunityScore": 60.1802,
    "rank": 4,
-   "risk": "Weakest component: expert quality (42.8); located-profile coverage 46%. Momentum provisional (three-month pilot).",
+   "risk": "Weakest component: expert quality (43.2); located-profile coverage 46%. Momentum provisional (three-month pilot).",
    "subdomains": [
     "Cloud Platforms and SDKs",
     "Observability and Monitoring"
    ],
    "suggestedPilot": "Run a small sourcing pilot targeting Cloud Platforms and SDKs and Observability and Monitoring contributors; validate response and qualification rates before scaling.",
-   "whyNow": "China ranks #4 with opportunity 60.0 and confidence 68.1; strongest component: expert supply (82.8). 142 observable experts across 87 qualified repositories and 57 organizations."
+   "whyNow": "China ranks #4 with opportunity 60.2 and confidence 68.1; strongest component: expert supply (82.8). 142 observable experts across 87 qualified repositories and 57 organizations."
   }
  ]
 }

@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 0.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 13.2187,
-  "expertSupplyScore": 0.1922,
+  "expertQualityScore": 13.6387,
+  "expertSupplyScore": 0.1495,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 13.2187,
-  "expertSupplyScore": 0.1922,
+  "expertQualityScore": 13.6387,
+  "expertSupplyScore": 0.1495,
   "geoId": "GB-portsmouth",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Portsmouth",
   "observableExpertCount": 1,
-  "opportunityScore": 9.0329,
+  "opportunityScore": 9.1439,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 253,
+  "rank": 254,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "infrastructure_as_code"
   ],
-  "weightedExpertCount": 0.1888
+  "weightedExpertCount": 0.1948
  },
  "subdomainMix": []
 }

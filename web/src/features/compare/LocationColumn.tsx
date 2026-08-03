@@ -62,13 +62,13 @@ export function LocationColumn({ row, onRemove }: LocationColumnProps) {
 
       <dl className="grid grid-cols-2 gap-3">
         <div className="rounded-md border border-border bg-surface-2/60 px-3 py-2">
-          <dt className="text-[11px] text-secondary">Opportunity</dt>
+          <dt className="text-xs text-secondary">Opportunity</dt>
           <dd className="score-value text-2xl font-semibold text-primary">
             {formatScore(row.opportunityScore)}
           </dd>
         </div>
         <div className="rounded-md border border-border bg-surface-2/60 px-3 py-2">
-          <dt className="text-[11px] text-secondary">Confidence</dt>
+          <dt className="text-xs text-secondary">Confidence</dt>
           <dd className="score-value text-2xl font-semibold text-primary">
             {formatScore(row.confidenceScore)}
           </dd>

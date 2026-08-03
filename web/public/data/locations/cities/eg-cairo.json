@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 15.0,
   "ecosystemBreadthScore": 16.6537,
-  "expertQualityScore": 28.3006,
-  "expertSupplyScore": 11.5384,
+  "expertQualityScore": 28.7206,
+  "expertSupplyScore": 11.7562,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "EG",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 16.6537,
-  "expertQualityScore": 28.3006,
-  "expertSupplyScore": 11.5384,
+  "expertQualityScore": 28.7206,
+  "expertSupplyScore": 11.7562,
   "geoId": "EG-cairo",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,16 +38,16 @@
   "multiRepoExpertShare": 0.0,
   "name": "Cairo",
   "observableExpertCount": 2,
-  "opportunityScore": 18.944,
+  "opportunityScore": 19.1462,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
-  "rank": 195,
+  "rank": 194,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "cloud_platforms_sdks",
    "sre_reliability"
   ],
-  "weightedExpertCount": 0.6156
+  "weightedExpertCount": 0.6306
  },
  "subdomainMix": []
 }

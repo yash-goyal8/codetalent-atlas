@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 11.081,
-  "expertQualityScore": 60.2728,
-  "expertSupplyScore": 13.7316,
+  "expertQualityScore": 60.6928,
+  "expertSupplyScore": 13.7947,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "CR",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 11.081,
-  "expertQualityScore": 60.2728,
-  "expertSupplyScore": 13.7316,
+  "expertQualityScore": 60.6928,
+  "expertSupplyScore": 13.7947,
   "geoId": "CR",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.5,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Costa Rica",
   "observableExpertCount": 2,
-  "opportunityScore": 43.996,
+  "opportunityScore": 44.1441,
   "organizationCount": 2,
   "qualifiedRepoCount": 4,
   "rank": 21,
@@ -63,7 +63,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 1.1017
+  "weightedExpertCount": 1.1163
  },
  "subdomainMix": [
   {

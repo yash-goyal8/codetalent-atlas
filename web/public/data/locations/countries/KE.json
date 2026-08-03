@@ -23,8 +23,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 80.4634,
-  "expertSupplyScore": 3.7766,
+  "expertQualityScore": 80.8834,
+  "expertSupplyScore": 3.7599,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -44,8 +44,8 @@
   "countryCode": "KE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 80.4634,
-  "expertSupplyScore": 3.7766,
+  "expertQualityScore": 80.8834,
+  "expertSupplyScore": 3.7599,
   "geoId": "KE",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -55,7 +55,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Kenya",
   "observableExpertCount": 1,
-  "opportunityScore": 39.4608,
+  "opportunityScore": 39.581,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 34,
@@ -63,7 +63,7 @@
   "topSubdomains": [
    "observability_monitoring"
   ],
-  "weightedExpertCount": 0.7209
+  "weightedExpertCount": 0.7269
  },
  "subdomainMix": [
   {

@@ -6,7 +6,7 @@
  "components": {
   "collaborationDepthScore": 54.8387,
   "ecosystemBreadthScore": 94.219,
-  "expertQualityScore": 43.2529,
+  "expertQualityScore": 43.883,
   "expertSupplyScore": 100.0,
   "momentumScore": 25.0
  },
@@ -27,7 +27,7 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 94.219,
-  "expertQualityScore": 43.2529,
+  "expertQualityScore": 43.883,
   "expertSupplyScore": 100.0,
   "geoId": "DE-berlin",
   "geoLevel": "city",
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.2581,
   "name": "Berlin",
   "observableExpertCount": 31,
-  "opportunityScore": 68.1236,
+  "opportunityScore": 68.3126,
   "organizationCount": 22,
   "qualifiedRepoCount": 29,
   "rank": 3,
@@ -50,7 +50,7 @@
    "infrastructure_as_code",
    "configuration_management"
   ],
-  "weightedExpertCount": 14.8049
+  "weightedExpertCount": 14.9877
  },
  "subdomainMix": []
 }

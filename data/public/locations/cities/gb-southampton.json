@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 100.0,
   "ecosystemBreadthScore": 15.2041,
-  "expertQualityScore": 77.9778,
-  "expertSupplyScore": 7.3524,
+  "expertQualityScore": 78.5989,
+  "expertSupplyScore": 7.315,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "GB",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 15.2041,
-  "expertQualityScore": 77.9778,
-  "expertSupplyScore": 7.3524,
+  "expertQualityScore": 78.5989,
+  "expertSupplyScore": 7.315,
   "geoId": "GB-southampton",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 1.0,
   "name": "Southampton",
   "observableExpertCount": 1,
-  "opportunityScore": 47.4871,
+  "opportunityScore": 47.6603,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 31,
@@ -47,7 +47,7 @@
    "containers_orchestration",
    "configuration_management"
   ],
-  "weightedExpertCount": 0.6854
+  "weightedExpertCount": 0.6943
  },
  "subdomainMix": []
 }

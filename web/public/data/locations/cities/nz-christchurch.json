@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 70.8247,
-  "expertSupplyScore": 5.301,
+  "expertQualityScore": 71.0347,
+  "expertSupplyScore": 5.1947,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "NZ",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 70.8247,
-  "expertSupplyScore": 5.301,
+  "expertQualityScore": 71.0347,
+  "expertSupplyScore": 5.1947,
   "geoId": "NZ-christchurch",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,15 +38,15 @@
   "multiRepoExpertShare": 0.0,
   "name": "Christchurch",
   "observableExpertCount": 1,
-  "opportunityScore": 37.1028,
+  "opportunityScore": 37.1286,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
-  "rank": 75,
+  "rank": 76,
   "recommendationTier": "insufficient_data",
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.5832
+  "weightedExpertCount": 0.5862
  },
  "subdomainMix": []
 }

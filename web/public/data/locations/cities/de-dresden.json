@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 24.1537,
-  "expertQualityScore": 23.9777,
-  "expertSupplyScore": 12.4016,
+  "expertQualityScore": 24.3977,
+  "expertSupplyScore": 12.4743,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 24.1537,
-  "expertQualityScore": 23.9777,
-  "expertSupplyScore": 12.4016,
+  "expertQualityScore": 24.3977,
+  "expertSupplyScore": 12.4743,
   "geoId": "DE-dresden",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Dresden",
   "observableExpertCount": 2,
-  "opportunityScore": 20.9492,
+  "opportunityScore": 21.1007,
   "organizationCount": 2,
   "qualifiedRepoCount": 2,
   "rank": 176,
@@ -47,7 +47,7 @@
    "observability_monitoring",
    "cicd_developer_tooling"
   ],
-  "weightedExpertCount": 0.6146
+  "weightedExpertCount": 0.6266
  },
  "subdomainMix": []
 }

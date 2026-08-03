@@ -22,8 +22,8 @@
  "components": {
   "collaborationDepthScore": 46.5455,
   "ecosystemBreadthScore": 81.0317,
-  "expertQualityScore": 38.4024,
-  "expertSupplyScore": 61.7507,
+  "expertQualityScore": 38.8224,
+  "expertSupplyScore": 61.856,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -43,8 +43,8 @@
   "countryCode": "JP",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 81.0317,
-  "expertQualityScore": 38.4024,
-  "expertSupplyScore": 61.7507,
+  "expertQualityScore": 38.8224,
+  "expertSupplyScore": 61.856,
   "geoId": "JP",
   "geoLevel": "country",
   "highConfidenceLocationShare": 0.9455,
@@ -54,7 +54,7 @@
   "multiRepoExpertShare": 0.2364,
   "name": "Japan",
   "observableExpertCount": 55,
-  "opportunityScore": 50.7184,
+  "opportunityScore": 50.8813,
   "organizationCount": 40,
   "qualifiedRepoCount": 52,
   "rank": 13,
@@ -66,7 +66,7 @@
    "infrastructure_as_code",
    "observability_monitoring"
   ],
-  "weightedExpertCount": 21.2689
+  "weightedExpertCount": 21.5988
  },
  "subdomainMix": [
   {

@@ -7,6 +7,7 @@ import { loadRankings, loadRecommendations, loadSummary } from "../lib/data";
 import type { RankingsFile, RecommendationsFile, Summary } from "../types/data";
 import { KpiCards } from "../features/overview/KpiCards";
 import { LimitationsNote } from "../features/overview/LimitationsNote";
+import { MapTeaser } from "../features/overview/MapTeaser";
 import { MethodologySummary } from "../features/overview/MethodologySummary";
 import { OpportunityConfidenceScatter } from "../features/overview/OpportunityConfidenceScatter";
 import { RecommendationTeasers } from "../features/overview/RecommendationTeasers";
@@ -62,6 +63,19 @@ export default function Overview() {
 
       <Section title="Headline metrics">
         <KpiCards state={summaryState} />
+      </Section>
+
+      <Section
+        title="Global opportunity preview"
+        description="The country opportunity choropleth at a glance — open the Explorer for the interactive map with score layers, filters, and the accessible ranked table."
+      >
+        <DataGate
+          state={rankingsState}
+          skeleton={<Skeleton className="h-72 w-full lg:h-96" />}
+          emptyDetail="The map preview renders from the published country rankings file."
+        >
+          {(rankings) => <MapTeaser rows={rankings.rows} />}
+        </DataGate>
       </Section>
 
       <Section

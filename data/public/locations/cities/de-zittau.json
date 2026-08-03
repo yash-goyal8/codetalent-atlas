@@ -6,8 +6,8 @@
  "components": {
   "collaborationDepthScore": 30.0,
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 30.9244,
-  "expertSupplyScore": 3.5482,
+  "expertQualityScore": 31.1344,
+  "expertSupplyScore": 3.4494,
   "momentumScore": 50.0
  },
  "concentration": {
@@ -27,8 +27,8 @@
   "countryCode": "DE",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 5.8496,
-  "expertQualityScore": 30.9244,
-  "expertSupplyScore": 3.5482,
+  "expertQualityScore": 31.1344,
+  "expertSupplyScore": 3.4494,
   "geoId": "DE-zittau",
   "geoLevel": "city",
   "highConfidenceLocationShare": 1.0,
@@ -38,7 +38,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Zittau",
   "observableExpertCount": 1,
-  "opportunityScore": 20.6042,
+  "opportunityScore": 20.6326,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 180,
@@ -47,7 +47,7 @@
    "cloud_platforms_sdks",
    "containers_orchestration"
   ],
-  "weightedExpertCount": 0.4418
+  "weightedExpertCount": 0.4448
  },
  "subdomainMix": []
 }

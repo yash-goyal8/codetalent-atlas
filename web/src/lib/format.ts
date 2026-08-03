@@ -52,6 +52,35 @@ export function formatShare(value: number | null | undefined): string {
   return `${text}%`;
 }
 
+const MONTH_NAMES = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+] as const;
+
+/**
+ * Human label for a trend month key. Accepts the pipeline's compact
+ * "YYYYMM" ("202605" -> "May 2026") and the dashed "YYYY-MM"
+ * ("2026-05" -> "May 2026"); anything else renders verbatim so bad
+ * data degrades to the raw key rather than a wrong date.
+ */
+export function formatMonth(month: string): string {
+  const match = /^(\d{4})-?(\d{2})$/.exec(month.trim());
+  if (!match) return month;
+  const monthIndex = Number.parseInt(match[2], 10) - 1;
+  if (monthIndex < 0 || monthIndex > 11) return month;
+  return `${MONTH_NAMES[monthIndex]} ${match[1]}`;
+}
+
 const TIER_LABELS: Record<RecommendationTier, string> = {
   priority: "Priority",
   promising: "Promising",

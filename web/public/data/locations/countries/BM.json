@@ -18,8 +18,8 @@
  "components": {
   "collaborationDepthScore": 60.0,
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 34.9365,
-  "expertSupplyScore": 2.3251,
+  "expertQualityScore": 35.3565,
+  "expertSupplyScore": 2.3146,
   "momentumScore": 25.0
  },
  "concentration": {
@@ -39,8 +39,8 @@
   "countryCode": "BM",
   "domainId": "cloud_devops",
   "ecosystemBreadthScore": 0.0,
-  "expertQualityScore": 34.9365,
-  "expertSupplyScore": 2.3251,
+  "expertQualityScore": 35.3565,
+  "expertSupplyScore": 2.3146,
   "geoId": "BM",
   "geoLevel": "country",
   "highConfidenceLocationShare": 1.0,
@@ -50,7 +50,7 @@
   "multiRepoExpertShare": 0.0,
   "name": "Bermuda",
   "observableExpertCount": 1,
-  "opportunityScore": 22.7947,
+  "opportunityScore": 22.9171,
   "organizationCount": 1,
   "qualifiedRepoCount": 1,
   "rank": 66,
@@ -58,7 +58,7 @@
   "topSubdomains": [
    "service_mesh_networking"
   ],
-  "weightedExpertCount": 0.4991
+  "weightedExpertCount": 0.5051
  },
  "subdomainMix": [
   {
