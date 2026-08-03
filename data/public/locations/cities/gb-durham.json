@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 100.0,
+  "ecosystemBreadthScore": 9.6674,
+  "expertQualityScore": 70.4069,
+  "expertSupplyScore": 13.1569,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Durham",
+  "collaborationDepthScore": 100.0,
+  "confidenceScore": 48.9558,
+  "countryCode": "GB",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 9.6674,
+  "expertQualityScore": 70.4069,
+  "expertSupplyScore": 13.1569,
+  "geoId": "GB-durham",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 1.0,
+  "name": "Durham",
+  "observableExpertCount": 1,
+  "opportunityScore": 46.6937,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 4,
+  "rank": 35,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 0.5772
+ },
+ "subdomainMix": []
+}

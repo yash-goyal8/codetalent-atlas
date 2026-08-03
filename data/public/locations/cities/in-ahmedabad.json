@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 30.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 22.3244,
+  "expertSupplyScore": 1.9558,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Ahmedabad",
+  "collaborationDepthScore": 30.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "IN",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 22.3244,
+  "expertSupplyScore": 1.9558,
+  "geoId": "IN-ahmedabad",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Ahmedabad",
+  "observableExpertCount": 1,
+  "opportunityScore": 16.8818,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 213,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management"
+  ],
+  "weightedExpertCount": 0.3189
+ },
+ "subdomainMix": []
+}

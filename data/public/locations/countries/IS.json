@@ -1,0 +1,76 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 1,
+   "events": 2,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 1,
+   "events": 2,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 1,
+   "events": 2,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 100% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 100.0,
+  "ecosystemBreadthScore": 4.6571,
+  "expertQualityScore": 68.6847,
+  "expertSupplyScore": 6.9641,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 1.0
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 100.0,
+  "confidenceScore": 48.2268,
+  "countryCode": "IS",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 4.6571,
+  "expertQualityScore": 68.6847,
+  "expertSupplyScore": 6.9641,
+  "geoId": "IS",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 1.0,
+  "name": "Iceland",
+  "observableExpertCount": 1,
+  "opportunityScore": 43.5086,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 3,
+  "rank": 23,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 0.5526
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 1,
+   "share": 1.0,
+   "subdomainId": "cloud_platforms_sdks"
+  }
+ ]
+}

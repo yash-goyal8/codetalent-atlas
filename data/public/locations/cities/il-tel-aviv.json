@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 62.1429,
+  "ecosystemBreadthScore": 70.7287,
+  "expertQualityScore": 50.5394,
+  "expertSupplyScore": 73.9459,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 14
+ },
+ "ranking": {
+  "city": "Tel Aviv",
+  "collaborationDepthScore": 62.1429,
+  "confidenceScore": 66.052,
+  "countryCode": "IL",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 70.7287,
+  "expertQualityScore": 50.5394,
+  "expertSupplyScore": 73.9459,
+  "geoId": "IL-tel-aviv",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2143,
+  "name": "Tel Aviv",
+  "observableExpertCount": 14,
+  "opportunityScore": 59.9372,
+  "organizationCount": 10,
+  "qualifiedRepoCount": 12,
+  "rank": 9,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "service_mesh_networking",
+   "configuration_management",
+   "containers_orchestration",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 6.8321
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,83 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 2,
+   "events": 16,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 3,
+   "events": 28,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 1,
+   "events": 11,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 97% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 50.0,
+  "ecosystemBreadthScore": 13.2946,
+  "expertQualityScore": 63.9333,
+  "expertSupplyScore": 8.4982,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.9716
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 50.0,
+  "confidenceScore": 45.1088,
+  "countryCode": "NP",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 13.2946,
+  "expertQualityScore": 63.9333,
+  "expertSupplyScore": 8.4982,
+  "geoId": "NP",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.5,
+  "name": "Nepal",
+  "observableExpertCount": 2,
+  "opportunityScore": 33.4838,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 3,
+  "rank": 47,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "service_mesh_networking",
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.9093
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 2,
+   "share": 0.6667,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 1,
+   "share": 0.3333,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

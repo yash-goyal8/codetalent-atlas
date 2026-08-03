@@ -722,9 +722,39 @@ def score_geographies(
 
 
 @publish_app.command("web-data")
-def publish_web_data() -> None:
-    """Build the aggregate-only static datasets for the web app."""
-    _not_implemented("publish web-data", "F")
+def publish_web_data(
+    domain: DomainOpt = "cloud_devops",
+    start: StartOpt = "2026-05-01",
+    end: EndOpt = "2026-07-31",
+    dataset_version: Annotated[
+        str | None,
+        typer.Option("--dataset-version", help="Override the YYYY.MM.DD-pilot.N version string."),
+    ] = None,
+    config_dir: ConfigDirOpt = DEFAULT_CONFIG_DIR,
+) -> None:
+    """Build the aggregate-only static datasets; privacy scan gates the output."""
+    config = _load_config_or_exit(config_dir)
+    from codetalent.publish.build_web_data import build_web_data
+
+    try:
+        manifest = build_web_data(
+            config,
+            domain_id=domain,
+            window_start=start,
+            window_end=end,
+            dataset_version=dataset_version,
+        )
+    except FileNotFoundError as exc:
+        typer.echo(f"[fail] missing pipeline input: {exc} — run the scoring stages first.")
+        raise typer.Exit(1) from exc
+    except RuntimeError as exc:
+        typer.echo(f"[fail] {exc}")
+        raise typer.Exit(1) from exc
+    typer.echo(
+        f"Published dataset {manifest['datasetVersion']} "
+        f"(methodology v{manifest['methodologyVersion']}) to web/public/data and data/public."
+    )
+    typer.echo("[ok] privacy scan passed on the published output.")
 
 
 def _run_config_validation(config_dir: Path) -> AtlasConfig:

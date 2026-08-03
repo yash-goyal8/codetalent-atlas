@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 52.0,
+  "ecosystemBreadthScore": 64.1194,
+  "expertQualityScore": 34.4333,
+  "expertSupplyScore": 58.2933,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 10
+ },
+ "ranking": {
+  "city": "Brno",
+  "collaborationDepthScore": 52.0,
+  "confidenceScore": 69.2472,
+  "countryCode": "CZ",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 64.1194,
+  "expertQualityScore": 34.4333,
+  "expertSupplyScore": 58.2933,
+  "geoId": "CZ-brno",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.4,
+  "name": "Brno",
+  "observableExpertCount": 10,
+  "opportunityScore": 47.4446,
+  "organizationCount": 9,
+  "qualifiedRepoCount": 11,
+  "rank": 32,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "observability_monitoring",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 4.1003
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,66 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 1,
+   "events": 3,
+   "month": "202605"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 100% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 0.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 12.6252,
+  "expertSupplyScore": 0.0394,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 1.0
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 0.0,
+  "confidenceScore": 42.3877,
+  "countryCode": "AQ",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 12.6252,
+  "expertSupplyScore": 0.0394,
+  "geoId": "AQ",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Antarctica",
+  "observableExpertCount": 1,
+  "opportunityScore": 8.8013,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 86,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.1804
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 1,
+   "share": 1.0,
+   "subdomainId": "containers_orchestration"
+  }
+ ]
+}

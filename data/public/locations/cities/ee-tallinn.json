@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 40.0,
+  "ecosystemBreadthScore": 40.7893,
+  "expertQualityScore": 57.1878,
+  "expertSupplyScore": 31.9693,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 3
+ },
+ "ranking": {
+  "city": "Tallinn",
+  "collaborationDepthScore": 40.0,
+  "confidenceScore": 54.0217,
+  "countryCode": "EE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 40.7893,
+  "expertQualityScore": 57.1878,
+  "expertSupplyScore": 31.9693,
+  "geoId": "EE-tallinn",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Tallinn",
+  "observableExpertCount": 3,
+  "opportunityScore": 43.4245,
+  "organizationCount": 3,
+  "qualifiedRepoCount": 3,
+  "rank": 49,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "service_mesh_networking",
+   "cloud_platforms_sdks",
+   "containers_orchestration",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 1.5315
+ },
+ "subdomainMix": []
+}

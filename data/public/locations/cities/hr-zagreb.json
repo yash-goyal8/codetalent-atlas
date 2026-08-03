@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 68.8169,
+  "expertSupplyScore": 4.9522,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Zagreb",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "HR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 68.8169,
+  "expertSupplyScore": 4.9522,
+  "geoId": "HR-zagreb",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Zagreb",
+  "observableExpertCount": 1,
+  "opportunityScore": 36.3783,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 81,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 0.5545
+ },
+ "subdomainMix": []
+}

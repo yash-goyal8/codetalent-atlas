@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 30.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 32.1093,
+  "expertSupplyScore": 3.7624,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Nelson",
+  "collaborationDepthScore": 30.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "NZ",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 32.1093,
+  "expertSupplyScore": 3.7624,
+  "geoId": "NZ-nelson",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Nelson",
+  "observableExpertCount": 1,
+  "opportunityScore": 20.4496,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 181,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 0.4587
+ },
+ "subdomainMix": []
+}

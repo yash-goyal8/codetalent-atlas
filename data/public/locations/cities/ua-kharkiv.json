@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 0.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 15.7028,
+  "expertSupplyScore": 0.6816,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Kharkiv",
+  "collaborationDepthScore": 0.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "UA",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 15.7028,
+  "expertSupplyScore": 0.6816,
+  "geoId": "UA-kharkiv",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Kharkiv",
+  "observableExpertCount": 1,
+  "opportunityScore": 9.9494,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 248,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management"
+  ],
+  "weightedExpertCount": 0.2243
+ },
+ "subdomainMix": []
+}

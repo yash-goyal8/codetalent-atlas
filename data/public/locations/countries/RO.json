@@ -1,0 +1,90 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 14,
+   "events": 74,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 7,
+   "events": 56,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 6,
+   "events": 21,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 62% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 44.2857,
+  "ecosystemBreadthScore": 32.8465,
+  "expertQualityScore": 49.5948,
+  "expertSupplyScore": 26.0905,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.6208
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.7143,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 7
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 44.2857,
+  "confidenceScore": 47.1622,
+  "countryCode": "RO",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 32.8465,
+  "expertQualityScore": 49.5948,
+  "expertSupplyScore": 26.0905,
+  "geoId": "RO",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.7143,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.1429,
+  "name": "Romania",
+  "observableExpertCount": 7,
+  "opportunityScore": 36.4376,
+  "organizationCount": 4,
+  "qualifiedRepoCount": 6,
+  "rank": 42,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "infrastructure_as_code",
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 3.2301
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 4,
+   "share": 0.5714,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 2,
+   "share": 0.2857,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 1,
+   "share": 0.1429,
+   "subdomainId": "cloud_platforms_sdks"
+  }
+ ]
+}

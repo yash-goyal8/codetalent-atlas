@@ -1,0 +1,90 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 2,
+   "events": 6,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 2,
+   "events": 9,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 1,
+   "events": 8,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 48% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 80.0,
+  "ecosystemBreadthScore": 31.0893,
+  "expertQualityScore": 35.9761,
+  "expertSupplyScore": 11.2797,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.4848
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 80.0,
+  "confidenceScore": 54.8019,
+  "countryCode": "LV",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 31.0893,
+  "expertQualityScore": 35.9761,
+  "expertSupplyScore": 11.2797,
+  "geoId": "LV",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.5,
+  "name": "Latvia",
+  "observableExpertCount": 2,
+  "opportunityScore": 32.3497,
+  "organizationCount": 3,
+  "qualifiedRepoCount": 3,
+  "rank": 48,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cicd_developer_tooling",
+   "cloud_platforms_sdks",
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.9835
+ },
+ "subdomainMix": [
+  {
+   "displayName": "CI/CD and Developer Tooling",
+   "expertCount": 1,
+   "share": 0.3333,
+   "subdomainId": "cicd_developer_tooling"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 1,
+   "share": 0.3333,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 1,
+   "share": 0.3333,
+   "subdomainId": "containers_orchestration"
+  }
+ ]
+}

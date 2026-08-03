@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 80.2725,
+  "expertSupplyScore": 6.9003,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Ulm",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "DE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 80.2725,
+  "expertSupplyScore": 6.9003,
+  "geoId": "DE-ulm",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Ulm",
+  "observableExpertCount": 1,
+  "opportunityScore": 40.4969,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 55,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cicd_developer_tooling"
+  ],
+  "weightedExpertCount": 0.7182
+ },
+ "subdomainMix": []
+}

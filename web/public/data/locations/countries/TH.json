@@ -1,0 +1,76 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 6,
+   "events": 24,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 2,
+   "events": 4,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 2,
+   "events": 3,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 69% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 80.0,
+  "ecosystemBreadthScore": 15.044,
+  "expertQualityScore": 71.9302,
+  "expertSupplyScore": 10.0901,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.686
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 80.0,
+  "confidenceScore": 50.1124,
+  "countryCode": "TH",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 15.044,
+  "expertQualityScore": 71.9302,
+  "expertSupplyScore": 10.0901,
+  "geoId": "TH",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.5,
+  "name": "Thailand",
+  "observableExpertCount": 2,
+  "opportunityScore": 43.615,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 3,
+  "rank": 22,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management"
+  ],
+  "weightedExpertCount": 1.1266
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 2,
+   "share": 1.0,
+   "subdomainId": "configuration_management"
+  }
+ ]
+}

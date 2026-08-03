@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 30.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 22.2155,
+  "expertSupplyScore": 1.9352,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Brest",
+  "collaborationDepthScore": 30.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "FR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 22.2155,
+  "expertSupplyScore": 1.9352,
+  "geoId": "FR-brest",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Brest",
+  "observableExpertCount": 1,
+  "opportunityScore": 16.842,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 215,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management"
+  ],
+  "weightedExpertCount": 0.3174
+ },
+ "subdomainMix": []
+}

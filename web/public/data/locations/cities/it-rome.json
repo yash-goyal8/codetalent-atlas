@@ -1,0 +1,55 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 53.3333,
+  "ecosystemBreadthScore": 39.7974,
+  "expertQualityScore": 56.8744,
+  "expertSupplyScore": 27.1138,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 3
+ },
+ "ranking": {
+  "city": "Rome",
+  "collaborationDepthScore": 53.3333,
+  "confidenceScore": 53.1222,
+  "countryCode": "IT",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 39.7974,
+  "expertQualityScore": 56.8744,
+  "expertSupplyScore": 27.1138,
+  "geoId": "IT-rome",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.3333,
+  "name": "Rome",
+  "observableExpertCount": 3,
+  "opportunityScore": 43.5319,
+  "organizationCount": 3,
+  "qualifiedRepoCount": 8,
+  "rank": 48,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "infrastructure_as_code",
+   "service_mesh_networking",
+   "containers_orchestration",
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 1.2123
+ },
+ "subdomainMix": []
+}

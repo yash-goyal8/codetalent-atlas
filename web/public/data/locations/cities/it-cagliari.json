@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 71.4293,
+  "expertSupplyScore": 5.4055,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Cagliari",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "IT",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 71.4293,
+  "expertSupplyScore": 5.4055,
+  "geoId": "IT-cagliari",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Cagliari",
+  "observableExpertCount": 1,
+  "opportunityScore": 37.3207,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 72,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 0.5918
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 50.0,
+  "ecosystemBreadthScore": 73.1922,
+  "expertQualityScore": 46.2116,
+  "expertSupplyScore": 63.1233,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 11
+ },
+ "ranking": {
+  "city": "Amsterdam",
+  "collaborationDepthScore": 50.0,
+  "confidenceScore": 69.5415,
+  "countryCode": "NL",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 73.1922,
+  "expertQualityScore": 46.2116,
+  "expertSupplyScore": 63.1233,
+  "geoId": "NL-amsterdam",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.3636,
+  "name": "Amsterdam",
+  "observableExpertCount": 11,
+  "opportunityScore": 53.2758,
+  "organizationCount": 8,
+  "qualifiedRepoCount": 11,
+  "rank": 14,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "cloud_platforms_sdks",
+   "containers_orchestration",
+   "cicd_developer_tooling",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 4.8049
+ },
+ "subdomainMix": []
+}

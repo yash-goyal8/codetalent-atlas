@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 22.5,
+  "ecosystemBreadthScore": 32.9168,
+  "expertQualityScore": 26.5875,
+  "expertSupplyScore": 22.3128,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 4
+ },
+ "ranking": {
+  "city": "Ottawa",
+  "collaborationDepthScore": 22.5,
+  "confidenceScore": 52.5367,
+  "countryCode": "CA",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 32.9168,
+  "expertQualityScore": 26.5875,
+  "expertSupplyScore": 22.3128,
+  "geoId": "CA-ottawa",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Ottawa",
+  "observableExpertCount": 4,
+  "opportunityScore": 24.9524,
+  "organizationCount": 3,
+  "qualifiedRepoCount": 3,
+  "rank": 142,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "observability_monitoring",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 1.1378
+ },
+ "subdomainMix": []
+}

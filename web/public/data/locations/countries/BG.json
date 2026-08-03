@@ -1,0 +1,104 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 11,
+   "events": 119,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 10,
+   "events": 90,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 5,
+   "events": 36,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 40% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 44.4444,
+  "ecosystemBreadthScore": 48.3995,
+  "expertQualityScore": 37.7216,
+  "expertSupplyScore": 29.3465,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.3995
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 9
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 44.4444,
+  "confidenceScore": 62.479,
+  "countryCode": "BG",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 48.3995,
+  "expertQualityScore": 37.7216,
+  "expertSupplyScore": 29.3465,
+  "geoId": "BG",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.1111,
+  "name": "Bulgaria",
+  "observableExpertCount": 9,
+  "opportunityScore": 35.5944,
+  "organizationCount": 7,
+  "qualifiedRepoCount": 8,
+  "rank": 43,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "configuration_management",
+   "infrastructure_as_code",
+   "service_mesh_networking",
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 3.5281
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 5,
+   "share": 0.5556,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 1,
+   "share": 0.1111,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 1,
+   "share": 0.1111,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 1,
+   "share": 0.1111,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 1,
+   "share": 0.1111,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

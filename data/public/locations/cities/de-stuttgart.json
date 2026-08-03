@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 40.0,
+  "ecosystemBreadthScore": 32.1323,
+  "expertQualityScore": 28.1091,
+  "expertSupplyScore": 25.6209,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 3
+ },
+ "ranking": {
+  "city": "Stuttgart",
+  "collaborationDepthScore": 40.0,
+  "confidenceScore": 51.7758,
+  "countryCode": "DE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 32.1323,
+  "expertQualityScore": 28.1091,
+  "expertSupplyScore": 25.6209,
+  "geoId": "DE-stuttgart",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Stuttgart",
+  "observableExpertCount": 3,
+  "opportunityScore": 29.1133,
+  "organizationCount": 3,
+  "qualifiedRepoCount": 3,
+  "rank": 117,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "cicd_developer_tooling",
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 1.1256
+ },
+ "subdomainMix": []
+}

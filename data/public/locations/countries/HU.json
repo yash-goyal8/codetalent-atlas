@@ -1,0 +1,97 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 12,
+   "events": 29,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 7,
+   "events": 36,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 4,
+   "events": 46,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 45% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 37.5,
+  "ecosystemBreadthScore": 48.1204,
+  "expertQualityScore": 32.9415,
+  "expertSupplyScore": 26.3399,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.4468
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.625,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 8
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 37.5,
+  "confidenceScore": 53.5202,
+  "countryCode": "HU",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 48.1204,
+  "expertQualityScore": 32.9415,
+  "expertSupplyScore": 26.3399,
+  "geoId": "HU",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.625,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.375,
+  "name": "Hungary",
+  "observableExpertCount": 8,
+  "opportunityScore": 32.0385,
+  "organizationCount": 9,
+  "qualifiedRepoCount": 11,
+  "rank": 49,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "containers_orchestration",
+   "infrastructure_as_code",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 2.906
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 3,
+   "share": 0.375,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 2,
+   "share": 0.25,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 2,
+   "share": 0.25,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 1,
+   "share": 0.125,
+   "subdomainId": "infrastructure_as_code"
+  }
+ ]
+}

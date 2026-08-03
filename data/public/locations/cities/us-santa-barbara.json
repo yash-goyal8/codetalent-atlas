@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 28.3446,
+  "expertSupplyScore": 3.0776,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Santa Barbara",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "US",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 28.3446,
+  "expertSupplyScore": 3.0776,
+  "geoId": "US-santa-barbara",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Santa Barbara",
+  "observableExpertCount": 1,
+  "opportunityScore": 21.0805,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 173,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management"
+  ],
+  "weightedExpertCount": 0.4049
+ },
+ "subdomainMix": []
+}

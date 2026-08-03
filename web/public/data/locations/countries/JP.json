@@ -1,0 +1,115 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 76,
+   "events": 446,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 44,
+   "events": 295,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 30,
+   "events": 120,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 46.5455,
+  "ecosystemBreadthScore": 81.0317,
+  "expertQualityScore": 38.4024,
+  "expertSupplyScore": 61.7507,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": 0.1327
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.9455,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 55
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 46.5455,
+  "confidenceScore": 76.7038,
+  "countryCode": "JP",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 81.0317,
+  "expertQualityScore": 38.4024,
+  "expertSupplyScore": 61.7507,
+  "geoId": "JP",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.9455,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2364,
+  "name": "Japan",
+  "observableExpertCount": 55,
+  "opportunityScore": 50.7184,
+  "organizationCount": 40,
+  "qualifiedRepoCount": 52,
+  "rank": 13,
+  "recommendationTier": "monitor",
+  "topSubdomains": [
+   "containers_orchestration",
+   "cicd_developer_tooling",
+   "service_mesh_networking",
+   "infrastructure_as_code",
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 21.2689
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 19,
+   "share": 0.2794,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 14,
+   "share": 0.2059,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 8,
+   "share": 0.1176,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 8,
+   "share": 0.1176,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 8,
+   "share": 0.1176,
+   "subdomainId": "service_mesh_networking"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 6,
+   "share": 0.0882,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "CI/CD and Developer Tooling",
+   "expertCount": 5,
+   "share": 0.0735,
+   "subdomainId": "cicd_developer_tooling"
+  }
+ ]
+}

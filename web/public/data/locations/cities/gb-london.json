@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 55.8065,
+  "ecosystemBreadthScore": 94.5336,
+  "expertQualityScore": 52.6607,
+  "expertSupplyScore": 99.5758,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 31
+ },
+ "ranking": {
+  "city": "London",
+  "collaborationDepthScore": 55.8065,
+  "confidenceScore": 74.9906,
+  "countryCode": "GB",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 94.5336,
+  "expertQualityScore": 52.6607,
+  "expertSupplyScore": 99.5758,
+  "geoId": "GB-london",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.3548,
+  "name": "London",
+  "observableExpertCount": 31,
+  "opportunityScore": 70.9741,
+  "organizationCount": 27,
+  "qualifiedRepoCount": 38,
+  "rank": 1,
+  "recommendationTier": "promising",
+  "topSubdomains": [
+   "observability_monitoring",
+   "cloud_platforms_sdks",
+   "containers_orchestration",
+   "configuration_management",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 14.4134
+ },
+ "subdomainMix": []
+}

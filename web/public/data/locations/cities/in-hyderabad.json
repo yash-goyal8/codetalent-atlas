@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 46.0,
+  "ecosystemBreadthScore": 29.8587,
+  "expertQualityScore": 32.3516,
+  "expertSupplyScore": 33.6297,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 5
+ },
+ "ranking": {
+  "city": "Hyderabad",
+  "collaborationDepthScore": 46.0,
+  "confidenceScore": 54.7886,
+  "countryCode": "IN",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 29.8587,
+  "expertQualityScore": 32.3516,
+  "expertSupplyScore": 33.6297,
+  "geoId": "IN-hyderabad",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.4,
+  "name": "Hyderabad",
+  "observableExpertCount": 5,
+  "opportunityScore": 33.8618,
+  "organizationCount": 4,
+  "qualifiedRepoCount": 6,
+  "rank": 98,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 1.7496
+ },
+ "subdomainMix": []
+}

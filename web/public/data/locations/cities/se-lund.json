@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 26.8072,
+  "expertSupplyScore": 2.7943,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Lund",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "SE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 26.8072,
+  "expertSupplyScore": 2.7943,
+  "geoId": "SE-lund",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Lund",
+  "observableExpertCount": 1,
+  "opportunityScore": 23.0202,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 157,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management"
+  ],
+  "weightedExpertCount": 0.383
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 40.0,
+  "ecosystemBreadthScore": 49.664,
+  "expertQualityScore": 21.3984,
+  "expertSupplyScore": 36.3649,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 6
+ },
+ "ranking": {
+  "city": "Hamburg",
+  "collaborationDepthScore": 40.0,
+  "confidenceScore": 62.058,
+  "countryCode": "DE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 49.664,
+  "expertQualityScore": 21.3984,
+  "expertSupplyScore": 36.3649,
+  "geoId": "DE-hamburg",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Hamburg",
+  "observableExpertCount": 6,
+  "opportunityScore": 32.6137,
+  "organizationCount": 5,
+  "qualifiedRepoCount": 5,
+  "rank": 106,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "configuration_management",
+   "cicd_developer_tooling"
+  ],
+  "weightedExpertCount": 1.8345
+ },
+ "subdomainMix": []
+}

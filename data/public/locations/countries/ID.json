@@ -1,0 +1,85 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 8,
+   "events": 19,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 4,
+   "events": 6,
+   "month": "202606"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 34% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 43.3333,
+  "ecosystemBreadthScore": 37.5344,
+  "expertQualityScore": 18.0604,
+  "expertSupplyScore": 11.4903,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.3429
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 3
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 43.3333,
+  "confidenceScore": 58.7528,
+  "countryCode": "ID",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 37.5344,
+  "expertQualityScore": 18.0604,
+  "expertSupplyScore": 11.4903,
+  "geoId": "ID",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.3333,
+  "name": "Indonesia",
+  "observableExpertCount": 3,
+  "opportunityScore": 22.1932,
+  "organizationCount": 4,
+  "qualifiedRepoCount": 4,
+  "rank": 71,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management",
+   "cloud_platforms_sdks",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 0.8824
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 2,
+   "share": 0.5,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 1,
+   "share": 0.25,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 1,
+   "share": 0.25,
+   "subdomainId": "infrastructure_as_code"
+  }
+ ]
+}

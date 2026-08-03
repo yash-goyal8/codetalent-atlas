@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 55.5556,
+  "ecosystemBreadthScore": 67.7609,
+  "expertQualityScore": 39.5039,
+  "expertSupplyScore": 57.8026,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 9
+ },
+ "ranking": {
+  "city": "Dublin",
+  "collaborationDepthScore": 55.5556,
+  "confidenceScore": 65.6401,
+  "countryCode": "IE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 67.7609,
+  "expertQualityScore": 39.5039,
+  "expertSupplyScore": 57.8026,
+  "geoId": "IE-dublin",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2222,
+  "name": "Dublin",
+  "observableExpertCount": 9,
+  "opportunityScore": 49.6915,
+  "organizationCount": 11,
+  "qualifiedRepoCount": 12,
+  "rank": 19,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "service_mesh_networking",
+   "containers_orchestration",
+   "cicd_developer_tooling",
+   "cloud_platforms_sdks",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 4.0337
+ },
+ "subdomainMix": []
+}

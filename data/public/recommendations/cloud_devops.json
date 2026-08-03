@@ -1,0 +1,50 @@
+{
+ "generatedAt": "2026-08-03T21:07:24Z",
+ "items": [
+  {
+   "confidenceScore": 58.065,
+   "geoId": "US",
+   "name": "United States",
+   "observablePool": 684,
+   "opportunityScore": 67.1994,
+   "rank": 1,
+   "risk": "Weakest component: expert quality (41.6); located-profile coverage 46%. Momentum provisional (three-month pilot).",
+   "subdomains": [
+    "Cloud Platforms and SDKs",
+    "Containers and Orchestration"
+   ],
+   "suggestedPilot": "Run a small sourcing pilot targeting Cloud Platforms and SDKs and Containers and Orchestration contributors; validate response and qualification rates before scaling.",
+   "whyNow": "United States ranks #1 with opportunity 67.2 and confidence 58.1; strongest component: expert supply (100.0). 684 observable experts across 301 qualified repositories and 180 organizations."
+  },
+  {
+   "confidenceScore": 70.6383,
+   "geoId": "DE",
+   "name": "Germany",
+   "observablePool": 284,
+   "opportunityScore": 63.9115,
+   "rank": 2,
+   "risk": "Weakest component: expert quality (37.2); located-profile coverage 46%. Momentum provisional (three-month pilot).",
+   "subdomains": [
+    "Containers and Orchestration",
+    "Cloud Platforms and SDKs"
+   ],
+   "suggestedPilot": "Run a small sourcing pilot targeting Containers and Orchestration and Cloud Platforms and SDKs contributors; validate response and qualification rates before scaling.",
+   "whyNow": "Germany ranks #2 with opportunity 63.9 and confidence 70.6; strongest component: expert supply (96.1). 284 observable experts across 133 qualified repositories and 96 organizations."
+  },
+  {
+   "confidenceScore": 76.8373,
+   "geoId": "IN",
+   "name": "India",
+   "observablePool": 245,
+   "opportunityScore": 60.3239,
+   "rank": 3,
+   "risk": "Weakest component: expert quality (33.2); located-profile coverage 46%. Momentum provisional (three-month pilot).",
+   "subdomains": [
+    "Containers and Orchestration",
+    "Observability and Monitoring"
+   ],
+   "suggestedPilot": "Run a small sourcing pilot targeting Containers and Orchestration and Observability and Monitoring contributors; validate response and qualification rates before scaling.",
+   "whyNow": "India ranks #3 with opportunity 60.3 and confidence 76.8; strongest component: ecosystem breadth (96.1). 245 observable experts across 152 qualified repositories and 95 organizations."
+  }
+ ]
+}

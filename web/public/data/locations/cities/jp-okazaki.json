@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 0.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 18.6661,
+  "expertSupplyScore": 1.2572,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Okazaki",
+  "collaborationDepthScore": 0.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "JP",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 18.6661,
+  "expertSupplyScore": 1.2572,
+  "geoId": "JP-okazaki",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Okazaki",
+  "observableExpertCount": 1,
+  "opportunityScore": 11.0399,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 245,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 0.2667
+ },
+ "subdomainMix": []
+}

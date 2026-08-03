@@ -1,0 +1,97 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 27,
+   "events": 197,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 20,
+   "events": 206,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 12,
+   "events": 111,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 53% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 40.8333,
+  "ecosystemBreadthScore": 49.138,
+  "expertQualityScore": 36.3613,
+  "expertSupplyScore": 45.9925,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.5318
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 24
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 40.8333,
+  "confidenceScore": 64.6412,
+  "countryCode": "TW",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 49.138,
+  "expertQualityScore": 36.3613,
+  "expertSupplyScore": 45.9925,
+  "geoId": "TW",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0833,
+  "name": "Taiwan, Province of China",
+  "observableExpertCount": 24,
+  "opportunityScore": 40.5445,
+  "organizationCount": 12,
+  "qualifiedRepoCount": 14,
+  "rank": 30,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "containers_orchestration",
+   "configuration_management",
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 9.2633
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 13,
+   "share": 0.5,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 9,
+   "share": 0.3462,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 2,
+   "share": 0.0769,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 2,
+   "share": 0.0769,
+   "subdomainId": "observability_monitoring"
+  }
+ ]
+}

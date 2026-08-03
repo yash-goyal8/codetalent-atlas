@@ -1,0 +1,76 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 1,
+   "events": 19,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 1,
+   "events": 15,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 1,
+   "events": 9,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 100% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 67.288,
+  "expertSupplyScore": 2.5517,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 1.0
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.3877,
+  "countryCode": "SH",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 67.288,
+  "expertSupplyScore": 2.5517,
+  "geoId": "SH",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Saint Helena, Ascension and Tristan da Cunha",
+  "observableExpertCount": 1,
+  "opportunityScore": 35.0795,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 45,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 0.5327
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 1,
+   "share": 1.0,
+   "subdomainId": "infrastructure_as_code"
+  }
+ ]
+}

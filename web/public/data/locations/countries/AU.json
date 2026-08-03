@@ -1,0 +1,115 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 105,
+   "events": 1641,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 71,
+   "events": 931,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 40,
+   "events": 611,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 52.5,
+  "ecosystemBreadthScore": 77.7249,
+  "expertQualityScore": 44.2623,
+  "expertSupplyScore": 70.9046,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": 0.1626
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.6944,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 72
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 52.5,
+  "confidenceScore": 70.8052,
+  "countryCode": "AU",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 77.7249,
+  "expertQualityScore": 44.2623,
+  "expertSupplyScore": 70.9046,
+  "geoId": "AU",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.6944,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.25,
+  "name": "Australia",
+  "observableExpertCount": 72,
+  "opportunityScore": 56.2428,
+  "organizationCount": 28,
+  "qualifiedRepoCount": 49,
+  "rank": 8,
+  "recommendationTier": "monitor",
+  "topSubdomains": [
+   "cicd_developer_tooling",
+   "observability_monitoring",
+   "service_mesh_networking",
+   "cloud_platforms_sdks",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 33.9238
+ },
+ "subdomainMix": [
+  {
+   "displayName": "CI/CD and Developer Tooling",
+   "expertCount": 23,
+   "share": 0.2556,
+   "subdomainId": "cicd_developer_tooling"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 16,
+   "share": 0.1778,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 12,
+   "share": 0.1333,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 12,
+   "share": 0.1333,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 12,
+   "share": 0.1333,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 8,
+   "share": 0.0889,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 7,
+   "share": 0.0778,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

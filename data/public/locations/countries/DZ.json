@@ -1,0 +1,66 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 1,
+   "events": 2,
+   "month": "202605"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 100% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 0.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 12.2625,
+  "expertSupplyScore": 0.0,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 1.0
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 0.0,
+  "confidenceScore": 42.3877,
+  "countryCode": "DZ",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 12.2625,
+  "expertSupplyScore": 0.0,
+  "geoId": "DZ",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Algeria",
+  "observableExpertCount": 1,
+  "opportunityScore": 8.6787,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 87,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management"
+  ],
+  "weightedExpertCount": 0.1752
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 1,
+   "share": 1.0,
+   "subdomainId": "configuration_management"
+  }
+ ]
+}

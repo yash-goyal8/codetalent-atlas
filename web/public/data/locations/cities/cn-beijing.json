@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 55.625,
+  "ecosystemBreadthScore": 77.2489,
+  "expertQualityScore": 31.6545,
+  "expertSupplyScore": 72.0924,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 16
+ },
+ "ranking": {
+  "city": "Beijing",
+  "collaborationDepthScore": 55.625,
+  "confidenceScore": 71.3349,
+  "countryCode": "CN",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 77.2489,
+  "expertQualityScore": 31.6545,
+  "expertSupplyScore": 72.0924,
+  "geoId": "CN-beijing",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.125,
+  "name": "Beijing",
+  "observableExpertCount": 16,
+  "opportunityScore": 53.2973,
+  "organizationCount": 11,
+  "qualifiedRepoCount": 16,
+  "rank": 13,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "containers_orchestration",
+   "observability_monitoring",
+   "infrastructure_as_code",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 6.3815
+ },
+ "subdomainMix": []
+}

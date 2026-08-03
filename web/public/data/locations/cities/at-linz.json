@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 0.0,
+  "ecosystemBreadthScore": 5.8496,
+  "expertQualityScore": 21.0132,
+  "expertSupplyScore": 1.7069,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Linz",
+  "collaborationDepthScore": 0.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "AT",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 5.8496,
+  "expertQualityScore": 21.0132,
+  "expertSupplyScore": 1.7069,
+  "geoId": "AT-linz",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Linz",
+  "observableExpertCount": 1,
+  "opportunityScore": 9.9863,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 247,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 0.3002
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,55 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 36.6667,
+  "ecosystemBreadthScore": 53.5426,
+  "expertQualityScore": 32.1441,
+  "expertSupplyScore": 41.1693,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 6
+ },
+ "ranking": {
+  "city": "Granada",
+  "collaborationDepthScore": 36.6667,
+  "confidenceScore": 62.4175,
+  "countryCode": "ES",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 53.5426,
+  "expertQualityScore": 32.1441,
+  "expertSupplyScore": 41.1693,
+  "geoId": "ES-granada",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.1667,
+  "name": "Granada",
+  "observableExpertCount": 6,
+  "opportunityScore": 37.4067,
+  "organizationCount": 6,
+  "qualifiedRepoCount": 7,
+  "rank": 71,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "containers_orchestration",
+   "infrastructure_as_code",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 2.2238
+ },
+ "subdomainMix": []
+}

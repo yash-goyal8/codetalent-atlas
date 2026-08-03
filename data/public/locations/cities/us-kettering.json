@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 25.7001,
+  "expertSupplyScore": 2.589,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Kettering",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "US",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 25.7001,
+  "expertSupplyScore": 2.589,
+  "geoId": "US-kettering",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Kettering",
+  "observableExpertCount": 1,
+  "opportunityScore": 20.1162,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 186,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 0.3671
+ },
+ "subdomainMix": []
+}

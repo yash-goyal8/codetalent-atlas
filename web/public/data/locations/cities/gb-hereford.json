@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 26.2464,
+  "expertSupplyScore": 2.6904,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Hereford",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "GB",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 26.2464,
+  "expertSupplyScore": 2.6904,
+  "geoId": "GB-hereford",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Hereford",
+  "observableExpertCount": 1,
+  "opportunityScore": 22.8156,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 158,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.3749
+ },
+ "subdomainMix": []
+}

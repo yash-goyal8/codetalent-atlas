@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 33.1867,
+  "expertSupplyScore": 3.9561,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Linköping",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "SE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 33.1867,
+  "expertSupplyScore": 3.9561,
+  "geoId": "SE-linköping",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Linköping",
+  "observableExpertCount": 1,
+  "opportunityScore": 25.3406,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 139,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cicd_developer_tooling"
+  ],
+  "weightedExpertCount": 0.4741
+ },
+ "subdomainMix": []
+}

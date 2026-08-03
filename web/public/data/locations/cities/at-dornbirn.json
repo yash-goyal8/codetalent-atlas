@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 75.3479,
+  "expertSupplyScore": 6.0753,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Dornbirn",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "AT",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 75.3479,
+  "expertSupplyScore": 6.0753,
+  "geoId": "AT-dornbirn",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Dornbirn",
+  "observableExpertCount": 1,
+  "opportunityScore": 38.7307,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 65,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 0.6478
+ },
+ "subdomainMix": []
+}

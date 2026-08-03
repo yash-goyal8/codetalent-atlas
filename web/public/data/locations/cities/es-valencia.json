@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 30.0,
+  "ecosystemBreadthScore": 17.9998,
+  "expertQualityScore": 33.3752,
+  "expertSupplyScore": 13.9245,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": "Valencia",
+  "collaborationDepthScore": 30.0,
+  "confidenceScore": 47.1202,
+  "countryCode": "ES",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 17.9998,
+  "expertQualityScore": 33.3752,
+  "expertSupplyScore": 13.9245,
+  "geoId": "ES-valencia",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Valencia",
+  "observableExpertCount": 2,
+  "opportunityScore": 26.1861,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 2,
+  "rank": 127,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 0.7361
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,76 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 3,
+   "events": 42,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 1,
+   "events": 21,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 1,
+   "events": 1,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 100% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 67.809,
+  "expertSupplyScore": 2.6015,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 1.0
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.3877,
+  "countryCode": "CY",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 67.809,
+  "expertSupplyScore": 2.6015,
+  "geoId": "CY",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Cyprus",
+  "observableExpertCount": 1,
+  "opportunityScore": 35.2532,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 44,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 0.5401
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 1,
+   "share": 1.0,
+   "subdomainId": "cloud_platforms_sdks"
+  }
+ ]
+}

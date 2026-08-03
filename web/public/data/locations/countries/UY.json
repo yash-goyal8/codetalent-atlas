@@ -1,0 +1,71 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 3,
+   "events": 5,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 1,
+   "events": 1,
+   "month": "202606"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 100% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 30.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 19.4703,
+  "expertSupplyScore": 0.7683,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 1.0
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 30.0,
+  "confidenceScore": 42.3877,
+  "countryCode": "UY",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 19.4703,
+  "expertSupplyScore": 0.7683,
+  "geoId": "UY",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Uruguay",
+  "observableExpertCount": 1,
+  "opportunityScore": 13.11,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 79,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 0.2781
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 1,
+   "share": 1.0,
+   "subdomainId": "observability_monitoring"
+  }
+ ]
+}

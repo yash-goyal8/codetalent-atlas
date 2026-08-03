@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 50.0,
+  "ecosystemBreadthScore": 26.4181,
+  "expertQualityScore": 51.5332,
+  "expertSupplyScore": 17.082,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": "Chandigarh",
+  "collaborationDepthScore": 50.0,
+  "confidenceScore": 47.0711,
+  "countryCode": "IN",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 26.4181,
+  "expertQualityScore": 51.5332,
+  "expertSupplyScore": 17.082,
+  "geoId": "IN-chandigarh",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.5,
+  "name": "Chandigarh",
+  "observableExpertCount": 2,
+  "opportunityScore": 34.0804,
+  "organizationCount": 3,
+  "qualifiedRepoCount": 3,
+  "rank": 97,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "cloud_platforms_sdks",
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 0.8663
+ },
+ "subdomainMix": []
+}

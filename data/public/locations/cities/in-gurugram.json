@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 0.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 19.54,
+  "expertSupplyScore": 1.4253,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Gurugram",
+  "collaborationDepthScore": 0.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "IN",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 19.54,
+  "expertSupplyScore": 1.4253,
+  "geoId": "IN-gurugram",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Gurugram",
+  "observableExpertCount": 1,
+  "opportunityScore": 11.3608,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 244,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "sre_reliability"
+  ],
+  "weightedExpertCount": 0.2791
+ },
+ "subdomainMix": []
+}

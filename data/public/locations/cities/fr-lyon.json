@@ -1,0 +1,55 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 47.5049,
+  "expertQualityScore": 49.4856,
+  "expertSupplyScore": 42.1092,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 5
+ },
+ "ranking": {
+  "city": "Lyon",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 57.6219,
+  "countryCode": "FR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 47.5049,
+  "expertQualityScore": 49.4856,
+  "expertSupplyScore": 42.1092,
+  "geoId": "FR-lyon",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Lyon",
+  "observableExpertCount": 5,
+  "opportunityScore": 45.8344,
+  "organizationCount": 5,
+  "qualifiedRepoCount": 5,
+  "rank": 38,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "containers_orchestration",
+   "configuration_management",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 2.306
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 67.0193,
+  "expertSupplyScore": 4.637,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Limbiate",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "IT",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 67.0193,
+  "expertSupplyScore": 4.637,
+  "geoId": "IT-limbiate",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Limbiate",
+  "observableExpertCount": 1,
+  "opportunityScore": 35.7287,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 85,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 0.5288
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 92.5,
+  "ecosystemBreadthScore": 52.4083,
+  "expertQualityScore": 58.4073,
+  "expertSupplyScore": 41.3652,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 4
+ },
+ "ranking": {
+  "city": "Portland",
+  "collaborationDepthScore": 92.5,
+  "confidenceScore": 62.5483,
+  "countryCode": "US",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 52.4083,
+  "expertQualityScore": 58.4073,
+  "expertSupplyScore": 41.3652,
+  "geoId": "US-portland",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 1.0,
+  "name": "Portland",
+  "observableExpertCount": 4,
+  "opportunityScore": 53.6158,
+  "organizationCount": 6,
+  "qualifiedRepoCount": 8,
+  "rank": 12,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "containers_orchestration",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 2.2408
+ },
+ "subdomainMix": []
+}

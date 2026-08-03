@@ -1,0 +1,97 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 16,
+   "events": 24,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 4,
+   "events": 4,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 3,
+   "events": 4,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 26% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 46.0,
+  "ecosystemBreadthScore": 48.6496,
+  "expertQualityScore": 22.6064,
+  "expertSupplyScore": 18.0978,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.2609
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 5
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 46.0,
+  "confidenceScore": 63.6148,
+  "countryCode": "TR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 48.6496,
+  "expertQualityScore": 22.6064,
+  "expertSupplyScore": 18.0978,
+  "geoId": "TR",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.4,
+  "name": "Türkiye",
+  "observableExpertCount": 5,
+  "opportunityScore": 27.3811,
+  "organizationCount": 7,
+  "qualifiedRepoCount": 7,
+  "rank": 60,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "observability_monitoring",
+   "service_mesh_networking",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 1.6048
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 2,
+   "share": 0.4,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 1,
+   "share": 0.2,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 1,
+   "share": 0.2,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 1,
+   "share": 0.2,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

@@ -180,3 +180,5 @@ timestamp,phase,query_name,estimated_bytes,actual_bytes,runtime_seconds,status
 2026-08-02T05:33:50Z,phase3,quality_checks,1558961856,0,0.408,dry_run
 2026-08-02T05:33:53Z,phase3,quality_checks,1558961856,1558961856,2.327,success
 2026-08-02T05:37:48Z,phase3,report_probe_accepted_splits,23719391,23719391,0.226,success
+2026-08-03T21:03:12Z,phase3,qualified_actor_monthly_events,3440823012,0,1.224,dry_run
+2026-08-03T21:03:15Z,phase3,qualified_actor_monthly_events,3440823012,3440823012,3.788,success

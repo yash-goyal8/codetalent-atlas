@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 45.0,
+  "ecosystemBreadthScore": 24.0021,
+  "expertQualityScore": 30.1522,
+  "expertSupplyScore": 14.2405,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": "Brussels",
+  "collaborationDepthScore": 45.0,
+  "confidenceScore": 51.9221,
+  "countryCode": "BE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 24.0021,
+  "expertQualityScore": 30.1522,
+  "expertSupplyScore": 14.2405,
+  "geoId": "BE-brussels",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Brussels",
+  "observableExpertCount": 2,
+  "opportunityScore": 25.68,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 2,
+  "rank": 132,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 0.7127
+ },
+ "subdomainMix": []
+}

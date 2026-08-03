@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 0.0,
+  "ecosystemBreadthScore": 20.7326,
+  "expertQualityScore": 20.0563,
+  "expertSupplyScore": 11.0378,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": "Copenhagen",
+  "collaborationDepthScore": 0.0,
+  "confidenceScore": 49.3064,
+  "countryCode": "DK",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 20.7326,
+  "expertQualityScore": 20.0563,
+  "expertSupplyScore": 11.0378,
+  "geoId": "DK-copenhagen",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Copenhagen",
+  "observableExpertCount": 2,
+  "opportunityScore": 14.4534,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 2,
+  "rank": 230,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "infrastructure_as_code",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 0.5477
+ },
+ "subdomainMix": []
+}

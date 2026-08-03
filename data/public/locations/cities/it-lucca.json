@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 34.3546,
+  "expertSupplyScore": 4.1649,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Lucca",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "IT",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 34.3546,
+  "expertSupplyScore": 4.1649,
+  "geoId": "IT-lucca",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Lucca",
+  "observableExpertCount": 1,
+  "opportunityScore": 25.7641,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 129,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cicd_developer_tooling"
+  ],
+  "weightedExpertCount": 0.4908
+ },
+ "subdomainMix": []
+}

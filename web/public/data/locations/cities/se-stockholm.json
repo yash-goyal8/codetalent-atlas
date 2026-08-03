@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 31.6667,
+  "ecosystemBreadthScore": 24.5759,
+  "expertQualityScore": 29.526,
+  "expertSupplyScore": 37.0441,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 6
+ },
+ "ranking": {
+  "city": "Stockholm",
+  "collaborationDepthScore": 31.6667,
+  "confidenceScore": 49.9099,
+  "countryCode": "SE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 24.5759,
+  "expertQualityScore": 29.526,
+  "expertSupplyScore": 37.0441,
+  "geoId": "SE-stockholm",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.1667,
+  "name": "Stockholm",
+  "observableExpertCount": 6,
+  "opportunityScore": 31.5308,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 4,
+  "rank": 111,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "configuration_management",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 2.3528
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,78 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 4,
+   "events": 18,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 1,
+   "events": 1,
+   "month": "202606"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 50% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 0.0,
+  "ecosystemBreadthScore": 23.1525,
+  "expertQualityScore": 12.252,
+  "expertSupplyScore": 3.5674,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.5
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 0.0,
+  "confidenceScore": 53.4988,
+  "countryCode": "PK",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 23.1525,
+  "expertQualityScore": 12.252,
+  "expertSupplyScore": 3.5674,
+  "geoId": "PK",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Pakistan",
+  "observableExpertCount": 2,
+  "opportunityScore": 12.2394,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 2,
+  "rank": 83,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management",
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 0.344
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 1,
+   "share": 0.5,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 1,
+   "share": 0.5,
+   "subdomainId": "observability_monitoring"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 5.8496,
+  "expertQualityScore": 78.9174,
+  "expertSupplyScore": 6.6751,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Thessaloníki",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "GR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 5.8496,
+  "expertQualityScore": 78.9174,
+  "expertSupplyScore": 6.6751,
+  "geoId": "GR-thessaloníki",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Thessaloníki",
+  "observableExpertCount": 1,
+  "opportunityScore": 40.5965,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 52,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cicd_developer_tooling",
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.6988
+ },
+ "subdomainMix": []
+}

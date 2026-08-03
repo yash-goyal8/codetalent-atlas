@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 58.3333,
+  "ecosystemBreadthScore": 80.2318,
+  "expertQualityScore": 48.9285,
+  "expertSupplyScore": 82.8266,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 18
+ },
+ "ranking": {
+  "city": "Melbourne",
+  "collaborationDepthScore": 58.3333,
+  "confidenceScore": 72.0292,
+  "countryCode": "AU",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 80.2318,
+  "expertQualityScore": 48.9285,
+  "expertSupplyScore": 82.8266,
+  "geoId": "AU-melbourne",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.3333,
+  "name": "Melbourne",
+  "observableExpertCount": 18,
+  "opportunityScore": 62.941,
+  "organizationCount": 11,
+  "qualifiedRepoCount": 22,
+  "rank": 6,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cicd_developer_tooling",
+   "service_mesh_networking",
+   "observability_monitoring",
+   "infrastructure_as_code",
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 8.8408
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 30.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 27.9057,
+  "expertSupplyScore": 2.9969,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Edinburgh",
+  "collaborationDepthScore": 30.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "GB",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 27.9057,
+  "expertSupplyScore": 2.9969,
+  "geoId": "GB-edinburgh",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Edinburgh",
+  "observableExpertCount": 1,
+  "opportunityScore": 18.9206,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 197,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cicd_developer_tooling"
+  ],
+  "weightedExpertCount": 0.3987
+ },
+ "subdomainMix": []
+}

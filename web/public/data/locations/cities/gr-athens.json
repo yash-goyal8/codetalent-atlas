@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 40.4151,
+  "expertQualityScore": 54.8769,
+  "expertSupplyScore": 39.0683,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 4
+ },
+ "ranking": {
+  "city": "Athens",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 56.1293,
+  "countryCode": "GR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 40.4151,
+  "expertQualityScore": 54.8769,
+  "expertSupplyScore": 39.0683,
+  "geoId": "GR-athens",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Athens",
+  "observableExpertCount": 4,
+  "opportunityScore": 48.1785,
+  "organizationCount": 4,
+  "qualifiedRepoCount": 4,
+  "rank": 27,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "observability_monitoring",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 2.0474
+ },
+ "subdomainMix": []
+}

@@ -181,7 +181,26 @@ def _resolve_city_in_country(
 def _resolve_single_term(
     actor_login: str, raw: str, term: str, gazetteer: Gazetteer
 ) -> NormalizedLocation:
-    """Stages 7-10 for a lone term: unique city, bare region, else unresolved."""
+    """Stages 7-10 for a lone term: region, unique city, else unresolved.
+
+    Regions are checked BEFORE city dominance: a bare US state or known region
+    name ("Virginia", "Bavaria") is a region statement even when some city
+    somewhere shares the name (the 500-string review caught "Virginia" mapping
+    to a South African town). Cost: "New York" resolves as the state (region,
+    correct country) rather than the city — the honest reading of a bare
+    state-name string.
+    """
+    region_first = gazetteer.region_country(term)
+    if region_first is not None:
+        return _country_record(
+            actor_login,
+            raw,
+            region_first,
+            gazetteer,
+            level=LocationLevel.REGION,
+            confidence=LocationConfidence.LOW,
+            reason="broad region only",
+        )
     dominant, ambiguous = gazetteer.dominant_city(term)
     if dominant is not None:
         return _city_record(
@@ -313,6 +332,18 @@ def normalize_location(
         # Stage 6: city-country pair (country anchor in the last segment).
         anchor_country = gaz.country_code_for(last)
         if anchor_country is not None:
+            if anchor_country == "US" and gaz.us_state_code(head) is not None:
+                # "Maryland, USA" / "New York, USA": a US state name before a
+                # US anchor is a region statement, not a city (the review
+                # caught "Maryland" matching the town Maryland City).
+                return _country_record(
+                    actor_login,
+                    raw_location,
+                    "US",
+                    gaz,
+                    level=LocationLevel.REGION,
+                    confidence=LocationConfidence.MEDIUM,
+                )
             middle = segments[-2] if len(segments) >= 3 else None
             admin1 = (
                 gaz.us_state_code(middle) if middle is not None and anchor_country == "US" else None

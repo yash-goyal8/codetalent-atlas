@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 32.47,
+  "expertSupplyScore": 3.8273,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Barreiro",
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "PT",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 32.47,
+  "expertSupplyScore": 3.8273,
+  "geoId": "PT-barreiro",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Barreiro",
+  "observableExpertCount": 1,
+  "opportunityScore": 25.0806,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 141,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.4639
+ },
+ "subdomainMix": []
+}

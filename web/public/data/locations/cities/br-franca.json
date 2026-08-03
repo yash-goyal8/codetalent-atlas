@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 100.0,
+  "ecosystemBreadthScore": 4.2779,
+  "expertQualityScore": 26.3496,
+  "expertSupplyScore": 7.3003,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Franca",
+  "collaborationDepthScore": 100.0,
+  "confidenceScore": 47.6221,
+  "countryCode": "BR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 4.2779,
+  "expertQualityScore": 26.3496,
+  "expertSupplyScore": 7.3003,
+  "geoId": "BR-franca",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 1.0,
+  "name": "Franca",
+  "observableExpertCount": 1,
+  "opportunityScore": 28.3878,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 2,
+  "rank": 120,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.3764
+ },
+ "subdomainMix": []
+}

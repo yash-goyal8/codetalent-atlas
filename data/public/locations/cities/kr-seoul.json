@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 32.3077,
+  "ecosystemBreadthScore": 69.2994,
+  "expertQualityScore": 29.5449,
+  "expertSupplyScore": 60.5419,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 13
+ },
+ "ranking": {
+  "city": "Seoul",
+  "collaborationDepthScore": 32.3077,
+  "confidenceScore": 65.5821,
+  "countryCode": "KR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 69.2994,
+  "expertQualityScore": 29.5449,
+  "expertSupplyScore": 60.5419,
+  "geoId": "KR-seoul",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2308,
+  "name": "Seoul",
+  "observableExpertCount": 13,
+  "opportunityScore": 44.3292,
+  "organizationCount": 13,
+  "qualifiedRepoCount": 16,
+  "rank": 42,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "service_mesh_networking",
+   "containers_orchestration",
+   "observability_monitoring",
+   "cicd_developer_tooling",
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 4.417
+ },
+ "subdomainMix": []
+}

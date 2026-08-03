@@ -1,0 +1,122 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 193,
+   "events": 1828,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 127,
+   "events": 1688,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 86,
+   "events": 999,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 37% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 50.1408,
+  "ecosystemBreadthScore": 82.1426,
+  "expertQualityScore": 42.7595,
+  "expertSupplyScore": 82.7824,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.374
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.6761,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 142
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 50.1408,
+  "confidenceScore": 68.0636,
+  "countryCode": "CN",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 82.1426,
+  "expertQualityScore": 42.7595,
+  "expertSupplyScore": 82.7824,
+  "geoId": "CN",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.6761,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.1972,
+  "name": "China",
+  "observableExpertCount": 142,
+  "opportunityScore": 60.0371,
+  "organizationCount": 57,
+  "qualifiedRepoCount": 87,
+  "rank": 4,
+  "recommendationTier": "promising",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "observability_monitoring",
+   "containers_orchestration",
+   "service_mesh_networking",
+   "cicd_developer_tooling"
+  ],
+  "weightedExpertCount": 61.6177
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 47,
+   "share": 0.2919,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 40,
+   "share": 0.2484,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 34,
+   "share": 0.2112,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 21,
+   "share": 0.1304,
+   "subdomainId": "service_mesh_networking"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 7,
+   "share": 0.0435,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 6,
+   "share": 0.0373,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "CI/CD and Developer Tooling",
+   "expertCount": 4,
+   "share": 0.0248,
+   "subdomainId": "cicd_developer_tooling"
+  },
+  {
+   "displayName": "SRE and Reliability Engineering",
+   "expertCount": 2,
+   "share": 0.0124,
+   "subdomainId": "sre_reliability"
+  }
+ ]
+}

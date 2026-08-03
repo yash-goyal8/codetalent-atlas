@@ -1,0 +1,104 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 10,
+   "events": 67,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 6,
+   "events": 42,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 4,
+   "events": 11,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 30% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 72.8571,
+  "ecosystemBreadthScore": 51.6753,
+  "expertQualityScore": 49.476,
+  "expertSupplyScore": 27.6044,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.2979
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.7143,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 7
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 72.8571,
+  "confidenceScore": 56.9526,
+  "countryCode": "LT",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 51.6753,
+  "expertQualityScore": 49.476,
+  "expertSupplyScore": 27.6044,
+  "geoId": "LT",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.7143,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.4286,
+  "name": "Lithuania",
+  "observableExpertCount": 7,
+  "opportunityScore": 43.1004,
+  "organizationCount": 8,
+  "qualifiedRepoCount": 8,
+  "rank": 25,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "configuration_management",
+   "containers_orchestration",
+   "infrastructure_as_code",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 3.1565
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 2,
+   "share": 0.25,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 2,
+   "share": 0.25,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 2,
+   "share": 0.25,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 1,
+   "share": 0.125,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 1,
+   "share": 0.125,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

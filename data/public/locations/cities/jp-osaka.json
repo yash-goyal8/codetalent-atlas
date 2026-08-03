@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 0.0,
+  "ecosystemBreadthScore": 5.8496,
+  "expertQualityScore": 18.7038,
+  "expertSupplyScore": 1.2645,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Osaka",
+  "collaborationDepthScore": 0.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "JP",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 5.8496,
+  "expertQualityScore": 18.7038,
+  "expertSupplyScore": 1.2645,
+  "geoId": "JP-osaka",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Osaka",
+  "observableExpertCount": 1,
+  "opportunityScore": 11.6387,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 241,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 0.2672
+ },
+ "subdomainMix": []
+}

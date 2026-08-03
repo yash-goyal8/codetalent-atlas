@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 36.0,
+  "ecosystemBreadthScore": 41.2437,
+  "expertQualityScore": 52.7207,
+  "expertSupplyScore": 40.8225,
+  "momentumScore": 75.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 5
+ },
+ "ranking": {
+  "city": "Barcelona",
+  "collaborationDepthScore": 36.0,
+  "confidenceScore": 55.1884,
+  "countryCode": "ES",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 41.2437,
+  "expertQualityScore": 52.7207,
+  "expertSupplyScore": 40.8225,
+  "geoId": "ES-barcelona",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 75.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Barcelona",
+  "observableExpertCount": 5,
+  "opportunityScore": 47.1285,
+  "organizationCount": 5,
+  "qualifiedRepoCount": 5,
+  "rank": 34,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "infrastructure_as_code",
+   "observability_monitoring",
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 2.194
+ },
+ "subdomainMix": []
+}

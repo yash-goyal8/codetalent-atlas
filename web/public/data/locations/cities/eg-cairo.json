@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 15.0,
+  "ecosystemBreadthScore": 16.6537,
+  "expertQualityScore": 28.3006,
+  "expertSupplyScore": 11.5384,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": "Cairo",
+  "collaborationDepthScore": 15.0,
+  "confidenceScore": 46.0433,
+  "countryCode": "EG",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 16.6537,
+  "expertQualityScore": 28.3006,
+  "expertSupplyScore": 11.5384,
+  "geoId": "EG-cairo",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Cairo",
+  "observableExpertCount": 2,
+  "opportunityScore": 18.944,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 2,
+  "rank": 195,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "sre_reliability"
+  ],
+  "weightedExpertCount": 0.6156
+ },
+ "subdomainMix": []
+}

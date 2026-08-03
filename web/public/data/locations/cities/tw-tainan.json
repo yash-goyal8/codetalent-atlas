@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 0.0,
+  "ecosystemBreadthScore": 5.8496,
+  "expertQualityScore": 16.871,
+  "expertSupplyScore": 0.9096,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Tainan",
+  "collaborationDepthScore": 0.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "TW",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 5.8496,
+  "expertQualityScore": 16.871,
+  "expertSupplyScore": 0.9096,
+  "geoId": "TW-tainan",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Tainan",
+  "observableExpertCount": 1,
+  "opportunityScore": 8.4646,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 256,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.241
+ },
+ "subdomainMix": []
+}

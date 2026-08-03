@@ -1,0 +1,76 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 13,
+   "events": 19,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 4,
+   "events": 11,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 2,
+   "events": 4,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 76% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 8.5714,
+  "ecosystemBreadthScore": 11.182,
+  "expertQualityScore": 12.8222,
+  "expertSupplyScore": 14.3921,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.7632
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.4286,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 7
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 8.5714,
+  "confidenceScore": 34.5055,
+  "countryCode": "IR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 11.182,
+  "expertQualityScore": 12.8222,
+  "expertSupplyScore": 14.3921,
+  "geoId": "IR",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.4286,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Iran, Islamic Republic of",
+  "observableExpertCount": 7,
+  "opportunityScore": 13.7878,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 2,
+  "rank": 78,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 1.4749
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 7,
+   "share": 1.0,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

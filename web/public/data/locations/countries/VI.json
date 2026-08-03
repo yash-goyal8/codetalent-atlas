@@ -1,0 +1,71 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 1,
+   "events": 1,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 1,
+   "events": 1,
+   "month": "202606"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 100% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 30.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 17.7121,
+  "expertSupplyScore": 0.5836,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 1.0
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 30.0,
+  "confidenceScore": 42.3877,
+  "countryCode": "VI",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 17.7121,
+  "expertSupplyScore": 0.5836,
+  "geoId": "VI",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Virgin Islands, U.S.",
+  "observableExpertCount": 1,
+  "opportunityScore": 12.5179,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 82,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 0.253
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 1,
+   "share": 1.0,
+   "subdomainId": "observability_monitoring"
+  }
+ ]
+}

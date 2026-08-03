@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 70.0,
+  "ecosystemBreadthScore": 9.6674,
+  "expertQualityScore": 35.8081,
+  "expertSupplyScore": 12.7466,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Patna",
+  "collaborationDepthScore": 70.0,
+  "confidenceScore": 49.7923,
+  "countryCode": "IN",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 9.6674,
+  "expertQualityScore": 35.8081,
+  "expertSupplyScore": 12.7466,
+  "geoId": "IN-patna",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 1.0,
+  "name": "Patna",
+  "observableExpertCount": 1,
+  "opportunityScore": 31.6705,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 4,
+  "rank": 110,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 0.5115
+ },
+ "subdomainMix": []
+}

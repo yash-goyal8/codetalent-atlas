@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 100.0,
+  "ecosystemBreadthScore": 7.3131,
+  "expertQualityScore": 78.2254,
+  "expertSupplyScore": 13.8991,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Hengelo",
+  "collaborationDepthScore": 100.0,
+  "confidenceScore": 47.5163,
+  "countryCode": "NL",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 7.3131,
+  "expertQualityScore": 78.2254,
+  "expertSupplyScore": 13.8991,
+  "geoId": "NL-hengelo",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 1.0,
+  "name": "Hengelo",
+  "observableExpertCount": 1,
+  "opportunityScore": 49.0636,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 3,
+  "rank": 24,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 0.6889
+ },
+ "subdomainMix": []
+}

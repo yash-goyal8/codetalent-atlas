@@ -1,0 +1,104 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 8,
+   "events": 84,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 6,
+   "events": 55,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 6,
+   "events": 37,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 63% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 55.0,
+  "ecosystemBreadthScore": 42.7031,
+  "expertQualityScore": 38.0939,
+  "expertSupplyScore": 28.9633,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.6274
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 8
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 55.0,
+  "confidenceScore": 58.3196,
+  "countryCode": "MX",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 42.7031,
+  "expertQualityScore": 38.0939,
+  "expertSupplyScore": 28.9633,
+  "geoId": "MX",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.25,
+  "name": "Mexico",
+  "observableExpertCount": 8,
+  "opportunityScore": 36.5856,
+  "organizationCount": 7,
+  "qualifiedRepoCount": 8,
+  "rank": 41,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "configuration_management",
+   "containers_orchestration",
+   "infrastructure_as_code",
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 3.4436
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 4,
+   "share": 0.4,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 3,
+   "share": 0.3,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 1,
+   "share": 0.1,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 1,
+   "share": 0.1,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 1,
+   "share": 0.1,
+   "subdomainId": "observability_monitoring"
+  }
+ ]
+}

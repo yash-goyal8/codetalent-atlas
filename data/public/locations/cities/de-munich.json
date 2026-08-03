@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 24.0,
+  "ecosystemBreadthScore": 59.4836,
+  "expertQualityScore": 28.4717,
+  "expertSupplyScore": 53.6682,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 10
+ },
+ "ranking": {
+  "city": "Munich",
+  "collaborationDepthScore": 24.0,
+  "confidenceScore": 61.7747,
+  "countryCode": "DE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 59.4836,
+  "expertQualityScore": 28.4717,
+  "expertSupplyScore": 53.6682,
+  "geoId": "DE-munich",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Munich",
+  "observableExpertCount": 10,
+  "opportunityScore": 39.3737,
+  "organizationCount": 7,
+  "qualifiedRepoCount": 7,
+  "rank": 60,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "infrastructure_as_code",
+   "containers_orchestration",
+   "observability_monitoring",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 3.506
+ },
+ "subdomainMix": []
+}

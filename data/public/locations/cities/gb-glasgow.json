@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 85.0,
+  "ecosystemBreadthScore": 32.367,
+  "expertQualityScore": 54.5899,
+  "expertSupplyScore": 23.9571,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": "Glasgow",
+  "collaborationDepthScore": 85.0,
+  "confidenceScore": 53.8562,
+  "countryCode": "GB",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 32.367,
+  "expertQualityScore": 54.5899,
+  "expertSupplyScore": 23.9571,
+  "geoId": "GB-glasgow",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 1.0,
+  "name": "Glasgow",
+  "observableExpertCount": 2,
+  "opportunityScore": 45.7487,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 4,
+  "rank": 39,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "observability_monitoring",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 1.0329
+ },
+ "subdomainMix": []
+}

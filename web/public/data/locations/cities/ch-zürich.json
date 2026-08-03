@@ -1,0 +1,55 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 51.1111,
+  "ecosystemBreadthScore": 60.8982,
+  "expertQualityScore": 35.3073,
+  "expertSupplyScore": 55.682,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 9
+ },
+ "ranking": {
+  "city": "Zürich",
+  "collaborationDepthScore": 51.1111,
+  "confidenceScore": 65.9766,
+  "countryCode": "CH",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 60.8982,
+  "expertQualityScore": 35.3073,
+  "expertSupplyScore": 55.682,
+  "geoId": "CH-zürich",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.1111,
+  "name": "Zürich",
+  "observableExpertCount": 9,
+  "opportunityScore": 46.3374,
+  "organizationCount": 8,
+  "qualifiedRepoCount": 8,
+  "rank": 37,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "service_mesh_networking",
+   "configuration_management",
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 3.7557
+ },
+ "subdomainMix": []
+}

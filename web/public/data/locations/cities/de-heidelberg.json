@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 34.2857,
+  "ecosystemBreadthScore": 48.3421,
+  "expertQualityScore": 35.7102,
+  "expertSupplyScore": 45.6562,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 7
+ },
+ "ranking": {
+  "city": "Heidelberg",
+  "collaborationDepthScore": 34.2857,
+  "confidenceScore": 59.8581,
+  "countryCode": "DE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 48.3421,
+  "expertQualityScore": 35.7102,
+  "expertSupplyScore": 45.6562,
+  "geoId": "DE-heidelberg",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Heidelberg",
+  "observableExpertCount": 7,
+  "opportunityScore": 39.1698,
+  "organizationCount": 6,
+  "qualifiedRepoCount": 6,
+  "rank": 63,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "containers_orchestration",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 2.6356
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 44.8352,
+  "ecosystemBreadthScore": 97.0192,
+  "expertQualityScore": 36.7519,
+  "expertSupplyScore": 100.0,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 91
+ },
+ "ranking": {
+  "city": "Bengaluru",
+  "collaborationDepthScore": 44.8352,
+  "confidenceScore": 79.2874,
+  "countryCode": "IN",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 97.0192,
+  "expertQualityScore": 36.7519,
+  "expertSupplyScore": 100.0,
+  "geoId": "IN-bengaluru",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2967,
+  "name": "Bengaluru",
+  "observableExpertCount": 91,
+  "opportunityScore": 64.9528,
+  "organizationCount": 58,
+  "qualifiedRepoCount": 97,
+  "rank": 4,
+  "recommendationTier": "promising",
+  "topSubdomains": [
+   "containers_orchestration",
+   "cloud_platforms_sdks",
+   "infrastructure_as_code",
+   "observability_monitoring",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 36.7008
+ },
+ "subdomainMix": []
+}

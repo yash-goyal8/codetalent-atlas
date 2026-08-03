@@ -1,0 +1,110 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 6,
+   "events": 41,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 4,
+   "events": 15,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 3,
+   "events": 12,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 50% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 24.0,
+  "ecosystemBreadthScore": 43.5027,
+  "expertQualityScore": 49.1878,
+  "expertSupplyScore": 20.7408,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.4964
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 5
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 24.0,
+  "confidenceScore": 56.9041,
+  "countryCode": "EE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 43.5027,
+  "expertQualityScore": 49.1878,
+  "expertSupplyScore": 20.7408,
+  "geoId": "EE",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Estonia",
+  "observableExpertCount": 5,
+  "opportunityScore": 34.9659,
+  "organizationCount": 5,
+  "qualifiedRepoCount": 5,
+  "rank": 46,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "service_mesh_networking",
+   "cloud_platforms_sdks",
+   "containers_orchestration",
+   "cicd_developer_tooling"
+  ],
+  "weightedExpertCount": 1.9662
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 2,
+   "share": 0.2857,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "CI/CD and Developer Tooling",
+   "expertCount": 1,
+   "share": 0.1429,
+   "subdomainId": "cicd_developer_tooling"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 1,
+   "share": 0.1429,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 1,
+   "share": 0.1429,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 1,
+   "share": 0.1429,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 1,
+   "share": 0.1429,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

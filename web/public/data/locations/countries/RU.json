@@ -1,0 +1,104 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 16,
+   "events": 61,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 11,
+   "events": 29,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 4,
+   "events": 13,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 47% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 36.6667,
+  "ecosystemBreadthScore": 42.0829,
+  "expertQualityScore": 30.9514,
+  "expertSupplyScore": 27.5274,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.4712
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.8889,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 9
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 36.6667,
+  "confidenceScore": 55.0748,
+  "countryCode": "RU",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 42.0829,
+  "expertQualityScore": 30.9514,
+  "expertSupplyScore": 27.5274,
+  "geoId": "RU",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.8889,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Russian Federation",
+  "observableExpertCount": 9,
+  "opportunityScore": 31.1283,
+  "organizationCount": 5,
+  "qualifiedRepoCount": 5,
+  "rank": 51,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management",
+   "containers_orchestration",
+   "infrastructure_as_code",
+   "service_mesh_networking",
+   "cloud_platforms_sdks"
+  ],
+  "weightedExpertCount": 3.1548
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 3,
+   "share": 0.3,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 2,
+   "share": 0.2,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 2,
+   "share": 0.2,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 2,
+   "share": 0.2,
+   "subdomainId": "service_mesh_networking"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 1,
+   "share": 0.1,
+   "subdomainId": "cloud_platforms_sdks"
+  }
+ ]
+}

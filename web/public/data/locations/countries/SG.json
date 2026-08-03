@@ -1,0 +1,110 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 29,
+   "events": 418,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 16,
+   "events": 364,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 13,
+   "events": 313,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 28% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 44.0,
+  "ecosystemBreadthScore": 64.9714,
+  "expertQualityScore": 36.913,
+  "expertSupplyScore": 43.9856,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.2753
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 20
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 44.0,
+  "confidenceScore": 71.3262,
+  "countryCode": "SG",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 64.9714,
+  "expertQualityScore": 36.913,
+  "expertSupplyScore": 43.9856,
+  "geoId": "SG",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2,
+  "name": "Singapore",
+  "observableExpertCount": 20,
+  "opportunityScore": 42.066,
+  "organizationCount": 18,
+  "qualifiedRepoCount": 21,
+  "rank": 26,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "containers_orchestration",
+   "infrastructure_as_code",
+   "observability_monitoring",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 8.2991
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 7,
+   "share": 0.2917,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 5,
+   "share": 0.2083,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 5,
+   "share": 0.2083,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 3,
+   "share": 0.125,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 2,
+   "share": 0.0833,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 2,
+   "share": 0.0833,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

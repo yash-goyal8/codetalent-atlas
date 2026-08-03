@@ -1,0 +1,83 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 8,
+   "events": 19,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 4,
+   "events": 6,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 3,
+   "events": 3,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 84% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 45.0,
+  "ecosystemBreadthScore": 14.5998,
+  "expertQualityScore": 29.193,
+  "expertSupplyScore": 8.0424,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.8421
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.5,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 45.0,
+  "confidenceScore": 34.1567,
+  "countryCode": "NG",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 14.5998,
+  "expertQualityScore": 29.193,
+  "expertSupplyScore": 8.0424,
+  "geoId": "NG",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.5,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Nigeria",
+  "observableExpertCount": 2,
+  "opportunityScore": 22.2827,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 2,
+  "rank": 70,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "infrastructure_as_code",
+   "sre_reliability"
+  ],
+  "weightedExpertCount": 0.7362
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 1,
+   "share": 0.5,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "SRE and Reliability Engineering",
+   "expertCount": 1,
+   "share": 0.5,
+   "subdomainId": "sre_reliability"
+  }
+ ]
+}

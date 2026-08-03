@@ -1,0 +1,81 @@
+{
+ "budget": {
+  "bytesProcessed": 376239017041,
+  "freeTierShare": 0.342
+ },
+ "classificationPrecision": 0.92,
+ "funnel": [
+  {
+   "count": 1052819,
+   "stage": "Repositories in activity summary"
+  },
+  {
+   "count": 309653,
+   "stage": "Discovered candidates"
+  },
+  {
+   "count": 19456,
+   "stage": "Passing activity filters"
+  },
+  {
+   "count": 19223,
+   "stage": "Enriched with metadata"
+  },
+  {
+   "count": 639,
+   "stage": "Qualified (classified Cloud/DevOps)"
+  },
+  {
+   "count": 5636,
+   "stage": "Scored expert contributors"
+  }
+ ],
+ "locationCityPrecision": 1.0,
+ "locationCountryPrecision": 1.0,
+ "qualityChecks": [
+  {
+   "name": "grid_duplicate_keys",
+   "status": "pass"
+  },
+  {
+   "name": "repo_duplicate_keys",
+   "status": "pass"
+  },
+  {
+   "name": "repo_date_bounds",
+   "status": "pass"
+  },
+  {
+   "name": "repo_non_negative_counts",
+   "status": "pass"
+  },
+  {
+   "name": "repo_share_bounds",
+   "status": "pass"
+  },
+  {
+   "name": "merged_within_closed",
+   "status": "pass"
+  },
+  {
+   "name": "meaningful_events_consistency",
+   "status": "pass"
+  },
+  {
+   "name": "status_reason_consistency",
+   "status": "pass"
+  },
+  {
+   "name": "contributor_duplicate_keys",
+   "status": "pass"
+  },
+  {
+   "name": "contributor_non_negative_counts",
+   "status": "pass"
+  },
+  {
+   "name": "contributor_repo_membership",
+   "status": "pass"
+  }
+ ]
+}

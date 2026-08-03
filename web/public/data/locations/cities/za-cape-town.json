@@ -1,0 +1,52 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 100.0,
+  "ecosystemBreadthScore": 4.2779,
+  "expertQualityScore": 69.5921,
+  "expertSupplyScore": 11.4077,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Cape Town",
+  "collaborationDepthScore": 100.0,
+  "confidenceScore": 48.0766,
+  "countryCode": "ZA",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 4.2779,
+  "expertQualityScore": 69.5921,
+  "expertSupplyScore": 11.4077,
+  "geoId": "ZA-cape-town",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 1.0,
+  "name": "Cape Town",
+  "observableExpertCount": 1,
+  "opportunityScore": 45.2981,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 2,
+  "rank": 40,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.5656
+ },
+ "subdomainMix": []
+}

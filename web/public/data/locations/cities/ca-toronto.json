@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 54.0,
+  "ecosystemBreadthScore": 81.0952,
+  "expertQualityScore": 51.1115,
+  "expertSupplyScore": 74.733,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 15
+ },
+ "ranking": {
+  "city": "Toronto",
+  "collaborationDepthScore": 54.0,
+  "confidenceScore": 72.3153,
+  "countryCode": "CA",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 81.0952,
+  "expertQualityScore": 51.1115,
+  "expertSupplyScore": 74.733,
+  "geoId": "CA-toronto",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2,
+  "name": "Toronto",
+  "observableExpertCount": 15,
+  "opportunityScore": 60.1995,
+  "organizationCount": 11,
+  "qualifiedRepoCount": 20,
+  "rank": 8,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "service_mesh_networking",
+   "observability_monitoring",
+   "infrastructure_as_code",
+   "cloud_platforms_sdks",
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 6.9226
+ },
+ "subdomainMix": []
+}

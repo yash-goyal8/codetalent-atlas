@@ -1,0 +1,105 @@
+{
+ "domainId": "cloud_devops",
+ "kpis": {
+  "countriesWithSufficientData": 18,
+  "locatedProfileCoverage": 0.4385,
+  "observableExperts": 5636,
+  "qualifiedRepositories": 639
+ },
+ "subdomainHubs": [
+  {
+   "displayName": "CI/CD and Developer Tooling",
+   "expertCount": 36,
+   "subdomainId": "cicd_developer_tooling",
+   "topCountry": "United Kingdom"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 238,
+   "subdomainId": "cloud_platforms_sdks",
+   "topCountry": "United States"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 71,
+   "subdomainId": "configuration_management",
+   "topCountry": "United States"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 226,
+   "subdomainId": "containers_orchestration",
+   "topCountry": "United States"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 79,
+   "subdomainId": "infrastructure_as_code",
+   "topCountry": "United States"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 166,
+   "subdomainId": "observability_monitoring",
+   "topCountry": "United States"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 69,
+   "subdomainId": "service_mesh_networking",
+   "topCountry": "United States"
+  },
+  {
+   "displayName": "SRE and Reliability Engineering",
+   "expertCount": 19,
+   "subdomainId": "sre_reliability",
+   "topCountry": "India"
+  }
+ ],
+ "topPriorityLocations": [
+  {
+   "confidenceScore": 58.065,
+   "countryCode": "US",
+   "geoId": "US",
+   "name": "United States",
+   "opportunityScore": 67.1994,
+   "tier": "monitor"
+  },
+  {
+   "confidenceScore": 70.6383,
+   "countryCode": "DE",
+   "geoId": "DE",
+   "name": "Germany",
+   "opportunityScore": 63.9115,
+   "tier": "promising"
+  },
+  {
+   "confidenceScore": 76.8373,
+   "countryCode": "IN",
+   "geoId": "IN",
+   "name": "India",
+   "opportunityScore": 60.3239,
+   "tier": "promising"
+  },
+  {
+   "confidenceScore": 68.0636,
+   "countryCode": "CN",
+   "geoId": "CN",
+   "name": "China",
+   "opportunityScore": 60.0371,
+   "tier": "promising"
+  },
+  {
+   "confidenceScore": 72.8668,
+   "countryCode": "GB",
+   "geoId": "GB",
+   "name": "United Kingdom",
+   "opportunityScore": 59.6899,
+   "tier": "monitor"
+  }
+ ],
+ "window": {
+  "end": "2026-07-31",
+  "start": "2026-05-01"
+ }
+}

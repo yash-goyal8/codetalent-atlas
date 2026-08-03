@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 63.75,
+  "ecosystemBreadthScore": 63.0967,
+  "expertQualityScore": 39.0433,
+  "expertSupplyScore": 54.3072,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 8
+ },
+ "ranking": {
+  "city": "Seattle",
+  "collaborationDepthScore": 63.75,
+  "confidenceScore": 66.8234,
+  "countryCode": "US",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 63.0967,
+  "expertQualityScore": 39.0433,
+  "expertSupplyScore": 54.3072,
+  "geoId": "US-seattle",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.375,
+  "name": "Seattle",
+  "observableExpertCount": 8,
+  "opportunityScore": 49.0927,
+  "organizationCount": 9,
+  "qualifiedRepoCount": 17,
+  "rank": 22,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "observability_monitoring",
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 3.5838
+ },
+ "subdomainMix": []
+}

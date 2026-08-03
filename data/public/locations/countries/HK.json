@@ -1,0 +1,83 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 5,
+   "events": 63,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 5,
+   "events": 26,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 3,
+   "events": 20,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 56% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 30.0,
+  "ecosystemBreadthScore": 28.3767,
+  "expertQualityScore": 34.2468,
+  "expertSupplyScore": 17.7062,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.5561
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 4
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 30.0,
+  "confidenceScore": 54.5981,
+  "countryCode": "HK",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 28.3767,
+  "expertQualityScore": 34.2468,
+  "expertSupplyScore": 17.7062,
+  "geoId": "HK",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Hong Kong",
+  "observableExpertCount": 4,
+  "opportunityScore": 26.3089,
+  "organizationCount": 4,
+  "qualifiedRepoCount": 4,
+  "rank": 61,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 1.5551
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 3,
+   "share": 0.75,
+   "subdomainId": "service_mesh_networking"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 1,
+   "share": 0.25,
+   "subdomainId": "observability_monitoring"
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 190,
+   "events": 1913,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 129,
+   "events": 1420,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 111,
+   "events": 739,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 46.3265,
+  "ecosystemBreadthScore": 89.7742,
+  "expertQualityScore": 40.6274,
+  "expertSupplyScore": 83.0724,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": 0.1438
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.7551,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 147
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 46.3265,
+  "confidenceScore": 72.8668,
+  "countryCode": "GB",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 89.7742,
+  "expertQualityScore": 40.6274,
+  "expertSupplyScore": 83.0724,
+  "geoId": "GB",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.7551,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2041,
+  "name": "United Kingdom",
+  "observableExpertCount": 147,
+  "opportunityScore": 59.6899,
+  "organizationCount": 68,
+  "qualifiedRepoCount": 98,
+  "rank": 5,
+  "recommendationTier": "monitor",
+  "topSubdomains": [
+   "observability_monitoring",
+   "containers_orchestration",
+   "cicd_developer_tooling",
+   "cloud_platforms_sdks",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 62.5165
+ },
+ "subdomainMix": [
+  {
+   "displayName": "CI/CD and Developer Tooling",
+   "expertCount": 36,
+   "share": 0.2,
+   "subdomainId": "cicd_developer_tooling"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 35,
+   "share": 0.1944,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 33,
+   "share": 0.1833,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 24,
+   "share": 0.1333,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 16,
+   "share": 0.0889,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 16,
+   "share": 0.0889,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 16,
+   "share": 0.0889,
+   "subdomainId": "service_mesh_networking"
+  },
+  {
+   "displayName": "SRE and Reliability Engineering",
+   "expertCount": 4,
+   "share": 0.0222,
+   "subdomainId": "sre_reliability"
+  }
+ ]
+}

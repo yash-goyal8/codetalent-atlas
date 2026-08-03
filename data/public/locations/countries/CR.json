@@ -1,0 +1,76 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 1,
+   "events": 33,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 2,
+   "events": 13,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 2,
+   "events": 18,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 90% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 100.0,
+  "ecosystemBreadthScore": 11.081,
+  "expertQualityScore": 60.2728,
+  "expertSupplyScore": 13.7316,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.9045
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.5,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 100.0,
+  "confidenceScore": 37.6694,
+  "countryCode": "CR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 11.081,
+  "expertQualityScore": 60.2728,
+  "expertSupplyScore": 13.7316,
+  "geoId": "CR",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.5,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 1.0,
+  "name": "Costa Rica",
+  "observableExpertCount": 2,
+  "opportunityScore": 43.996,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 4,
+  "rank": 21,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring"
+  ],
+  "weightedExpertCount": 1.1017
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 2,
+   "share": 1.0,
+   "subdomainId": "observability_monitoring"
+  }
+ ]
+}

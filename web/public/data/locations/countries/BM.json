@@ -1,0 +1,71 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 1,
+   "events": 19,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 1,
+   "events": 8,
+   "month": "202606"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 100% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 60.0,
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 34.9365,
+  "expertSupplyScore": 2.3251,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 1.0
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 60.0,
+  "confidenceScore": 42.3877,
+  "countryCode": "BM",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 0.0,
+  "expertQualityScore": 34.9365,
+  "expertSupplyScore": 2.3251,
+  "geoId": "BM",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Bermuda",
+  "observableExpertCount": 1,
+  "opportunityScore": 22.7947,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 66,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 0.4991
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 1,
+   "share": 1.0,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 22,
+   "events": 176,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 17,
+   "events": 122,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 9,
+   "events": 78,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 35% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 48.8235,
+  "ecosystemBreadthScore": 58.2122,
+  "expertQualityScore": 35.602,
+  "expertSupplyScore": 40.3586,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.3478
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.8235,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 17
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 48.8235,
+  "confidenceScore": 63.1318,
+  "countryCode": "FI",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 58.2122,
+  "expertQualityScore": 35.602,
+  "expertSupplyScore": 40.3586,
+  "geoId": "FI",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.8235,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.1176,
+  "name": "Finland",
+  "observableExpertCount": 17,
+  "opportunityScore": 40.4509,
+  "organizationCount": 12,
+  "qualifiedRepoCount": 14,
+  "rank": 31,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "containers_orchestration",
+   "cicd_developer_tooling",
+   "service_mesh_networking",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 6.7806
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 8,
+   "share": 0.4444,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 4,
+   "share": 0.2222,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 2,
+   "share": 0.1111,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 2,
+   "share": 0.1111,
+   "subdomainId": "service_mesh_networking"
+  },
+  {
+   "displayName": "CI/CD and Developer Tooling",
+   "expertCount": 1,
+   "share": 0.0556,
+   "subdomainId": "cicd_developer_tooling"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 1,
+   "share": 0.0556,
+   "subdomainId": "infrastructure_as_code"
+  }
+ ]
+}

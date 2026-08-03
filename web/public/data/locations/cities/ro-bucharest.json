@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 37.5,
+  "ecosystemBreadthScore": 22.1894,
+  "expertQualityScore": 52.4359,
+  "expertSupplyScore": 32.0327,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 4
+ },
+ "ranking": {
+  "city": "Bucharest",
+  "collaborationDepthScore": 37.5,
+  "confidenceScore": 50.7385,
+  "countryCode": "RO",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 22.1894,
+  "expertQualityScore": 52.4359,
+  "expertSupplyScore": 32.0327,
+  "geoId": "RO-bucharest",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Bucharest",
+  "observableExpertCount": 4,
+  "opportunityScore": 37.2861,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 2,
+  "rank": 73,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 1.9049
+ },
+ "subdomainMix": []
+}

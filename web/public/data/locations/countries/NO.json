@@ -1,0 +1,97 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 13,
+   "events": 33,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 7,
+   "events": 23,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 6,
+   "events": 8,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 58% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 56.6667,
+  "ecosystemBreadthScore": 38.8201,
+  "expertQualityScore": 29.007,
+  "expertSupplyScore": 22.9746,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.5847
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.6667,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 6
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 56.6667,
+  "confidenceScore": 47.915,
+  "countryCode": "NO",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 38.8201,
+  "expertQualityScore": 29.007,
+  "expertSupplyScore": 22.9746,
+  "geoId": "NO",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.6667,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.1667,
+  "name": "Norway",
+  "observableExpertCount": 6,
+  "opportunityScore": 31.6252,
+  "organizationCount": 6,
+  "qualifiedRepoCount": 6,
+  "rank": 50,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "service_mesh_networking",
+   "observability_monitoring",
+   "containers_orchestration",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 2.3104
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 5,
+   "share": 0.5556,
+   "subdomainId": "service_mesh_networking"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 2,
+   "share": 0.2222,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 1,
+   "share": 0.1111,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 1,
+   "share": 0.1111,
+   "subdomainId": "containers_orchestration"
+  }
+ ]
+}

@@ -20,7 +20,6 @@ runner = CliRunner()
 GROUPS = ["bq", "github", "classify", "locations", "score", "validate", "publish", "pipeline"]
 
 STUB_COMMANDS: list[tuple[list[str], str]] = [
-    (["publish", "web-data"], "Milestone F"),
 ]
 
 IMPLEMENTED_MILESTONE_C_COMMANDS: list[list[str]] = [

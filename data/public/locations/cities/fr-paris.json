@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 40.0,
+  "ecosystemBreadthScore": 68.4526,
+  "expertQualityScore": 28.9329,
+  "expertSupplyScore": 67.9312,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 15
+ },
+ "ranking": {
+  "city": "Paris",
+  "collaborationDepthScore": 40.0,
+  "confidenceScore": 65.9832,
+  "countryCode": "FR",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 68.4526,
+  "expertQualityScore": 28.9329,
+  "expertSupplyScore": 67.9312,
+  "geoId": "FR-paris",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2,
+  "name": "Paris",
+  "observableExpertCount": 15,
+  "opportunityScore": 47.8011,
+  "organizationCount": 12,
+  "qualifiedRepoCount": 14,
+  "rank": 29,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management",
+   "cicd_developer_tooling",
+   "observability_monitoring",
+   "containers_orchestration",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 5.6029
+ },
+ "subdomainMix": []
+}

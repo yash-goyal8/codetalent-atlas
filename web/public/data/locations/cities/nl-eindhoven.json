@@ -1,0 +1,54 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 30.0,
+  "ecosystemBreadthScore": 10.0,
+  "expertQualityScore": 31.475,
+  "expertSupplyScore": 3.6479,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 1
+ },
+ "ranking": {
+  "city": "Eindhoven",
+  "collaborationDepthScore": 30.0,
+  "confidenceScore": 42.6599,
+  "countryCode": "NL",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 10.0,
+  "expertQualityScore": 31.475,
+  "expertSupplyScore": 3.6479,
+  "geoId": "NL-eindhoven",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Eindhoven",
+  "observableExpertCount": 1,
+  "opportunityScore": 21.2193,
+  "organizationCount": 1,
+  "qualifiedRepoCount": 1,
+  "rank": 172,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cicd_developer_tooling",
+   "cloud_platforms_sdks",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 0.4496
+ },
+ "subdomainMix": []
+}

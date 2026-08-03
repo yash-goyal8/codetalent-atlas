@@ -1,6 +1,6 @@
 alias,normalized_country_code,normalized_city,location_level,notes
 SF,US,San Francisco,city,Common abbreviation for San Francisco
-Bay Area,US,San Francisco,city,Metro shorthand mapped to its anchor city
+Bay Area,US,,region,Metro region; no single anchor city claimed
 NYC,US,New York,city,Common abbreviation for New York City
 LA,US,Los Angeles,city,Common abbreviation for Los Angeles
 UK,GB,,country,United Kingdom informal ISO usage

@@ -1,0 +1,90 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 6,
+   "events": 188,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 2,
+   "events": 232,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 3,
+   "events": 84,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 50% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 55.0,
+  "ecosystemBreadthScore": 35.8769,
+  "expertQualityScore": 60.0849,
+  "expertSupplyScore": 20.1713,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.5038
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.5,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 4
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 55.0,
+  "confidenceScore": 44.1454,
+  "countryCode": "GE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 35.8769,
+  "expertQualityScore": 60.0849,
+  "expertSupplyScore": 20.1713,
+  "geoId": "GE",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.5,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.25,
+  "name": "Georgia",
+  "observableExpertCount": 4,
+  "opportunityScore": 41.9231,
+  "organizationCount": 5,
+  "qualifiedRepoCount": 5,
+  "rank": 27,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration",
+   "service_mesh_networking",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 2.205
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 3,
+   "share": 0.5,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 2,
+   "share": 0.3333,
+   "subdomainId": "service_mesh_networking"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 1,
+   "share": 0.1667,
+   "subdomainId": "configuration_management"
+  }
+ ]
+}

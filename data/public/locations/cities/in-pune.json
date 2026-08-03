@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 34.1176,
+  "ecosystemBreadthScore": 78.5427,
+  "expertQualityScore": 30.0752,
+  "expertSupplyScore": 70.208,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 17
+ },
+ "ranking": {
+  "city": "Pune",
+  "collaborationDepthScore": 34.1176,
+  "confidenceScore": 68.6461,
+  "countryCode": "IN",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 78.5427,
+  "expertQualityScore": 30.0752,
+  "expertSupplyScore": 70.208,
+  "geoId": "IN-pune",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2353,
+  "name": "Pune",
+  "observableExpertCount": 17,
+  "opportunityScore": 49.0673,
+  "organizationCount": 15,
+  "qualifiedRepoCount": 18,
+  "rank": 23,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management",
+   "observability_monitoring",
+   "containers_orchestration",
+   "infrastructure_as_code",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 6.0181
+ },
+ "subdomainMix": []
+}

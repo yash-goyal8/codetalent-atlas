@@ -1,0 +1,78 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 2,
+   "events": 7,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 1,
+   "events": 1,
+   "month": "202606"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 62% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 50.0,
+  "ecosystemBreadthScore": 24.0005,
+  "expertQualityScore": 26.3101,
+  "expertSupplyScore": 8.2686,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.6154
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 50.0,
+  "confidenceScore": 52.1911,
+  "countryCode": "MT",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 24.0005,
+  "expertQualityScore": 26.3101,
+  "expertSupplyScore": 8.2686,
+  "geoId": "MT",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.5,
+  "name": "Malta",
+  "observableExpertCount": 2,
+  "opportunityScore": 23.1871,
+  "organizationCount": 3,
+  "qualifiedRepoCount": 3,
+  "rank": 65,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "configuration_management",
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.7018
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 1,
+   "share": 0.5,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 1,
+   "share": 0.5,
+   "subdomainId": "containers_orchestration"
+  }
+ ]
+}

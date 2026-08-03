@@ -1,0 +1,96 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 46,
+   "events": 234,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 28,
+   "events": 177,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 17,
+   "events": 65,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 48.3333,
+  "ecosystemBreadthScore": 63.4321,
+  "expertQualityScore": 35.4333,
+  "expertSupplyScore": 50.9491,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": 0.1813
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.8667,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 30
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 48.3333,
+  "confidenceScore": 70.9842,
+  "countryCode": "CZ",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 63.4321,
+  "expertQualityScore": 35.4333,
+  "expertSupplyScore": 50.9491,
+  "geoId": "CZ",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.8667,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2333,
+  "name": "Czechia",
+  "observableExpertCount": 30,
+  "opportunityScore": 44.5554,
+  "organizationCount": 18,
+  "qualifiedRepoCount": 23,
+  "rank": 17,
+  "recommendationTier": "monitor",
+  "topSubdomains": [
+   "containers_orchestration",
+   "observability_monitoring",
+   "configuration_management",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 12.0949
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 23,
+   "share": 0.697,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 5,
+   "share": 0.1515,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 4,
+   "share": 0.1212,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 1,
+   "share": 0.0303,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 76.6667,
+  "ecosystemBreadthScore": 33.7193,
+  "expertQualityScore": 38.1513,
+  "expertSupplyScore": 29.58,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 3
+ },
+ "ranking": {
+  "city": "Porto",
+  "collaborationDepthScore": 76.6667,
+  "confidenceScore": 54.7834,
+  "countryCode": "PT",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 33.7193,
+  "expertQualityScore": 38.1513,
+  "expertSupplyScore": 29.58,
+  "geoId": "PT-porto",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.6667,
+  "name": "Porto",
+  "observableExpertCount": 3,
+  "opportunityScore": 39.1703,
+  "organizationCount": 3,
+  "qualifiedRepoCount": 5,
+  "rank": 62,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 1.3634
+ },
+ "subdomainMix": []
+}

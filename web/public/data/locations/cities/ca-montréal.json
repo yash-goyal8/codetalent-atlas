@@ -1,0 +1,55 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 35.0,
+  "ecosystemBreadthScore": 50.0344,
+  "expertQualityScore": 30.3273,
+  "expertSupplyScore": 42.5411,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 6
+ },
+ "ranking": {
+  "city": "Montréal",
+  "collaborationDepthScore": 35.0,
+  "confidenceScore": 58.5032,
+  "countryCode": "CA",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 50.0344,
+  "expertQualityScore": 30.3273,
+  "expertSupplyScore": 42.5411,
+  "geoId": "CA-montréal",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "Montréal",
+  "observableExpertCount": 6,
+  "opportunityScore": 39.241,
+  "organizationCount": 6,
+  "qualifiedRepoCount": 6,
+  "rank": 61,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "cloud_platforms_sdks",
+   "containers_orchestration",
+   "observability_monitoring",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 2.3445
+ },
+ "subdomainMix": []
+}

@@ -1,0 +1,121 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 349,
+   "events": 2125,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 205,
+   "events": 1047,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 126,
+   "events": 533,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 42.2857,
+  "ecosystemBreadthScore": 96.1277,
+  "expertQualityScore": 33.1753,
+  "expertSupplyScore": 91.1876,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": 0.0893
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.8939,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 245
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 42.2857,
+  "confidenceScore": 76.8373,
+  "countryCode": "IN",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 96.1277,
+  "expertQualityScore": 33.1753,
+  "expertSupplyScore": 91.1876,
+  "geoId": "IN",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.8939,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.2857,
+  "name": "India",
+  "observableExpertCount": 245,
+  "opportunityScore": 60.3239,
+  "organizationCount": 95,
+  "qualifiedRepoCount": 152,
+  "rank": 3,
+  "recommendationTier": "promising",
+  "topSubdomains": [
+   "containers_orchestration",
+   "observability_monitoring",
+   "infrastructure_as_code",
+   "cloud_platforms_sdks",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 93.653
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 121,
+   "share": 0.3941,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 50,
+   "share": 0.1629,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 33,
+   "share": 0.1075,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 24,
+   "share": 0.0782,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 23,
+   "share": 0.0749,
+   "subdomainId": "service_mesh_networking"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 22,
+   "share": 0.0717,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "SRE and Reliability Engineering",
+   "expertCount": 19,
+   "share": 0.0619,
+   "subdomainId": "sre_reliability"
+  },
+  {
+   "displayName": "CI/CD and Developer Tooling",
+   "expertCount": 15,
+   "share": 0.0489,
+   "subdomainId": "cicd_developer_tooling"
+  }
+ ]
+}

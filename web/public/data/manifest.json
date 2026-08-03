@@ -1,0 +1,21 @@
+{
+ "datasetVersion": "2026.08.03-pilot.1",
+ "domains": [
+  "cloud_devops"
+ ],
+ "files": {
+  "cityRankings": "rankings/cloud_devops/cities.json",
+  "compare": "compare/cloud_devops.json",
+  "countryRankings": "rankings/cloud_devops/countries.json",
+  "coverage": "methodology/coverage.json",
+  "recommendations": "recommendations/cloud_devops.json",
+  "summary": "summary.json",
+  "validation": "methodology/validation.json"
+ },
+ "generatedAt": "2026-08-03T21:07:24Z",
+ "methodologyVersion": "1.0.0",
+ "window": {
+  "end": "2026-07-31",
+  "start": "2026-05-01"
+ }
+}

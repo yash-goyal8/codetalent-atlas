@@ -1,0 +1,76 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 4,
+   "events": 8,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 3,
+   "events": 5,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 2,
+   "events": 2,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 70% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 45.0,
+  "ecosystemBreadthScore": 12.7609,
+  "expertQualityScore": 27.933,
+  "expertSupplyScore": 7.7727,
+  "momentumScore": 50.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.7
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 2
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 45.0,
+  "confidenceScore": 24.4988,
+  "countryCode": "AE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 12.7609,
+  "expertQualityScore": 27.933,
+  "expertSupplyScore": 7.7727,
+  "geoId": "AE",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 50.0,
+  "multiRepoExpertShare": 0.0,
+  "name": "United Arab Emirates",
+  "observableExpertCount": 2,
+  "opportunityScore": 24.1264,
+  "organizationCount": 2,
+  "qualifiedRepoCount": 2,
+  "rank": 64,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "containers_orchestration"
+  ],
+  "weightedExpertCount": 0.71
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 2,
+   "share": 1.0,
+   "subdomainId": "containers_orchestration"
+  }
+ ]
+}

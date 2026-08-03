@@ -1,0 +1,104 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 16,
+   "events": 53,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 11,
+   "events": 56,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 3,
+   "events": 29,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "A single organization accounts for 72% of weighted activity (concentration risk).",
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 27.7778,
+  "ecosystemBreadthScore": 36.9723,
+  "expertQualityScore": 28.845,
+  "expertSupplyScore": 26.8055,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": true,
+  "singleRepoShare": null,
+  "topOrgShare": 0.7171
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.8889,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 9
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 27.7778,
+  "confidenceScore": 50.6849,
+  "countryCode": "DK",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 36.9723,
+  "expertQualityScore": 28.845,
+  "expertSupplyScore": 26.8055,
+  "geoId": "DK",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.8889,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.1111,
+  "name": "Denmark",
+  "observableExpertCount": 9,
+  "opportunityScore": 28.3993,
+  "organizationCount": 5,
+  "qualifiedRepoCount": 6,
+  "rank": 58,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "configuration_management",
+   "containers_orchestration",
+   "infrastructure_as_code",
+   "service_mesh_networking"
+  ],
+  "weightedExpertCount": 3.2819
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 5,
+   "share": 0.4545,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 2,
+   "share": 0.1818,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 2,
+   "share": 0.1818,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 1,
+   "share": 0.0909,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 1,
+   "share": 0.0909,
+   "subdomainId": "service_mesh_networking"
+  }
+ ]
+}

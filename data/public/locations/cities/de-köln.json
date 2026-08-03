@@ -1,0 +1,56 @@
+{
+ "activityTrend": [],
+ "caveats": [
+  "City rankings use high-confidence city locations only."
+ ],
+ "components": {
+  "collaborationDepthScore": 71.6667,
+  "ecosystemBreadthScore": 59.8653,
+  "expertQualityScore": 44.7918,
+  "expertSupplyScore": 47.5392,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": null
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 6
+ },
+ "ranking": {
+  "city": "Köln",
+  "collaborationDepthScore": 71.6667,
+  "confidenceScore": 62.1721,
+  "countryCode": "DE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 59.8653,
+  "expertQualityScore": 44.7918,
+  "expertSupplyScore": 47.5392,
+  "geoId": "DE-köln",
+  "geoLevel": "city",
+  "highConfidenceLocationShare": 1.0,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.6667,
+  "name": "Köln",
+  "observableExpertCount": 6,
+  "opportunityScore": 49.3128,
+  "organizationCount": 5,
+  "qualifiedRepoCount": 9,
+  "rank": 20,
+  "recommendationTier": "insufficient_data",
+  "topSubdomains": [
+   "observability_monitoring",
+   "containers_orchestration",
+   "cicd_developer_tooling",
+   "cloud_platforms_sdks",
+   "configuration_management"
+  ],
+  "weightedExpertCount": 2.8237
+ },
+ "subdomainMix": []
+}

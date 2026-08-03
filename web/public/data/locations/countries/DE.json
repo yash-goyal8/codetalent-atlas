@@ -1,0 +1,121 @@
+{
+ "activityTrend": [
+  {
+   "activeContributors": 380,
+   "events": 2630,
+   "month": "202605"
+  },
+  {
+   "activeContributors": 278,
+   "events": 2359,
+   "month": "202606"
+  },
+  {
+   "activeContributors": 199,
+   "events": 1165,
+   "month": "202607"
+  }
+ ],
+ "caveats": [
+  "Momentum is provisional: three-month pilot window only."
+ ],
+ "components": {
+  "collaborationDepthScore": 47.2887,
+  "ecosystemBreadthScore": 95.1539,
+  "expertQualityScore": 37.209,
+  "expertSupplyScore": 96.1147,
+  "momentumScore": 25.0
+ },
+ "concentration": {
+  "flagged": false,
+  "singleRepoShare": null,
+  "topOrgShare": 0.0952
+ },
+ "coverage": {
+  "highConfidenceLocationShare": 0.6479,
+  "locatedProfileCoverage": 0.465,
+  "observableExpertCount": 284
+ },
+ "ranking": {
+  "city": null,
+  "collaborationDepthScore": 47.2887,
+  "confidenceScore": 70.6383,
+  "countryCode": "DE",
+  "domainId": "cloud_devops",
+  "ecosystemBreadthScore": 95.1539,
+  "expertQualityScore": 37.209,
+  "expertSupplyScore": 96.1147,
+  "geoId": "DE",
+  "geoLevel": "country",
+  "highConfidenceLocationShare": 0.6479,
+  "locatedProfileCoverage": 0.465,
+  "momentumProvisional": true,
+  "momentumScore": 25.0,
+  "multiRepoExpertShare": 0.1655,
+  "name": "Germany",
+  "observableExpertCount": 284,
+  "opportunityScore": 63.9115,
+  "organizationCount": 96,
+  "qualifiedRepoCount": 133,
+  "rank": 2,
+  "recommendationTier": "promising",
+  "topSubdomains": [
+   "containers_orchestration",
+   "cloud_platforms_sdks",
+   "observability_monitoring",
+   "configuration_management",
+   "infrastructure_as_code"
+  ],
+  "weightedExpertCount": 119.5926
+ },
+ "subdomainMix": [
+  {
+   "displayName": "Containers and Orchestration",
+   "expertCount": 125,
+   "share": 0.3472,
+   "subdomainId": "containers_orchestration"
+  },
+  {
+   "displayName": "Cloud Platforms and SDKs",
+   "expertCount": 63,
+   "share": 0.175,
+   "subdomainId": "cloud_platforms_sdks"
+  },
+  {
+   "displayName": "Observability and Monitoring",
+   "expertCount": 55,
+   "share": 0.1528,
+   "subdomainId": "observability_monitoring"
+  },
+  {
+   "displayName": "Configuration Management",
+   "expertCount": 53,
+   "share": 0.1472,
+   "subdomainId": "configuration_management"
+  },
+  {
+   "displayName": "Infrastructure as Code",
+   "expertCount": 30,
+   "share": 0.0833,
+   "subdomainId": "infrastructure_as_code"
+  },
+  {
+   "displayName": "CI/CD and Developer Tooling",
+   "expertCount": 24,
+   "share": 0.0667,
+   "subdomainId": "cicd_developer_tooling"
+  },
+  {
+   "displayName": "Service Mesh and Networking",
+   "expertCount": 9,
+   "share": 0.025,
+   "subdomainId": "service_mesh_networking"
+  },
+  {
+   "displayName": "SRE and Reliability Engineering",
+   "expertCount": 1,
+   "share": 0.0028,
+   "subdomainId": "sre_reliability"
+  }
+ ]
+}
