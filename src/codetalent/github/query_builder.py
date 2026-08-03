@@ -133,6 +133,55 @@ def build_repository_batch_query(
     return RepositoryBatchQuery(query=query, alias_to_repo=alias_to_repo)
 
 
-def build_user_batch_query(logins: list[str]) -> str:
-    """Build one aliased GraphQL query fetching spec 9.5 profile fields for each login."""
-    raise NotImplementedError("Milestone D implements user query building.")
+#: Cache-busting version of the user query shape.
+USER_QUERY_VERSION = "user-enrichment-v1"
+
+#: GitHub logins: alphanumeric and single hyphens, no leading/trailing hyphen.
+_LOGIN_RE = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9]|-(?=[A-Za-z0-9])){0,38}$")
+
+
+@dataclass(frozen=True)
+class UserBatchQuery:
+    """One rendered user batch query plus its alias -> login map."""
+
+    query: str
+    alias_to_login: dict[str, str]
+
+
+def user_alias(index: int) -> str:
+    """Positional alias for the login at ``index`` within a batch."""
+    return f"u{index}"
+
+
+def build_user_batch_query(logins: Sequence[str]) -> UserBatchQuery:
+    """Build one aliased query fetching spec 9.5 profile fields per login.
+
+    ``repositoryOwner`` resolves users AND organizations in a single alias
+    (``__typename`` distinguishes them); the ``User`` inline fragment carries
+    ONLY the privacy-approved fields: location, creation date, followers
+    count. Never emails, names, employers, or websites (spec 9.5).
+
+    Logins are sorted and deduplicated before alias assignment for the same
+    cache-attribution invariant as the repository builder.
+    """
+    if not logins:
+        raise ValueError("logins must not be empty")
+    lines = [
+        "query UserEnrichmentBatch {",
+        "  rateLimit { limit cost remaining resetAt }",
+    ]
+    alias_to_login: dict[str, str] = {}
+    for index, login in enumerate(sorted(set(logins))):
+        if not _LOGIN_RE.match(login):
+            raise ValueError(f"invalid GitHub login: {login!r}")
+        alias = user_alias(index)
+        alias_to_login[alias] = login
+        lines.append(
+            f'  {alias}: repositoryOwner(login: "{login}") {{\n'
+            "    __typename\n"
+            "    login\n"
+            "    ... on User { location createdAt followers { totalCount } }\n"
+            "  }"
+        )
+    lines.append("}")
+    return UserBatchQuery(query="\n".join(lines), alias_to_login=alias_to_login)

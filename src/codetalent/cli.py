@@ -390,11 +390,80 @@ def github_enrich_repos(
 @github_app.command("enrich-users")
 def github_enrich_users(
     input_path: Annotated[
-        Path, typer.Option("--input", help="Contributor logins Parquet file.")
-    ] = Path("data/interim/contributors.parquet"),
+        Path, typer.Option("--input", help="Contributor activity Parquet worklist.")
+    ] = Path("data/interim/contributor_activity.parquet"),
+    qualified: Annotated[
+        Path,
+        typer.Option(
+            "--qualified",
+            help="Classification Parquet restricting the worklist to qualified repos.",
+        ),
+    ] = Path("data/interim/repository_classification.parquet"),
+    limit: Annotated[
+        int | None,
+        typer.Option("--limit", min=1, help="Attempt at most N pending logins (smoke runs)."),
+    ] = None,
+    rate_limit_floor: Annotated[
+        int,
+        typer.Option(
+            "--rate-limit-floor",
+            min=1,
+            help="Sleep until reset when remaining GraphQL points drop below this floor.",
+        ),
+    ] = 200,
 ) -> None:
-    """Enrich public contributor profiles through batched GraphQL."""
-    _not_implemented("github enrich-users", "D")
+    """Enrich public contributor profiles through batched, cached GraphQL.
+
+    Fetches ONLY login, account type, public location, creation date, and
+    followers count (spec 9.5). Output stays local and gitignored.
+    """
+    from codetalent.github import enrich_users as users_mod
+    from codetalent.github.graphql_client import (
+        TOKEN_SETUP_INSTRUCTIONS,
+        GitHubAuthenticationError,
+        SecondaryRateLimitError,
+    )
+
+    settings = load_settings()
+    if settings.github_token is None:
+        typer.echo("[fail] GITHUB_TOKEN is not set.")
+        typer.echo(TOKEN_SETUP_INSTRUCTIONS)
+        raise typer.Exit(1)
+
+    if not qualified.is_file():
+        typer.echo(
+            f"[warn] {qualified} not found — enriching contributors of ALL "
+            "activity-passed repositories (run `codetalent classify repos` first "
+            "to restrict the worklist to qualified repositories)."
+        )
+    try:
+        report = users_mod.enrich_users(
+            settings=settings,
+            activity_path=input_path,
+            qualified_path=qualified if qualified.is_file() else None,
+            limit=limit,
+            rate_limit_floor=rate_limit_floor,
+            logger=RunLogger("phase4-enrich-users"),
+        )
+    except users_mod.WorklistError as exc:
+        typer.echo(f"[fail] {exc}")
+        raise typer.Exit(1) from exc
+    except GitHubAuthenticationError as exc:
+        typer.echo(f"[fail] {exc}")
+        raise typer.Exit(1) from exc
+    except SecondaryRateLimitError as exc:
+        typer.echo(f"[fail] secondary rate limit: {exc} — checkpoint preserved; rerun later.")
+        raise typer.Exit(1) from exc
+
+    typer.echo(
+        f"Worklist: {report.worklist_total} contributors; "
+        f"{report.already_completed} already completed (skipped)."
+    )
+    typer.echo(
+        f"This run: {report.attempted} attempted, {report.succeeded} enriched, "
+        f"{report.failed} failed, {report.cache_hits} cache-hit batches."
+    )
+    typer.echo(f"Wrote {report.output_path} ({report.total_rows} rows; local only)")
 
 
 @classify_app.command("repos")
