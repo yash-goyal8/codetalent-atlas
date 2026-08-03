@@ -80,7 +80,7 @@ Per the spec template (evidence → confidence → risk → next step):
 
 ## 11. Sensitivity analysis
 
-Top-10 country rankings under stress (detail: `reports/sensitivity_rankings.csv`): opportunity supply-weight ±20% (renormalized), top-1%-of-repositories removal, and largest-organization removal (microsoft) produce at most **one-position swaps between adjacent near-ties** (IN↔CN, GB↔CA). No recommendation depends on a fragile ranking.
+Top-10 country rankings under stress (detail: `reports/sensitivity_rankings.csv`): opportunity supply-weight ±20% (renormalized), top-1%-of-repositories removal, and largest-organization removal (microsoft) produce at most **one-position swap between adjacent near-ties** (IN↔CN). No recommendation depends on a fragile ranking.
 
 ## 12. Biases and limitations
 

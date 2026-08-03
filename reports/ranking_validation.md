@@ -13,8 +13,8 @@ US (opp 67.3 / conf 58.1, monitor) · DE (64.1/70.6, promising) · IN (60.5/76.8
 | Scenario | Top-10 result vs baseline |
 |---|---|
 | Opportunity supply weight +20% (renormalized) | identical |
-| Opportunity supply weight −20% | IN↔CN swap (3↔4), GB↔CA swap (5↔6) |
-| Top 1% repositories by activity removed | IN↔CN swap (3↔4) |
+| Opportunity supply weight −20% | IN↔CN swap (3↔4) |
+| Top 1% repositories by activity removed | identical |
 | Largest organization removed (microsoft) | identical |
 
 Maximum observed shift: **one position, among adjacent near-ties**. Rankings are stable; the IN/CN and GB/CA pairs are statistical ties and are disclosed as such.

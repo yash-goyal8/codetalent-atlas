@@ -136,9 +136,10 @@ describe("Overview with partial data", () => {
     expect(
       await screen.findByLabelText("Qualified repositories: 1k"),
     ).toBeInTheDocument();
-    // Scatter + teasers sections each show the awaiting-pipeline state.
+    // Map preview + scatter + teasers sections each show the
+    // awaiting-pipeline state (the first two gate on country rankings).
     const empties = await screen.findAllByText(AWAITING_DATASET_MESSAGE);
-    expect(empties).toHaveLength(2);
+    expect(empties).toHaveLength(3);
     expect(
       screen.queryByRole("img", { name: /scatterplot/ }),
     ).not.toBeInTheDocument();
