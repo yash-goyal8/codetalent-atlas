@@ -51,3 +51,11 @@ Identified in advance so the Milestone E analysis must address them explicitly:
 - No recommendation is published without a confidence score.
 - Ranking instability found in sensitivity tests is disclosed, not smoothed over.
 - If the 40% usable-location target proves infeasible, that finding is documented and published rather than worked around.
+
+## Measured coverage bias (dataset 2026.08.03-pilot.1)
+
+- Usable country coverage: 46.6% overall (high+medium confidence), from a 51.9% non-empty raw-location rate.
+- **Coverage rises with activity**: located share climbs from ~39% in the lowest activity decile to ~54% in the highest. Consequence: rankings over-represent the most active contributors' geographies slightly; per-location confidence scores carry this signal into the product.
+- High-confidence city coverage is 14.5% — city rankings are therefore sparse (5 rankable cities) and gated hard by minimum samples.
+- US-located contributors disproportionately omit locations relative to their activity (US confidence 58.1 vs India 76.8) — a country-specific disclosure-culture bias visible directly in the confidence scores.
+- Both manual validation passes (150 repositories, 500 location strings) were rubric-driven reviews by the build agent, committed for human re-audit; treat the precision gates accordingly.
