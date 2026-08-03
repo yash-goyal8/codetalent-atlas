@@ -314,6 +314,16 @@ def github_enrich_repos(
             ),
         ),
     ] = 3,
+    content_signals: Annotated[
+        bool,
+        typer.Option(
+            "--content-signals/--no-content-signals",
+            help=(
+                "Also fetch README/CONTRIBUTING/CI/tests presence via git object "
+                "lookups (slow; spec reserves this for the qualified shortlist)."
+            ),
+        ),
+    ] = False,
 ) -> None:
     """Enrich accepted repositories through batched, cached, resumable GraphQL."""
     # Imported lazily so `codetalent --help` stays fast and dependency-light.
@@ -337,6 +347,7 @@ def github_enrich_repos(
             limit=limit,
             rate_limit_floor=rate_limit_floor,
             max_failure_retries=max_failure_retries,
+            content_signals=content_signals,
             logger=RunLogger("phase4-enrich-repos"),
         )
     except enrich_mod.WorklistError as exc:
@@ -432,9 +443,30 @@ def classify_repos(
 
 
 @locations_app.command("normalize")
-def locations_normalize() -> None:
-    """Normalize public profile locations offline."""
-    _not_implemented("locations normalize", "D")
+def locations_normalize(
+    profiles: Annotated[
+        Path, typer.Option("--profiles", help="Enriched user profiles Parquet (local-only).")
+    ] = Path("data/interim/user_profiles.parquet"),
+    output: Annotated[
+        Path, typer.Option("--output", help="Normalized locations Parquet (local-only).")
+    ] = Path("data/interim/normalized_locations.parquet"),
+    config_dir: ConfigDirOpt = DEFAULT_CONFIG_DIR,
+) -> None:
+    """Normalize public profile locations offline (no geocoding API, spec 15)."""
+    config = _load_config_or_exit(config_dir)
+    if not profiles.is_file():
+        typer.echo(f"[fail] profiles parquet not found: {profiles} (run github enrich-users first)")
+        raise typer.Exit(1)
+    # Imported lazily: the gazetteer stack is heavy and irrelevant to --help.
+    from codetalent.locations.runner import normalize_profile_locations
+
+    summary = normalize_profile_locations(config, profiles, output)
+    typer.echo(
+        f"Normalized {summary.total} profiles: {summary.located_country} with a country "
+        f"({summary.coverage_country_rate:.1%} coverage), {summary.located_city} with a city, "
+        f"{summary.unusable} unusable."
+    )
+    typer.echo(f"Wrote {summary.output_path} (local only; never published)")
 
 
 @score_app.command("repositories")

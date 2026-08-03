@@ -16,3 +16,59 @@ Köln,DE,Cologne,city,German endonym for Cologne
 PRC,CN,,country,Abbreviation for the People's Republic of China
 Seoul,KR,Seoul,city,Unambiguous capital city
 TLV,IL,Tel Aviv,city,Common abbreviation for Tel Aviv
+PDX,US,Portland,city,Airport-code shorthand for Portland Oregon
+SEA,US,Seattle,city,Airport-code shorthand for Seattle
+ATL,US,Atlanta,city,Airport-code shorthand for Atlanta
+BOS,US,Boston,city,Airport-code shorthand for Boston
+LA,US,Los Angeles,city,Common abbreviation for Los Angeles
+Silicon Valley,US,,region,Metro region without a single anchor city
+Mumbai,IN,Mumbai,city,Ensures resolution ahead of ambiguity heuristics
+Bombay,IN,Mumbai,city,Former name of Mumbai
+New Delhi,IN,New Delhi,city,Capital; distinguishes from Delhi NCR region
+Gurgaon,IN,Gurugram,city,Former name of Gurugram
+Pune,IN,Pune,city,Major Indian tech hub
+Hyderabad,IN,Hyderabad,city,Indian tech hub; ahead of Hyderabad Pakistan
+Chennai,IN,Chennai,city,Major Indian tech hub
+Madras,IN,Chennai,city,Former name of Chennai
+Kolkata,IN,Kolkata,city,Major Indian city
+Calcutta,IN,Kolkata,city,Former name of Kolkata
+CDMX,MX,Mexico City,city,Ciudad de México abbreviation
+Mexico City,MX,Mexico City,city,English exonym
+Kiev,UA,Kyiv,city,Former romanization of Kyiv
+Warszawa,PL,Warsaw,city,Polish endonym for Warsaw
+Kraków,PL,Kraków,city,Polish spelling
+Muenchen,DE,Munich,city,ASCII transliteration of München
+München,DE,Munich,city,German endonym for Munich
+Koeln,DE,Cologne,city,ASCII transliteration of Köln
+Köln,DE,Cologne,city,German endonym for Cologne
+Zuerich,CH,Zürich,city,ASCII transliteration of Zürich
+Wien,AT,Vienna,city,German endonym for Vienna
+Praha,CZ,Prague,city,Czech endonym for Prague
+Peking,CN,Beijing,city,Former English exonym for Beijing
+Shanghai,CN,Shanghai,city,Major Chinese city
+Seoul,KR,Seoul,city,Ensures resolution ahead of ambiguity heuristics
+서울,KR,Seoul,city,Korean endonym for Seoul
+Tokyo,JP,Tokyo,city,Ensures resolution ahead of ambiguity heuristics
+Moscow,RU,Moscow,city,English exonym
+Москва,RU,Moscow,city,Russian endonym for Moscow
+Tel Aviv,IL,Tel Aviv,city,Common short form of Tel Aviv-Yafo
+Cairo,EG,Cairo,city,English exonym
+Lagos,NG,Lagos,city,Ahead of Lagos Portugal ambiguity
+Nairobi,KE,Nairobi,city,Major African tech hub
+Istanbul,TR,Istanbul,city,Major city
+Sao Paulo,BR,São Paulo,city,ASCII spelling of São Paulo
+Buenos Aires,AR,Buenos Aires,city,Major city
+Bogota,CO,Bogotá,city,ASCII spelling of Bogotá
+Londres,GB,London,city,French/Spanish exonym for London
+Nederland,NL,,country,Dutch endonym for the Netherlands
+Holland,NL,,country,Common informal name for the Netherlands
+España,ES,,country,Spanish endonym for Spain
+Sverige,SE,,country,Swedish endonym for Sweden
+Suomi,FI,,country,Finnish endonym for Finland
+Polska,PL,,country,Polish endonym for Poland
+Bharat,IN,,country,Hindi endonym for India
+Nippon,JP,,country,Japanese endonym for Japan
+PRC,CN,,country,Abbreviation for the People's Republic of China
+ROK,KR,,country,Abbreviation for the Republic of Korea
+UAE,AE,,country,Abbreviation for the United Arab Emirates
+KSA,SA,,country,Abbreviation for the Kingdom of Saudi Arabia

@@ -49,7 +49,11 @@ from codetalent.github.graphql_client import (
     GraphQLRequestError,
     SecondaryRateLimitError,
 )
-from codetalent.github.query_builder import REPO_QUERY_VERSION, build_repository_batch_query
+from codetalent.github.query_builder import (
+    REPO_QUERY_VERSION,
+    REPO_QUERY_VERSION_LIGHT,
+    build_repository_batch_query,
+)
 from codetalent.github.rate_limit import DEFAULT_RATE_LIMIT_FLOOR
 from codetalent.runlog import RunLogger
 from codetalent.schemas import RepositoryMetadata
@@ -81,7 +85,10 @@ STATUS_SECONDARY_LIMIT = "secondary_limit"
 STATUS_AUTH_ERROR = "auth_error"
 
 INITIAL_BATCH_SIZE = 10
-BATCH_SIZE_STEPS: tuple[int, ...] = (10, 25, 50)
+# Growth is capped at 25: the 2026-08-02 live run showed 50-alias batches with
+# eight object() expressions each fail consistently (complexity/timeout), while
+# 25 costs a single point per request — the ceiling buys nothing but risk.
+BATCH_SIZE_STEPS: tuple[int, ...] = (10, 25)
 MAX_RESPONSE_BYTES_FOR_GROWTH = 1024 * 1024  # 1 MiB
 MAX_COST_PER_REPO_FOR_GROWTH = 1 / 10  # 1 rate-limit point per ~10 repositories
 
@@ -196,7 +203,11 @@ def _parse_datetime(value: Any) -> datetime | None:
     return parsed if parsed.tzinfo is not None else parsed.replace(tzinfo=UTC)
 
 
-def _object_present(node: Mapping[str, Any], *aliases: str) -> bool:
+def _object_present(node: Mapping[str, Any], *aliases: str) -> bool | None:
+    """True/False when the content-signal aliases were queried; None when the
+    light (bulk) query omitted them entirely."""
+    if all(alias not in node for alias in aliases):
+        return None
     return any(node.get(alias) is not None for alias in aliases)
 
 
@@ -207,9 +218,9 @@ def repository_metadata_from_node(
 
     ``repo_name`` stays the worklist name (the discovery join key) even when
     the repository was renamed and GraphQL reports a new ``nameWithOwner``.
-    Content-presence booleans are real True/False here because the repository
-    fetch itself succeeded; they are null only for failed fetches, which never
-    produce a metadata row at all.
+    Content-presence booleans are True/False when the full query ran, and None
+    for light (bulk) fetches — the content pass over the qualified shortlist
+    fills them in (spec 14: content checks are for a small shortlist only).
     """
     topics_nodes = (node.get("repositoryTopics") or {}).get("nodes") or []
     topics = [
@@ -322,6 +333,7 @@ def enrich_repositories(
     max_failure_retries: int = 3,
     max_error_rate: float = 0.01,
     error_rate_min_sample: int = 100,
+    content_signals: bool = False,
 ) -> EnrichmentReport:
     """Run resumable, cache-first repository enrichment over the worklist.
 
@@ -377,8 +389,11 @@ def enrich_repositories(
         while pending:
             batch = pending[:batch_size]
             pending = pending[batch_size:]
-            built = build_repository_batch_query(batch)
-            batch_hash = repository_batch_hash(batch, query_version=REPO_QUERY_VERSION)
+            built = build_repository_batch_query(batch, include_content_signals=content_signals)
+            batch_hash = repository_batch_hash(
+                batch,
+                query_version=REPO_QUERY_VERSION if content_signals else REPO_QUERY_VERSION_LIGHT,
+            )
 
             cached = cache.get(batch_hash)
             cache_hit = cached is not None
@@ -433,6 +448,22 @@ def enrich_repositories(
                         retries=exc.retries,
                         cache_hit=False,
                     )
+                    # A whole-request failure with multiple repositories is
+                    # usually one poison repository (or the batch shape), not
+                    # all of them: requeue the batch and halve the slice size
+                    # so retries bisect toward the culprit. Only a failing
+                    # SINGLETON is quarantined and counted toward the error
+                    # rate — so the 1% guard measures true per-repo failures.
+                    if len(batch) > 1:
+                        pending = batch + pending
+                        batch_size = max(1, len(batch) // 2)
+                        log.step(
+                            "enrich-batch",
+                            "bisect",
+                            records_in=len(batch),
+                            error_type=type(exc).__name__,
+                        )
+                        continue
                     reason = f"REQUEST_ERROR:{type(exc).__name__}"
                     checkpoint.record_batch([], dict.fromkeys(batch, reason), batch_size=batch_size)
                     attempted += len(batch)

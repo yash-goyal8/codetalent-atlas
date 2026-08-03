@@ -270,11 +270,11 @@ class TestBatchAdaptation:
     def test_next_batch_size_rules(self) -> None:
         one_mib = 1024 * 1024
         assert next_batch_size(10, cost=1, response_bytes=1000, batch_len=10) == 25
-        assert next_batch_size(25, cost=2, response_bytes=1000, batch_len=25) == 50
-        assert next_batch_size(50, cost=5, response_bytes=1000, batch_len=50) == 50
+        # Growth is capped at 25 (live 2026-08-02 run: 50-alias batches fail).
+        assert next_batch_size(25, cost=2, response_bytes=1000, batch_len=25) == 25
         assert next_batch_size(25, cost=5, response_bytes=1000, batch_len=25) == 10
         assert next_batch_size(25, cost=1, response_bytes=one_mib + 1, batch_len=25) == 10
-        assert next_batch_size(50, cost=None, response_bytes=0, batch_len=50) == 50
+        assert next_batch_size(25, cost=None, response_bytes=0, batch_len=25) == 25
         # Partial tail batches are unrepresentative and never change the size.
         assert next_batch_size(25, cost=1, response_bytes=1000, batch_len=5) == 25
 
@@ -350,20 +350,25 @@ class TestFailurePolicies:
         # The completed batch's checkpoint is preserved.
         assert len(CheckpointStore(paths.checkpoint).completed_ids()) == 10
 
-    def test_malformed_200_body_is_ledgered_and_quarantined(self, paths: Paths) -> None:
-        # A persistent proxy/CDN-mangled 200 body must not crash the run: the
-        # batch fails through GraphQLRequestError, gets a ledger row, is
-        # quarantined in the checkpoint, and the run continues.
+    def test_malformed_200_body_bisects_then_quarantines_singletons(self, paths: Paths) -> None:
+        # A persistent proxy/CDN-mangled 200 body must not crash the run. The
+        # failing 5-repo batch is bisected rather than quarantined wholesale:
+        # requeue at size 2 (fails again), then singletons, and only the
+        # singleton failures are quarantined and counted. Each failing request
+        # consumes 6 responses (initial + 5 client retries), so the cascade is
+        # 1 success + 6 (batch of 5) + 6 (batch of 2) + 5*6 (singles) = 43.
         first_batch = {f"r{i}": repo_node(name) for i, name in enumerate(sorted(ACCEPTED)[:10])}
         handler = ScriptedHandler(
             [graphql_success_response(first_batch)]
-            + [httpx.Response(200, text="<html>gateway error</html>")] * 6  # initial + 5 retries
+            + [httpx.Response(200, text="<html>gateway error</html>")] * 42
         )
         report = run(paths, handler)
         assert report.succeeded == 10
         assert report.failed == 5
         lines = paths.ledger.read_text().strip().splitlines()
-        assert [line.split(",")[6] for line in lines[1:]] == ["success", "error"]
+        statuses = [line.split(",")[6] for line in lines[1:]]
+        assert statuses[0] == "success"
+        assert statuses[1:] == ["error"] * 7  # batch of 5, batch of 2, 5 singletons
         checkpoint = CheckpointStore(paths.checkpoint)
         assert len(checkpoint.completed_ids()) == 10
         for name in sorted(ACCEPTED)[10:]:

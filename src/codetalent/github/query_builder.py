@@ -29,13 +29,14 @@ from dataclasses import dataclass
 
 #: Cache-busting version of the repository query shape (see module docstring).
 REPO_QUERY_VERSION = "repo-enrichment-v1"
+#: Version for the content-signal-free bulk variant (separate cache namespace).
+REPO_QUERY_VERSION_LIGHT = "repo-enrichment-v1-light"
 
 #: Conservative owner/name charset; also guards against GraphQL injection
 #: because quotes and backslashes can never appear in a valid repo name.
 _REPO_NAME_RE = re.compile(r"^[A-Za-z0-9_.\-]+/[A-Za-z0-9_.\-]+$")
 
-_REPO_FIELDS_FRAGMENT = """\
-fragment RepoEnrichmentFields on Repository {
+_REPO_BASE_FIELDS = """\
   nameWithOwner
   isFork
   isArchived
@@ -50,7 +51,12 @@ fragment RepoEnrichmentFields on Repository {
   updatedAt
   releases { totalCount }
   issues { totalCount }
-  pullRequests { totalCount }
+  pullRequests { totalCount }"""
+
+# git object() lookups are server-expensive (~10 per repo made 25-repo batches
+# take ~30s); the spec limits content checks to a small shortlist, so the bulk
+# pass omits them and a second pass covers classified-qualified repos only.
+_REPO_CONTENT_SIGNAL_FIELDS = """\
   readmeMd: object(expression: "HEAD:README.md") { __typename }
   readmeRst: object(expression: "HEAD:README.rst") { __typename }
   readmeLower: object(expression: "HEAD:readme.md") { __typename }
@@ -58,8 +64,19 @@ fragment RepoEnrichmentFields on Repository {
   codeOfConduct: object(expression: "HEAD:CODE_OF_CONDUCT.md") { __typename }
   ciWorkflows: object(expression: "HEAD:.github/workflows") { __typename }
   testsDir: object(expression: "HEAD:tests") { __typename }
-  testDir: object(expression: "HEAD:test") { __typename }
-}"""
+  testDir: object(expression: "HEAD:test") { __typename }"""
+
+_REPO_FIELDS_FRAGMENT = (
+    "fragment RepoEnrichmentFields on Repository {\n"
+    + _REPO_BASE_FIELDS
+    + "\n"
+    + _REPO_CONTENT_SIGNAL_FIELDS
+    + "\n}"
+)
+
+_REPO_FIELDS_FRAGMENT_LIGHT = (
+    "fragment RepoEnrichmentFields on Repository {\n" + _REPO_BASE_FIELDS + "\n}"
+)
 
 
 @dataclass(frozen=True)
@@ -75,7 +92,9 @@ def repo_alias(index: int) -> str:
     return f"r{index}"
 
 
-def build_repository_batch_query(repo_names: Sequence[str]) -> RepositoryBatchQuery:
+def build_repository_batch_query(
+    repo_names: Sequence[str], *, include_content_signals: bool = True
+) -> RepositoryBatchQuery:
     """Build one aliased GraphQL query fetching spec 9.2 metadata for each repository.
 
     The query always requests the ``rateLimit`` block so every response reports
@@ -109,7 +128,8 @@ def build_repository_batch_query(repo_names: Sequence[str]) -> RepositoryBatchQu
             f'  {alias}: repository(owner: "{owner}", name: "{name}") {{ ...RepoEnrichmentFields }}'
         )
     lines.append("}")
-    query = "\n".join(lines) + "\n" + _REPO_FIELDS_FRAGMENT
+    fragment = _REPO_FIELDS_FRAGMENT if include_content_signals else _REPO_FIELDS_FRAGMENT_LIGHT
+    query = "\n".join(lines) + "\n" + fragment
     return RepositoryBatchQuery(query=query, alias_to_repo=alias_to_repo)
 
 
