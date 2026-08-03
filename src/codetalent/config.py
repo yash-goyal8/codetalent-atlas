@@ -199,9 +199,85 @@ class RepositoryQualityWeights(StrictModel):
         return self
 
 
+class RecentActivitySignalWeights(StrictModel):
+    active_months: Weight
+    active_days: Weight
+    recency: Weight
+    releases: Weight
+    weighted_activity: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> RecentActivitySignalWeights:
+        _check_weights_sum_to_one(dict(self), "recent_activity signal")
+        return self
+
+
+class ContributorDiversitySignalWeights(StrictModel):
+    unique_contributors: Weight
+    low_concentration: Weight
+    recurring_activity: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> ContributorDiversitySignalWeights:
+        _check_weights_sum_to_one(dict(self), "contributor_diversity signal")
+        return self
+
+
+class CollaborationQualitySignalWeights(StrictModel):
+    merged_pull_requests: Weight
+    reviews: Weight
+    review_to_pr_ratio: Weight
+    issue_participation: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> CollaborationQualitySignalWeights:
+        _check_weights_sum_to_one(dict(self), "collaboration_quality signal")
+        return self
+
+
+class TechnicalRelevanceSignalWeights(StrictModel):
+    classification_score: Weight
+    evidence_breadth: Weight
+    negative_evidence_absence: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> TechnicalRelevanceSignalWeights:
+        _check_weights_sum_to_one(dict(self), "technical_relevance signal")
+        return self
+
+
+class RepositoryMaturitySignalWeights(StrictModel):
+    recognized_license: Weight
+    releases: Weight
+    ci_signal: Weight
+    tests_signal: Weight
+    governance_docs: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> RepositoryMaturitySignalWeights:
+        _check_weights_sum_to_one(dict(self), "repository_maturity signal")
+        return self
+
+
+class RepositorySignalWeights(StrictModel):
+    recent_activity: RecentActivitySignalWeights
+    contributor_diversity: ContributorDiversitySignalWeights
+    collaboration_quality: CollaborationQualitySignalWeights
+    technical_relevance: TechnicalRelevanceSignalWeights
+    repository_maturity: RepositoryMaturitySignalWeights
+
+
+class RepositoryThresholds(StrictModel):
+    recurring_activity_min_months: Annotated[int, Field(ge=1)]
+    review_ratio_full_coverage: Annotated[float, Field(gt=0.0)]
+    negative_evidence_full_penalty: Annotated[int, Field(ge=1)]
+
+
 class RepositoryQualityConfig(StrictModel):
     weights: RepositoryQualityWeights
     winsorization_percentile: Annotated[float, Field(gt=0.0, lt=1.0)]
+    signal_weights: RepositorySignalWeights
+    thresholds: RepositoryThresholds
 
 
 class ContributorExpertWeights(StrictModel):
@@ -219,16 +295,58 @@ class ContributorExpertWeights(StrictModel):
 
 class ContributorCaps(StrictModel):
     single_repository_share: Share
+    push_events_counted_max: Annotated[int, Field(ge=1)]
 
 
 class ContributorMinimums(StrictModel):
     meaningful_active_days: Annotated[int, Field(ge=0)]
 
 
+class DomainActivitySignalWeights(StrictModel):
+    event_points: Weight
+    qualified_repo_count: Weight
+    subdomain_breadth: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> DomainActivitySignalWeights:
+        _check_weights_sum_to_one(dict(self), "domain_activity signal")
+        return self
+
+
+class ContinuitySignalWeights(StrictModel):
+    active_months: Weight
+    recency: Weight
+    activity_span: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> ContinuitySignalWeights:
+        _check_weights_sum_to_one(dict(self), "continuity signal")
+        return self
+
+
+class CollaborationSignalWeights(StrictModel):
+    reviews: Weight
+    pull_request_participation: Weight
+    repo_org_breadth: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> CollaborationSignalWeights:
+        _check_weights_sum_to_one(dict(self), "collaboration signal")
+        return self
+
+
+class ContributorSignalWeights(StrictModel):
+    domain_activity: DomainActivitySignalWeights
+    continuity: ContinuitySignalWeights
+    collaboration: CollaborationSignalWeights
+
+
 class ContributorExpertConfig(StrictModel):
     weights: ContributorExpertWeights
     caps: ContributorCaps
     minimums: ContributorMinimums
+    winsorization_percentile: Annotated[float, Field(gt=0.0, lt=1.0)]
+    signal_weights: ContributorSignalWeights
 
 
 class OpportunityWeights(StrictModel):
@@ -319,6 +437,73 @@ class ConcentrationConfig(StrictModel):
     single_actor_event_share_max: Share
 
 
+class MomentumDirectionScores(StrictModel):
+    """Provisional pilot momentum: fixed 0-100 scores per month-over-month direction."""
+
+    up: Annotated[float, Field(ge=0, le=100)]
+    flat: Annotated[float, Field(ge=0, le=100)]
+    down: Annotated[float, Field(ge=0, le=100)]
+
+    @model_validator(mode="after")
+    def _directions_ordered(self) -> MomentumDirectionScores:
+        if not self.down <= self.flat <= self.up:
+            raise ValueError("momentum scores must satisfy down <= flat <= up")
+        return self
+
+
+class ExpertQualitySignalWeights(StrictModel):
+    weighted_median: Weight
+    top_quartile_share: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> ExpertQualitySignalWeights:
+        _check_weights_sum_to_one(dict(self), "expert_quality signal")
+        return self
+
+
+class CollaborationDepthSignalWeights(StrictModel):
+    multi_repo_share: Weight
+    review_participation: Weight
+    recurring_share: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> CollaborationDepthSignalWeights:
+        _check_weights_sum_to_one(dict(self), "collaboration_depth signal")
+        return self
+
+
+class EcosystemBreadthSignalWeights(StrictModel):
+    qualified_repos: Weight
+    organizations: Weight
+    subdomain_breadth: Weight
+    low_concentration: Weight
+
+    @model_validator(mode="after")
+    def _sums_to_one(self) -> EcosystemBreadthSignalWeights:
+        _check_weights_sum_to_one(dict(self), "ecosystem_breadth signal")
+        return self
+
+
+class GeographySignalWeights(StrictModel):
+    expert_quality: ExpertQualitySignalWeights
+    collaboration_depth: CollaborationDepthSignalWeights
+    ecosystem_breadth: EcosystemBreadthSignalWeights
+
+
+class GeographyConfig(StrictModel):
+    """Spec 17 geography scaling constants (all numbers live in scoring.yaml)."""
+
+    winsorization_percentile: Annotated[float, Field(gt=0.0, lt=1.0)]
+    supply_expert_score_cap: Annotated[float, Field(gt=0.0, le=100.0)]
+    single_repository_supply_share_max: Share
+    top_quartile_percentile: Annotated[float, Field(gt=0.0, lt=1.0)]
+    sample_saturation_multiple: Annotated[float, Field(ge=1.0)]
+    recurring_contributor_min_months: Annotated[int, Field(ge=1)]
+    top_subdomains_count: Annotated[int, Field(ge=1)]
+    momentum_direction_scores: MomentumDirectionScores
+    signal_weights: GeographySignalWeights
+
+
 class ClassificationConfig(StrictModel):
     """Spec 12 (Milestone C): deterministic classifier weights and thresholds.
 
@@ -352,6 +537,7 @@ class ScoringConfig(StrictModel):
     minimum_samples: MinimumSamples
     tiers: RecommendationTiers
     concentration: ConcentrationConfig
+    geography: GeographyConfig
     classification: ClassificationConfig
 
 

@@ -20,15 +20,18 @@ runner = CliRunner()
 GROUPS = ["bq", "github", "classify", "locations", "score", "validate", "publish", "pipeline"]
 
 STUB_COMMANDS: list[tuple[list[str], str]] = [
-    (["score", "repositories"], "Milestone E"),
-    (["score", "contributors"], "Milestone E"),
-    (["score", "geographies"], "Milestone E"),
     (["publish", "web-data"], "Milestone F"),
 ]
 
 IMPLEMENTED_MILESTONE_C_COMMANDS: list[list[str]] = [
     ["github", "enrich-repos"],
     ["classify", "repos"],
+]
+
+IMPLEMENTED_MILESTONE_E_COMMANDS: list[list[str]] = [
+    ["score", "repositories"],
+    ["score", "contributors"],
+    ["score", "geographies"],
 ]
 
 
@@ -46,7 +49,9 @@ class TestHelp:
 
     @pytest.mark.parametrize(
         ("args", "_milestone"),
-        STUB_COMMANDS + [(args, "C") for args in IMPLEMENTED_MILESTONE_C_COMMANDS],
+        STUB_COMMANDS
+        + [(args, "C") for args in IMPLEMENTED_MILESTONE_C_COMMANDS]
+        + [(args, "E") for args in IMPLEMENTED_MILESTONE_E_COMMANDS],
     )
     def test_command_help(self, args: list[str], _milestone: str) -> None:
         result = runner.invoke(app, [*args, "--help"])
@@ -152,6 +157,159 @@ class TestClassifyRepos:
         )
         assert result.exit_code == 1
         assert "no taxonomy configured" in result.output
+
+
+def _touch_parquet(path: Path) -> Path:
+    import polars as pl
+
+    pl.DataFrame({"placeholder": [1]}).write_parquet(path)
+    return path
+
+
+class TestScoreCommands:
+    def test_score_repositories_runs_engine_and_echoes_summary(
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path, config_dir: Path
+    ) -> None:
+        import polars as pl
+
+        captured: dict[str, object] = {}
+
+        def fake_score(**kwargs: object) -> pl.DataFrame:
+            captured.update(kwargs)
+            return pl.DataFrame(
+                {"repo_name": ["a/b", "c/d"], "repository_quality_score": [30.0, 70.0]}
+            )
+
+        monkeypatch.setattr("codetalent.scoring.repository.score_repositories", fake_score)
+        inputs = {
+            name: _touch_parquet(tmp_path / f"{name}.parquet")
+            for name in ("activity", "metadata", "classification")
+        }
+        output = tmp_path / "repository_scores.parquet"
+        result = runner.invoke(
+            app,
+            [
+                "score",
+                "repositories",
+                "--activity",
+                str(inputs["activity"]),
+                "--metadata",
+                str(inputs["metadata"]),
+                "--classification",
+                str(inputs["classification"]),
+                "--output",
+                str(output),
+                "--config-dir",
+                str(config_dir),
+            ],
+        )
+        assert result.exit_code == 0
+        from datetime import date
+
+        assert captured["window_end"] == date(2026, 7, 31)  # configured pilot end
+        assert output.is_file()
+        assert "2 rows" in result.output
+        assert "repository_quality_score: min 30.0, median 50.0, max 70.0" in result.output
+
+    def test_score_contributors_runs_engine(
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path, config_dir: Path
+    ) -> None:
+        import polars as pl
+
+        captured: dict[str, object] = {}
+
+        def fake_score(**kwargs: object) -> pl.DataFrame:
+            captured.update(kwargs)
+            return pl.DataFrame({"actor_login": ["a"], "expert_score": [55.0]})
+
+        monkeypatch.setattr("codetalent.scoring.contributor.score_contributors", fake_score)
+        inputs = {
+            name: _touch_parquet(tmp_path / f"{name}.parquet")
+            for name in ("activity", "classification", "repo_scores", "locations")
+        }
+        output = tmp_path / "contributor_scores.parquet"
+        result = runner.invoke(
+            app,
+            [
+                "score",
+                "contributors",
+                "--activity",
+                str(inputs["activity"]),
+                "--classification",
+                str(inputs["classification"]),
+                "--repo-scores",
+                str(inputs["repo_scores"]),
+                "--locations",
+                str(inputs["locations"]),
+                "--output",
+                str(output),
+                "--config-dir",
+                str(config_dir),
+            ],
+        )
+        assert result.exit_code == 0
+        assert output.is_file()
+        assert "expert_score: min 55.0, median 55.0, max 55.0" in result.output
+
+    def test_score_geographies_runs_engine(
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path, config_dir: Path
+    ) -> None:
+        import polars as pl
+
+        def fake_rank(**kwargs: object) -> pl.DataFrame:
+            return pl.DataFrame({"geo_id": ["US"], "opportunity_score": [61.0]})
+
+        monkeypatch.setattr("codetalent.scoring.geography.rank_geographies", fake_rank)
+        inputs = {
+            name: _touch_parquet(tmp_path / f"{name}.parquet")
+            for name in ("contributor_scores", "activity", "classification", "locations")
+        }
+        output = tmp_path / "geographic_rankings.parquet"
+        result = runner.invoke(
+            app,
+            [
+                "score",
+                "geographies",
+                "--contributor-scores",
+                str(inputs["contributor_scores"]),
+                "--activity",
+                str(inputs["activity"]),
+                "--classification",
+                str(inputs["classification"]),
+                "--locations",
+                str(inputs["locations"]),
+                "--output",
+                str(output),
+                "--config-dir",
+                str(config_dir),
+            ],
+        )
+        assert result.exit_code == 0
+        assert output.is_file()
+        assert "opportunity_score: min 61.0, median 61.0, max 61.0" in result.output
+
+    @pytest.mark.parametrize("command", ["repositories", "contributors", "geographies"])
+    def test_missing_inputs_fail_cleanly(
+        self, command: str, tmp_path: Path, config_dir: Path
+    ) -> None:
+        missing = tmp_path / "missing.parquet"
+        option_names = {
+            "repositories": ["--activity", "--metadata", "--classification"],
+            "contributors": ["--activity", "--classification", "--repo-scores", "--locations"],
+            "geographies": [
+                "--contributor-scores",
+                "--activity",
+                "--classification",
+                "--locations",
+            ],
+        }[command]
+        args = ["score", command, "--config-dir", str(config_dir)]
+        for option in option_names:
+            args.extend([option, str(missing)])
+        result = runner.invoke(app, args)
+        assert result.exit_code == 1
+        assert "missing input parquet" in result.output
+        assert "missing.parquet" in result.output
 
 
 class TestVersion:

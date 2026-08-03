@@ -538,22 +538,187 @@ def locations_normalize(
     typer.echo(f"Wrote {summary.output_path} (local only; never published)")
 
 
+def _require_inputs(paths: dict[str, Path]) -> None:
+    """Exit 1 with a clear message when any input parquet is missing."""
+    missing = [f"  --{option} {path}" for option, path in paths.items() if not path.is_file()]
+    if missing:
+        typer.echo("[fail] missing input parquet file(s):")
+        for line in missing:
+            typer.echo(line)
+        raise typer.Exit(1)
+
+
+def _write_scores_parquet(frame: object, output: Path) -> None:
+    import polars as pl
+
+    assert isinstance(frame, pl.DataFrame)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    tmp = output.with_name(output.name + ".tmp")
+    frame.write_parquet(tmp)
+    tmp.replace(output)
+
+
+def _echo_score_summary(frame: object, score_column: str, output: Path) -> None:
+    import statistics
+
+    import polars as pl
+
+    assert isinstance(frame, pl.DataFrame)
+    typer.echo(f"Wrote {output} ({frame.height} rows)")
+    if frame.height == 0:
+        typer.echo(f"{score_column}: no rows scored.")
+        return
+    scores = [float(value) for value in frame.get_column(score_column).to_list()]
+    typer.echo(
+        f"{score_column}: min {min(scores):.1f}, median {statistics.median(scores):.1f}, "
+        f"max {max(scores):.1f}"
+    )
+
+
+def _scoring_window_end(config: AtlasConfig, window_end: str | None) -> date:
+    raw = window_end if window_end is not None else config.repo_filters.activity_window.pilot_end
+    try:
+        return date.fromisoformat(raw)
+    except ValueError as exc:
+        typer.echo(f"[fail] invalid --window-end date: {exc}")
+        raise typer.Exit(2) from exc
+
+
+WindowEndOpt = Annotated[
+    str | None,
+    typer.Option(
+        "--window-end",
+        help="Activity window end date (YYYY-MM-DD); defaults to the configured pilot end.",
+    ),
+]
+ActivityOpt = Annotated[
+    Path, typer.Option("--activity", help="Repository activity summary Parquet (spec 9.1).")
+]
+ClassificationOpt = Annotated[
+    Path, typer.Option("--classification", help="Repository classification Parquet (spec 9.3).")
+]
+LocationsOpt = Annotated[
+    Path, typer.Option("--locations", help="Normalized locations Parquet (spec 9.6, local-only).")
+]
+RepoScoresOpt = Annotated[
+    Path, typer.Option("--repo-scores", help="Repository quality scores Parquet.")
+]
+
+
 @score_app.command("repositories")
-def score_repositories() -> None:
-    """Compute repository quality scores."""
-    _not_implemented("score repositories", "E")
+def score_repositories(
+    activity: ActivityOpt = Path("data/interim/repository_activity_summary.parquet"),
+    metadata: Annotated[
+        Path, typer.Option("--metadata", help="Repository metadata Parquet (spec 9.2).")
+    ] = Path("data/interim/repository_metadata.parquet"),
+    classification: ClassificationOpt = Path("data/interim/repository_classification.parquet"),
+    output: Annotated[
+        Path, typer.Option("--output", help="Destination repository scores Parquet.")
+    ] = Path("data/interim/repository_scores.parquet"),
+    window_end: WindowEndOpt = None,
+    config_dir: ConfigDirOpt = DEFAULT_CONFIG_DIR,
+) -> None:
+    """Compute spec 16.1 repository quality scores for accepted repositories."""
+    config = _load_config_or_exit(config_dir)
+    end = _scoring_window_end(config, window_end)
+    _require_inputs({"activity": activity, "metadata": metadata, "classification": classification})
+    import polars as pl
+
+    from codetalent.scoring import repository as repository_scoring
+
+    frame = repository_scoring.score_repositories(
+        activity_df=pl.read_parquet(activity),
+        metadata_df=pl.read_parquet(metadata),
+        classification_df=pl.read_parquet(classification),
+        scoring_config=config.scoring,
+        window_end=end,
+    )
+    _write_scores_parquet(frame, output)
+    _echo_score_summary(frame, "repository_quality_score", output)
 
 
 @score_app.command("contributors")
-def score_contributors() -> None:
-    """Compute contributor expert scores."""
-    _not_implemented("score contributors", "E")
+def score_contributors(
+    activity: Annotated[
+        Path, typer.Option("--activity", help="Contributor activity Parquet (spec 9.4).")
+    ] = Path("data/interim/contributor_activity.parquet"),
+    classification: ClassificationOpt = Path("data/interim/repository_classification.parquet"),
+    repo_scores: RepoScoresOpt = Path("data/interim/repository_scores.parquet"),
+    locations: LocationsOpt = Path("data/interim/normalized_locations.parquet"),
+    output: Annotated[
+        Path, typer.Option("--output", help="Destination contributor scores Parquet (local-only).")
+    ] = Path("data/interim/contributor_scores.parquet"),
+    window_end: WindowEndOpt = None,
+    config_dir: ConfigDirOpt = DEFAULT_CONFIG_DIR,
+) -> None:
+    """Compute spec 16.2 contributor expert scores (local-only output)."""
+    config = _load_config_or_exit(config_dir)
+    end = _scoring_window_end(config, window_end)
+    _require_inputs(
+        {
+            "activity": activity,
+            "classification": classification,
+            "repo-scores": repo_scores,
+            "locations": locations,
+        }
+    )
+    import polars as pl
+
+    from codetalent.scoring import contributor as contributor_scoring
+
+    frame = contributor_scoring.score_contributors(
+        activity_df=pl.read_parquet(activity),
+        classification_df=pl.read_parquet(classification),
+        repository_scores_df=pl.read_parquet(repo_scores),
+        locations_df=pl.read_parquet(locations),
+        scoring_config=config.scoring,
+        window_end=end,
+    )
+    _write_scores_parquet(frame, output)
+    _echo_score_summary(frame, "expert_score", output)
 
 
 @score_app.command("geographies")
-def score_geographies() -> None:
-    """Compute country/city opportunity, confidence, and tiers."""
-    _not_implemented("score geographies", "E")
+def score_geographies(
+    contributor_scores: Annotated[
+        Path, typer.Option("--contributor-scores", help="Contributor scores Parquet (spec 9.7).")
+    ] = Path("data/interim/contributor_scores.parquet"),
+    activity: Annotated[
+        Path, typer.Option("--activity", help="Contributor activity Parquet (spec 9.4).")
+    ] = Path("data/interim/contributor_activity.parquet"),
+    classification: ClassificationOpt = Path("data/interim/repository_classification.parquet"),
+    locations: LocationsOpt = Path("data/interim/normalized_locations.parquet"),
+    output: Annotated[
+        Path, typer.Option("--output", help="Destination geographic rankings Parquet.")
+    ] = Path("data/interim/geographic_rankings.parquet"),
+    window_end: WindowEndOpt = None,
+    config_dir: ConfigDirOpt = DEFAULT_CONFIG_DIR,
+) -> None:
+    """Compute spec 17 country/city opportunity, confidence, and tiers."""
+    config = _load_config_or_exit(config_dir)
+    end = _scoring_window_end(config, window_end)
+    _require_inputs(
+        {
+            "contributor-scores": contributor_scores,
+            "activity": activity,
+            "classification": classification,
+            "locations": locations,
+        }
+    )
+    import polars as pl
+
+    from codetalent.scoring import geography as geography_scoring
+
+    frame = geography_scoring.rank_geographies(
+        contributor_scores_df=pl.read_parquet(contributor_scores),
+        activity_df=pl.read_parquet(activity),
+        classification_df=pl.read_parquet(classification),
+        locations_df=pl.read_parquet(locations),
+        scoring_config=config.scoring,
+        window_end=end,
+    )
+    _write_scores_parquet(frame, output)
+    _echo_score_summary(frame, "opportunity_score", output)
 
 
 @publish_app.command("web-data")
@@ -616,9 +781,9 @@ _PILOT_STAGES: tuple[tuple[str, str], ...] = (
     ("classify-repos", "taxonomy classification — Milestone C"),
     ("github-enrich-users", "user profile enrichment — Milestone D, needs GITHUB_TOKEN"),
     ("locations-normalize", "offline location normalization — Milestone D"),
-    ("score-repositories", "repository quality scoring — Milestone E"),
-    ("score-contributors", "contributor expert scoring — Milestone E"),
-    ("score-geographies", "opportunity and confidence ranking — Milestone E"),
+    ("score-repositories", "repository quality scoring (available now)"),
+    ("score-contributors", "contributor expert scoring (available now)"),
+    ("score-geographies", "opportunity and confidence ranking (available now)"),
     ("validate-all", "full validation suite — Milestone E"),
     ("publish-web-data", "aggregate-only web data build — Milestone F"),
 )

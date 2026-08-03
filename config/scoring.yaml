@@ -12,6 +12,9 @@ event_weights:
   issue_comment: 1
 
 # Spec 16.1: repository quality score components (must sum to 1.0).
+# signal_weights blend the sub-signals inside each component (each block must
+# sum to 1.0); formula shapes are documented in
+# src/codetalent/scoring/repository.py — every number lives here (spec 8.3).
 repository_quality:
   weights:
     recent_activity: 0.30
@@ -20,6 +23,41 @@ repository_quality:
     technical_relevance: 0.15
     repository_maturity: 0.10
   winsorization_percentile: 0.99
+  signal_weights:
+    recent_activity:
+      active_months: 0.25
+      active_days: 0.20
+      recency: 0.20
+      releases: 0.10
+      weighted_activity: 0.25
+    contributor_diversity:
+      unique_contributors: 0.50
+      low_concentration: 0.30
+      recurring_activity: 0.20
+    collaboration_quality:
+      merged_pull_requests: 0.35
+      reviews: 0.30
+      review_to_pr_ratio: 0.20
+      issue_participation: 0.15
+    technical_relevance:
+      classification_score: 0.60
+      evidence_breadth: 0.25
+      negative_evidence_absence: 0.15
+    repository_maturity:
+      recognized_license: 0.30
+      releases: 0.25
+      ci_signal: 0.15
+      tests_signal: 0.15
+      governance_docs: 0.15
+  thresholds:
+    # A repository counts as having recurring contribution activity when it
+    # was active in at least this many distinct months (spec 16.1 recurring
+    # contributor share, proxied — see repository.py docstring).
+    recurring_activity_min_months: 2
+    # Review-to-PR ratio at which the review-coverage subscore saturates.
+    review_ratio_full_coverage: 1.0
+    # Matched negative-evidence count at which the relevance penalty saturates.
+    negative_evidence_full_penalty: 3
 
 # Spec 16.2: contributor expert score components (must sum to 1.0) and bias safeguards.
 contributor_expert:
@@ -31,8 +69,26 @@ contributor_expert:
     collaboration: 0.10
   caps:
     single_repository_share: 0.40
+    # Spec 16.2 push-volume cap: push events counted per contributor-repository
+    # pair are clipped here before any weighting, so bulk pushing cannot
+    # dominate the contribution-evidence mix.
+    push_events_counted_max: 100
   minimums:
     meaningful_active_days: 2
+  winsorization_percentile: 0.99
+  signal_weights:
+    domain_activity:
+      event_points: 0.50
+      qualified_repo_count: 0.25
+      subdomain_breadth: 0.25
+    continuity:
+      active_months: 0.40
+      recency: 0.30
+      activity_span: 0.30
+    collaboration:
+      reviews: 0.40
+      pull_request_participation: 0.30
+      repo_org_breadth: 0.30
 
 # Spec section 17: geographic opportunity score components (must sum to 1.0).
 opportunity:
@@ -88,6 +144,46 @@ tiers:
 concentration:
   organization_share_flag: 0.20
   single_actor_event_share_max: 0.90
+
+# Spec section 17: geography scaling constants and sub-signal weights
+# (formula shapes documented in src/codetalent/scoring/geography.py).
+geography:
+  winsorization_percentile: 0.99
+  # Elite cap: a contributor's weight in a geography's weighted supply is
+  # min(expert_score, this cap) / 100, so a few very high scores cannot
+  # replace headcount (spec 17 expert supply).
+  supply_expert_score_cap: 85.0
+  # Spec 17 concentration safeguard: one repository's contribution to a
+  # geography's weighted supply is capped at this share of the total.
+  single_repository_supply_share_max: 0.40
+  # Expert-quality "top quartile" membership threshold percentile, computed
+  # over all located contributors in the domain.
+  top_quartile_percentile: 0.75
+  # Sample-size adequacy saturates (reaches 100) at minimum * this multiple.
+  sample_saturation_multiple: 2.0
+  # A contributor counts as recurring (spec 17 collaboration depth) when
+  # active in at least this many distinct months.
+  recurring_contributor_min_months: 2
+  # Number of subdomains listed per geography, ordered by weighted activity.
+  top_subdomains_count: 5
+  # Pilot momentum is PROVISIONAL: month-over-month direction only (spec 17).
+  momentum_direction_scores:
+    up: 75.0
+    flat: 50.0
+    down: 25.0
+  signal_weights:
+    expert_quality:
+      weighted_median: 0.70
+      top_quartile_share: 0.30
+    collaboration_depth:
+      multi_repo_share: 0.40
+      review_participation: 0.30
+      recurring_share: 0.30
+    ecosystem_breadth:
+      qualified_repos: 0.30
+      organizations: 0.25
+      subdomain_breadth: 0.20
+      low_concentration: 0.25
 
 # Spec section 12 (Milestone C): deterministic taxonomy classification.
 # Per-match evidence weights: a topic match is the strongest signal; a term
